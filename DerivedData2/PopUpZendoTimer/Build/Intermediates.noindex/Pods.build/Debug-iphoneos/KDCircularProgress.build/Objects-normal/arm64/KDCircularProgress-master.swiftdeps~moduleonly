@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "1bbf7880d954f9dfc4ad40cc4fea5c1a"
+build_time: [1567089428, 513258000]
+inputs:
+  "/Users/josephhall/Documents/Swift/PopUpZendoTimer/Pods/KDCircularProgress/KDCircularProgress/KDCircularProgress.swift": [1566861889, 944098755]

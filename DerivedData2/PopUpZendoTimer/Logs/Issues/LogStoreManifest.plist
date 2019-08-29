@@ -5,7 +5,86 @@
 	<key>logFormatVersion</key>
 	<integer>10</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>3D16B286-AE82-46C4-B889-73ACA41ED173</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>3D16B286-AE82-46C4-B889-73ACA41ED173.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>signature</key>
+			<string>PopUpZendoTimer-hdmlxjhwcdztmfbulkbeccfuigaf</string>
+			<key>timeStartedRecording</key>
+			<real>588782259.79804695</real>
+			<key>timeStoppedRecording</key>
+			<real>588782262.75194097</real>
+			<key>title</key>
+			<string>Build target PopUpZendoTimer</string>
+			<key>uniqueIdentifier</key>
+			<string>3D16B286-AE82-46C4-B889-73ACA41ED173</string>
+		</dict>
+		<key>58EAFF12-4B38-4424-9915-5FF036348883</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<key>fileName</key>
+			<string>58EAFF12-4B38-4424-9915-5FF036348883.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>Pods-PopUpZendoTimer-cxhrxhcerduhgohafpaqqdlgoapg</string>
+			<key>timeStartedRecording</key>
+			<real>588782259.69996095</real>
+			<key>timeStoppedRecording</key>
+			<real>588782259.79744005</real>
+			<key>title</key>
+			<string>Build target Pods-PopUpZendoTimer</string>
+			<key>uniqueIdentifier</key>
+			<string>58EAFF12-4B38-4424-9915-5FF036348883</string>
+		</dict>
+		<key>B3268512-8378-4AA7-965D-9092DB9682FD</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<key>fileName</key>
+			<string>B3268512-8378-4AA7-965D-9092DB9682FD.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>KDCircularProgress-cxhrxhcerduhgohafpaqqdlgoapg</string>
+			<key>timeStartedRecording</key>
+			<real>588782257.21291804</real>
+			<key>timeStoppedRecording</key>
+			<real>588782259.69941103</real>
+			<key>title</key>
+			<string>Build target KDCircularProgress</string>
+			<key>uniqueIdentifier</key>
+			<string>B3268512-8378-4AA7-965D-9092DB9682FD</string>
+		</dict>
+	</dict>
 	<key>preserveOldLogs</key>
 	<true/>
 </dict>

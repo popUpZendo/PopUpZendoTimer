@@ -199,12 +199,54 @@ SWIFT_CLASS("_TtC15PopUpZendoTimer11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UITextView;
+@class UIButton;
 @class NSBundle;
 @class NSCoder;
 
+SWIFT_CLASS("_TtC15PopUpZendoTimer11Settings_VC")
+@interface Settings_VC : UIViewController
+@property (nonatomic, weak) IBOutlet UITextView * _Null_unspecified infoField;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified bellSwitch;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified bellButton;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified darkModeButton;
+- (void)viewDidLoad;
+- (IBAction)darkModeButtonTapped:(id _Nonnull)sender;
+- (IBAction)testButton:(id _Nonnull)sender;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UILabel;
+@class UISlider;
+
+SWIFT_CLASS("_TtC15PopUpZendoTimer19TimerViewController")
+@interface TimerViewController : UIViewController
+@property (nonatomic, readonly) BOOL prefersStatusBarHidden;
+@property (nonatomic, readonly) BOOL prefersHomeIndicatorAutoHidden;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified countDownLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified label;
+@property (nonatomic, weak) IBOutlet UISlider * _Null_unspecified slider;
+@property (nonatomic, weak) IBOutlet UISlider * _Null_unspecified sliderValue;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified timerButton;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified testLabel;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified gearButton;
+- (void)viewDidLoad;
+- (void)updateTime;
+- (IBAction)sliderChanged:(UISlider * _Nonnull)sender;
+- (IBAction)durationSliderValueChanged:(UISlider * _Nonnull)sender;
+- (IBAction)animateButtonTapped:(id _Nonnull)sender;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 SWIFT_CLASS("_TtC15PopUpZendoTimer14ViewController")
 @interface ViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified timerLabel;
 - (void)viewDidLoad;
+- (void)updateTime;
+- (IBAction)startTimerPressed:(UIButton * _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

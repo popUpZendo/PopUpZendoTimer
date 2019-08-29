@@ -12,9 +12,17 @@
 		D7999117231494650041AAD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7999115231494650041AAD1 /* Main.storyboard */; };
 		D7999119231494660041AAD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7999118231494660041AAD1 /* Assets.xcassets */; };
 		D799911C231494660041AAD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D799911A231494660041AAD1 /* LaunchScreen.storyboard */; };
+		D7B197AB2316ED0300AAE2B0 /* Settings VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B197AA2316ED0300AAE2B0 /* Settings VC.swift */; };
+		D7EA1D8C2314A90900D3CDD8 /* TimerViewController .swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EA1D8B2314A90900D3CDD8 /* TimerViewController .swift */; };
+		D7EA1D8E2314AEF200D3CDD8 /* zazenBell3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7EA1D8D2314AEF200D3CDD8 /* zazenBell3.mp3 */; };
+		D7EA1D912314B0F200D3CDD8 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = D7EA1D902314B0F200D3CDD8 /* Contents.json */; };
+		DB49CFDEB0B236AF8D9F673A /* Pods_PopUpZendoTimer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B5F457A6AE8407CB0C87C48 /* Pods_PopUpZendoTimer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2BE8EA00F10447D1C8C880EA /* Pods-PopUpZendoTimer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopUpZendoTimer.debug.xcconfig"; path = "Target Support Files/Pods-PopUpZendoTimer/Pods-PopUpZendoTimer.debug.xcconfig"; sourceTree = "<group>"; };
+		82C5B80A061F0F3C3F0EA6A4 /* Pods-PopUpZendoTimer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopUpZendoTimer.release.xcconfig"; path = "Target Support Files/Pods-PopUpZendoTimer/Pods-PopUpZendoTimer.release.xcconfig"; sourceTree = "<group>"; };
+		9B5F457A6AE8407CB0C87C48 /* Pods_PopUpZendoTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PopUpZendoTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D799910E231494650041AAD1 /* PopUpZendoTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopUpZendoTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7999111231494650041AAD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7999113231494650041AAD1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +30,10 @@
 		D7999118231494660041AAD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D799911B231494660041AAD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D799911D231494660041AAD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7B197AA2316ED0300AAE2B0 /* Settings VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Settings VC.swift"; sourceTree = "<group>"; };
+		D7EA1D8B2314A90900D3CDD8 /* TimerViewController .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TimerViewController .swift"; sourceTree = SOURCE_ROOT; };
+		D7EA1D8D2314AEF200D3CDD8 /* zazenBell3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = zazenBell3.mp3; sourceTree = SOURCE_ROOT; };
+		D7EA1D902314B0F200D3CDD8 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB49CFDEB0B236AF8D9F673A /* Pods_PopUpZendoTimer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0237736CAE59F7476C0D4853 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B5F457A6AE8407CB0C87C48 /* Pods_PopUpZendoTimer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1B7CF1CB038D25415E650CC2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2BE8EA00F10447D1C8C880EA /* Pods-PopUpZendoTimer.debug.xcconfig */,
+				82C5B80A061F0F3C3F0EA6A4 /* Pods-PopUpZendoTimer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D7999105231494650041AAD1 = {
 			isa = PBXGroup;
 			children = (
 				D7999110231494650041AAD1 /* PopUpZendoTimer */,
 				D799910F231494650041AAD1 /* Products */,
+				1B7CF1CB038D25415E650CC2 /* Pods */,
+				0237736CAE59F7476C0D4853 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +86,27 @@
 		D7999110231494650041AAD1 /* PopUpZendoTimer */ = {
 			isa = PBXGroup;
 			children = (
+				D7EA1D8D2314AEF200D3CDD8 /* zazenBell3.mp3 */,
+				D7EA1D8B2314A90900D3CDD8 /* TimerViewController .swift */,
 				D7999111231494650041AAD1 /* AppDelegate.swift */,
 				D7999113231494650041AAD1 /* ViewController.swift */,
 				D7999115231494650041AAD1 /* Main.storyboard */,
 				D7999118231494660041AAD1 /* Assets.xcassets */,
+				D7EA1D8F2314B0F200D3CDD8 /* AppIcon.appiconset */,
 				D799911A231494660041AAD1 /* LaunchScreen.storyboard */,
 				D799911D231494660041AAD1 /* Info.plist */,
+				D7B197AA2316ED0300AAE2B0 /* Settings VC.swift */,
 			);
 			path = PopUpZendoTimer;
+			sourceTree = "<group>";
+		};
+		D7EA1D8F2314B0F200D3CDD8 /* AppIcon.appiconset */ = {
+			isa = PBXGroup;
+			children = (
+				D7EA1D902314B0F200D3CDD8 /* Contents.json */,
+			);
+			name = AppIcon.appiconset;
+			path = Assets.xcassets/AppIcon.appiconset;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +116,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D7999120231494660041AAD1 /* Build configuration list for PBXNativeTarget "PopUpZendoTimer" */;
 			buildPhases = (
+				7B39AA59A098E844BF7E0B4B /* [CP] Check Pods Manifest.lock */,
 				D799910A231494650041AAD1 /* Sources */,
 				D799910B231494650041AAD1 /* Frameworks */,
 				D799910C231494650041AAD1 /* Resources */,
+				067E48397A7CDE1C186F21B4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,20 +169,71 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7EA1D912314B0F200D3CDD8 /* Contents.json in Resources */,
 				D799911C231494660041AAD1 /* LaunchScreen.storyboard in Resources */,
 				D7999119231494660041AAD1 /* Assets.xcassets in Resources */,
+				D7EA1D8E2314AEF200D3CDD8 /* zazenBell3.mp3 in Resources */,
 				D7999117231494650041AAD1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		067E48397A7CDE1C186F21B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PopUpZendoTimer/Pods-PopUpZendoTimer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/KDCircularProgress/KDCircularProgress.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KDCircularProgress.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PopUpZendoTimer/Pods-PopUpZendoTimer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B39AA59A098E844BF7E0B4B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PopUpZendoTimer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D799910A231494650041AAD1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7EA1D8C2314A90900D3CDD8 /* TimerViewController .swift in Sources */,
 				D7999114231494650041AAD1 /* ViewController.swift in Sources */,
+				D7B197AB2316ED0300AAE2B0 /* Settings VC.swift in Sources */,
 				D7999112231494650041AAD1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,16 +378,18 @@
 		};
 		D7999121231494660041AAD1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BE8EA00F10447D1C8C880EA /* Pods-PopUpZendoTimer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 93HG3CWZZK;
 				INFOPLIST_FILE = PopUpZendoTimer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.popupzendo.PopUpZendoTimer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.popupzendo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -298,16 +398,18 @@
 		};
 		D7999122231494660041AAD1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82C5B80A061F0F3C3F0EA6A4 /* Pods-PopUpZendoTimer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 93HG3CWZZK;
 				INFOPLIST_FILE = PopUpZendoTimer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.popupzendo.PopUpZendoTimer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.popupzendo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

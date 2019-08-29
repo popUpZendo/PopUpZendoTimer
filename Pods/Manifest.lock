@@ -1,0 +1,16 @@
+PODS:
+  - KDCircularProgress (1.5.4)
+
+DEPENDENCIES:
+  - KDCircularProgress
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - KDCircularProgress
+
+SPEC CHECKSUMS:
+  KDCircularProgress: 98200c6b8e85d22bc04eb644721d3b1e12b0686b
+
+PODFILE CHECKSUM: 4ad9cf1c8ee8696e5585b010bb9ea88de4fec329
+
+COCOAPODS: 1.7.5
