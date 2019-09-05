@@ -18,34 +18,30 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="popupzendo.org" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aKn-EZ-Z0V">
-                                <rect key="frame" x="86.5" y="770" width="241" height="42"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="popupzendo.org" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aKn-EZ-Z0V">
+                                <rect key="frame" x="87" y="770" width="241" height="42"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="36"/>
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LIFE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AdI-Hq-iGb">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="LIFE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AdI-Hq-iGb">
                                 <rect key="frame" x="154" y="683" width="106" height="79"/>
                                 <fontDescription key="fontDescription" name="MyanmarSangamMN" family="Myanmar Sangam MN" pointSize="50"/>
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Kanji Life SS 3x5" translatesAutoresizingMaskIntoConstraints="NO" id="hmV-Ju-9T4">
-                                <rect key="frame" x="12" y="193" width="390" height="490"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="490" id="qGQ-4a-J2m"/>
-                                </constraints>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="annie-spratt-g5DkG2ZF7ZY-unsplash" translatesAutoresizingMaskIntoConstraints="NO" id="hmV-Ju-9T4">
+                                <rect key="frame" x="-17" y="-7" width="431" height="921"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="aKn-EZ-Z0V" firstAttribute="top" secondItem="AdI-Hq-iGb" secondAttribute="bottom" constant="8" id="9Ms-5B-XSa"/>
-                            <constraint firstItem="AdI-Hq-iGb" firstAttribute="centerX" secondItem="hmV-Ju-9T4" secondAttribute="centerX" id="EWe-iQ-beK"/>
-                            <constraint firstItem="hmV-Ju-9T4" firstAttribute="centerX" secondItem="aKn-EZ-Z0V" secondAttribute="centerX" id="K4f-VP-o5T"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hmV-Ju-9T4" secondAttribute="trailing" constant="12" id="Rda-vn-KUs"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="hmV-Ju-9T4" secondAttribute="bottom" constant="-52" id="D1K-7c-b6N"/>
+                            <constraint firstItem="hmV-Ju-9T4" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="-37" id="IPc-8s-SMB"/>
+                            <constraint firstAttribute="trailing" secondItem="hmV-Ju-9T4" secondAttribute="trailing" id="VXd-zx-Hxv"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="aKn-EZ-Z0V" secondAttribute="bottom" constant="50" id="jkw-r5-roU"/>
-                            <constraint firstItem="hmV-Ju-9T4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="12" id="nst-6t-nGK"/>
-                            <constraint firstItem="AdI-Hq-iGb" firstAttribute="top" secondItem="hmV-Ju-9T4" secondAttribute="bottom" id="t0G-iP-gcs"/>
+                            <constraint firstItem="hmV-Ju-9T4" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" constant="-51" id="xyq-0F-XBH"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -56,6 +52,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Kanji Life SS 3x5" width="547" height="598"/>
+        <image name="annie-spratt-g5DkG2ZF7ZY-unsplash" width="1500" height="2344"/>
     </resources>
 </document>

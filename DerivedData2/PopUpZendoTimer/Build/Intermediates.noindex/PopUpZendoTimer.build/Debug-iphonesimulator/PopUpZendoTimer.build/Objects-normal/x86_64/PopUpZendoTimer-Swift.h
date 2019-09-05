@@ -212,13 +212,14 @@ SWIFT_CLASS("_TtC15PopUpZendoTimer11Settings_VC")
 @property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified darkModeButton;
 - (void)viewDidLoad;
 - (IBAction)darkModeButtonTapped:(id _Nonnull)sender;
-- (IBAction)testButton:(id _Nonnull)sender;
+- (IBAction)muteBellButton:(id _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 @class UILabel;
 @class UISlider;
+@class UIView;
 
 SWIFT_CLASS("_TtC15PopUpZendoTimer19TimerViewController")
 @interface TimerViewController : UIViewController
@@ -231,22 +232,11 @@ SWIFT_CLASS("_TtC15PopUpZendoTimer19TimerViewController")
 @property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified timerButton;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified testLabel;
 @property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified gearButton;
-- (void)viewDidLoad;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified timerHostView;
+- (void)viewDidLayoutSubviews;
 - (void)updateTime;
-- (IBAction)sliderChanged:(UISlider * _Nonnull)sender;
 - (IBAction)durationSliderValueChanged:(UISlider * _Nonnull)sender;
 - (IBAction)animateButtonTapped:(id _Nonnull)sender;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC15PopUpZendoTimer14ViewController")
-@interface ViewController : UIViewController
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified timerLabel;
-- (void)viewDidLoad;
-- (void)updateTime;
-- (IBAction)startTimerPressed:(UIButton * _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

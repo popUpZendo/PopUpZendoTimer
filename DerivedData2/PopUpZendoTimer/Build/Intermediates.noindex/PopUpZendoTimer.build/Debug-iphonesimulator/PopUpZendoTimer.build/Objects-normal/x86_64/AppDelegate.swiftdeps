@@ -17,14 +17,17 @@ depends-top-level:
 - "AppDelegate"
 - "Bool"
 - !private "BooleanLiteralType"
+- !private "StringLiteralType"
 - "UIApplication"
 - "UIApplicationDelegate"
 - "UIResponder"
 - "UIWindow"
+- !private "UserDefaults"
 depends-member:
 - ["15PopUpZendoTimer11AppDelegateC", "Bool"]
 - ["15PopUpZendoTimer11AppDelegateC", "UIApplication"]
 - ["15PopUpZendoTimer11AppDelegateC", "UIWindow"]
+- !private ["15PopUpZendoTimer11AppDelegateC", "UserDefaults"]
 - ["15PopUpZendoTimer11AppDelegateC", "application"]
 - ["15PopUpZendoTimer11AppDelegateC", "applicationDidBecomeActive"]
 - ["15PopUpZendoTimer11AppDelegateC", "applicationDidEnterBackground"]
@@ -41,6 +44,7 @@ depends-member:
 - ["15PopUpZendoTimer11AppDelegateC", "init"]
 - ["15PopUpZendoTimer11AppDelegateC", "window"]
 - ["s7CVarArgP", "LaunchOptionsKey"]
+- !private ["s7CVarArgP", "UserDefaults"]
 - ["s7CVarArgP", ""]
 - ["s7CVarArgP", "application"]
 - ["s7CVarArgP", "applicationDidBecomeActive"]
@@ -55,8 +59,11 @@ depends-member:
 - ["s7CVarArgP", "applicationWillResignActive"]
 - ["s7CVarArgP", "applicationWillTerminate"]
 - !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "register"]
+- !private ["s7CVarArgP", "standard"]
 - ["s7CVarArgP", "window"]
 - ["s28CustomDebugStringConvertibleP", "LaunchOptionsKey"]
+- !private ["s28CustomDebugStringConvertibleP", "UserDefaults"]
 - ["s28CustomDebugStringConvertibleP", ""]
 - ["s28CustomDebugStringConvertibleP", "application"]
 - ["s28CustomDebugStringConvertibleP", "applicationDidBecomeActive"]
@@ -71,8 +78,11 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", "applicationWillResignActive"]
 - ["s28CustomDebugStringConvertibleP", "applicationWillTerminate"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "register"]
+- !private ["s28CustomDebugStringConvertibleP", "standard"]
 - ["s28CustomDebugStringConvertibleP", "window"]
 - ["s23CustomStringConvertibleP", "LaunchOptionsKey"]
+- !private ["s23CustomStringConvertibleP", "UserDefaults"]
 - ["s23CustomStringConvertibleP", ""]
 - ["s23CustomStringConvertibleP", "application"]
 - ["s23CustomStringConvertibleP", "applicationDidBecomeActive"]
@@ -87,8 +97,11 @@ depends-member:
 - ["s23CustomStringConvertibleP", "applicationWillResignActive"]
 - ["s23CustomStringConvertibleP", "applicationWillTerminate"]
 - !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "register"]
+- !private ["s23CustomStringConvertibleP", "standard"]
 - ["s23CustomStringConvertibleP", "window"]
 - ["SQ", "LaunchOptionsKey"]
+- !private ["SQ", "UserDefaults"]
 - ["SQ", ""]
 - ["SQ", "application"]
 - ["SQ", "applicationDidBecomeActive"]
@@ -103,8 +116,11 @@ depends-member:
 - ["SQ", "applicationWillResignActive"]
 - ["SQ", "applicationWillTerminate"]
 - !private ["SQ", "init"]
+- !private ["SQ", "register"]
+- !private ["SQ", "standard"]
 - ["SQ", "window"]
 - ["SH", "LaunchOptionsKey"]
+- !private ["SH", "UserDefaults"]
 - ["SH", ""]
 - ["SH", "application"]
 - ["SH", "applicationDidBecomeActive"]
@@ -119,11 +135,14 @@ depends-member:
 - ["SH", "applicationWillResignActive"]
 - ["SH", "applicationWillTerminate"]
 - !private ["SH", "init"]
+- !private ["SH", "register"]
+- !private ["SH", "standard"]
 - ["SH", "window"]
 - ["So8NSObjectC", "Bool"]
 - ["So8NSObjectC", "LaunchOptionsKey"]
 - ["So8NSObjectC", "UIApplication"]
 - ["So8NSObjectC", "UIWindow"]
+- !private ["So8NSObjectC", "UserDefaults"]
 - ["So8NSObjectC", "application"]
 - ["So8NSObjectC", "applicationDidBecomeActive"]
 - ["So8NSObjectC", "applicationDidEnterBackground"]
@@ -137,8 +156,11 @@ depends-member:
 - ["So8NSObjectC", "applicationWillResignActive"]
 - ["So8NSObjectC", "applicationWillTerminate"]
 - ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "register"]
+- !private ["So8NSObjectC", "standard"]
 - ["So8NSObjectC", "window"]
 - ["So8NSObjectP", "LaunchOptionsKey"]
+- !private ["So8NSObjectP", "UserDefaults"]
 - ["So8NSObjectP", ""]
 - ["So8NSObjectP", "application"]
 - ["So8NSObjectP", "applicationDidBecomeActive"]
@@ -153,8 +175,11 @@ depends-member:
 - ["So8NSObjectP", "applicationWillResignActive"]
 - ["So8NSObjectP", "applicationWillTerminate"]
 - !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "register"]
+- !private ["So8NSObjectP", "standard"]
 - ["So8NSObjectP", "window"]
 - ["So13UIApplicationC", "LaunchOptionsKey"]
+- !private ["So21UIApplicationDelegateP", "UserDefaults"]
 - ["So21UIApplicationDelegateP", ""]
 - ["So21UIApplicationDelegateP", "application"]
 - ["So21UIApplicationDelegateP", "applicationDidBecomeActive"]
@@ -170,6 +195,7 @@ depends-member:
 - ["So21UIApplicationDelegateP", "applicationWillTerminate"]
 - ["So21UIApplicationDelegateP", "window"]
 - ["So30UIPasteConfigurationSupportingP", "LaunchOptionsKey"]
+- !private ["So30UIPasteConfigurationSupportingP", "UserDefaults"]
 - ["So30UIPasteConfigurationSupportingP", ""]
 - ["So30UIPasteConfigurationSupportingP", "application"]
 - ["So30UIPasteConfigurationSupportingP", "applicationDidBecomeActive"]
@@ -189,6 +215,7 @@ depends-member:
 - ["So11UIResponderC", "LaunchOptionsKey"]
 - ["So11UIResponderC", "UIApplication"]
 - ["So11UIResponderC", "UIWindow"]
+- !private ["So11UIResponderC", "UserDefaults"]
 - ["So11UIResponderC", ""]
 - ["So11UIResponderC", "application"]
 - ["So11UIResponderC", "applicationDidBecomeActive"]
@@ -205,6 +232,7 @@ depends-member:
 - ["So11UIResponderC", "init"]
 - ["So11UIResponderC", "window"]
 - ["So30UIResponderStandardEditActionsP", "LaunchOptionsKey"]
+- !private ["So30UIResponderStandardEditActionsP", "UserDefaults"]
 - ["So30UIResponderStandardEditActionsP", ""]
 - ["So30UIResponderStandardEditActionsP", "application"]
 - ["So30UIResponderStandardEditActionsP", "applicationDidBecomeActive"]
@@ -221,6 +249,7 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "init"]
 - ["So30UIResponderStandardEditActionsP", "window"]
 - ["So23UIUserActivityRestoringP", "LaunchOptionsKey"]
+- !private ["So23UIUserActivityRestoringP", "UserDefaults"]
 - ["So23UIUserActivityRestoringP", ""]
 - ["So23UIUserActivityRestoringP", "application"]
 - ["So23UIUserActivityRestoringP", "applicationDidBecomeActive"]
@@ -236,7 +265,10 @@ depends-member:
 - ["So23UIUserActivityRestoringP", "applicationWillTerminate"]
 - !private ["So23UIUserActivityRestoringP", "init"]
 - ["So23UIUserActivityRestoringP", "window"]
+- !private ["So14NSUserDefaultsC", "register"]
+- !private ["So14NSUserDefaultsC", "standard"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "LaunchOptionsKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UserDefaults"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
 - ["10Foundation27_KeyValueCodingAndObservingP", "application"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "applicationDidBecomeActive"]
@@ -251,6 +283,8 @@ depends-member:
 - ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillResignActive"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillTerminate"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "register"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "standard"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "window"]
 depends-nominal:
 - "15PopUpZendoTimer11AppDelegateC"
@@ -267,6 +301,7 @@ depends-nominal:
 - "So11UIResponderC"
 - "So30UIResponderStandardEditActionsP"
 - "So23UIUserActivityRestoringP"
+- !private "So14NSUserDefaultsC"
 - "10Foundation27_KeyValueCodingAndObservingP"
 depends-dynamic-lookup:
 depends-external:

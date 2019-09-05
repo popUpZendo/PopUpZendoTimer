@@ -1,9 +1,9 @@
 //
 //  TimerViewController.swift
-//  Pop Up Circle Test
+//  Pop Up Zendo Timer
 //
-//  Created by Joseph Hall on 6/21/17.
-//  Copyright © 2017 Om Design. All rights reserved.
+//  Created by Joseph Hall on 9/1/19.
+//  Copyright © 2019 Om Design. All rights reserved.
 //
 
 import UIKit
@@ -15,12 +15,13 @@ class TimerViewController: UIViewController {
     
     var progress: KDCircularProgress!
     var btnSound: AVAudioPlayer!
+    var endSound: AVAudioPlayer!
     var zazen: Double = 60
     let defaults = UserDefaults.standard
     let mode = "mode"
     let bell = "bell"
     let durationSlide = "durationSlide"
-    //var timer = 60
+    var timerRunning: Bool { return self.countdownTimer != nil }
     
     override var prefersStatusBarHidden: Bool{
         return true
@@ -38,11 +39,12 @@ class TimerViewController: UIViewController {
     @IBOutlet weak var timerButton: UIButton!
     @IBOutlet weak var testLabel: UILabel!
     @IBOutlet weak var gearButton: UIButton!
+    @IBOutlet weak var timerHostView: UIView!
     
    
     var mute = false
-    var countdownTimer: Timer!
-    var totalTime = 4
+    weak var countdownTimer: Timer!
+    var countEndAt: Date!
     
     func darkMode() {
         self.view.backgroundColor = UIColor.black
@@ -52,18 +54,15 @@ class TimerViewController: UIViewController {
         self.view.backgroundColor = UIColor.white
     }
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
         
-        let setMode = defaults.bool(forKey: "mode")
-        print(mode)
-
+        if self.progress != nil { return }
         if defaults.bool(forKey: "mode") == true {
             darkMode()
         } else {
             lightMode()
         }
-        
         
         
         
@@ -74,12 +73,8 @@ class TimerViewController: UIViewController {
         
         
         countDownLabel.isHidden = true
-                UIApplication.shared.isIdleTimerDisabled = true
-        //self.navigationController?.setNavigationBarHidden(true, animated: false)
-        //self.view.backgroundColor = UIColor.black
-        //view.backgroundColor = UIColor(white: 1.00, alpha: 1.0)
-        
-        progress = KDCircularProgress(frame: CGRect(x: 0, y: 0, width: 350, height: 350))
+        UIApplication.shared.isIdleTimerDisabled = true
+        progress = KDCircularProgress(frame: self.timerHostView.bounds)
         progress.startAngle = -90
         progress.progressThickness = 0.3
         progress.trackThickness = 0.31
@@ -90,9 +85,8 @@ class TimerViewController: UIViewController {
         progress.glowAmount = 0.3
         progress.trackColor = UIColor.darkGray
         progress.set(colors: UIColor.black)
-        progress.center = CGPoint(x: view.center.x, y: view.center.y - 80)
-        view.addSubview(progress)
-        
+        self.timerHostView.addSubview(progress)
+        progress.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         
         let path = Bundle.main.path(forResource: "zazenBell3", ofType: "mp3")
         let soundURL = URL(fileURLWithPath: path!)
@@ -105,41 +99,58 @@ class TimerViewController: UIViewController {
         }
         self.view.bringSubviewToFront(self.timerButton)
         
+        let path2 = Bundle.main.path(forResource: "zazenBellClose", ofType: "mp3")
+        let soundURL2 = URL(fileURLWithPath: path2!)
+        
+        do {
+            try endSound = AVAudioPlayer(contentsOf: soundURL2)
+            endSound.prepareToPlay()
+        } catch let err as NSError {
+            print(err.debugDescription)
+        }
+        self.view.bringSubviewToFront(self.timerButton)
+        
     }
     
-    func startTimer() {
-        countdownTimer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(updateTime), userInfo: nil, repeats: true)
+    func startCountdown() {
+        self.countEndAt = Date(timeIntervalSinceNow: 5)
+        countDownLabel.text = "\(timeFormatted(abs(self.countEndAt!.timeIntervalSinceNow)))"
+        countDownLabel.isHidden = false
+        countdownTimer = Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: #selector(updateTime), userInfo: nil, repeats: true)
     }
     
     @objc func updateTime() {
-        countDownLabel.text = "\(timeFormatted(totalTime))"
-        countDownLabel.isHidden = false
         
-        if totalTime != 0 {
-            totalTime -= 1
+        if let interval = self.countEndAt?.timeIntervalSinceNow, interval > 0 {
+            countDownLabel.text = "\(timeFormatted(abs(interval)))"
+            countDownLabel.isHidden = false
+            
         } else {
-            endTimer()
-            countDownLabel.isHidden = true
-            totalTime = 4
+   ////REMOVED THESE BECAUSE THEY STOP THE MEDITATION TIMER WHEN THE COUNTDOWN TIMER COMPLETED/////////
+            ///////////////////////////////////////////
+            endCountdown()
+            startAnimatedTimer()
+           ///////////////////////////////////////////
         }
     }
     
-    func endTimer() {
-        countdownTimer.invalidate()
+    func endCountdown() {
+        countdownTimer?.invalidate()
+        countDownLabel.isHidden = true
+        self.stopAnimatedTimer()
+        self.btnSound.stop()
+        self.endSound.stop()
+        label.isHidden = false
+        slider.isHidden = false
+        sliderValue.isHidden = false
+        gearButton.isHidden = false
     }
     
-    func timeFormatted(_ totalSeconds: Int) -> String {
-        let seconds: Int = totalSeconds % 60
+    func timeFormatted(_ totalSeconds: TimeInterval) -> String {
+        let seconds: Int = Int(totalSeconds) % 60
+        if seconds == 0 { return "" }
         return String(format: "%01d", seconds)
     }
-    
-    
-    
-    @IBAction func sliderChanged(_ sender: UISlider) {
-        label.text = String(Int(sender.value))
-        zazen = Double(Int(sender.value))
-    }
- 
     
     
     @IBAction func durationSliderValueChanged(_ sender: UISlider) {
@@ -148,59 +159,75 @@ class TimerViewController: UIViewController {
             label.text = "\(currentValue)"
         
         defaults.set(sender.value, forKey: durationSlide)
-            print ("currentValue \(currentValue)")
     }
-    
     
     
     @IBAction func animateButtonTapped(_ sender: AnyObject){
-        if self.progress.isAnimating () || btnSound.isPlaying || countDownLabel.isHidden == false {
+        if self.timerRunning || self.progress.isAnimating() {
+            self.stopAnimatedTimer()
+            self.endCountdown()
+            return
+        }else{
+    /*    if self.progress.isAnimating () || btnSound.isPlaying || countDownLabel.isHidden == false || timerRunning == true{
             self.progress.stopAnimation()
+            endCountdown()
             self.btnSound.stop()
+            self.endSound.stop()
             label.isHidden = false
             slider.isHidden = false
             sliderValue.isHidden = false
-            countDownLabel.isHidden = true
+            gearButton.isHidden = false
             
-        } else {
-        
-        countDownLabel.isHidden = false
-        //var clock = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: "countdown", userInfo: nil, repeats: true)
+        } else {*/
+            stopAnimatedTimer()
+            startCountdown()
             label.isHidden = true
             slider.isHidden = true
             sliderValue.isHidden = true
-            startTimer()
-        DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(4), execute: {
-        
-            self.countDownLabel.isHidden = true
+            gearButton.isHidden = true
             
-        func playSound() {
-            if self.btnSound.isPlaying {
-                self.btnSound.stop()
-            } else {
-            self.btnSound.play()
-            }
+           
+     //   }
         }
         
-            if self.defaults.bool(forKey: "bell") == false {
-               playSound()
-            }
-       
-        
+    }
+    
+    func startAnimatedTimer() {
+         if self.defaults.bool(forKey: "bell") == true {
+            self.playSound()
+        }
         self.progress.animate(fromAngle: 0, toAngle: 360, duration: self.zazen*60) { completed in
             if completed {
-                if self.defaults.bool(forKey: "bell") == false {
-                    playSound()
+                if self.defaults.bool(forKey: "bell") == true {
+                    self.playEndSound()
+                    
                 }
             } else {
-                print("animation stopped, was interrupted")
+                
             }
         }
-        
-        
-    })
     }
-}
     
+    func stopAnimatedTimer() {
+        self.progress.stopAnimation()
+        self.progress.progress = 0
+        self.btnSound.stop()
+        
+    }
+
+    func playSound() {
+        if self.btnSound.isPlaying {
+            self.btnSound.stop()
+        } else {
+            self.btnSound.currentTime = 0
+            self.btnSound.play()
+        }
+    }
     
+    func playEndSound() {
+        self.endSound.currentTime = 0
+        self.endSound.play()
+    }
+ 
+
 }

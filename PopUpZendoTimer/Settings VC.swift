@@ -30,22 +30,19 @@ class Settings_VC: UIViewController {
     }
     
     func muteBell() {
-        defaults.set(true, forKey: "bell")
+        defaults.set(false, forKey: "bell")
         self.bellButton.setImage(UIImage(named: "bell-button-off"), for: .normal)
-        print("Bell Muted")
     }
     
     func playBell() {
-        defaults.set(false, forKey: "bell")
+        defaults.set(true, forKey: "bell")
         self.bellButton.setImage(UIImage(named: "bell-button-2"), for: .normal)
-        print("Bell Playing")
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let setMode = defaults.bool(forKey: "mode")
-        print("this is the \(mode)")
+        //let setMode = defaults.bool(forKey: "mode")
         
         if defaults.bool(forKey: "mode") == true {
             darkMode()
@@ -53,10 +50,9 @@ class Settings_VC: UIViewController {
             lightMode()
         }
         
-        let setBell = defaults.bool(forKey: "bell")
-        print(bell)
+        //let setBell = defaults.bool(forKey: "bell")
         
-        if defaults.bool(forKey: "bell") == false {
+        if defaults.bool(forKey: "bell") == true {
             playBell()
         } else {
             muteBell()
@@ -78,14 +74,12 @@ class Settings_VC: UIViewController {
     
     
     
-    @IBAction func testButton(_ sender: Any) {
-        print("Test Button Tapped")
-        if defaults.bool(forKey: "bell") == false {
+    @IBAction func muteBellButton(_ sender: Any) {
+        if defaults.bool(forKey: "bell") == true {
             muteBell()
         } else {
             playBell()
         }
     }
     
-//bell-button-off
 }

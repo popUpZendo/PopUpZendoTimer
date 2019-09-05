@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>0230E542-30E8-460F-B95A-AB7488E5F002</key>
+		<key>027393CE-61C9-4C39-A50B-11ECC644ED41</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,103 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>0230E542-30E8-460F-B95A-AB7488E5F002.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588781370.63455498</real>
-			<key>timeStoppedRecording</key>
-			<real>588781371.251881</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>0230E542-30E8-460F-B95A-AB7488E5F002</string>
-		</dict>
-		<key>0631AFC4-4B80-486F-A6A9-7D414F3EF145</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>0631AFC4-4B80-486F-A6A9-7D414F3EF145.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588742982.59589696</real>
-			<key>timeStoppedRecording</key>
-			<real>588742983.96137905</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>0631AFC4-4B80-486F-A6A9-7D414F3EF145</string>
-		</dict>
-		<key>0898B009-48E9-4848-A416-1D9489B5AA9D</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>0898B009-48E9-4848-A416-1D9489B5AA9D.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588708570.67976606</real>
-			<key>timeStoppedRecording</key>
-			<real>588708570.90656304</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>0898B009-48E9-4848-A416-1D9489B5AA9D</string>
-		</dict>
-		<key>08E5CA61-D04F-4052-9994-9D196CC3255E</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>08E5CA61-D04F-4052-9994-9D196CC3255E.xcactivitylog</string>
+			<string>027393CE-61C9-4C39-A50B-11ECC644ED41.xcactivitylog</string>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
@@ -126,15 +30,15 @@
 			<key>signature</key>
 			<string>Build PopUpZendoTimer</string>
 			<key>timeStartedRecording</key>
-			<real>588747021.56161201</real>
+			<real>589333828.66077602</real>
 			<key>timeStoppedRecording</key>
-			<real>588747025.91392004</real>
+			<real>589333829.68854594</real>
 			<key>title</key>
 			<string>Build PopUpZendoTimer</string>
 			<key>uniqueIdentifier</key>
-			<string>08E5CA61-D04F-4052-9994-9D196CC3255E</string>
+			<string>027393CE-61C9-4C39-A50B-11ECC644ED41</string>
 		</dict>
-		<key>0B54EFA3-96A5-4405-8C30-03CD0598054A</key>
+		<key>057E565A-676A-4100-873E-A4F4623131A9</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -143,1415 +47,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>0B54EFA3-96A5-4405-8C30-03CD0598054A.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588782228.07282102</real>
-			<key>timeStoppedRecording</key>
-			<real>588782240.88948703</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>0B54EFA3-96A5-4405-8C30-03CD0598054A</string>
-		</dict>
-		<key>0C80E5F2-1646-4A03-88E1-30D1581A2182</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>0C80E5F2-1646-4A03-88E1-30D1581A2182.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588728273.280586</real>
-			<key>timeStoppedRecording</key>
-			<real>588728276.64956403</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>0C80E5F2-1646-4A03-88E1-30D1581A2182</string>
-		</dict>
-		<key>105EC3AF-4586-49D8-BF76-2A05EF26C9C7</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>105EC3AF-4586-49D8-BF76-2A05EF26C9C7.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588725207.76381898</real>
-			<key>timeStoppedRecording</key>
-			<real>588725207.89850402</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>105EC3AF-4586-49D8-BF76-2A05EF26C9C7</string>
-		</dict>
-		<key>107B5C47-AB9E-4312-AC55-A11B41103C99</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>107B5C47-AB9E-4312-AC55-A11B41103C99.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588743305.977054</real>
-			<key>timeStoppedRecording</key>
-			<real>588743306.13228297</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>107B5C47-AB9E-4312-AC55-A11B41103C99</string>
-		</dict>
-		<key>1095B958-41AF-445C-A3FF-9753AC30DAA9</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>1095B958-41AF-445C-A3FF-9753AC30DAA9.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588719734.72208703</real>
-			<key>timeStoppedRecording</key>
-			<real>588719737.33072197</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>1095B958-41AF-445C-A3FF-9753AC30DAA9</string>
-		</dict>
-		<key>126B01ED-675E-44D1-AD91-DE4914CF9CC3</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>126B01ED-675E-44D1-AD91-DE4914CF9CC3.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Archive PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588646885.88993597</real>
-			<key>timeStoppedRecording</key>
-			<real>588646891.22844899</real>
-			<key>title</key>
-			<string>Archive PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>126B01ED-675E-44D1-AD91-DE4914CF9CC3</string>
-		</dict>
-		<key>18785BEA-7B83-485F-81D1-A48C337F0B1A</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>18785BEA-7B83-485F-81D1-A48C337F0B1A.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588646552.72753894</real>
-			<key>timeStoppedRecording</key>
-			<real>588646554.74364197</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>18785BEA-7B83-485F-81D1-A48C337F0B1A</string>
-		</dict>
-		<key>18FE9179-EC1D-4348-B8D5-3E7678F9DA71</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>18FE9179-EC1D-4348-B8D5-3E7678F9DA71.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588708539.65789604</real>
-			<key>timeStoppedRecording</key>
-			<real>588708539.89501798</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>18FE9179-EC1D-4348-B8D5-3E7678F9DA71</string>
-		</dict>
-		<key>1B8F1282-C18C-4163-BC10-D3519EA18E3B</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>1B8F1282-C18C-4163-BC10-D3519EA18E3B.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588747972.20461094</real>
-			<key>timeStoppedRecording</key>
-			<real>588747974.895643</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>1B8F1282-C18C-4163-BC10-D3519EA18E3B</string>
-		</dict>
-		<key>1BB17F09-8BBB-4B96-ABC4-447FBDC9458C</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>1BB17F09-8BBB-4B96-ABC4-447FBDC9458C.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588715367.07017303</real>
-			<key>timeStoppedRecording</key>
-			<real>588715367.29175997</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>1BB17F09-8BBB-4B96-ABC4-447FBDC9458C</string>
-		</dict>
-		<key>1E22A5A5-1809-439F-9394-79866DEBA3D5</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>1E22A5A5-1809-439F-9394-79866DEBA3D5.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588779703.990224</real>
-			<key>timeStoppedRecording</key>
-			<real>588779705.27661002</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>1E22A5A5-1809-439F-9394-79866DEBA3D5</string>
-		</dict>
-		<key>20A8A306-7E9F-4F1B-869E-ED11F688A746</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>20A8A306-7E9F-4F1B-869E-ED11F688A746.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588747638.10648096</real>
-			<key>timeStoppedRecording</key>
-			<real>588747639.36654603</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>20A8A306-7E9F-4F1B-869E-ED11F688A746</string>
-		</dict>
-		<key>2105D712-4FB2-4673-894C-5177568AE2FA</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>2105D712-4FB2-4673-894C-5177568AE2FA.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588727513.12461901</real>
-			<key>timeStoppedRecording</key>
-			<real>588727514.39034295</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>2105D712-4FB2-4673-894C-5177568AE2FA</string>
-		</dict>
-		<key>221A3E63-BA1A-4DBB-9F53-EB7496B1F9A4</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>221A3E63-BA1A-4DBB-9F53-EB7496B1F9A4.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588707673.62165904</real>
-			<key>timeStoppedRecording</key>
-			<real>588707674.59572005</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>221A3E63-BA1A-4DBB-9F53-EB7496B1F9A4</string>
-		</dict>
-		<key>223FF9AF-28FD-475B-8AA9-607B68D0C999</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>223FF9AF-28FD-475B-8AA9-607B68D0C999.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588719919.58073103</real>
-			<key>timeStoppedRecording</key>
-			<real>588719920.84656894</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>223FF9AF-28FD-475B-8AA9-607B68D0C999</string>
-		</dict>
-		<key>22730510-FD26-4B16-B37C-582CFCECCB97</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>22730510-FD26-4B16-B37C-582CFCECCB97.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588708733.74307406</real>
-			<key>timeStoppedRecording</key>
-			<real>588708773.62593102</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>22730510-FD26-4B16-B37C-582CFCECCB97</string>
-		</dict>
-		<key>22F8B3CF-B24C-4091-8681-A9719CF8B977</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>22F8B3CF-B24C-4091-8681-A9719CF8B977.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588726032.23004305</real>
-			<key>timeStoppedRecording</key>
-			<real>588726033.74145699</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>22F8B3CF-B24C-4091-8681-A9719CF8B977</string>
-		</dict>
-		<key>231F0553-EBE8-4E97-BA71-D179EF6BC589</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>231F0553-EBE8-4E97-BA71-D179EF6BC589.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588748151.66881597</real>
-			<key>timeStoppedRecording</key>
-			<real>588748156.779531</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>231F0553-EBE8-4E97-BA71-D179EF6BC589</string>
-		</dict>
-		<key>23918697-8B1A-4CA2-AEF5-50E3BA2B5E29</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>23918697-8B1A-4CA2-AEF5-50E3BA2B5E29.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588727613.67155194</real>
-			<key>timeStoppedRecording</key>
-			<real>588727615.032215</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>23918697-8B1A-4CA2-AEF5-50E3BA2B5E29</string>
-		</dict>
-		<key>2424C8A2-4AFD-4AA2-BFC4-472FA051A664</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>2424C8A2-4AFD-4AA2-BFC4-472FA051A664.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588645263.128582</real>
-			<key>timeStoppedRecording</key>
-			<real>588645266.40903997</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>2424C8A2-4AFD-4AA2-BFC4-472FA051A664</string>
-		</dict>
-		<key>244E824D-CD06-4840-A9B5-767BDB00FCA8</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>244E824D-CD06-4840-A9B5-767BDB00FCA8.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588744921.76346099</real>
-			<key>timeStoppedRecording</key>
-			<real>588744923.33028698</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>244E824D-CD06-4840-A9B5-767BDB00FCA8</string>
-		</dict>
-		<key>25002EAA-6875-4CA1-94BB-2805E710DD54</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>25002EAA-6875-4CA1-94BB-2805E710DD54.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588725156.05020106</real>
-			<key>timeStoppedRecording</key>
-			<real>588725159.72493994</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>25002EAA-6875-4CA1-94BB-2805E710DD54</string>
-		</dict>
-		<key>25F7BE30-5C7A-4C46-9B16-D4AC09AAF0E2</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>25F7BE30-5C7A-4C46-9B16-D4AC09AAF0E2.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588743856.54874599</real>
-			<key>timeStoppedRecording</key>
-			<real>588743862.27646101</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>25F7BE30-5C7A-4C46-9B16-D4AC09AAF0E2</string>
-		</dict>
-		<key>2650CDF7-4445-4224-8DDD-766182C2B534</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>2650CDF7-4445-4224-8DDD-766182C2B534.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588719235.44523704</real>
-			<key>timeStoppedRecording</key>
-			<real>588719237.02330101</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>2650CDF7-4445-4224-8DDD-766182C2B534</string>
-		</dict>
-		<key>26626914-7DB8-4471-92DF-D4F4BECA5D82</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>26626914-7DB8-4471-92DF-D4F4BECA5D82.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588781425.14557505</real>
-			<key>timeStoppedRecording</key>
-			<real>588781426.16893697</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>26626914-7DB8-4471-92DF-D4F4BECA5D82</string>
-		</dict>
-		<key>27A81BB0-4AAD-40B9-AE14-385055816F78</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>27A81BB0-4AAD-40B9-AE14-385055816F78.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588720227.36798096</real>
-			<key>timeStoppedRecording</key>
-			<real>588720228.12205505</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>27A81BB0-4AAD-40B9-AE14-385055816F78</string>
-		</dict>
-		<key>28632680-2582-4DD8-BE4C-3257AEE786C4</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>28632680-2582-4DD8-BE4C-3257AEE786C4.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588748043.89998102</real>
-			<key>timeStoppedRecording</key>
-			<real>588748046.889503</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>28632680-2582-4DD8-BE4C-3257AEE786C4</string>
-		</dict>
-		<key>2E238F55-BDB6-4219-96C8-2EA731868B73</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>2E238F55-BDB6-4219-96C8-2EA731868B73.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588747400.60104299</real>
-			<key>timeStoppedRecording</key>
-			<real>588747401.42095602</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>2E238F55-BDB6-4219-96C8-2EA731868B73</string>
-		</dict>
-		<key>31466EF2-99BA-4276-B739-B17F42288B9C</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>31466EF2-99BA-4276-B739-B17F42288B9C.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588724691.70245802</real>
-			<key>timeStoppedRecording</key>
-			<real>588724693.01954699</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>31466EF2-99BA-4276-B739-B17F42288B9C</string>
-		</dict>
-		<key>3327C98B-8005-4D4D-8DD1-6687F4381B8D</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>3327C98B-8005-4D4D-8DD1-6687F4381B8D.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588708698.71274996</real>
-			<key>timeStoppedRecording</key>
-			<real>588708699.247558</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>3327C98B-8005-4D4D-8DD1-6687F4381B8D</string>
-		</dict>
-		<key>35DA5AC9-0461-48FC-B840-7053605BEBBB</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>35DA5AC9-0461-48FC-B840-7053605BEBBB.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588707802.49974203</real>
-			<key>timeStoppedRecording</key>
-			<real>588707803.38705802</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>35DA5AC9-0461-48FC-B840-7053605BEBBB</string>
-		</dict>
-		<key>36D40AB6-52A0-46E5-87A1-F7B12A6E01E0</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>36D40AB6-52A0-46E5-87A1-F7B12A6E01E0.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588727422.91411698</real>
-			<key>timeStoppedRecording</key>
-			<real>588727424.26516294</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>36D40AB6-52A0-46E5-87A1-F7B12A6E01E0</string>
-		</dict>
-		<key>371C5ADD-0385-490D-AD46-4979BA6D87BF</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>371C5ADD-0385-490D-AD46-4979BA6D87BF.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588727074.49193203</real>
-			<key>timeStoppedRecording</key>
-			<real>588727074.64314306</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>371C5ADD-0385-490D-AD46-4979BA6D87BF</string>
-		</dict>
-		<key>37BC4E91-CA3B-4E2A-9B60-3551C453274A</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>37BC4E91-CA3B-4E2A-9B60-3551C453274A.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588707611.01788998</real>
-			<key>timeStoppedRecording</key>
-			<real>588707611.93057597</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>37BC4E91-CA3B-4E2A-9B60-3551C453274A</string>
-		</dict>
-		<key>399016F8-3AB3-4B68-9EEA-F53ADF2B2D59</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>399016F8-3AB3-4B68-9EEA-F53ADF2B2D59.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588781368.35102403</real>
-			<key>timeStoppedRecording</key>
-			<real>588781370.26529706</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>399016F8-3AB3-4B68-9EEA-F53ADF2B2D59</string>
-		</dict>
-		<key>3C43718F-C7D0-4500-8BFF-7F4C2A9E2C70</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>3C43718F-C7D0-4500-8BFF-7F4C2A9E2C70.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588747698.46176302</real>
-			<key>timeStoppedRecording</key>
-			<real>588747699.51065195</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>3C43718F-C7D0-4500-8BFF-7F4C2A9E2C70</string>
-		</dict>
-		<key>3DBE260D-DB91-4FC6-A37A-3FBDB1430AB4</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>3DBE260D-DB91-4FC6-A37A-3FBDB1430AB4.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588747505.66117597</real>
-			<key>timeStoppedRecording</key>
-			<real>588747506.92215204</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>3DBE260D-DB91-4FC6-A37A-3FBDB1430AB4</string>
-		</dict>
-		<key>3E72A66C-85D1-43E5-B388-23A5138AC50F</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>3E72A66C-85D1-43E5-B388-23A5138AC50F.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588747555.47663999</real>
-			<key>timeStoppedRecording</key>
-			<real>588747556.72192502</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>3E72A66C-85D1-43E5-B388-23A5138AC50F</string>
-		</dict>
-		<key>43E8B5FF-4729-4A60-B605-D2150A0E7278</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>43E8B5FF-4729-4A60-B605-D2150A0E7278.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588748113.44363403</real>
-			<key>timeStoppedRecording</key>
-			<real>588748114.03478897</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>43E8B5FF-4729-4A60-B605-D2150A0E7278</string>
-		</dict>
-		<key>44249177-C570-44F4-8C21-15C8B4832A4F</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>44249177-C570-44F4-8C21-15C8B4832A4F.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588646718.31610405</real>
-			<key>timeStoppedRecording</key>
-			<real>588646719.692698</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>44249177-C570-44F4-8C21-15C8B4832A4F</string>
-		</dict>
-		<key>49F93B8D-7839-4D36-9FCE-7976CC94B960</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>49F93B8D-7839-4D36-9FCE-7976CC94B960.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588742852.45639598</real>
-			<key>timeStoppedRecording</key>
-			<real>588742853.82049596</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>49F93B8D-7839-4D36-9FCE-7976CC94B960</string>
-		</dict>
-		<key>49FC8127-0EC6-44B6-A59B-E7BD18A8E875</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>49FC8127-0EC6-44B6-A59B-E7BD18A8E875.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588646786.07226002</real>
-			<key>timeStoppedRecording</key>
-			<real>588646787.50062895</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>49FC8127-0EC6-44B6-A59B-E7BD18A8E875</string>
-		</dict>
-		<key>4C21DDBA-A7CC-4E04-9C9D-8BC643D3A142</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>4C21DDBA-A7CC-4E04-9C9D-8BC643D3A142.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588719882.30222094</real>
-			<key>timeStoppedRecording</key>
-			<real>588719884.29965496</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>4C21DDBA-A7CC-4E04-9C9D-8BC643D3A142</string>
-		</dict>
-		<key>4C44F9C0-EC2D-4ED8-B993-5D74C872024A</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>4C44F9C0-EC2D-4ED8-B993-5D74C872024A.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588719496.89150798</real>
-			<key>timeStoppedRecording</key>
-			<real>588719497.92535603</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>4C44F9C0-EC2D-4ED8-B993-5D74C872024A</string>
-		</dict>
-		<key>4DFA6DC5-71DA-43EA-B1BF-F4038DCD0E9A</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>4DFA6DC5-71DA-43EA-B1BF-F4038DCD0E9A.xcactivitylog</string>
+			<string>057E565A-676A-4100-873E-A4F4623131A9.xcactivitylog</string>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
@@ -1566,15 +62,15 @@
 			<key>signature</key>
 			<string>Clean PopUpZendoTimer</string>
 			<key>timeStartedRecording</key>
-			<real>588743852.10541797</real>
+			<real>589396438.56868899</real>
 			<key>timeStoppedRecording</key>
-			<real>588743852.23915696</real>
+			<real>589396438.69239604</real>
 			<key>title</key>
 			<string>Clean PopUpZendoTimer</string>
 			<key>uniqueIdentifier</key>
-			<string>4DFA6DC5-71DA-43EA-B1BF-F4038DCD0E9A</string>
+			<string>057E565A-676A-4100-873E-A4F4623131A9</string>
 		</dict>
-		<key>51645108-B801-48CE-B81D-A24C5F54E42B</key>
+		<key>07E6477B-47F5-4B97-993C-605D98B2F7DF</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -1583,11 +79,11 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>51645108-B801-48CE-B81D-A24C5F54E42B.xcactivitylog</string>
+			<string>07E6477B-47F5-4B97-993C-605D98B2F7DF.xcactivitylog</string>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
-				<string>W</string>
+				<string>S</string>
 			</dict>
 			<key>schemeIdentifier-containerName</key>
 			<string>PopUpZendoTimer project</string>
@@ -1598,15 +94,15 @@
 			<key>signature</key>
 			<string>Build PopUpZendoTimer</string>
 			<key>timeStartedRecording</key>
-			<real>588645483.293769</real>
+			<real>589334831.83712804</real>
 			<key>timeStoppedRecording</key>
-			<real>588645483.999825</real>
+			<real>589334840.19376194</real>
 			<key>title</key>
 			<string>Build PopUpZendoTimer</string>
 			<key>uniqueIdentifier</key>
-			<string>51645108-B801-48CE-B81D-A24C5F54E42B</string>
+			<string>07E6477B-47F5-4B97-993C-605D98B2F7DF</string>
 		</dict>
-		<key>516753CC-640C-4C4B-A917-676CF7352B4D</key>
+		<key>08378E85-FCFA-4782-809F-0C1B04132969</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -1615,11 +111,11 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>516753CC-640C-4C4B-A917-676CF7352B4D.xcactivitylog</string>
+			<string>08378E85-FCFA-4782-809F-0C1B04132969.xcactivitylog</string>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
-				<string>W</string>
+				<string>S</string>
 			</dict>
 			<key>schemeIdentifier-containerName</key>
 			<string>PopUpZendoTimer project</string>
@@ -1628,17 +124,17 @@
 			<key>schemeIdentifier-sharedScheme</key>
 			<integer>1</integer>
 			<key>signature</key>
-			<string>Archive PopUpZendoTimer</string>
+			<string>Build PopUpZendoTimer</string>
 			<key>timeStartedRecording</key>
-			<real>588782256.84494698</real>
+			<real>589385394.07702899</real>
 			<key>timeStoppedRecording</key>
-			<real>588782262.76287198</real>
+			<real>589385403.169245</real>
 			<key>title</key>
-			<string>Archive PopUpZendoTimer</string>
+			<string>Build PopUpZendoTimer</string>
 			<key>uniqueIdentifier</key>
-			<string>516753CC-640C-4C4B-A917-676CF7352B4D</string>
+			<string>08378E85-FCFA-4782-809F-0C1B04132969</string>
 		</dict>
-		<key>5300D334-B37C-43E8-BBCC-5D04335759CA</key>
+		<key>08F3ADE7-383F-4BB2-82D2-EEEDD907404F</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -1647,7 +143,167 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>5300D334-B37C-43E8-BBCC-5D04335759CA.xcactivitylog</string>
+			<string>08F3ADE7-383F-4BB2-82D2-EEEDD907404F.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PopUpZendoTimer project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PopUpZendoTimer</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build PopUpZendoTimer</string>
+			<key>timeStartedRecording</key>
+			<real>589397071.57118499</real>
+			<key>timeStoppedRecording</key>
+			<real>589397080.62163496</real>
+			<key>title</key>
+			<string>Build PopUpZendoTimer</string>
+			<key>uniqueIdentifier</key>
+			<string>08F3ADE7-383F-4BB2-82D2-EEEDD907404F</string>
+		</dict>
+		<key>12F9F7EB-A4E3-4D7D-B0EA-3E5931A01D6B</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>12F9F7EB-A4E3-4D7D-B0EA-3E5931A01D6B.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PopUpZendoTimer project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PopUpZendoTimer</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build PopUpZendoTimer</string>
+			<key>timeStartedRecording</key>
+			<real>589396404.85219002</real>
+			<key>timeStoppedRecording</key>
+			<real>589396405.092767</real>
+			<key>title</key>
+			<string>Build PopUpZendoTimer</string>
+			<key>uniqueIdentifier</key>
+			<string>12F9F7EB-A4E3-4D7D-B0EA-3E5931A01D6B</string>
+		</dict>
+		<key>13DDFCEB-4428-4115-B814-55E9693913A9</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>13DDFCEB-4428-4115-B814-55E9693913A9.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PopUpZendoTimer project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PopUpZendoTimer</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build PopUpZendoTimer</string>
+			<key>timeStartedRecording</key>
+			<real>589385847.39942002</real>
+			<key>timeStoppedRecording</key>
+			<real>589385849.431687</real>
+			<key>title</key>
+			<string>Build PopUpZendoTimer</string>
+			<key>uniqueIdentifier</key>
+			<string>13DDFCEB-4428-4115-B814-55E9693913A9</string>
+		</dict>
+		<key>18EDB9DE-5F21-42B9-95B9-D9F40D72DB98</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>18EDB9DE-5F21-42B9-95B9-D9F40D72DB98.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PopUpZendoTimer project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PopUpZendoTimer</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Clean PopUpZendoTimer</string>
+			<key>timeStartedRecording</key>
+			<real>589333963.55060995</real>
+			<key>timeStoppedRecording</key>
+			<real>589333963.70333695</real>
+			<key>title</key>
+			<string>Clean PopUpZendoTimer</string>
+			<key>uniqueIdentifier</key>
+			<string>18EDB9DE-5F21-42B9-95B9-D9F40D72DB98</string>
+		</dict>
+		<key>1ABB185A-84DD-410F-9410-35B42BDDCA06</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>1ABB185A-84DD-410F-9410-35B42BDDCA06.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PopUpZendoTimer project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PopUpZendoTimer</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Clean PopUpZendoTimer</string>
+			<key>timeStartedRecording</key>
+			<real>589396437.92514801</real>
+			<key>timeStoppedRecording</key>
+			<real>589396438.14346004</real>
+			<key>title</key>
+			<string>Clean PopUpZendoTimer</string>
+			<key>uniqueIdentifier</key>
+			<string>1ABB185A-84DD-410F-9410-35B42BDDCA06</string>
+		</dict>
+		<key>1FC7A415-0C20-498D-974A-BBFA0AA90EF0</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>1FC7A415-0C20-498D-974A-BBFA0AA90EF0.xcactivitylog</string>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
@@ -1662,15 +318,15 @@
 			<key>signature</key>
 			<string>Build PopUpZendoTimer</string>
 			<key>timeStartedRecording</key>
-			<real>588743842.725564</real>
+			<real>589397017.47272801</real>
 			<key>timeStoppedRecording</key>
-			<real>588743844.03958499</real>
+			<real>589397019.18822598</real>
 			<key>title</key>
 			<string>Build PopUpZendoTimer</string>
 			<key>uniqueIdentifier</key>
-			<string>5300D334-B37C-43E8-BBCC-5D04335759CA</string>
+			<string>1FC7A415-0C20-498D-974A-BBFA0AA90EF0</string>
 		</dict>
-		<key>5614C043-AEF0-4E47-AB96-03CC8D3847A5</key>
+		<key>23D99B04-4652-41A7-A691-9BC4BF0A07D7</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -1679,167 +335,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>5614C043-AEF0-4E47-AB96-03CC8D3847A5.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588718827.855937</real>
-			<key>timeStoppedRecording</key>
-			<real>588718832.63411903</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>5614C043-AEF0-4E47-AB96-03CC8D3847A5</string>
-		</dict>
-		<key>5719DD39-BD41-4A47-B5DB-6A14A77C7321</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>5719DD39-BD41-4A47-B5DB-6A14A77C7321.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588719129.60544097</real>
-			<key>timeStoppedRecording</key>
-			<real>588719131.25916505</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>5719DD39-BD41-4A47-B5DB-6A14A77C7321</string>
-		</dict>
-		<key>57B6A336-35BA-4EB4-A7C9-233454924C00</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>57B6A336-35BA-4EB4-A7C9-233454924C00.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588748214.42857695</real>
-			<key>timeStoppedRecording</key>
-			<real>588748215.72169197</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>57B6A336-35BA-4EB4-A7C9-233454924C00</string>
-		</dict>
-		<key>5BF0FCFC-5AAF-4095-9474-B9C3F2788F03</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>5BF0FCFC-5AAF-4095-9474-B9C3F2788F03.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588743253.065328</real>
-			<key>timeStoppedRecording</key>
-			<real>588743254.56756306</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>5BF0FCFC-5AAF-4095-9474-B9C3F2788F03</string>
-		</dict>
-		<key>5CA0738E-54BC-4298-B9A0-6BAD11965FF6</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>5CA0738E-54BC-4298-B9A0-6BAD11965FF6.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588727896.96421504</real>
-			<key>timeStoppedRecording</key>
-			<real>588727904.520854</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>5CA0738E-54BC-4298-B9A0-6BAD11965FF6</string>
-		</dict>
-		<key>5D861AD7-3F46-4E53-BF5D-861A3C746F2B</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>5D861AD7-3F46-4E53-BF5D-861A3C746F2B.xcactivitylog</string>
+			<string>23D99B04-4652-41A7-A691-9BC4BF0A07D7.xcactivitylog</string>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
@@ -1852,17 +348,17 @@
 			<key>schemeIdentifier-sharedScheme</key>
 			<integer>1</integer>
 			<key>signature</key>
-			<string>Clean PopUpZendoTimer</string>
+			<string>Build PopUpZendoTimer</string>
 			<key>timeStartedRecording</key>
-			<real>588725179.63191104</real>
+			<real>589333766.94570506</real>
 			<key>timeStoppedRecording</key>
-			<real>588725179.747774</real>
+			<real>589333770.59167898</real>
 			<key>title</key>
-			<string>Clean PopUpZendoTimer</string>
+			<string>Build PopUpZendoTimer</string>
 			<key>uniqueIdentifier</key>
-			<string>5D861AD7-3F46-4E53-BF5D-861A3C746F2B</string>
+			<string>23D99B04-4652-41A7-A691-9BC4BF0A07D7</string>
 		</dict>
-		<key>5E1DE69D-17B2-40BE-A386-12756E3821A7</key>
+		<key>31784A5B-17CB-4F04-92A1-6FD87021194B</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -1871,7 +367,71 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>5E1DE69D-17B2-40BE-A386-12756E3821A7.xcactivitylog</string>
+			<string>31784A5B-17CB-4F04-92A1-6FD87021194B.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PopUpZendoTimer project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PopUpZendoTimer</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build PopUpZendoTimer</string>
+			<key>timeStartedRecording</key>
+			<real>589396723.98460305</real>
+			<key>timeStoppedRecording</key>
+			<real>589396726.128389</real>
+			<key>title</key>
+			<string>Build PopUpZendoTimer</string>
+			<key>uniqueIdentifier</key>
+			<string>31784A5B-17CB-4F04-92A1-6FD87021194B</string>
+		</dict>
+		<key>32192180-0419-416B-AD22-5E3A300B1D94</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>32192180-0419-416B-AD22-5E3A300B1D94.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PopUpZendoTimer project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PopUpZendoTimer</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build PopUpZendoTimer</string>
+			<key>timeStartedRecording</key>
+			<real>589334087.61471403</real>
+			<key>timeStoppedRecording</key>
+			<real>589334087.75795102</real>
+			<key>title</key>
+			<string>Build PopUpZendoTimer</string>
+			<key>uniqueIdentifier</key>
+			<string>32192180-0419-416B-AD22-5E3A300B1D94</string>
+		</dict>
+		<key>40326501-E85E-4194-8C34-5D3D8F66D368</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>40326501-E85E-4194-8C34-5D3D8F66D368.xcactivitylog</string>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
@@ -1886,15 +446,15 @@
 			<key>signature</key>
 			<string>Build PopUpZendoTimer</string>
 			<key>timeStartedRecording</key>
-			<real>588718801.169734</real>
+			<real>589334819.66411495</real>
 			<key>timeStoppedRecording</key>
-			<real>588718804.63962996</real>
+			<real>589334821.140522</real>
 			<key>title</key>
 			<string>Build PopUpZendoTimer</string>
 			<key>uniqueIdentifier</key>
-			<string>5E1DE69D-17B2-40BE-A386-12756E3821A7</string>
+			<string>40326501-E85E-4194-8C34-5D3D8F66D368</string>
 		</dict>
-		<key>60972180-F963-42F3-8836-C40C92B7EDD8</key>
+		<key>46F8FE15-F249-4515-AEEA-623C35F81B2C</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -1903,7 +463,231 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>60972180-F963-42F3-8836-C40C92B7EDD8.xcactivitylog</string>
+			<string>46F8FE15-F249-4515-AEEA-623C35F81B2C.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PopUpZendoTimer project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PopUpZendoTimer</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build PopUpZendoTimer</string>
+			<key>timeStartedRecording</key>
+			<real>589396819.146245</real>
+			<key>timeStoppedRecording</key>
+			<real>589396821.12778401</real>
+			<key>title</key>
+			<string>Build PopUpZendoTimer</string>
+			<key>uniqueIdentifier</key>
+			<string>46F8FE15-F249-4515-AEEA-623C35F81B2C</string>
+		</dict>
+		<key>4BAD2233-84C2-4711-9760-190EC537E524</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>4BAD2233-84C2-4711-9760-190EC537E524.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PopUpZendoTimer project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PopUpZendoTimer</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build PopUpZendoTimer</string>
+			<key>timeStartedRecording</key>
+			<real>589386009.72433102</real>
+			<key>timeStoppedRecording</key>
+			<real>589386011.56484795</real>
+			<key>title</key>
+			<string>Build PopUpZendoTimer</string>
+			<key>uniqueIdentifier</key>
+			<string>4BAD2233-84C2-4711-9760-190EC537E524</string>
+		</dict>
+		<key>53AA6849-66B8-468E-B0BE-FA06CE111105</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>53AA6849-66B8-468E-B0BE-FA06CE111105.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PopUpZendoTimer project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PopUpZendoTimer</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build PopUpZendoTimer</string>
+			<key>timeStartedRecording</key>
+			<real>589345957.85921204</real>
+			<key>timeStoppedRecording</key>
+			<real>589345959.59718096</real>
+			<key>title</key>
+			<string>Build PopUpZendoTimer</string>
+			<key>uniqueIdentifier</key>
+			<string>53AA6849-66B8-468E-B0BE-FA06CE111105</string>
+		</dict>
+		<key>5951A30E-AE30-4394-B192-2176C2801E90</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>5951A30E-AE30-4394-B192-2176C2801E90.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PopUpZendoTimer project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PopUpZendoTimer</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build PopUpZendoTimer</string>
+			<key>timeStartedRecording</key>
+			<real>589385884.22516203</real>
+			<key>timeStoppedRecording</key>
+			<real>589385884.40688396</real>
+			<key>title</key>
+			<string>Build PopUpZendoTimer</string>
+			<key>uniqueIdentifier</key>
+			<string>5951A30E-AE30-4394-B192-2176C2801E90</string>
+		</dict>
+		<key>5CFAA8FA-9D63-4F6F-AF45-AEC92B2F7C4B</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>5CFAA8FA-9D63-4F6F-AF45-AEC92B2F7C4B.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PopUpZendoTimer project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PopUpZendoTimer</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build PopUpZendoTimer</string>
+			<key>timeStartedRecording</key>
+			<real>589334666.64933395</real>
+			<key>timeStoppedRecording</key>
+			<real>589334668.67732501</real>
+			<key>title</key>
+			<string>Build PopUpZendoTimer</string>
+			<key>uniqueIdentifier</key>
+			<string>5CFAA8FA-9D63-4F6F-AF45-AEC92B2F7C4B</string>
+		</dict>
+		<key>6286EF81-539A-4D7E-9334-86D040513DD3</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>6286EF81-539A-4D7E-9334-86D040513DD3.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PopUpZendoTimer project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PopUpZendoTimer</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build PopUpZendoTimer</string>
+			<key>timeStartedRecording</key>
+			<real>589333977.85150003</real>
+			<key>timeStoppedRecording</key>
+			<real>589333988.366611</real>
+			<key>title</key>
+			<string>Build PopUpZendoTimer</string>
+			<key>uniqueIdentifier</key>
+			<string>6286EF81-539A-4D7E-9334-86D040513DD3</string>
+		</dict>
+		<key>702594CA-962C-457C-8DBE-747740264434</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>702594CA-962C-457C-8DBE-747740264434.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PopUpZendoTimer project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PopUpZendoTimer</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build PopUpZendoTimer</string>
+			<key>timeStartedRecording</key>
+			<real>589348632.21359706</real>
+			<key>timeStoppedRecording</key>
+			<real>589348632.48065102</real>
+			<key>title</key>
+			<string>Build PopUpZendoTimer</string>
+			<key>uniqueIdentifier</key>
+			<string>702594CA-962C-457C-8DBE-747740264434</string>
+		</dict>
+		<key>70A0A146-A15F-4D4F-9DFA-B3308F2D7B80</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>70A0A146-A15F-4D4F-9DFA-B3308F2D7B80.xcactivitylog</string>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
@@ -1918,15 +702,15 @@
 			<key>signature</key>
 			<string>Clean PopUpZendoTimer</string>
 			<key>timeStartedRecording</key>
-			<real>588725183.33176196</real>
+			<real>589334828.014431</real>
 			<key>timeStoppedRecording</key>
-			<real>588725183.39470696</real>
+			<real>589334828.13969803</real>
 			<key>title</key>
 			<string>Clean PopUpZendoTimer</string>
 			<key>uniqueIdentifier</key>
-			<string>60972180-F963-42F3-8836-C40C92B7EDD8</string>
+			<string>70A0A146-A15F-4D4F-9DFA-B3308F2D7B80</string>
 		</dict>
-		<key>60F2FFEC-E1FA-4797-9FAE-E75D248448A2</key>
+		<key>7103D6FB-6838-4248-8642-C29876C9D30C</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -1935,11 +719,11 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>60F2FFEC-E1FA-4797-9FAE-E75D248448A2.xcactivitylog</string>
+			<string>7103D6FB-6838-4248-8642-C29876C9D30C.xcactivitylog</string>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
-				<string>W</string>
+				<string>S</string>
 			</dict>
 			<key>schemeIdentifier-containerName</key>
 			<string>PopUpZendoTimer project</string>
@@ -1950,15 +734,15 @@
 			<key>signature</key>
 			<string>Build PopUpZendoTimer</string>
 			<key>timeStartedRecording</key>
-			<real>588707717.56951296</real>
+			<real>589333964.80126703</real>
 			<key>timeStoppedRecording</key>
-			<real>588707718.41431606</real>
+			<real>589333975.17855895</real>
 			<key>title</key>
 			<string>Build PopUpZendoTimer</string>
 			<key>uniqueIdentifier</key>
-			<string>60F2FFEC-E1FA-4797-9FAE-E75D248448A2</string>
+			<string>7103D6FB-6838-4248-8642-C29876C9D30C</string>
 		</dict>
-		<key>61E4FCE6-7B98-45D6-9CEF-F9135A570429</key>
+		<key>724FDC43-BF45-425C-A9DB-5E6AFDDEF215</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -1967,11 +751,11 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>61E4FCE6-7B98-45D6-9CEF-F9135A570429.xcactivitylog</string>
+			<string>724FDC43-BF45-425C-A9DB-5E6AFDDEF215.xcactivitylog</string>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
-				<string>W</string>
+				<string>S</string>
 			</dict>
 			<key>schemeIdentifier-containerName</key>
 			<string>PopUpZendoTimer project</string>
@@ -1982,15 +766,15 @@
 			<key>signature</key>
 			<string>Build PopUpZendoTimer</string>
 			<key>timeStartedRecording</key>
-			<real>588725186.76273406</real>
+			<real>589345865.38481605</real>
 			<key>timeStoppedRecording</key>
-			<real>588725191.65474498</real>
+			<real>589345867.34117401</real>
 			<key>title</key>
 			<string>Build PopUpZendoTimer</string>
 			<key>uniqueIdentifier</key>
-			<string>61E4FCE6-7B98-45D6-9CEF-F9135A570429</string>
+			<string>724FDC43-BF45-425C-A9DB-5E6AFDDEF215</string>
 		</dict>
-		<key>643B6C94-E8D0-4832-A87D-66431F06C5FA</key>
+		<key>77A30B80-2301-42EC-9950-947529D4E790</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -1999,11 +783,11 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>643B6C94-E8D0-4832-A87D-66431F06C5FA.xcactivitylog</string>
+			<string>77A30B80-2301-42EC-9950-947529D4E790.xcactivitylog</string>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
-				<string>W</string>
+				<string>S</string>
 			</dict>
 			<key>schemeIdentifier-containerName</key>
 			<string>PopUpZendoTimer project</string>
@@ -2014,15 +798,15 @@
 			<key>signature</key>
 			<string>Build PopUpZendoTimer</string>
 			<key>timeStartedRecording</key>
-			<real>588719763.60758698</real>
+			<real>589345838.509408</real>
 			<key>timeStoppedRecording</key>
-			<real>588719763.74665904</real>
+			<real>589345840.34292805</real>
 			<key>title</key>
 			<string>Build PopUpZendoTimer</string>
 			<key>uniqueIdentifier</key>
-			<string>643B6C94-E8D0-4832-A87D-66431F06C5FA</string>
+			<string>77A30B80-2301-42EC-9950-947529D4E790</string>
 		</dict>
-		<key>6462D1E2-D9CD-4A6B-A2A9-F3CAC2A829D4</key>
+		<key>77C7395B-957C-4DAD-888F-7DD445352581</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -2031,11 +815,11 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>6462D1E2-D9CD-4A6B-A2A9-F3CAC2A829D4.xcactivitylog</string>
+			<string>77C7395B-957C-4DAD-888F-7DD445352581.xcactivitylog</string>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
-				<string>W</string>
+				<string>S</string>
 			</dict>
 			<key>schemeIdentifier-containerName</key>
 			<string>PopUpZendoTimer project</string>
@@ -2046,15 +830,15 @@
 			<key>signature</key>
 			<string>Build PopUpZendoTimer</string>
 			<key>timeStartedRecording</key>
-			<real>588742417.44152904</real>
+			<real>589347902.17519498</real>
 			<key>timeStoppedRecording</key>
-			<real>588742418.97474205</real>
+			<real>589347902.40622902</real>
 			<key>title</key>
 			<string>Build PopUpZendoTimer</string>
 			<key>uniqueIdentifier</key>
-			<string>6462D1E2-D9CD-4A6B-A2A9-F3CAC2A829D4</string>
+			<string>77C7395B-957C-4DAD-888F-7DD445352581</string>
 		</dict>
-		<key>65B7C081-35DE-4A06-932B-034133E7C071</key>
+		<key>787F54B2-BA35-4239-957F-9EFEC0187355</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -2063,7 +847,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>65B7C081-35DE-4A06-932B-034133E7C071.xcactivitylog</string>
+			<string>787F54B2-BA35-4239-957F-9EFEC0187355.xcactivitylog</string>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
@@ -2078,15 +862,15 @@
 			<key>signature</key>
 			<string>Build PopUpZendoTimer</string>
 			<key>timeStartedRecording</key>
-			<real>588782032.79813802</real>
+			<real>589346676.44309902</real>
 			<key>timeStoppedRecording</key>
-			<real>588782035.14868295</real>
+			<real>589346677.48587</real>
 			<key>title</key>
 			<string>Build PopUpZendoTimer</string>
 			<key>uniqueIdentifier</key>
-			<string>65B7C081-35DE-4A06-932B-034133E7C071</string>
+			<string>787F54B2-BA35-4239-957F-9EFEC0187355</string>
 		</dict>
-		<key>683C7DDF-9A12-47F8-A407-DADAC5B02CF3</key>
+		<key>7B5FC394-8667-4A62-9578-DCAD667AA0DA</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -2095,583 +879,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>683C7DDF-9A12-47F8-A407-DADAC5B02CF3.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588742763.60043299</real>
-			<key>timeStoppedRecording</key>
-			<real>588742765.02244997</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>683C7DDF-9A12-47F8-A407-DADAC5B02CF3</string>
-		</dict>
-		<key>683EA6A5-5462-4AD4-B45E-0769FF99628B</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>683EA6A5-5462-4AD4-B45E-0769FF99628B.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588782042.40564001</real>
-			<key>timeStoppedRecording</key>
-			<real>588782047.05857694</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>683EA6A5-5462-4AD4-B45E-0769FF99628B</string>
-		</dict>
-		<key>68600956-6F62-4A59-9DF0-719E3682B91F</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>68600956-6F62-4A59-9DF0-719E3682B91F.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588780845.50156796</real>
-			<key>timeStoppedRecording</key>
-			<real>588780848.94549</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>68600956-6F62-4A59-9DF0-719E3682B91F</string>
-		</dict>
-		<key>68C7EAC3-5D98-4A47-A11A-FEEB00EAD4F0</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>68C7EAC3-5D98-4A47-A11A-FEEB00EAD4F0.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588645410.77369106</real>
-			<key>timeStoppedRecording</key>
-			<real>588645412.774019</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>68C7EAC3-5D98-4A47-A11A-FEEB00EAD4F0</string>
-		</dict>
-		<key>6A145CF1-6183-46D3-8587-281A4E9FECC7</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>6A145CF1-6183-46D3-8587-281A4E9FECC7.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588726118.82345104</real>
-			<key>timeStoppedRecording</key>
-			<real>588726120.357651</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>6A145CF1-6183-46D3-8587-281A4E9FECC7</string>
-		</dict>
-		<key>6DB504A3-2424-4329-973F-80C857653797</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>6DB504A3-2424-4329-973F-80C857653797.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588723132.65683997</real>
-			<key>timeStoppedRecording</key>
-			<real>588723134.93235397</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>6DB504A3-2424-4329-973F-80C857653797</string>
-		</dict>
-		<key>6F158DA0-111B-442F-AD1F-09C491FB48C8</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>6F158DA0-111B-442F-AD1F-09C491FB48C8.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588718948.56279004</real>
-			<key>timeStoppedRecording</key>
-			<real>588718949.65725398</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>6F158DA0-111B-442F-AD1F-09C491FB48C8</string>
-		</dict>
-		<key>7050FB42-A6D1-4FA8-9288-D0FD209F1C0A</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>7050FB42-A6D1-4FA8-9288-D0FD209F1C0A.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588707576.90319097</real>
-			<key>timeStoppedRecording</key>
-			<real>588707577.807459</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>7050FB42-A6D1-4FA8-9288-D0FD209F1C0A</string>
-		</dict>
-		<key>7126803A-6E78-4290-95A8-0770F1834A81</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>7126803A-6E78-4290-95A8-0770F1834A81.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588718899.61014795</real>
-			<key>timeStoppedRecording</key>
-			<real>588718900.60940194</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>7126803A-6E78-4290-95A8-0770F1834A81</string>
-		</dict>
-		<key>714A96FC-A504-4F6F-BAF1-8214415FFD38</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>714A96FC-A504-4F6F-BAF1-8214415FFD38.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588780213.70026898</real>
-			<key>timeStoppedRecording</key>
-			<real>588780215.05305099</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>714A96FC-A504-4F6F-BAF1-8214415FFD38</string>
-		</dict>
-		<key>716B104F-A7EF-411F-A48A-C83BA26922C9</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>716B104F-A7EF-411F-A48A-C83BA26922C9.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588704120.03716302</real>
-			<key>timeStoppedRecording</key>
-			<real>588704121.52790296</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>716B104F-A7EF-411F-A48A-C83BA26922C9</string>
-		</dict>
-		<key>73CDFDD6-834A-49EC-8E6A-003425F3DD49</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>73CDFDD6-834A-49EC-8E6A-003425F3DD49.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588719996.91698599</real>
-			<key>timeStoppedRecording</key>
-			<real>588719997.82009804</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>73CDFDD6-834A-49EC-8E6A-003425F3DD49</string>
-		</dict>
-		<key>7885EE8D-A5CD-4814-9C19-3ECC53C9FBF9</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>7885EE8D-A5CD-4814-9C19-3ECC53C9FBF9.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588707339.70348597</real>
-			<key>timeStoppedRecording</key>
-			<real>588707340.65539396</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>7885EE8D-A5CD-4814-9C19-3ECC53C9FBF9</string>
-		</dict>
-		<key>79049544-6F7E-40A1-8C3A-26104B8F1BB0</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>79049544-6F7E-40A1-8C3A-26104B8F1BB0.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588747462.15589702</real>
-			<key>timeStoppedRecording</key>
-			<real>588747463.44270504</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>79049544-6F7E-40A1-8C3A-26104B8F1BB0</string>
-		</dict>
-		<key>7A3DBED4-08E9-4A0F-A713-B97504341B94</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>7A3DBED4-08E9-4A0F-A713-B97504341B94.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Archive PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588781780.15443397</real>
-			<key>timeStoppedRecording</key>
-			<real>588781789.85510099</real>
-			<key>title</key>
-			<string>Archive PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>7A3DBED4-08E9-4A0F-A713-B97504341B94</string>
-		</dict>
-		<key>7ABC3AB9-2715-4034-9191-E9E6ED2E35F0</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>7ABC3AB9-2715-4034-9191-E9E6ED2E35F0.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588782189.34575605</real>
-			<key>timeStoppedRecording</key>
-			<real>588782191.19496202</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>7ABC3AB9-2715-4034-9191-E9E6ED2E35F0</string>
-		</dict>
-		<key>7C24466A-BBD3-4C55-8CFF-8DF4E6728339</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>7C24466A-BBD3-4C55-8CFF-8DF4E6728339.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Archive PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588727956.75712001</real>
-			<key>timeStoppedRecording</key>
-			<real>588727965.03758597</real>
-			<key>title</key>
-			<string>Archive PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>7C24466A-BBD3-4C55-8CFF-8DF4E6728339</string>
-		</dict>
-		<key>7C428985-77A3-4F63-9154-444D2348C8F4</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>7C428985-77A3-4F63-9154-444D2348C8F4.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Clean PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588718823.07831895</real>
-			<key>timeStoppedRecording</key>
-			<real>588718823.33971596</real>
-			<key>title</key>
-			<string>Clean PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>7C428985-77A3-4F63-9154-444D2348C8F4</string>
-		</dict>
-		<key>7D9ED57B-AF92-435F-9078-C4B8AC711C27</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>7D9ED57B-AF92-435F-9078-C4B8AC711C27.xcactivitylog</string>
+			<string>7B5FC394-8667-4A62-9578-DCAD667AA0DA.xcactivitylog</string>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
@@ -2686,15 +894,15 @@
 			<key>signature</key>
 			<string>Build PopUpZendoTimer</string>
 			<key>timeStartedRecording</key>
-			<real>588646512.05708802</real>
+			<real>589397063.07728505</real>
 			<key>timeStoppedRecording</key>
-			<real>588646512.972242</real>
+			<real>589397063.18253505</real>
 			<key>title</key>
 			<string>Build PopUpZendoTimer</string>
 			<key>uniqueIdentifier</key>
-			<string>7D9ED57B-AF92-435F-9078-C4B8AC711C27</string>
+			<string>7B5FC394-8667-4A62-9578-DCAD667AA0DA</string>
 		</dict>
-		<key>7DEBA2D9-C7EC-4500-9ADE-97F1346AE4B5</key>
+		<key>7C62DE33-AE08-4B69-97D9-0C7FB9A31E4B</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -2703,391 +911,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>7DEBA2D9-C7EC-4500-9ADE-97F1346AE4B5.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588747987.82141805</real>
-			<key>timeStoppedRecording</key>
-			<real>588747989.09122705</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>7DEBA2D9-C7EC-4500-9ADE-97F1346AE4B5</string>
-		</dict>
-		<key>82ECC141-4713-481E-BA1C-5E1BABB2EBB2</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>82ECC141-4713-481E-BA1C-5E1BABB2EBB2.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588721972.42261302</real>
-			<key>timeStoppedRecording</key>
-			<real>588721976.54015696</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>82ECC141-4713-481E-BA1C-5E1BABB2EBB2</string>
-		</dict>
-		<key>8327DE6A-30B9-4A54-BA56-F7246340FC91</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>8327DE6A-30B9-4A54-BA56-F7246340FC91.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Archive PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588727988.74957204</real>
-			<key>timeStoppedRecording</key>
-			<real>588727996.12204003</real>
-			<key>title</key>
-			<string>Archive PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>8327DE6A-30B9-4A54-BA56-F7246340FC91</string>
-		</dict>
-		<key>863F4AA1-1563-40C9-B222-ECB245178564</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>863F4AA1-1563-40C9-B222-ECB245178564.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588708447.23190999</real>
-			<key>timeStoppedRecording</key>
-			<real>588708451.82467306</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>863F4AA1-1563-40C9-B222-ECB245178564</string>
-		</dict>
-		<key>87EF7855-36F3-43C6-B982-84FFA3213C10</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>87EF7855-36F3-43C6-B982-84FFA3213C10.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588707925.43957198</real>
-			<key>timeStoppedRecording</key>
-			<real>588707926.363603</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>87EF7855-36F3-43C6-B982-84FFA3213C10</string>
-		</dict>
-		<key>89E069C6-33DF-425C-80DA-7BCC1899ABD3</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>89E069C6-33DF-425C-80DA-7BCC1899ABD3.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Archive PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588646860.80840898</real>
-			<key>timeStoppedRecording</key>
-			<real>588646869.77869701</real>
-			<key>title</key>
-			<string>Archive PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>89E069C6-33DF-425C-80DA-7BCC1899ABD3</string>
-		</dict>
-		<key>8B38319D-81E6-439F-A9A5-2BDF2AEBDC60</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>8B38319D-81E6-439F-A9A5-2BDF2AEBDC60.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588779613.66250205</real>
-			<key>timeStoppedRecording</key>
-			<real>588779614.925699</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>8B38319D-81E6-439F-A9A5-2BDF2AEBDC60</string>
-		</dict>
-		<key>8CD8EC86-808D-4EB7-B114-1A2D79AF60EA</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>8CD8EC86-808D-4EB7-B114-1A2D79AF60EA.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588727751.45756304</real>
-			<key>timeStoppedRecording</key>
-			<real>588727751.63983595</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>8CD8EC86-808D-4EB7-B114-1A2D79AF60EA</string>
-		</dict>
-		<key>8E256206-4427-428E-9272-FABD36AD5152</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>8E256206-4427-428E-9272-FABD36AD5152.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588705260.40259397</real>
-			<key>timeStoppedRecording</key>
-			<real>588705264.30190504</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>8E256206-4427-428E-9272-FABD36AD5152</string>
-		</dict>
-		<key>8E88AC26-72ED-4A65-8AD8-A01EBE070646</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>8E88AC26-72ED-4A65-8AD8-A01EBE070646.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588720106.73413301</real>
-			<key>timeStoppedRecording</key>
-			<real>588720107.58018601</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>8E88AC26-72ED-4A65-8AD8-A01EBE070646</string>
-		</dict>
-		<key>9028B896-E025-4E5A-B7BF-C90B7A07B53F</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>9028B896-E025-4E5A-B7BF-C90B7A07B53F.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588779973.07842004</real>
-			<key>timeStoppedRecording</key>
-			<real>588779974.31021798</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>9028B896-E025-4E5A-B7BF-C90B7A07B53F</string>
-		</dict>
-		<key>94040E55-85F1-4366-9433-C2B765D20526</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>94040E55-85F1-4366-9433-C2B765D20526.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588707505.81800795</real>
-			<key>timeStoppedRecording</key>
-			<real>588707506.78453803</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>94040E55-85F1-4366-9433-C2B765D20526</string>
-		</dict>
-		<key>99386E78-3538-4926-A7DE-CAC870C3BD6B</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>99386E78-3538-4926-A7DE-CAC870C3BD6B.xcactivitylog</string>
+			<string>7C62DE33-AE08-4B69-97D9-0C7FB9A31E4B.xcactivitylog</string>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
@@ -3102,15 +926,15 @@
 			<key>signature</key>
 			<string>Build PopUpZendoTimer</string>
 			<key>timeStartedRecording</key>
-			<real>588744867.10269701</real>
+			<real>589333954.79300904</real>
 			<key>timeStoppedRecording</key>
-			<real>588744870.17580903</real>
+			<real>589333956.71861398</real>
 			<key>title</key>
 			<string>Build PopUpZendoTimer</string>
 			<key>uniqueIdentifier</key>
-			<string>99386E78-3538-4926-A7DE-CAC870C3BD6B</string>
+			<string>7C62DE33-AE08-4B69-97D9-0C7FB9A31E4B</string>
 		</dict>
-		<key>9F3BCAE2-F797-4EA9-BCA8-25185A767CEC</key>
+		<key>7C7916AF-5FAF-435D-ABFC-3ADFE4CD8195</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -3119,71 +943,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>9F3BCAE2-F797-4EA9-BCA8-25185A767CEC.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588645650.89416003</real>
-			<key>timeStoppedRecording</key>
-			<real>588645652.47598505</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>9F3BCAE2-F797-4EA9-BCA8-25185A767CEC</string>
-		</dict>
-		<key>A0EBDE13-04A0-47CC-980C-C722812F3B61</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>A0EBDE13-04A0-47CC-980C-C722812F3B61.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588646296.06666601</real>
-			<key>timeStoppedRecording</key>
-			<real>588646298.95231497</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>A0EBDE13-04A0-47CC-980C-C722812F3B61</string>
-		</dict>
-		<key>A1381FA2-F5E8-48BE-9F42-898324792EC4</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>A1381FA2-F5E8-48BE-9F42-898324792EC4.xcactivitylog</string>
+			<string>7C7916AF-5FAF-435D-ABFC-3ADFE4CD8195.xcactivitylog</string>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
@@ -3196,17 +956,17 @@
 			<key>schemeIdentifier-sharedScheme</key>
 			<integer>1</integer>
 			<key>signature</key>
-			<string>Clean PopUpZendoTimer</string>
+			<string>Build PopUpZendoTimer</string>
 			<key>timeStartedRecording</key>
-			<real>588725165.82264805</real>
+			<real>589396550.84217203</real>
 			<key>timeStoppedRecording</key>
-			<real>588725165.98306501</real>
+			<real>589396553.35045397</real>
 			<key>title</key>
-			<string>Clean PopUpZendoTimer</string>
+			<string>Build PopUpZendoTimer</string>
 			<key>uniqueIdentifier</key>
-			<string>A1381FA2-F5E8-48BE-9F42-898324792EC4</string>
+			<string>7C7916AF-5FAF-435D-ABFC-3ADFE4CD8195</string>
 		</dict>
-		<key>A2E49B4C-F8EC-44B0-BAC9-771069AA09A6</key>
+		<key>83AE5214-17EA-4EE7-88AD-594614839A14</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -3215,135 +975,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>A2E49B4C-F8EC-44B0-BAC9-771069AA09A6.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588719366.00716698</real>
-			<key>timeStoppedRecording</key>
-			<real>588719367.10720396</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>A2E49B4C-F8EC-44B0-BAC9-771069AA09A6</string>
-		</dict>
-		<key>A555810F-DE2C-4652-968C-836BBD65E824</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>A555810F-DE2C-4652-968C-836BBD65E824.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588723233.10076904</real>
-			<key>timeStoppedRecording</key>
-			<real>588723234.15981805</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>A555810F-DE2C-4652-968C-836BBD65E824</string>
-		</dict>
-		<key>ADA4BA2A-E7EA-4903-B7C3-24CA861C3848</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>ADA4BA2A-E7EA-4903-B7C3-24CA861C3848.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588781064.90089798</real>
-			<key>timeStoppedRecording</key>
-			<real>588781067.77639103</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>ADA4BA2A-E7EA-4903-B7C3-24CA861C3848</string>
-		</dict>
-		<key>ADEFC281-44FC-4069-90E5-888E2338CFB2</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>ADEFC281-44FC-4069-90E5-888E2338CFB2.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588725259.09150398</real>
-			<key>timeStoppedRecording</key>
-			<real>588725260.08837497</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>ADEFC281-44FC-4069-90E5-888E2338CFB2</string>
-		</dict>
-		<key>AEAC5E88-540E-4795-ADF9-FE1336A75FB2</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>AEAC5E88-540E-4795-ADF9-FE1336A75FB2.xcactivitylog</string>
+			<string>83AE5214-17EA-4EE7-88AD-594614839A14.xcactivitylog</string>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
@@ -3356,17 +988,17 @@
 			<key>schemeIdentifier-sharedScheme</key>
 			<integer>1</integer>
 			<key>signature</key>
-			<string>Clean PopUpZendoTimer</string>
+			<string>Build PopUpZendoTimer</string>
 			<key>timeStartedRecording</key>
-			<real>588748148.77603304</real>
+			<real>589345793.616714</real>
 			<key>timeStoppedRecording</key>
-			<real>588748148.92626095</real>
+			<real>589345795.605708</real>
 			<key>title</key>
-			<string>Clean PopUpZendoTimer</string>
+			<string>Build PopUpZendoTimer</string>
 			<key>uniqueIdentifier</key>
-			<string>AEAC5E88-540E-4795-ADF9-FE1336A75FB2</string>
+			<string>83AE5214-17EA-4EE7-88AD-594614839A14</string>
 		</dict>
-		<key>AF3AA1CC-F680-40AE-8542-209438DE6A77</key>
+		<key>8652E729-F388-40FD-832A-342474794FED</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -3375,295 +1007,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>AF3AA1CC-F680-40AE-8542-209438DE6A77.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588722299.36894202</real>
-			<key>timeStoppedRecording</key>
-			<real>588722301.43526697</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>AF3AA1CC-F680-40AE-8542-209438DE6A77</string>
-		</dict>
-		<key>B7AF9FCA-7A76-4B51-8E49-CABCE10F760D</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>B7AF9FCA-7A76-4B51-8E49-CABCE10F760D.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588725933.48625302</real>
-			<key>timeStoppedRecording</key>
-			<real>588725937.56838703</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>B7AF9FCA-7A76-4B51-8E49-CABCE10F760D</string>
-		</dict>
-		<key>BB14DBA4-CE97-413F-B4A4-34919C5928B7</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>BB14DBA4-CE97-413F-B4A4-34919C5928B7.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588645706.77014399</real>
-			<key>timeStoppedRecording</key>
-			<real>588645707.44583499</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>BB14DBA4-CE97-413F-B4A4-34919C5928B7</string>
-		</dict>
-		<key>BB471304-3E3F-421E-81C6-37098351610F</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>BB471304-3E3F-421E-81C6-37098351610F.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588724511.88663101</real>
-			<key>timeStoppedRecording</key>
-			<real>588724516.86694503</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>BB471304-3E3F-421E-81C6-37098351610F</string>
-		</dict>
-		<key>BC95E22E-15EC-4D6C-BD6B-3EE8007A9934</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>BC95E22E-15EC-4D6C-BD6B-3EE8007A9934.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588747280.89180398</real>
-			<key>timeStoppedRecording</key>
-			<real>588747286.57244396</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>BC95E22E-15EC-4D6C-BD6B-3EE8007A9934</string>
-		</dict>
-		<key>BD11548E-D2B5-4D41-A7D3-3C7D48CF6C49</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>BD11548E-D2B5-4D41-A7D3-3C7D48CF6C49.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588565656.31966603</real>
-			<key>timeStoppedRecording</key>
-			<real>588565657.49875295</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>BD11548E-D2B5-4D41-A7D3-3C7D48CF6C49</string>
-		</dict>
-		<key>BD5E5F24-AF65-4D4E-BE89-4FEC91AE4542</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>BD5E5F24-AF65-4D4E-BE89-4FEC91AE4542.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588707765.87107301</real>
-			<key>timeStoppedRecording</key>
-			<real>588707766.81598198</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>BD5E5F24-AF65-4D4E-BE89-4FEC91AE4542</string>
-		</dict>
-		<key>BEF8A446-AD45-440A-9D66-1066B0BC69D3</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>BEF8A446-AD45-440A-9D66-1066B0BC69D3.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588780175.90268195</real>
-			<key>timeStoppedRecording</key>
-			<real>588780177.314731</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>BEF8A446-AD45-440A-9D66-1066B0BC69D3</string>
-		</dict>
-		<key>C0AF082E-D0DA-4D6C-A5C7-623FA2BF1EA2</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>C0AF082E-D0DA-4D6C-A5C7-623FA2BF1EA2.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588720187.63717103</real>
-			<key>timeStoppedRecording</key>
-			<real>588720189.32925701</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>C0AF082E-D0DA-4D6C-A5C7-623FA2BF1EA2</string>
-		</dict>
-		<key>C105DA1B-B03F-4007-8316-7E4CB16D1CDE</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>C105DA1B-B03F-4007-8316-7E4CB16D1CDE.xcactivitylog</string>
+			<string>8652E729-F388-40FD-832A-342474794FED.xcactivitylog</string>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
@@ -3678,15 +1022,15 @@
 			<key>signature</key>
 			<string>Build PopUpZendoTimer</string>
 			<key>timeStartedRecording</key>
-			<real>588744231.85471404</real>
+			<real>589385385.19969904</real>
 			<key>timeStoppedRecording</key>
-			<real>588744233.01458597</real>
+			<real>589385387.94882905</real>
 			<key>title</key>
 			<string>Build PopUpZendoTimer</string>
 			<key>uniqueIdentifier</key>
-			<string>C105DA1B-B03F-4007-8316-7E4CB16D1CDE</string>
+			<string>8652E729-F388-40FD-832A-342474794FED</string>
 		</dict>
-		<key>C1E98317-9312-45CC-A5BF-0C56DC227E0D</key>
+		<key>8A832502-8829-4A12-85D7-06CEC2C147A1</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -3695,11 +1039,11 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>C1E98317-9312-45CC-A5BF-0C56DC227E0D.xcactivitylog</string>
+			<string>8A832502-8829-4A12-85D7-06CEC2C147A1.xcactivitylog</string>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
-				<string>W</string>
+				<string>S</string>
 			</dict>
 			<key>schemeIdentifier-containerName</key>
 			<string>PopUpZendoTimer project</string>
@@ -3710,15 +1054,15 @@
 			<key>signature</key>
 			<string>Build PopUpZendoTimer</string>
 			<key>timeStartedRecording</key>
-			<real>588727803.55729401</real>
+			<real>589348498.59488499</real>
 			<key>timeStoppedRecording</key>
-			<real>588727805.07045305</real>
+			<real>589348498.84157097</real>
 			<key>title</key>
 			<string>Build PopUpZendoTimer</string>
 			<key>uniqueIdentifier</key>
-			<string>C1E98317-9312-45CC-A5BF-0C56DC227E0D</string>
+			<string>8A832502-8829-4A12-85D7-06CEC2C147A1</string>
 		</dict>
-		<key>C586D039-9A07-42DE-A8BA-4CDAFB8A1B56</key>
+		<key>8D046778-77D4-4E07-A2EE-DBD7119D196F</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -3727,11 +1071,11 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>C586D039-9A07-42DE-A8BA-4CDAFB8A1B56.xcactivitylog</string>
+			<string>8D046778-77D4-4E07-A2EE-DBD7119D196F.xcactivitylog</string>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
-				<string>W</string>
+				<string>S</string>
 			</dict>
 			<key>schemeIdentifier-containerName</key>
 			<string>PopUpZendoTimer project</string>
@@ -3742,15 +1086,15 @@
 			<key>signature</key>
 			<string>Build PopUpZendoTimer</string>
 			<key>timeStartedRecording</key>
-			<real>588707270.76731503</real>
+			<real>589386075.79459</real>
 			<key>timeStoppedRecording</key>
-			<real>588707273.57008004</real>
+			<real>589386077.67895496</real>
 			<key>title</key>
 			<string>Build PopUpZendoTimer</string>
 			<key>uniqueIdentifier</key>
-			<string>C586D039-9A07-42DE-A8BA-4CDAFB8A1B56</string>
+			<string>8D046778-77D4-4E07-A2EE-DBD7119D196F</string>
 		</dict>
-		<key>C93D10F4-2F4A-45F4-AF0D-9391E56094A3</key>
+		<key>91CCCC60-92D1-4709-B442-E4C54CB78613</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -3759,11 +1103,11 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>C93D10F4-2F4A-45F4-AF0D-9391E56094A3.xcactivitylog</string>
+			<string>91CCCC60-92D1-4709-B442-E4C54CB78613.xcactivitylog</string>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
-				<string>W</string>
+				<string>S</string>
 			</dict>
 			<key>schemeIdentifier-containerName</key>
 			<string>PopUpZendoTimer project</string>
@@ -3774,15 +1118,15 @@
 			<key>signature</key>
 			<string>Build PopUpZendoTimer</string>
 			<key>timeStartedRecording</key>
-			<real>588781248.35950899</real>
+			<real>589396439.36781394</real>
 			<key>timeStoppedRecording</key>
-			<real>588781249.954247</real>
+			<real>589396451.56470394</real>
 			<key>title</key>
 			<string>Build PopUpZendoTimer</string>
 			<key>uniqueIdentifier</key>
-			<string>C93D10F4-2F4A-45F4-AF0D-9391E56094A3</string>
+			<string>91CCCC60-92D1-4709-B442-E4C54CB78613</string>
 		</dict>
-		<key>C93D409C-EDC7-43FD-8559-6B25302CBFD5</key>
+		<key>9255AC25-7ABE-4BF9-8681-07B9804E2AC3</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -3791,327 +1135,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>C93D409C-EDC7-43FD-8559-6B25302CBFD5.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588707436.51372504</real>
-			<key>timeStoppedRecording</key>
-			<real>588707437.44158304</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>C93D409C-EDC7-43FD-8559-6B25302CBFD5</string>
-		</dict>
-		<key>CE5D9D54-45BA-46B7-B41B-7FB0C8C76290</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>CE5D9D54-45BA-46B7-B41B-7FB0C8C76290.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588747755.38395798</real>
-			<key>timeStoppedRecording</key>
-			<real>588747756.18756902</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>CE5D9D54-45BA-46B7-B41B-7FB0C8C76290</string>
-		</dict>
-		<key>D4D5822B-EA75-4D42-BFDA-9B8B91049DFD</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>D4D5822B-EA75-4D42-BFDA-9B8B91049DFD.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588727723.92599404</real>
-			<key>timeStoppedRecording</key>
-			<real>588727726.85464895</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>D4D5822B-EA75-4D42-BFDA-9B8B91049DFD</string>
-		</dict>
-		<key>D4E7AB21-2539-4AD9-B3B0-A796B43F0409</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>D4E7AB21-2539-4AD9-B3B0-A796B43F0409.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588742207.99819005</real>
-			<key>timeStoppedRecording</key>
-			<real>588742209.487993</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>D4E7AB21-2539-4AD9-B3B0-A796B43F0409</string>
-		</dict>
-		<key>DFBC27B2-C657-4A9C-BCFF-FE7518227C80</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>DFBC27B2-C657-4A9C-BCFF-FE7518227C80.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588724636.37604201</real>
-			<key>timeStoppedRecording</key>
-			<real>588724637.78154397</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>DFBC27B2-C657-4A9C-BCFF-FE7518227C80</string>
-		</dict>
-		<key>E1C7BD6E-B39A-4B7B-82DA-F508DC96DD7C</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>E1C7BD6E-B39A-4B7B-82DA-F508DC96DD7C.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588707397.42535996</real>
-			<key>timeStoppedRecording</key>
-			<real>588707398.33258402</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>E1C7BD6E-B39A-4B7B-82DA-F508DC96DD7C</string>
-		</dict>
-		<key>E263856F-05F9-4DB6-B762-F243B9D990C2</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>E263856F-05F9-4DB6-B762-F243B9D990C2.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588719000.24422002</real>
-			<key>timeStoppedRecording</key>
-			<real>588719001.225021</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>E263856F-05F9-4DB6-B762-F243B9D990C2</string>
-		</dict>
-		<key>E3E9B36D-071E-4E0B-AD47-7D3CF7C96961</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>E3E9B36D-071E-4E0B-AD47-7D3CF7C96961.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588727347.19085503</real>
-			<key>timeStoppedRecording</key>
-			<real>588727348.38403797</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>E3E9B36D-071E-4E0B-AD47-7D3CF7C96961</string>
-		</dict>
-		<key>E4AA568F-E45A-41F0-9910-47E4E21A918D</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>E4AA568F-E45A-41F0-9910-47E4E21A918D.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588743994.09818494</real>
-			<key>timeStoppedRecording</key>
-			<real>588743995.74831903</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>E4AA568F-E45A-41F0-9910-47E4E21A918D</string>
-		</dict>
-		<key>E8FB0EC9-1452-47E4-B1C8-AFDA7F048B31</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>E8FB0EC9-1452-47E4-B1C8-AFDA7F048B31.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588710653.96786797</real>
-			<key>timeStoppedRecording</key>
-			<real>588710658.93666303</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>E8FB0EC9-1452-47E4-B1C8-AFDA7F048B31</string>
-		</dict>
-		<key>EA4BB34B-7920-4AE7-80A7-90F86D36AD22</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>EA4BB34B-7920-4AE7-80A7-90F86D36AD22.xcactivitylog</string>
+			<string>9255AC25-7ABE-4BF9-8681-07B9804E2AC3.xcactivitylog</string>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
@@ -4126,15 +1150,15 @@
 			<key>signature</key>
 			<string>Clean PopUpZendoTimer</string>
 			<key>timeStartedRecording</key>
-			<real>588747039.67421901</real>
+			<real>589346471.02667105</real>
 			<key>timeStoppedRecording</key>
-			<real>588747039.82470596</real>
+			<real>589346471.216658</real>
 			<key>title</key>
 			<string>Clean PopUpZendoTimer</string>
 			<key>uniqueIdentifier</key>
-			<string>EA4BB34B-7920-4AE7-80A7-90F86D36AD22</string>
+			<string>9255AC25-7ABE-4BF9-8681-07B9804E2AC3</string>
 		</dict>
-		<key>F0A00DC1-7D61-49B5-98CD-1FC46E44C2EA</key>
+		<key>9EB9891A-006E-4B4E-AC11-D4CC8BC4FD97</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -4143,199 +1167,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>F0A00DC1-7D61-49B5-98CD-1FC46E44C2EA.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588743188.592996</real>
-			<key>timeStoppedRecording</key>
-			<real>588743189.98953104</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>F0A00DC1-7D61-49B5-98CD-1FC46E44C2EA</string>
-		</dict>
-		<key>F3834588-A9D5-4182-8FEC-7DFCD24F380B</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>F3834588-A9D5-4182-8FEC-7DFCD24F380B.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588726991.81524706</real>
-			<key>timeStoppedRecording</key>
-			<real>588726993.53410995</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>F3834588-A9D5-4182-8FEC-7DFCD24F380B</string>
-		</dict>
-		<key>F685080B-B2D3-4D25-8B10-6C2765F2D924</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>F685080B-B2D3-4D25-8B10-6C2765F2D924.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588744628.20372796</real>
-			<key>timeStoppedRecording</key>
-			<real>588744629.96935499</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>F685080B-B2D3-4D25-8B10-6C2765F2D924</string>
-		</dict>
-		<key>F6F0A3A8-5E9B-4582-A8EE-82F8AED7382C</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>F6F0A3A8-5E9B-4582-A8EE-82F8AED7382C.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588719571.90400505</real>
-			<key>timeStoppedRecording</key>
-			<real>588719572.73648906</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>F6F0A3A8-5E9B-4582-A8EE-82F8AED7382C</string>
-		</dict>
-		<key>F85F273C-74B7-45CA-9DAE-3CBA83AF9AAE</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>F85F273C-74B7-45CA-9DAE-3CBA83AF9AAE.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588712105.12703204</real>
-			<key>timeStoppedRecording</key>
-			<real>588712107.53106594</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>F85F273C-74B7-45CA-9DAE-3CBA83AF9AAE</string>
-		</dict>
-		<key>F9749388-F8B1-4BA0-8745-B071D344EBCF</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>F9749388-F8B1-4BA0-8745-B071D344EBCF.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PopUpZendoTimer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PopUpZendoTimer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>timeStartedRecording</key>
-			<real>588779548.02753401</real>
-			<key>timeStoppedRecording</key>
-			<real>588779550.07598901</real>
-			<key>title</key>
-			<string>Build PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>F9749388-F8B1-4BA0-8745-B071D344EBCF</string>
-		</dict>
-		<key>FB967C16-12D4-4636-A5F9-97A87F00392C</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>FB967C16-12D4-4636-A5F9-97A87F00392C.xcactivitylog</string>
+			<string>9EB9891A-006E-4B4E-AC11-D4CC8BC4FD97.xcactivitylog</string>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
@@ -4350,15 +1182,15 @@
 			<key>signature</key>
 			<string>Clean PopUpZendoTimer</string>
 			<key>timeStartedRecording</key>
-			<real>588782039.56670105</real>
+			<real>589333975.53885102</real>
 			<key>timeStoppedRecording</key>
-			<real>588782039.71516097</real>
+			<real>589333975.85696101</real>
 			<key>title</key>
 			<string>Clean PopUpZendoTimer</string>
 			<key>uniqueIdentifier</key>
-			<string>FB967C16-12D4-4636-A5F9-97A87F00392C</string>
+			<string>9EB9891A-006E-4B4E-AC11-D4CC8BC4FD97</string>
 		</dict>
-		<key>FF51D253-68CE-4BE7-9BF0-4CD82950A7CB</key>
+		<key>A29E193B-F922-4BD8-BB34-D75677077E66</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -4367,11 +1199,43 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>FF51D253-68CE-4BE7-9BF0-4CD82950A7CB.xcactivitylog</string>
+			<string>A29E193B-F922-4BD8-BB34-D75677077E66.xcactivitylog</string>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
-				<string>W</string>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PopUpZendoTimer project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PopUpZendoTimer</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Clean PopUpZendoTimer</string>
+			<key>timeStartedRecording</key>
+			<real>589385391.92273903</real>
+			<key>timeStoppedRecording</key>
+			<real>589385392.11227298</real>
+			<key>title</key>
+			<string>Clean PopUpZendoTimer</string>
+			<key>uniqueIdentifier</key>
+			<string>A29E193B-F922-4BD8-BB34-D75677077E66</string>
+		</dict>
+		<key>A72F9081-5CD3-47F7-9D59-ED4D5E662CC3</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>A72F9081-5CD3-47F7-9D59-ED4D5E662CC3.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
 			</dict>
 			<key>schemeIdentifier-containerName</key>
 			<string>PopUpZendoTimer project</string>
@@ -4382,13 +1246,845 @@
 			<key>signature</key>
 			<string>Build PopUpZendoTimer</string>
 			<key>timeStartedRecording</key>
-			<real>588722739.63579297</real>
+			<real>589332586.26831698</real>
 			<key>timeStoppedRecording</key>
-			<real>588722742.94204795</real>
+			<real>589332590.86844301</real>
 			<key>title</key>
 			<string>Build PopUpZendoTimer</string>
 			<key>uniqueIdentifier</key>
-			<string>FF51D253-68CE-4BE7-9BF0-4CD82950A7CB</string>
+			<string>A72F9081-5CD3-47F7-9D59-ED4D5E662CC3</string>
+		</dict>
+		<key>AA0C35C0-3B09-43D4-9335-A4B12007E009</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>AA0C35C0-3B09-43D4-9335-A4B12007E009.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PopUpZendoTimer project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PopUpZendoTimer</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build PopUpZendoTimer</string>
+			<key>timeStartedRecording</key>
+			<real>589333709.91390598</real>
+			<key>timeStoppedRecording</key>
+			<real>589333714.33000505</real>
+			<key>title</key>
+			<string>Build PopUpZendoTimer</string>
+			<key>uniqueIdentifier</key>
+			<string>AA0C35C0-3B09-43D4-9335-A4B12007E009</string>
+		</dict>
+		<key>AA3E8A28-53DE-4FA4-9C71-6171172B9130</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>AA3E8A28-53DE-4FA4-9C71-6171172B9130.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PopUpZendoTimer project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PopUpZendoTimer</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build PopUpZendoTimer</string>
+			<key>timeStartedRecording</key>
+			<real>589396329.90850997</real>
+			<key>timeStoppedRecording</key>
+			<real>589396333.92565</real>
+			<key>title</key>
+			<string>Build PopUpZendoTimer</string>
+			<key>uniqueIdentifier</key>
+			<string>AA3E8A28-53DE-4FA4-9C71-6171172B9130</string>
+		</dict>
+		<key>ABE9982D-C296-451E-B20D-632A2F7016AB</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>ABE9982D-C296-451E-B20D-632A2F7016AB.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PopUpZendoTimer project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PopUpZendoTimer</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build PopUpZendoTimer</string>
+			<key>timeStartedRecording</key>
+			<real>589345583.89789605</real>
+			<key>timeStoppedRecording</key>
+			<real>589345590.79113698</real>
+			<key>title</key>
+			<string>Build PopUpZendoTimer</string>
+			<key>uniqueIdentifier</key>
+			<string>ABE9982D-C296-451E-B20D-632A2F7016AB</string>
+		</dict>
+		<key>AE5ACEDE-5423-49A9-BBA3-7009DA3AB03A</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>AE5ACEDE-5423-49A9-BBA3-7009DA3AB03A.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PopUpZendoTimer project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PopUpZendoTimer</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build PopUpZendoTimer</string>
+			<key>timeStartedRecording</key>
+			<real>589333847.04210603</real>
+			<key>timeStoppedRecording</key>
+			<real>589333847.17853606</real>
+			<key>title</key>
+			<string>Build PopUpZendoTimer</string>
+			<key>uniqueIdentifier</key>
+			<string>AE5ACEDE-5423-49A9-BBA3-7009DA3AB03A</string>
+		</dict>
+		<key>B6BB459B-4BCC-41A5-AB5A-C73E49C78C22</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>B6BB459B-4BCC-41A5-AB5A-C73E49C78C22.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PopUpZendoTimer project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PopUpZendoTimer</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build PopUpZendoTimer</string>
+			<key>timeStartedRecording</key>
+			<real>589334239.84384501</real>
+			<key>timeStoppedRecording</key>
+			<real>589334241.59118295</real>
+			<key>title</key>
+			<string>Build PopUpZendoTimer</string>
+			<key>uniqueIdentifier</key>
+			<string>B6BB459B-4BCC-41A5-AB5A-C73E49C78C22</string>
+		</dict>
+		<key>BBFE93A2-0ADC-4616-ADA5-3C33E433B350</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>BBFE93A2-0ADC-4616-ADA5-3C33E433B350.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PopUpZendoTimer project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PopUpZendoTimer</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build PopUpZendoTimer</string>
+			<key>timeStartedRecording</key>
+			<real>589333534.05025101</real>
+			<key>timeStoppedRecording</key>
+			<real>589333538.79295599</real>
+			<key>title</key>
+			<string>Build PopUpZendoTimer</string>
+			<key>uniqueIdentifier</key>
+			<string>BBFE93A2-0ADC-4616-ADA5-3C33E433B350</string>
+		</dict>
+		<key>C5460827-E612-4FE9-BA01-2B09D10C3F01</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>C5460827-E612-4FE9-BA01-2B09D10C3F01.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PopUpZendoTimer project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PopUpZendoTimer</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build PopUpZendoTimer</string>
+			<key>timeStartedRecording</key>
+			<real>589386164.76565802</real>
+			<key>timeStoppedRecording</key>
+			<real>589386166.43384004</real>
+			<key>title</key>
+			<string>Build PopUpZendoTimer</string>
+			<key>uniqueIdentifier</key>
+			<string>C5460827-E612-4FE9-BA01-2B09D10C3F01</string>
+		</dict>
+		<key>C5A3D8B5-1A0D-419F-9C7F-273617B3E173</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>C5A3D8B5-1A0D-419F-9C7F-273617B3E173.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PopUpZendoTimer project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PopUpZendoTimer</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build PopUpZendoTimer</string>
+			<key>timeStartedRecording</key>
+			<real>589346041.04175401</real>
+			<key>timeStoppedRecording</key>
+			<real>589346042.74597502</real>
+			<key>title</key>
+			<string>Build PopUpZendoTimer</string>
+			<key>uniqueIdentifier</key>
+			<string>C5A3D8B5-1A0D-419F-9C7F-273617B3E173</string>
+		</dict>
+		<key>C5CAB47C-CF30-4958-BDD2-9E25309A4066</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>C5CAB47C-CF30-4958-BDD2-9E25309A4066.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PopUpZendoTimer project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PopUpZendoTimer</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build PopUpZendoTimer</string>
+			<key>timeStartedRecording</key>
+			<real>589346601.185619</real>
+			<key>timeStoppedRecording</key>
+			<real>589346610.47446203</real>
+			<key>title</key>
+			<string>Build PopUpZendoTimer</string>
+			<key>uniqueIdentifier</key>
+			<string>C5CAB47C-CF30-4958-BDD2-9E25309A4066</string>
+		</dict>
+		<key>C6F907AF-A456-44BE-AF9E-9390694260F2</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>C6F907AF-A456-44BE-AF9E-9390694260F2.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PopUpZendoTimer project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PopUpZendoTimer</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build PopUpZendoTimer</string>
+			<key>timeStartedRecording</key>
+			<real>589386054.75466001</real>
+			<key>timeStoppedRecording</key>
+			<real>589386056.69398701</real>
+			<key>title</key>
+			<string>Build PopUpZendoTimer</string>
+			<key>uniqueIdentifier</key>
+			<string>C6F907AF-A456-44BE-AF9E-9390694260F2</string>
+		</dict>
+		<key>CAEB0844-6B20-43EA-AD69-58AFA1683781</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>CAEB0844-6B20-43EA-AD69-58AFA1683781.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PopUpZendoTimer project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PopUpZendoTimer</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build PopUpZendoTimer</string>
+			<key>timeStartedRecording</key>
+			<real>589385696.742149</real>
+			<key>timeStoppedRecording</key>
+			<real>589385698.56444299</real>
+			<key>title</key>
+			<string>Build PopUpZendoTimer</string>
+			<key>uniqueIdentifier</key>
+			<string>CAEB0844-6B20-43EA-AD69-58AFA1683781</string>
+		</dict>
+		<key>D235331D-8C29-45DF-98B2-7C086389CABD</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>D235331D-8C29-45DF-98B2-7C086389CABD.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PopUpZendoTimer project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PopUpZendoTimer</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build PopUpZendoTimer</string>
+			<key>timeStartedRecording</key>
+			<real>589346729.55733895</real>
+			<key>timeStoppedRecording</key>
+			<real>589346731.22852004</real>
+			<key>title</key>
+			<string>Build PopUpZendoTimer</string>
+			<key>uniqueIdentifier</key>
+			<string>D235331D-8C29-45DF-98B2-7C086389CABD</string>
+		</dict>
+		<key>D343EBF1-976A-45CA-848B-FF09257E678C</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>D343EBF1-976A-45CA-848B-FF09257E678C.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PopUpZendoTimer project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PopUpZendoTimer</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build PopUpZendoTimer</string>
+			<key>timeStartedRecording</key>
+			<real>589384760.39823103</real>
+			<key>timeStoppedRecording</key>
+			<real>589384760.86384904</real>
+			<key>title</key>
+			<string>Build PopUpZendoTimer</string>
+			<key>uniqueIdentifier</key>
+			<string>D343EBF1-976A-45CA-848B-FF09257E678C</string>
+		</dict>
+		<key>D3E3564E-42C8-4A76-862B-12AA6759C509</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>D3E3564E-42C8-4A76-862B-12AA6759C509.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PopUpZendoTimer project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PopUpZendoTimer</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build PopUpZendoTimer</string>
+			<key>timeStartedRecording</key>
+			<real>589385040.67725003</real>
+			<key>timeStoppedRecording</key>
+			<real>589385040.94956195</real>
+			<key>title</key>
+			<string>Build PopUpZendoTimer</string>
+			<key>uniqueIdentifier</key>
+			<string>D3E3564E-42C8-4A76-862B-12AA6759C509</string>
+		</dict>
+		<key>D4445B7F-C07E-42FA-BC34-EF70F53E456A</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>D4445B7F-C07E-42FA-BC34-EF70F53E456A.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PopUpZendoTimer project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PopUpZendoTimer</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build PopUpZendoTimer</string>
+			<key>timeStartedRecording</key>
+			<real>589333843.99142802</real>
+			<key>timeStoppedRecording</key>
+			<real>589333845.83916795</real>
+			<key>title</key>
+			<string>Build PopUpZendoTimer</string>
+			<key>uniqueIdentifier</key>
+			<string>D4445B7F-C07E-42FA-BC34-EF70F53E456A</string>
+		</dict>
+		<key>D4B17E77-1E2F-4BA3-A2BB-045E9BBDD5C0</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>D4B17E77-1E2F-4BA3-A2BB-045E9BBDD5C0.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PopUpZendoTimer project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PopUpZendoTimer</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build PopUpZendoTimer</string>
+			<key>timeStartedRecording</key>
+			<real>589385425.43310702</real>
+			<key>timeStoppedRecording</key>
+			<real>589385425.66224396</real>
+			<key>title</key>
+			<string>Build PopUpZendoTimer</string>
+			<key>uniqueIdentifier</key>
+			<string>D4B17E77-1E2F-4BA3-A2BB-045E9BBDD5C0</string>
+		</dict>
+		<key>D6A91B37-BEA0-4496-94A0-3BA6987229D5</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>D6A91B37-BEA0-4496-94A0-3BA6987229D5.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PopUpZendoTimer project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PopUpZendoTimer</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build PopUpZendoTimer</string>
+			<key>timeStartedRecording</key>
+			<real>589346817.70261705</real>
+			<key>timeStoppedRecording</key>
+			<real>589346819.41732097</real>
+			<key>title</key>
+			<string>Build PopUpZendoTimer</string>
+			<key>uniqueIdentifier</key>
+			<string>D6A91B37-BEA0-4496-94A0-3BA6987229D5</string>
+		</dict>
+		<key>D709CA9C-31BE-407B-BA91-3886F13BD18F</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>D709CA9C-31BE-407B-BA91-3886F13BD18F.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PopUpZendoTimer project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PopUpZendoTimer</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build PopUpZendoTimer</string>
+			<key>timeStartedRecording</key>
+			<real>589384901.92529202</real>
+			<key>timeStoppedRecording</key>
+			<real>589384902.10589695</real>
+			<key>title</key>
+			<string>Build PopUpZendoTimer</string>
+			<key>uniqueIdentifier</key>
+			<string>D709CA9C-31BE-407B-BA91-3886F13BD18F</string>
+		</dict>
+		<key>DDAE50C3-173B-4381-B6C8-516D59FCF620</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>DDAE50C3-173B-4381-B6C8-516D59FCF620.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PopUpZendoTimer project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PopUpZendoTimer</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build PopUpZendoTimer</string>
+			<key>timeStartedRecording</key>
+			<real>589386117.04083097</real>
+			<key>timeStoppedRecording</key>
+			<real>589386118.88545001</real>
+			<key>title</key>
+			<string>Build PopUpZendoTimer</string>
+			<key>uniqueIdentifier</key>
+			<string>DDAE50C3-173B-4381-B6C8-516D59FCF620</string>
+		</dict>
+		<key>DE06CAED-38B2-47EB-8E00-2949872DC4F6</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>DE06CAED-38B2-47EB-8E00-2949872DC4F6.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PopUpZendoTimer project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PopUpZendoTimer</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build PopUpZendoTimer</string>
+			<key>timeStartedRecording</key>
+			<real>589347832.79683304</real>
+			<key>timeStoppedRecording</key>
+			<real>589347832.989025</real>
+			<key>title</key>
+			<string>Build PopUpZendoTimer</string>
+			<key>uniqueIdentifier</key>
+			<string>DE06CAED-38B2-47EB-8E00-2949872DC4F6</string>
+		</dict>
+		<key>DFBE150D-C798-483E-96AA-094CF137A329</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>DFBE150D-C798-483E-96AA-094CF137A329.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PopUpZendoTimer project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PopUpZendoTimer</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build PopUpZendoTimer</string>
+			<key>timeStartedRecording</key>
+			<real>589385628.75775695</real>
+			<key>timeStoppedRecording</key>
+			<real>589385630.61153901</real>
+			<key>title</key>
+			<string>Build PopUpZendoTimer</string>
+			<key>uniqueIdentifier</key>
+			<string>DFBE150D-C798-483E-96AA-094CF137A329</string>
+		</dict>
+		<key>E4DFCB86-CDF6-425C-ACA1-EE8C1A0F0B2A</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>E4DFCB86-CDF6-425C-ACA1-EE8C1A0F0B2A.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PopUpZendoTimer project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PopUpZendoTimer</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Clean PopUpZendoTimer</string>
+			<key>timeStartedRecording</key>
+			<real>589397067.15178597</real>
+			<key>timeStoppedRecording</key>
+			<real>589397067.29544902</real>
+			<key>title</key>
+			<string>Clean PopUpZendoTimer</string>
+			<key>uniqueIdentifier</key>
+			<string>E4DFCB86-CDF6-425C-ACA1-EE8C1A0F0B2A</string>
+		</dict>
+		<key>EE3302BF-0787-4E27-A5CD-ADDAF9C0EC09</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>EE3302BF-0787-4E27-A5CD-ADDAF9C0EC09.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PopUpZendoTimer project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PopUpZendoTimer</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build PopUpZendoTimer</string>
+			<key>timeStartedRecording</key>
+			<real>589386174.20438302</real>
+			<key>timeStoppedRecording</key>
+			<real>589386182.10662496</real>
+			<key>title</key>
+			<string>Build PopUpZendoTimer</string>
+			<key>uniqueIdentifier</key>
+			<string>EE3302BF-0787-4E27-A5CD-ADDAF9C0EC09</string>
+		</dict>
+		<key>F1037E57-4344-4DA6-8E78-B2ADB0F0B335</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F1037E57-4344-4DA6-8E78-B2ADB0F0B335.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PopUpZendoTimer project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PopUpZendoTimer</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build PopUpZendoTimer</string>
+			<key>timeStartedRecording</key>
+			<real>589346688.32044494</real>
+			<key>timeStoppedRecording</key>
+			<real>589346690.18228698</real>
+			<key>title</key>
+			<string>Build PopUpZendoTimer</string>
+			<key>uniqueIdentifier</key>
+			<string>F1037E57-4344-4DA6-8E78-B2ADB0F0B335</string>
+		</dict>
+		<key>FCF90FB9-A203-42FD-BA07-B2B8BA04BDEC</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>FCF90FB9-A203-42FD-BA07-B2B8BA04BDEC.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PopUpZendoTimer project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PopUpZendoTimer</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Clean PopUpZendoTimer</string>
+			<key>timeStartedRecording</key>
+			<real>589386171.55554402</real>
+			<key>timeStoppedRecording</key>
+			<real>589386171.687621</real>
+			<key>title</key>
+			<string>Clean PopUpZendoTimer</string>
+			<key>uniqueIdentifier</key>
+			<string>FCF90FB9-A203-42FD-BA07-B2B8BA04BDEC</string>
+		</dict>
+		<key>FF613672-FC03-4BBD-8E48-2F1D7427E1C4</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>FF613672-FC03-4BBD-8E48-2F1D7427E1C4.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PopUpZendoTimer project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PopUpZendoTimer</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build PopUpZendoTimer</string>
+			<key>timeStartedRecording</key>
+			<real>589396430.91870296</real>
+			<key>timeStoppedRecording</key>
+			<real>589396433.16024697</real>
+			<key>title</key>
+			<string>Build PopUpZendoTimer</string>
+			<key>uniqueIdentifier</key>
+			<string>FF613672-FC03-4BBD-8E48-2F1D7427E1C4</string>
 		</dict>
 	</dict>
 </dict>
