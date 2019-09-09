@@ -60,6 +60,11 @@ class Settings_VC: UIViewController {
         
     }
     
+    @IBAction func websiteButton(_ sender: Any) {
+        if let url = URL(string: "https://popupzendo.org/app") {
+            UIApplication.shared.open(url)
+        }
+    }
     
     @IBAction func darkModeButtonTapped(_ sender: Any) {
         if self.view.backgroundColor != UIColor.black{

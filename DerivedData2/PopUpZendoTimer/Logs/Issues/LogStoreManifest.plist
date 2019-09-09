@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>5653E4C8-BB0D-48A2-B761-3DA4A4415EF4</key>
+		<key>4C196CEB-7666-441E-BE60-7CE0B5E05532</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,33 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
 			<key>fileName</key>
-			<string>5653E4C8-BB0D-48A2-B761-3DA4A4415EF4.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>signature</key>
-			<string>Pods-PopUpZendoTimer-cxhrxhcerduhgohafpaqqdlgoapg</string>
-			<key>timeStartedRecording</key>
-			<real>589397071.79641294</real>
-			<key>timeStoppedRecording</key>
-			<real>589397073.76677406</real>
-			<key>title</key>
-			<string>Build target Pods-PopUpZendoTimer</string>
-			<key>uniqueIdentifier</key>
-			<string>5653E4C8-BB0D-48A2-B761-3DA4A4415EF4</string>
-		</dict>
-		<key>6B19115D-4E72-4E9B-A88F-27D7A065A880</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
-			<key>fileName</key>
-			<string>6B19115D-4E72-4E9B-A88F-27D7A065A880.xcactivitylog</string>
+			<string>4C196CEB-7666-441E-BE60-7CE0B5E05532.xcactivitylog</string>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
@@ -50,15 +24,15 @@
 			<key>signature</key>
 			<string>KDCircularProgress-cxhrxhcerduhgohafpaqqdlgoapg</string>
 			<key>timeStartedRecording</key>
-			<real>589397071.79579496</real>
+			<real>589604809.35164106</real>
 			<key>timeStoppedRecording</key>
-			<real>589397073.64104605</real>
+			<real>589604813.72382998</real>
 			<key>title</key>
 			<string>Build target KDCircularProgress</string>
 			<key>uniqueIdentifier</key>
-			<string>6B19115D-4E72-4E9B-A88F-27D7A065A880</string>
+			<string>4C196CEB-7666-441E-BE60-7CE0B5E05532</string>
 		</dict>
-		<key>D1A0D557-23B6-4378-8DD9-ACC616B37CB6</key>
+		<key>A3004019-4489-4A9D-A57D-208E29893752</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -67,7 +41,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
 			<key>fileName</key>
-			<string>D1A0D557-23B6-4378-8DD9-ACC616B37CB6.xcactivitylog</string>
+			<string>A3004019-4489-4A9D-A57D-208E29893752.xcactivitylog</string>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
@@ -76,13 +50,39 @@
 			<key>signature</key>
 			<string>PopUpZendoTimer-hdmlxjhwcdztmfbulkbeccfuigaf</string>
 			<key>timeStartedRecording</key>
-			<real>589397071.79445195</real>
+			<real>589604813.83762097</real>
 			<key>timeStoppedRecording</key>
-			<real>589397080.47592902</real>
+			<real>589604822.28001404</real>
 			<key>title</key>
 			<string>Build target PopUpZendoTimer</string>
 			<key>uniqueIdentifier</key>
-			<string>D1A0D557-23B6-4378-8DD9-ACC616B37CB6</string>
+			<string>A3004019-4489-4A9D-A57D-208E29893752</string>
+		</dict>
+		<key>F0F2643F-E748-4E7B-9BC0-5F820403B5E2</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<key>fileName</key>
+			<string>F0F2643F-E748-4E7B-9BC0-5F820403B5E2.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>Pods-PopUpZendoTimer-cxhrxhcerduhgohafpaqqdlgoapg</string>
+			<key>timeStartedRecording</key>
+			<real>589604813.72450304</real>
+			<key>timeStoppedRecording</key>
+			<real>589604813.83631396</real>
+			<key>title</key>
+			<string>Build target Pods-PopUpZendoTimer</string>
+			<key>uniqueIdentifier</key>
+			<string>F0F2643F-E748-4E7B-9BC0-5F820403B5E2</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>

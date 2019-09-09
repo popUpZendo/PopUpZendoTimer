@@ -211,6 +211,7 @@ SWIFT_CLASS("_TtC15PopUpZendoTimer11Settings_VC")
 @property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified bellButton;
 @property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified darkModeButton;
 - (void)viewDidLoad;
+- (IBAction)websiteButton:(id _Nonnull)sender;
 - (IBAction)darkModeButtonTapped:(id _Nonnull)sender;
 - (IBAction)muteBellButton:(id _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;

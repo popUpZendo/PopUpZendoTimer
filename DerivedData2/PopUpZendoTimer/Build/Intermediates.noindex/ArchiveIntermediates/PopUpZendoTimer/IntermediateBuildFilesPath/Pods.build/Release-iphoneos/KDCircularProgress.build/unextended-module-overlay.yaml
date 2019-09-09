@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/josephhall/Documents/Swift/PopUpZendoTimer/DerivedData2/PopUpZendoTimer/Build/Intermediates.noindex/ArchiveIntermediates/PopUpZendoTimer/BuildProductsPath/Release-iphoneos/KDCircularProgress/KDCircularProgress.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/josephhall/Documents/Swift/PopUpZendoTimer/DerivedData2/PopUpZendoTimer/Build/Intermediates.noindex/ArchiveIntermediates/PopUpZendoTimer/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/KDCircularProgress.build/unextended-module.modulemap",
+    }]
+  }]
+}

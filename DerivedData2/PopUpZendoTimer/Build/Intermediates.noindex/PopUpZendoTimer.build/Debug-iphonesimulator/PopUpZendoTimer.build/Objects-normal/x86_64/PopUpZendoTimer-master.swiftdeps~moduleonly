@@ -1,7 +1,7 @@
 version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
 options: "47d0d8f4c2253b58184dd1f0cab70a10"
-build_time: [1567704273, 789884000]
+build_time: [1546302567, 251657000]
 inputs:
-  "/Users/josephhall/Documents/Swift/PopUpZendoTimer/TimerViewController .swift": [1567704215, 745408234]
-  "/Users/josephhall/Documents/Swift/PopUpZendoTimer/PopUpZendoTimer/Settings VC.swift": [1567620712, 260711983]
+  "/Users/josephhall/Documents/Swift/PopUpZendoTimer/TimerViewController .swift": [1567907920, 810433157]
+  "/Users/josephhall/Documents/Swift/PopUpZendoTimer/PopUpZendoTimer/Settings VC.swift": [1567909963, 381636202]
   "/Users/josephhall/Documents/Swift/PopUpZendoTimer/PopUpZendoTimer/AppDelegate.swift": [1567292407, 33486660]

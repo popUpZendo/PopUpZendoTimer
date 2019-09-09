@@ -88,7 +88,15 @@ class TimerViewController: UIViewController {
         self.timerHostView.addSubview(progress)
         progress.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         
-        let path = Bundle.main.path(forResource: "zazenBell3", ofType: "mp3")
+        
+        
+        var path = Bundle.main.path(forResource: "ThreeBells", ofType: "aiff")
+        if UIDevice().userInterfaceIdiom == .phone {
+           path = Bundle.main.path(forResource: "ThreeMediumBells", ofType: "aiff")
+        }else{
+            path = Bundle.main.path(forResource: "ThreeBells", ofType: "aiff")
+        }
+        
         let soundURL = URL(fileURLWithPath: path!)
         
         do {
@@ -99,7 +107,13 @@ class TimerViewController: UIViewController {
         }
         self.view.bringSubviewToFront(self.timerButton)
         
-        let path2 = Bundle.main.path(forResource: "zazenBellClose", ofType: "mp3")
+        var path2 = Bundle.main.path(forResource: "One Bell", ofType: "aiff")
+        if UIDevice().userInterfaceIdiom == .phone {
+            path2 = Bundle.main.path(forResource: "OneMediumBell", ofType: "aiff")
+        }else{
+            path2 = Bundle.main.path(forResource: "One Bell", ofType: "aiff")
+        }
+        
         let soundURL2 = URL(fileURLWithPath: path2!)
         
         do {
@@ -195,6 +209,10 @@ class TimerViewController: UIViewController {
     func startAnimatedTimer() {
          if self.defaults.bool(forKey: "bell") == true {
             self.playSound()
+            label.isHidden = true
+            slider.isHidden = true
+            sliderValue.isHidden = true
+            gearButton.isHidden = true
         }
         self.progress.animate(fromAngle: 0, toAngle: 360, duration: self.zazen*60) { completed in
             if completed {
