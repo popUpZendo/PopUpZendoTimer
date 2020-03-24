@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		D704294A231B3A0A004885A8 /* zazenBellClose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7042949231B3A0A004885A8 /* zazenBellClose.mp3 */; };
 		D70D9565232331EB005EBE66 /* One Bell.aiff in Resources */ = {isa = PBXBuildFile; fileRef = D70D9563232331E9005EBE66 /* One Bell.aiff */; };
+		D79141BF24297B7800E2DBAF /* TheFileIsLocatedHere.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79141BE24297B7800E2DBAF /* TheFileIsLocatedHere.swift */; };
 		D798BC6A23234365005AE4FE /* ThreeBells.aiff in Resources */ = {isa = PBXBuildFile; fileRef = D798BC6923234365005AE4FE /* ThreeBells.aiff */; };
 		D7999112231494650041AAD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7999111231494650041AAD1 /* AppDelegate.swift */; };
 		D7999117231494650041AAD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7999115231494650041AAD1 /* Main.storyboard */; };
@@ -17,6 +18,8 @@
 		D7B3B8D4232468E6005B1761 /* ThreeMediumBells.aiff in Resources */ = {isa = PBXBuildFile; fileRef = D7B3B8D2232468E6005B1761 /* ThreeMediumBells.aiff */; };
 		D7B3B8D623249A7E005B1761 /* OneMediumBell.aiff in Resources */ = {isa = PBXBuildFile; fileRef = D7B3B8D523249A7E005B1761 /* OneMediumBell.aiff */; };
 		D7BA55EC23205A07004E0E19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7BA55EB23205A07004E0E19 /* Assets.xcassets */; };
+		D7CDB072241CA7C100FAFE97 /* InstructionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CDB071241CA7C100FAFE97 /* InstructionsVC.swift */; };
+		D7CDB079241F279B00FAFE97 /* zen_regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7CDB078241F279B00FAFE97 /* zen_regular.ttf */; };
 		D7EA1D8C2314A90900D3CDD8 /* TimerViewController .swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EA1D8B2314A90900D3CDD8 /* TimerViewController .swift */; };
 		D7EA1D8E2314AEF200D3CDD8 /* zazenBell3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7EA1D8D2314AEF200D3CDD8 /* zazenBell3.mp3 */; };
 		DB49CFDEB0B236AF8D9F673A /* Pods_PopUpZendoTimer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B5F457A6AE8407CB0C87C48 /* Pods_PopUpZendoTimer.framework */; };
@@ -28,6 +31,7 @@
 		9B5F457A6AE8407CB0C87C48 /* Pods_PopUpZendoTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PopUpZendoTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7042949231B3A0A004885A8 /* zazenBellClose.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = zazenBellClose.mp3; sourceTree = "<group>"; };
 		D70D9563232331E9005EBE66 /* One Bell.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "One Bell.aiff"; sourceTree = "<group>"; };
+		D79141BE24297B7800E2DBAF /* TheFileIsLocatedHere.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheFileIsLocatedHere.swift; sourceTree = "<group>"; };
 		D798BC6923234365005AE4FE /* ThreeBells.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = ThreeBells.aiff; sourceTree = "<group>"; };
 		D799910E231494650041AAD1 /* PopUpZendoTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopUpZendoTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7999111231494650041AAD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +42,8 @@
 		D7B3B8D2232468E6005B1761 /* ThreeMediumBells.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = ThreeMediumBells.aiff; sourceTree = "<group>"; };
 		D7B3B8D523249A7E005B1761 /* OneMediumBell.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = OneMediumBell.aiff; sourceTree = "<group>"; };
 		D7BA55EB23205A07004E0E19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7CDB071241CA7C100FAFE97 /* InstructionsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionsVC.swift; sourceTree = "<group>"; };
+		D7CDB078241F279B00FAFE97 /* zen_regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = zen_regular.ttf; sourceTree = "<group>"; };
 		D7EA1D8B2314A90900D3CDD8 /* TimerViewController .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TimerViewController .swift"; sourceTree = SOURCE_ROOT; };
 		D7EA1D8D2314AEF200D3CDD8 /* zazenBell3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = zazenBell3.mp3; path = PopUpZendoTimer/zazenBell3.mp3; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -93,6 +99,7 @@
 		D7999110231494650041AAD1 /* PopUpZendoTimer */ = {
 			isa = PBXGroup;
 			children = (
+				D7CDB073241F271100FAFE97 /* Resources */,
 				D798BC6923234365005AE4FE /* ThreeBells.aiff */,
 				D70D9563232331E9005EBE66 /* One Bell.aiff */,
 				D7B3B8D523249A7E005B1761 /* OneMediumBell.aiff */,
@@ -103,10 +110,20 @@
 				D7EA1D8B2314A90900D3CDD8 /* TimerViewController .swift */,
 				D7B197AA2316ED0300AAE2B0 /* Settings VC.swift */,
 				D7999115231494650041AAD1 /* Main.storyboard */,
+				D7CDB071241CA7C100FAFE97 /* InstructionsVC.swift */,
 				D799911A231494660041AAD1 /* LaunchScreen.storyboard */,
 				D799911D231494660041AAD1 /* Info.plist */,
+				D79141BE24297B7800E2DBAF /* TheFileIsLocatedHere.swift */,
 			);
 			path = PopUpZendoTimer;
+			sourceTree = "<group>";
+		};
+		D7CDB073241F271100FAFE97 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D7CDB078241F279B00FAFE97 /* zen_regular.ttf */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,6 +195,7 @@
 				D7EA1D8E2314AEF200D3CDD8 /* zazenBell3.mp3 in Resources */,
 				D7999117231494650041AAD1 /* Main.storyboard in Resources */,
 				D7BA55EC23205A07004E0E19 /* Assets.xcassets in Resources */,
+				D7CDB079241F279B00FAFE97 /* zen_regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,7 +253,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D79141BF24297B7800E2DBAF /* TheFileIsLocatedHere.swift in Sources */,
 				D7EA1D8C2314A90900D3CDD8 /* TimerViewController .swift in Sources */,
+				D7CDB072241CA7C100FAFE97 /* InstructionsVC.swift in Sources */,
 				D7B197AB2316ED0300AAE2B0 /* Settings VC.swift in Sources */,
 				D7999112231494650041AAD1 /* AppDelegate.swift in Sources */,
 			);

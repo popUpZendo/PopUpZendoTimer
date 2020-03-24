@@ -40,6 +40,7 @@ class TimerViewController: UIViewController {
     @IBOutlet weak var testLabel: UILabel!
     @IBOutlet weak var gearButton: UIButton!
     @IBOutlet weak var timerHostView: UIView!
+    @IBOutlet weak var returnButton: UIButton!
     
    
     var mute = false
@@ -57,6 +58,8 @@ class TimerViewController: UIViewController {
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         
+        //returnButton.isHidden = true
+        
         if self.progress != nil { return }
         if defaults.bool(forKey: "mode") == true {
             darkMode()
@@ -71,13 +74,13 @@ class TimerViewController: UIViewController {
             durationSliderValueChanged(slider)
         }
         
-        
+        returnButton.isHidden = true
         countDownLabel.isHidden = true
         UIApplication.shared.isIdleTimerDisabled = true
         progress = KDCircularProgress(frame: self.timerHostView.bounds)
         progress.startAngle = -90
         progress.progressThickness = 0.3
-        progress.trackThickness = 0.31
+        progress.trackThickness = 0.3
         progress.clockwise = true
         progress.gradientRotateSpeed = 2
         progress.roundedCorners = true
@@ -98,6 +101,12 @@ class TimerViewController: UIViewController {
         }
         
         let soundURL = URL(fileURLWithPath: path!)
+        
+        do {
+           try AVAudioSession.sharedInstance().setCategory(.playback)
+        } catch(let error) {
+            print(error.localizedDescription)
+        }
         
         do {
             try btnSound = AVAudioPlayer(contentsOf: soundURL)
@@ -158,6 +167,7 @@ class TimerViewController: UIViewController {
         slider.isHidden = false
         sliderValue.isHidden = false
         gearButton.isHidden = false
+        returnButton.isHidden = true
     }
     
     func timeFormatted(_ totalSeconds: TimeInterval) -> String {
@@ -176,6 +186,37 @@ class TimerViewController: UIViewController {
     }
     
     
+    @IBAction func returnButtonTapped(_ sender: Any) {
+        if self.timerRunning || self.progress.isAnimating() {
+            self.stopAnimatedTimer()
+            self.endCountdown()
+            returnButton.isHidden = true
+            return
+        }else{
+            /*    if self.progress.isAnimating () || btnSound.isPlaying || countDownLabel.isHidden == false || timerRunning == true{
+             self.progress.stopAnimation()
+             endCountdown()
+             self.btnSound.stop()
+             self.endSound.stop()
+             label.isHidden = false
+             slider.isHidden = false
+             sliderValue.isHidden = false
+             gearButton.isHidden = false
+             
+             } else {*/
+            stopAnimatedTimer()
+            startCountdown()
+            label.isHidden = true
+            slider.isHidden = true
+            sliderValue.isHidden = true
+            gearButton.isHidden = true
+            returnButton.isHidden = false
+            
+            
+            //   }
+        }
+        
+    }
     @IBAction func animateButtonTapped(_ sender: AnyObject){
         if self.timerRunning || self.progress.isAnimating() {
             self.stopAnimatedTimer()
@@ -199,6 +240,7 @@ class TimerViewController: UIViewController {
             slider.isHidden = true
             sliderValue.isHidden = true
             gearButton.isHidden = true
+            //returnButton.isHidden = false
             
            
      //   }
@@ -213,12 +255,13 @@ class TimerViewController: UIViewController {
             slider.isHidden = true
             sliderValue.isHidden = true
             gearButton.isHidden = true
+            //returnButton.isHidden = false
         }
         self.progress.animate(fromAngle: 0, toAngle: 360, duration: self.zazen*60) { completed in
             if completed {
                 if self.defaults.bool(forKey: "bell") == true {
                     self.playEndSound()
-                    
+                    self.returnButton.isHidden = false
                 }
             } else {
                 

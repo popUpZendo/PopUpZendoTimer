@@ -234,9 +234,11 @@ SWIFT_CLASS("_TtC15PopUpZendoTimer19TimerViewController")
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified testLabel;
 @property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified gearButton;
 @property (nonatomic, weak) IBOutlet UIView * _Null_unspecified timerHostView;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified returnButton;
 - (void)viewDidLayoutSubviews;
 - (void)updateTime;
 - (IBAction)durationSliderValueChanged:(UISlider * _Nonnull)sender;
+- (IBAction)returnButtonTapped:(id _Nonnull)sender;
 - (IBAction)animateButtonTapped:(id _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;

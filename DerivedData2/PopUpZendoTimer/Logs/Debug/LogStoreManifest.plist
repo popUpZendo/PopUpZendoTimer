@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>03124FB7-EE97-4B8C-A779-EF0410716B30</key>
+		<key>41D82585-5243-4255-9D7F-4ECAC81A92B6</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>03124FB7-EE97-4B8C-A779-EF0410716B30.xcactivitylog</string>
+			<string>41D82585-5243-4255-9D7F-4ECAC81A92B6.xcactivitylog</string>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
@@ -30,13 +30,13 @@
 			<key>signature</key>
 			<string>Debug PopUpZendoTimer</string>
 			<key>timeStartedRecording</key>
-			<real>589602768.89583802</real>
+			<real>590279880.02079999</real>
 			<key>timeStoppedRecording</key>
-			<real>589604161.88687801</real>
+			<real>590279891.70338702</real>
 			<key>title</key>
 			<string>Debug PopUpZendoTimer</string>
 			<key>uniqueIdentifier</key>
-			<string>03124FB7-EE97-4B8C-A779-EF0410716B30</string>
+			<string>41D82585-5243-4255-9D7F-4ECAC81A92B6</string>
 		</dict>
 	</dict>
 </dict>

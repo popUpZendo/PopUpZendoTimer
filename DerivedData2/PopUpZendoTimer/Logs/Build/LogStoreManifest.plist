@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>C3BF8EF0-F798-43E4-8210-543F4CF0DA3D</key>
+		<key>B5708B19-9D9C-4E7C-88D3-2A311746B610</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>C3BF8EF0-F798-43E4-8210-543F4CF0DA3D.xcactivitylog</string>
+			<string>B5708B19-9D9C-4E7C-88D3-2A311746B610.xcactivitylog</string>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
@@ -28,15 +28,15 @@
 			<key>schemeIdentifier-sharedScheme</key>
 			<integer>1</integer>
 			<key>signature</key>
-			<string>Archive PopUpZendoTimer</string>
+			<string>Clean PopUpZendoTimer</string>
 			<key>timeStartedRecording</key>
-			<real>589604808.828251</real>
+			<real>590618971.69392002</real>
 			<key>timeStoppedRecording</key>
-			<real>589604822.29042101</real>
+			<real>590618971.90965998</real>
 			<key>title</key>
-			<string>Archive PopUpZendoTimer</string>
+			<string>Clean PopUpZendoTimer</string>
 			<key>uniqueIdentifier</key>
-			<string>C3BF8EF0-F798-43E4-8210-543F4CF0DA3D</string>
+			<string>B5708B19-9D9C-4E7C-88D3-2A311746B610</string>
 		</dict>
 	</dict>
 </dict>
