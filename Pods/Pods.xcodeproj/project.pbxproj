@@ -39,14 +39,14 @@
 		9119949CDA31606EF82C79CF42AFCAB2 /* Pods-PopUpZendoTimer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PopUpZendoTimer-acknowledgements.markdown"; sourceTree = "<group>"; };
 		94A256E08190529774B6CCC2D0B2C292 /* Pods-PopUpZendoTimer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PopUpZendoTimer-umbrella.h"; sourceTree = "<group>"; };
 		9A75F175E2125F18E60E8B95D66D522C /* KDCircularProgress-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KDCircularProgress-prefix.pch"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BF0B8629B6FBA534968C9B17BE221E1A /* Pods-PopUpZendoTimer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PopUpZendoTimer.release.xcconfig"; sourceTree = "<group>"; };
 		CCEE2B7B3F9412ACF41B4C07C366DB6C /* KDCircularProgress-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KDCircularProgress-umbrella.h"; sourceTree = "<group>"; };
-		DBF682C36785D6A5C5396E63DE7020C5 /* Pods_PopUpZendoTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PopUpZendoTimer.framework; path = "Pods-PopUpZendoTimer.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBF682C36785D6A5C5396E63DE7020C5 /* Pods_PopUpZendoTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PopUpZendoTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC6237515D8D5FC94D7AEF17D6CE166C /* KDCircularProgress-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KDCircularProgress-dummy.m"; sourceTree = "<group>"; };
 		E4A130DF7A4565AB348661E7F5485E9D /* Pods-PopUpZendoTimer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PopUpZendoTimer-Info.plist"; sourceTree = "<group>"; };
 		FF42C006A475A8A0E4A57A940278F627 /* Pods-PopUpZendoTimer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PopUpZendoTimer-acknowledgements.plist"; sourceTree = "<group>"; };
-		FFDC470E35EB2888A7B650F14B2FB8BA /* KDCircularProgress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KDCircularProgress.framework; path = KDCircularProgress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFDC470E35EB2888A7B650F14B2FB8BA /* KDCircularProgress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KDCircularProgress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +100,6 @@
 				335C107336A54492BEB0EE819191FD6D /* KDCircularProgress.swift */,
 				C9A0FB31C9BCECF8A858BA000D126F36 /* Support Files */,
 			);
-			name = KDCircularProgress;
 			path = KDCircularProgress;
 			sourceTree = "<group>";
 		};
@@ -236,6 +235,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = C594A75F5E56B6EA82E017498CD0306A /* Products */;

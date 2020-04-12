@@ -16,9 +16,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
+        
         UserDefaults.standard.register(defaults: [
+           
             "mode": true,
-            "bell": true
+            "bell": true,
+            //"sound": "mediumKesu",
+            "bellSound": "medium-kesu",
+            "ext": "aiff",
+            "bellImage": "small-bell",
+            "countdownNumber": 4,
+            "startNumber": 3,
+            "endNumber": 1,
+            "hanTime": Date(),
+            "hanMute": true
+            
+            
             ])
         
         return true
