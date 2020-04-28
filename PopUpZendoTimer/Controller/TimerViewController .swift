@@ -14,15 +14,14 @@ import KDCircularProgress
 class TimerViewController: UIViewController {
     
     var progress: KDCircularProgress!
-    var btnSound: AVAudioPlayer!
-    var endSound: AVAudioPlayer!
+    var zenTimer: ZenTimer!
+
     var zazen: Double = 60
     let defaults = UserDefaults.standard
     let mode = "mode"
     let bell = "bell"
     let durationSlide = "durationSlide"
-    var shortBellLength = 2.0
-    weak var repeatingBellTimer: Timer?
+    var doan: Doan!
     
     var timerRunning: Bool { return self.countdownTimer != nil }
 
@@ -49,8 +48,9 @@ class TimerViewController: UIViewController {
     var mute = false
     weak var countdownTimer: Timer!
     var countEndAt: Date!
-    var durationTimer:Timer!
+    //var durationTimer:Timer!
     var bellEndAt: Date!
+    
     
     
     func darkMode() {
@@ -61,12 +61,10 @@ class TimerViewController: UIViewController {
         self.view.backgroundColor = UIColor.white
     }
     
-    
-    
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         
-        //returnButton.isHidden = true
+        doan = Doan.instance
         
         if self.progress != nil { return }
         if defaults.bool(forKey: "mode") == true {
@@ -80,8 +78,6 @@ class TimerViewController: UIViewController {
             slider.value = durationSlide as! Float
             durationSliderValueChanged(slider)
         }
-        
-        //durationTimer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(self.checkBellTime), userInfo: nil, repeats: true)
         
         returnButton.isHidden = true
         countDownLabel.isHidden = true
@@ -100,38 +96,28 @@ class TimerViewController: UIViewController {
         self.timerHostView.addSubview(progress)
         progress.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         
-  ////SOUND.................................
-        let startNumber = (defaults.integer(forKey: "startNumber"))
-        let endNumber = (defaults.integer(forKey: "endNumber"))
-        let countdownNumber = (defaults.integer(forKey: "endNumber"))
-        let bellSound = (defaults.string(forKey: "bellSound"))!
-        let ext = (defaults.string(forKey: "ext"))!
         
-        print("bellType \(bellSound)")
-        print("file \(bellSound)")
-        print("ext \(ext)")
-        
-        var path = Bundle.main.path(forResource: bellSound, ofType: ext)
-        let soundURL = URL(fileURLWithPath: path!)
-        
-        do {
-           try AVAudioSession.sharedInstance().setCategory(.playback)
-        } catch(let error) {
-            print(error.localizedDescription)
-        }
-        
-        do {
-            try btnSound = AVAudioPlayer(contentsOf: soundURL)
-            btnSound.prepareToPlay()
-        } catch let err as NSError {
-            print(err.debugDescription)
-        }
+
         self.view.bringSubviewToFront(self.timerButton)
     }
     
     
     
+    func meditate() {
+        label.isHidden = true
+        slider.isHidden = true
+        sliderValue.isHidden = true
+        gearButton.isHidden = true
+        returnButton.isHidden = false
+    }
     
+    func prepareForMeditation() {
+        label.isHidden = false
+        slider.isHidden = false
+        sliderValue.isHidden = false
+        gearButton.isHidden = false
+        returnButton.isHidden = true
+    }
     
     func startCountdown() {
         let countdownNumber: Int = (defaults.integer(forKey: "countdownNumber"))
@@ -141,36 +127,15 @@ class TimerViewController: UIViewController {
         countdownTimer = Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: #selector(updateTime), userInfo: nil, repeats: true)
     }
     
-//    func shortBell () {
-//        self.bellEndAt = Date(timeIntervalSinceNow: Double(10))
-//        durationTimer = Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: #selector(updateBellTime), userInfo: nil, repeats: true)
-//    }
-//
-    
-//    @objc func updateBellTime() {
-//
-//           if let interval = self.countEndAt?.timeIntervalSinceNow, interval > 0 {
-////               countDownLabel.text = "\(timeFormatted(abs(interval)))"
-////               countDownLabel.isHidden = false
-//               print("Timer Misfired")
-//           } else {
-//            btnSound.stop()
-//            self.repeatingBellTimer?.invalidate()
-//             print("timer Fired")
-//           }
-//       }
-    
     @objc func updateTime() {
         
         if let interval = self.countEndAt?.timeIntervalSinceNow, interval > 0 {
             countDownLabel.text = "\(timeFormatted(abs(interval)))"
             countDownLabel.isHidden = false
-             
         } else {
             endCountdown()
             startAnimatedTimer()
-            btnSound.currentTime = 0
-           
+            doan.bell.currentTime = 0
         }
     }
     
@@ -178,9 +143,7 @@ class TimerViewController: UIViewController {
         countdownTimer?.invalidate()
         countDownLabel.isHidden = true
         self.stopAnimatedTimer()
-        self.btnSound.stop()
-        self.repeatingBellTimer?.invalidate()
-//        self.endSound.stop()
+        doan.bell.stop()
         label.isHidden = false
         slider.isHidden = false
         sliderValue.isHidden = false
@@ -213,14 +176,11 @@ class TimerViewController: UIViewController {
         }else{
             stopAnimatedTimer()
             startCountdown()
-            label.isHidden = true
-            slider.isHidden = true
-            sliderValue.isHidden = true
-            gearButton.isHidden = true
-            returnButton.isHidden = false
+            meditate()
         }
         
     }
+    
     @IBAction func animateButtonTapped(_ sender: AnyObject){
         if self.timerRunning || self.progress.isAnimating() {
             self.stopAnimatedTimer()
@@ -229,29 +189,21 @@ class TimerViewController: UIViewController {
         }else{
             stopAnimatedTimer()
             startCountdown()
-            label.isHidden = true
-            slider.isHidden = true
-            sliderValue.isHidden = true
-            gearButton.isHidden = true
+            meditate()
         }
-
     }
-    
-   
     
     func startAnimatedTimer() {
          if self.defaults.bool(forKey: "bell") == true {
-            self.playSound()
-            label.isHidden = true
-            slider.isHidden = true
-            sliderValue.isHidden = true
-            gearButton.isHidden = true
-            //returnButton.isHidden = false
+            let startZazen = (defaults.integer(forKey: "startNumber"))
+            doan.strikeBell(startZazen)
+            meditate()
         }
         self.progress.animate(fromAngle: 0, toAngle: 360, duration: self.zazen*60) { completed in
             if completed {
+                let endZazen = (self.defaults.integer(forKey: "endNumber"))
                 if self.defaults.bool(forKey: "bell") == true {
-                    self.playEndSound()
+                    self.doan.strikeBell(endZazen)
                     self.returnButton.isHidden = false
                 }
             } else {
@@ -263,40 +215,9 @@ class TimerViewController: UIViewController {
     func stopAnimatedTimer() {
         self.progress.stopAnimation()
         self.progress.progress = 0
-        self.btnSound.stop()
-        self.repeatingBellTimer?.invalidate()
+        doan.bell.stop()
+        //self.repeatingBellTimer?.invalidate()
 
     }
-
-    func playSound(timesPlayed: Int = 0) {
-        
-        let bellCount: Int = (defaults.integer(forKey: "startNumber"))
-        
-        self.btnSound.currentTime = 0
-        if (bellCount - timesPlayed) > 1 {
-            self.btnSound.play()
-            repeatingBellTimer = Timer.scheduledTimer(withTimeInterval: 8, repeats: false) { _ in
-                self.playSound(timesPlayed: timesPlayed + 1)
-            }
-        } else {
-            self.btnSound.play()
-        }
-    }
-    
-     func playEndSound(timesPlayed: Int = 0) {
-           
-           let bellCount: Int = (defaults.integer(forKey: "endNumber"))
-           
-        self.btnSound.currentTime = 0
-           if (bellCount - timesPlayed) > 1 {
-               self.btnSound.play()
-               repeatingBellTimer = Timer.scheduledTimer(withTimeInterval: 8, repeats: false) { _ in
-                   self.playSound(timesPlayed: timesPlayed + 1)
-               }
-           } else {
-               self.btnSound.play()
-           }
-       }
- 
 
 }

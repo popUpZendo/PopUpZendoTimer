@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D70B442F242FF10D008A7D2E /* han.aiff in Resources */ = {isa = PBXBuildFile; fileRef = D70B442A242FF101008A7D2E /* han.aiff */; };
 		D70B4435243018BF008A7D2E /* Bells.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70B4434243018BF008A7D2E /* Bells.swift */; };
-		D73A7DF524425C6F00923F02 /* Final Bells in Resources */ = {isa = PBXBuildFile; fileRef = D73A7DF424425C6F00923F02 /* Final Bells */; };
-		D73A7DF924425C8A00923F02 /* small-bell.aiff in Resources */ = {isa = PBXBuildFile; fileRef = D73A7DF624425C8A00923F02 /* small-bell.aiff */; };
-		D73A7DFA24425C8A00923F02 /* large-kesu.aiff in Resources */ = {isa = PBXBuildFile; fileRef = D73A7DF724425C8A00923F02 /* large-kesu.aiff */; };
-		D73A7DFB24425C8A00923F02 /* medium-kesu.aiff in Resources */ = {isa = PBXBuildFile; fileRef = D73A7DF824425C8A00923F02 /* medium-kesu.aiff */; };
-		D73A7DFD2443B18700923F02 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73A7DFC2443B18700923F02 /* Player.swift */; };
-		D7773C7424383E3F008D4408 /* Han VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7773C7324383E3F008D4408 /* Han VC.swift */; };
+		D73A4C8C244D208500EE407E /* large-kesu.aiff in Resources */ = {isa = PBXBuildFile; fileRef = D73A4C89244D207C00EE407E /* large-kesu.aiff */; };
+		D73A4C8D244D208500EE407E /* small-bell.aiff in Resources */ = {isa = PBXBuildFile; fileRef = D73A4C8A244D208000EE407E /* small-bell.aiff */; };
+		D73A4C8E244D208500EE407E /* medium-kesu.aiff in Resources */ = {isa = PBXBuildFile; fileRef = D73A4C8B244D208400EE407E /* medium-kesu.aiff */; };
+		D73A4C90244D278200EE407E /* NotificationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73A4C8F244D278200EE407E /* NotificationDelegate.swift */; };
+		D73A4CB2244E25A400EE407E /* Forms.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73A4CB1244E25A400EE407E /* Forms.swift */; };
+		D73A7DFD2443B18700923F02 /* Doan.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73A7DFC2443B18700923F02 /* Doan.swift */; };
+		D73A7E0324453F7B00923F02 /* ZenTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73A7E0224453F7A00923F02 /* ZenTimer.swift */; };
+		D73A7E05244540C200923F02 /* TimerViewController .swift in Sources */ = {isa = PBXBuildFile; fileRef = D73A7E04244540C200923F02 /* TimerViewController .swift */; };
+		D73A7E07244543C900923F02 /* ViewContollerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73A7E06244543C900923F02 /* ViewContollerViewController.swift */; };
+		D75AA57324574CC700BDA7F3 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D75AA57224574CC700BDA7F3 /* Color.xcassets */; };
+		D76324722453ED23001F1825 /* han-intro.aiff in Resources */ = {isa = PBXBuildFile; fileRef = D76324712453ED23001F1825 /* han-intro.aiff */; };
+		D76324752454AAA5001F1825 /* AmaticSC-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D76324732454A7AE001F1825 /* AmaticSC-Regular.ttf */; };
+		D76324762454AAA8001F1825 /* AmaticSC-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D76324742454A7C2001F1825 /* AmaticSC-Bold.ttf */; };
+		D76324782454C5DF001F1825 /* Stopwatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76324772454C5DF001F1825 /* Stopwatch.swift */; };
+		D763247A24553F97001F1825 /* hanInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D763247924553F97001F1825 /* hanInfoVC.swift */; };
+		D7773C7424383E3F008D4408 /* HanVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7773C7324383E3F008D4408 /* HanVC.swift */; };
 		D7773C772439837B008D4408 /* UITextField+InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7773C762439837B008D4408 /* UITextField+InputView.swift */; };
+		D78D8FEA2452A2E200F410AF /* han.aiff in Resources */ = {isa = PBXBuildFile; fileRef = D78D8FE92452A2E200F410AF /* han.aiff */; };
 		D7999112231494650041AAD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7999111231494650041AAD1 /* AppDelegate.swift */; };
 		D7999117231494650041AAD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7999115231494650041AAD1 /* Main.storyboard */; };
 		D799911C231494660041AAD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D799911A231494660041AAD1 /* LaunchScreen.storyboard */; };
@@ -23,7 +33,7 @@
 		D7BA55EC23205A07004E0E19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7BA55EB23205A07004E0E19 /* Assets.xcassets */; };
 		D7CDB072241CA7C100FAFE97 /* InstructionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CDB071241CA7C100FAFE97 /* InstructionsVC.swift */; };
 		D7CDB079241F279B00FAFE97 /* zen_regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7CDB078241F279B00FAFE97 /* zen_regular.ttf */; };
-		D7EA1D8C2314A90900D3CDD8 /* TimerViewController .swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EA1D8B2314A90900D3CDD8 /* TimerViewController .swift */; };
+		D7E6DC402446AC63005433C0 /* LocalNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E6DC3F2446AC63005433C0 /* LocalNotificationManager.swift */; };
 		DB49CFDEB0B236AF8D9F673A /* Pods_PopUpZendoTimer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B5F457A6AE8407CB0C87C48 /* Pods_PopUpZendoTimer.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,15 +41,25 @@
 		2BE8EA00F10447D1C8C880EA /* Pods-PopUpZendoTimer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopUpZendoTimer.debug.xcconfig"; path = "Target Support Files/Pods-PopUpZendoTimer/Pods-PopUpZendoTimer.debug.xcconfig"; sourceTree = "<group>"; };
 		82C5B80A061F0F3C3F0EA6A4 /* Pods-PopUpZendoTimer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopUpZendoTimer.release.xcconfig"; path = "Target Support Files/Pods-PopUpZendoTimer/Pods-PopUpZendoTimer.release.xcconfig"; sourceTree = "<group>"; };
 		9B5F457A6AE8407CB0C87C48 /* Pods_PopUpZendoTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PopUpZendoTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D70B442A242FF101008A7D2E /* han.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = han.aiff; sourceTree = "<group>"; };
 		D70B4434243018BF008A7D2E /* Bells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bells.swift; sourceTree = "<group>"; };
-		D73A7DF424425C6F00923F02 /* Final Bells */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Final Bells"; sourceTree = "<group>"; };
-		D73A7DF624425C8A00923F02 /* small-bell.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; name = "small-bell.aiff"; path = "Final Bells/small-bell.aiff"; sourceTree = "<group>"; };
-		D73A7DF724425C8A00923F02 /* large-kesu.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; name = "large-kesu.aiff"; path = "Final Bells/large-kesu.aiff"; sourceTree = "<group>"; };
-		D73A7DF824425C8A00923F02 /* medium-kesu.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; name = "medium-kesu.aiff"; path = "Final Bells/medium-kesu.aiff"; sourceTree = "<group>"; };
-		D73A7DFC2443B18700923F02 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
-		D7773C7324383E3F008D4408 /* Han VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Han VC.swift"; sourceTree = "<group>"; };
+		D73A4C89244D207C00EE407E /* large-kesu.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "large-kesu.aiff"; sourceTree = "<group>"; };
+		D73A4C8A244D208000EE407E /* small-bell.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "small-bell.aiff"; sourceTree = "<group>"; };
+		D73A4C8B244D208400EE407E /* medium-kesu.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "medium-kesu.aiff"; sourceTree = "<group>"; };
+		D73A4C8F244D278200EE407E /* NotificationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationDelegate.swift; sourceTree = "<group>"; };
+		D73A4CB1244E25A400EE407E /* Forms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forms.swift; sourceTree = "<group>"; };
+		D73A7DFC2443B18700923F02 /* Doan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Doan.swift; sourceTree = "<group>"; };
+		D73A7E0224453F7A00923F02 /* ZenTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZenTimer.swift; sourceTree = "<group>"; };
+		D73A7E04244540C200923F02 /* TimerViewController .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TimerViewController .swift"; sourceTree = "<group>"; };
+		D73A7E06244543C900923F02 /* ViewContollerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewContollerViewController.swift; sourceTree = "<group>"; };
+		D75AA57224574CC700BDA7F3 /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
+		D76324712453ED23001F1825 /* han-intro.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "han-intro.aiff"; sourceTree = "<group>"; };
+		D76324732454A7AE001F1825 /* AmaticSC-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AmaticSC-Regular.ttf"; sourceTree = "<group>"; };
+		D76324742454A7C2001F1825 /* AmaticSC-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AmaticSC-Bold.ttf"; sourceTree = "<group>"; };
+		D76324772454C5DF001F1825 /* Stopwatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stopwatch.swift; sourceTree = "<group>"; };
+		D763247924553F97001F1825 /* hanInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hanInfoVC.swift; sourceTree = "<group>"; };
+		D7773C7324383E3F008D4408 /* HanVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HanVC.swift; sourceTree = "<group>"; };
 		D7773C762439837B008D4408 /* UITextField+InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+InputView.swift"; sourceTree = "<group>"; };
+		D78D8FE92452A2E200F410AF /* han.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = han.aiff; sourceTree = "<group>"; };
 		D799910E231494650041AAD1 /* PopUpZendoTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopUpZendoTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7999111231494650041AAD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7999116231494650041AAD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -49,7 +69,7 @@
 		D7BA55EB23205A07004E0E19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7CDB071241CA7C100FAFE97 /* InstructionsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionsVC.swift; sourceTree = "<group>"; };
 		D7CDB078241F279B00FAFE97 /* zen_regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = zen_regular.ttf; sourceTree = "<group>"; };
-		D7EA1D8B2314A90900D3CDD8 /* TimerViewController .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "TimerViewController .swift"; path = "PopUpZendoTimer/Controller/TimerViewController .swift"; sourceTree = SOURCE_ROOT; };
+		D7E6DC3F2446AC63005433C0 /* LocalNotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,11 +104,11 @@
 		D70B4428242FF0BB008A7D2E /* Audio */ = {
 			isa = PBXGroup;
 			children = (
-				D73A7DF724425C8A00923F02 /* large-kesu.aiff */,
-				D73A7DF824425C8A00923F02 /* medium-kesu.aiff */,
-				D73A7DF624425C8A00923F02 /* small-bell.aiff */,
-				D73A7DF424425C6F00923F02 /* Final Bells */,
-				D70B442A242FF101008A7D2E /* han.aiff */,
+				D76324712453ED23001F1825 /* han-intro.aiff */,
+				D78D8FE92452A2E200F410AF /* han.aiff */,
+				D73A4C89244D207C00EE407E /* large-kesu.aiff */,
+				D73A4C8B244D208400EE407E /* medium-kesu.aiff */,
+				D73A4C8A244D208000EE407E /* small-bell.aiff */,
 			);
 			path = Audio;
 			sourceTree = "<group>";
@@ -97,6 +117,9 @@
 			isa = PBXGroup;
 			children = (
 				D70B4434243018BF008A7D2E /* Bells.swift */,
+				D7E6DC3F2446AC63005433C0 /* LocalNotificationManager.swift */,
+				D73A4C8F244D278200EE407E /* NotificationDelegate.swift */,
+				D73A4CB1244E25A400EE407E /* Forms.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -105,7 +128,9 @@
 			isa = PBXGroup;
 			children = (
 				D7773C762439837B008D4408 /* UITextField+InputView.swift */,
-				D73A7DFC2443B18700923F02 /* Player.swift */,
+				D73A7DFC2443B18700923F02 /* Doan.swift */,
+				D73A7E0224453F7A00923F02 /* ZenTimer.swift */,
+				D76324772454C5DF001F1825 /* Stopwatch.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -113,9 +138,12 @@
 		D7773C7A2439844B008D4408 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				D7EA1D8B2314A90900D3CDD8 /* TimerViewController .swift */,
 				D7B197AA2316ED0300AAE2B0 /* Settings VC.swift */,
-				D7773C7324383E3F008D4408 /* Han VC.swift */,
+				D73A7E04244540C200923F02 /* TimerViewController .swift */,
+				D7773C7324383E3F008D4408 /* HanVC.swift */,
+				D73A7E06244543C900923F02 /* ViewContollerViewController.swift */,
+				D7CDB071241CA7C100FAFE97 /* InstructionsVC.swift */,
+				D763247924553F97001F1825 /* hanInfoVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -123,7 +151,6 @@
 		D7999105231494650041AAD1 = {
 			isa = PBXGroup;
 			children = (
-				D7BA55EB23205A07004E0E19 /* Assets.xcassets */,
 				D7999110231494650041AAD1 /* PopUpZendoTimer */,
 				D799910F231494650041AAD1 /* Products */,
 				1B7CF1CB038D25415E650CC2 /* Pods */,
@@ -142,13 +169,12 @@
 		D7999110231494650041AAD1 /* PopUpZendoTimer */ = {
 			isa = PBXGroup;
 			children = (
+				D7CDB073241F271100FAFE97 /* Resources */,
 				D70B4433243018A0008A7D2E /* Model */,
 				D7773C7524398364008D4408 /* View */,
 				D7773C7A2439844B008D4408 /* Controller */,
-				D7CDB073241F271100FAFE97 /* Resources */,
 				D7999111231494650041AAD1 /* AppDelegate.swift */,
 				D7999115231494650041AAD1 /* Main.storyboard */,
-				D7CDB071241CA7C100FAFE97 /* InstructionsVC.swift */,
 				D799911A231494660041AAD1 /* LaunchScreen.storyboard */,
 				D799911D231494660041AAD1 /* Info.plist */,
 			);
@@ -158,8 +184,12 @@
 		D7CDB073241F271100FAFE97 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D7BA55EB23205A07004E0E19 /* Assets.xcassets */,
 				D7CDB078241F279B00FAFE97 /* zen_regular.ttf */,
+				D76324732454A7AE001F1825 /* AmaticSC-Regular.ttf */,
+				D76324742454A7C2001F1825 /* AmaticSC-Bold.ttf */,
 				D70B4428242FF0BB008A7D2E /* Audio */,
+				D75AA57224574CC700BDA7F3 /* Color.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -224,15 +254,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D76324752454AAA5001F1825 /* AmaticSC-Regular.ttf in Resources */,
+				D73A4C8D244D208500EE407E /* small-bell.aiff in Resources */,
+				D76324762454AAA8001F1825 /* AmaticSC-Bold.ttf in Resources */,
+				D73A4C8C244D208500EE407E /* large-kesu.aiff in Resources */,
 				D799911C231494660041AAD1 /* LaunchScreen.storyboard in Resources */,
-				D73A7DF924425C8A00923F02 /* small-bell.aiff in Resources */,
+				D75AA57324574CC700BDA7F3 /* Color.xcassets in Resources */,
 				D7999117231494650041AAD1 /* Main.storyboard in Resources */,
-				D73A7DFA24425C8A00923F02 /* large-kesu.aiff in Resources */,
 				D7BA55EC23205A07004E0E19 /* Assets.xcassets in Resources */,
-				D73A7DF524425C6F00923F02 /* Final Bells in Resources */,
 				D7CDB079241F279B00FAFE97 /* zen_regular.ttf in Resources */,
-				D70B442F242FF10D008A7D2E /* han.aiff in Resources */,
-				D73A7DFB24425C8A00923F02 /* medium-kesu.aiff in Resources */,
+				D76324722453ED23001F1825 /* han-intro.aiff in Resources */,
+				D73A4C8E244D208500EE407E /* medium-kesu.aiff in Resources */,
+				D78D8FEA2452A2E200F410AF /* han.aiff in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,11 +323,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D73A4CB2244E25A400EE407E /* Forms.swift in Sources */,
+				D7E6DC402446AC63005433C0 /* LocalNotificationManager.swift in Sources */,
 				D70B4435243018BF008A7D2E /* Bells.swift in Sources */,
-				D7773C7424383E3F008D4408 /* Han VC.swift in Sources */,
-				D7EA1D8C2314A90900D3CDD8 /* TimerViewController .swift in Sources */,
+				D7773C7424383E3F008D4408 /* HanVC.swift in Sources */,
+				D73A7E0324453F7B00923F02 /* ZenTimer.swift in Sources */,
+				D76324782454C5DF001F1825 /* Stopwatch.swift in Sources */,
+				D73A7E05244540C200923F02 /* TimerViewController .swift in Sources */,
 				D7CDB072241CA7C100FAFE97 /* InstructionsVC.swift in Sources */,
-				D73A7DFD2443B18700923F02 /* Player.swift in Sources */,
+				D73A7DFD2443B18700923F02 /* Doan.swift in Sources */,
+				D73A4C90244D278200EE407E /* NotificationDelegate.swift in Sources */,
+				D763247A24553F97001F1825 /* hanInfoVC.swift in Sources */,
+				D73A7E07244543C900923F02 /* ViewContollerViewController.swift in Sources */,
 				D7773C772439837B008D4408 /* UITextField+InputView.swift in Sources */,
 				D7B197AB2316ED0300AAE2B0 /* Settings VC.swift in Sources */,
 				D7999112231494650041AAD1 /* AppDelegate.swift in Sources */,

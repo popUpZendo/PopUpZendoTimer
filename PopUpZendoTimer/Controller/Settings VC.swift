@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 class Settings_VC: UIViewController {
     
@@ -32,6 +33,7 @@ class Settings_VC: UIViewController {
     @IBOutlet weak var startField: UITextField!
     @IBOutlet weak var endField: UITextField!
     @IBOutlet weak var bellTypeButton: UIButton!
+    @IBOutlet weak var hanButton: UIButton!
     
     let defaults = UserDefaults.standard
     let mode = "mode"
@@ -39,6 +41,7 @@ class Settings_VC: UIViewController {
     let countdownNumber = "4"
     let startNumber = "3"
     let endNumber = "1"
+    var doan: Doan!
     
     
 
@@ -97,10 +100,13 @@ class Settings_VC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        doan = Doan.instance
+        
         hideTips()
         countdownField.text = countdownNumber
         startField.text = startNumber
         endField.text = endNumber
+        hanButton.contentEdgeInsets = UIEdgeInsets(top: 0, left: 0.01, bottom: 0.01, right: 0)
         
         
         
@@ -235,14 +241,18 @@ class Settings_VC: UIViewController {
         defaults.set(smallBell.sound, forKey: "bellSound")
         defaults.set(smallBell.ext, forKey: "ext")
         self.bellTypeButton.setImage(UIImage(named: smallBell.image), for: .normal)
+        //doan.bell.stop()
+        doan.testBell(name: "small-bell")
     }
     
     func selectMediumKesu () {
         defaults.set(mediumKesu.image, forKey: "bellImage")
         defaults.set(mediumKesu.sound, forKey: "bellSound")
         defaults.set(mediumKesu.ext, forKey: "ext")
-
         self.bellTypeButton.setImage(UIImage(named: mediumKesu.image), for: .normal)
+        //doan.bell.stop()
+        doan.testBell(name: "medium-kesu")
+        
     }
     
     func selectLargeKesu () {
@@ -250,6 +260,8 @@ class Settings_VC: UIViewController {
         defaults.set(largeKesu.sound, forKey: "bellSound")
         defaults.set(largeKesu.ext, forKey: "ext")
         self.bellTypeButton.setImage(UIImage(named: largeKesu.image), for: .normal)
+        //doan.bell.stop()
+        doan.testBell(name: "large-kesu")
     }
     
     

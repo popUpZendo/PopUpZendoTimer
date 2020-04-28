@@ -9,13 +9,13 @@
 import Foundation
 
 enum Bells {
-    case smallBell, mediumKesu, mediumKesuLong, largeKesu, han
+    case smallBell, mediumKesu, /*mediumKesuLong,*/ largeKesu, han
     
     var sound: String {
         switch self {
         case .smallBell: return "small-bell"
         case .mediumKesu: return "medium-kesu"
-        case .mediumKesuLong: return "medium-kesu-long"
+        //case .mediumKesuLong: return "medium-kesu-long"
         case .largeKesu: return "large-kesu"
         case .han: return "han"
         }
@@ -25,7 +25,7 @@ enum Bells {
         switch self {
         case .smallBell: return "aiff"
         case .mediumKesu: return "aiff"
-        case .mediumKesuLong: return "aiff"
+        //case .mediumKesuLong: return "aiff"
         case .largeKesu: return "aiff"
         case .han: return "aiff"
         }
@@ -35,7 +35,7 @@ enum Bells {
         switch self {
         case .smallBell: return "small-bell"
         case .mediumKesu: return "medium-kesu"
-        case .mediumKesuLong: return "medium-kesu-long"
+        //case .mediumKesuLong: return "medium-kesu-long"
         case .largeKesu: return "large-kesu"
         case .han: return "han"
         }
@@ -43,7 +43,6 @@ enum Bells {
 }
 
 let defaults = UserDefaults.standard
-
 
 //var countdownNumber = defaults.countdownNumber
 //var startNumber = defaults.startNumber
