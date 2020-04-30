@@ -23,9 +23,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
 
         center.requestAuthorization(options: [.alert, .badge, .sound]) { (granted, error) in
             if granted {
-                print("Yay!")
+                print("local notification permissions granted")
             } else {
-                print("D'oh")
+                print("local no=tification permissions denied")
             }
         }
     

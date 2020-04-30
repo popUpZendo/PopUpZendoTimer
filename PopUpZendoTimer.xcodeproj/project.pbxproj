@@ -16,7 +16,9 @@
 		D73A7DFD2443B18700923F02 /* Doan.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73A7DFC2443B18700923F02 /* Doan.swift */; };
 		D73A7E0324453F7B00923F02 /* ZenTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73A7E0224453F7A00923F02 /* ZenTimer.swift */; };
 		D73A7E05244540C200923F02 /* TimerViewController .swift in Sources */ = {isa = PBXBuildFile; fileRef = D73A7E04244540C200923F02 /* TimerViewController .swift */; };
-		D73A7E07244543C900923F02 /* ViewContollerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73A7E06244543C900923F02 /* ViewContollerViewController.swift */; };
+		D73C54BE2459F7660071DC22 /* DoanStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73C54BD2459F7660071DC22 /* DoanStation.swift */; };
+		D73C54C02459F7F40071DC22 /* DoanStationInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73C54BF2459F7F40071DC22 /* DoanStationInfoVC.swift */; };
+		D73C54C22459F8250071DC22 /* InkinPopUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73C54C12459F8250071DC22 /* InkinPopUpVC.swift */; };
 		D75AA57324574CC700BDA7F3 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D75AA57224574CC700BDA7F3 /* Color.xcassets */; };
 		D76324722453ED23001F1825 /* han-intro.aiff in Resources */ = {isa = PBXBuildFile; fileRef = D76324712453ED23001F1825 /* han-intro.aiff */; };
 		D76324752454AAA5001F1825 /* AmaticSC-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D76324732454A7AE001F1825 /* AmaticSC-Regular.ttf */; };
@@ -26,6 +28,9 @@
 		D7773C7424383E3F008D4408 /* HanVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7773C7324383E3F008D4408 /* HanVC.swift */; };
 		D7773C772439837B008D4408 /* UITextField+InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7773C762439837B008D4408 /* UITextField+InputView.swift */; };
 		D78D8FEA2452A2E200F410AF /* han.aiff in Resources */ = {isa = PBXBuildFile; fileRef = D78D8FE92452A2E200F410AF /* han.aiff */; };
+		D7937FB3245A317500460C8E /* rolldown.aiff in Resources */ = {isa = PBXBuildFile; fileRef = D7937FB0245A316C00460C8E /* rolldown.aiff */; };
+		D7937FB4245A317500460C8E /* stop.aiff in Resources */ = {isa = PBXBuildFile; fileRef = D7937FB1245A317000460C8E /* stop.aiff */; };
+		D7937FB7245A379400460C8E /* inkin-bell.aiff in Resources */ = {isa = PBXBuildFile; fileRef = D7937FB6245A379400460C8E /* inkin-bell.aiff */; };
 		D7999112231494650041AAD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7999111231494650041AAD1 /* AppDelegate.swift */; };
 		D7999117231494650041AAD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7999115231494650041AAD1 /* Main.storyboard */; };
 		D799911C231494660041AAD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D799911A231494660041AAD1 /* LaunchScreen.storyboard */; };
@@ -50,7 +55,9 @@
 		D73A7DFC2443B18700923F02 /* Doan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Doan.swift; sourceTree = "<group>"; };
 		D73A7E0224453F7A00923F02 /* ZenTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZenTimer.swift; sourceTree = "<group>"; };
 		D73A7E04244540C200923F02 /* TimerViewController .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TimerViewController .swift"; sourceTree = "<group>"; };
-		D73A7E06244543C900923F02 /* ViewContollerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewContollerViewController.swift; sourceTree = "<group>"; };
+		D73C54BD2459F7660071DC22 /* DoanStation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoanStation.swift; sourceTree = "<group>"; };
+		D73C54BF2459F7F40071DC22 /* DoanStationInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoanStationInfoVC.swift; sourceTree = "<group>"; };
+		D73C54C12459F8250071DC22 /* InkinPopUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InkinPopUpVC.swift; sourceTree = "<group>"; };
 		D75AA57224574CC700BDA7F3 /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
 		D76324712453ED23001F1825 /* han-intro.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "han-intro.aiff"; sourceTree = "<group>"; };
 		D76324732454A7AE001F1825 /* AmaticSC-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AmaticSC-Regular.ttf"; sourceTree = "<group>"; };
@@ -60,6 +67,9 @@
 		D7773C7324383E3F008D4408 /* HanVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HanVC.swift; sourceTree = "<group>"; };
 		D7773C762439837B008D4408 /* UITextField+InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+InputView.swift"; sourceTree = "<group>"; };
 		D78D8FE92452A2E200F410AF /* han.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = han.aiff; sourceTree = "<group>"; };
+		D7937FB0245A316C00460C8E /* rolldown.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = rolldown.aiff; sourceTree = "<group>"; };
+		D7937FB1245A317000460C8E /* stop.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = stop.aiff; sourceTree = "<group>"; };
+		D7937FB6245A379400460C8E /* inkin-bell.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "inkin-bell.aiff"; sourceTree = "<group>"; };
 		D799910E231494650041AAD1 /* PopUpZendoTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopUpZendoTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7999111231494650041AAD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7999116231494650041AAD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -106,6 +116,9 @@
 			children = (
 				D76324712453ED23001F1825 /* han-intro.aiff */,
 				D78D8FE92452A2E200F410AF /* han.aiff */,
+				D7937FB6245A379400460C8E /* inkin-bell.aiff */,
+				D7937FB0245A316C00460C8E /* rolldown.aiff */,
+				D7937FB1245A317000460C8E /* stop.aiff */,
 				D73A4C89244D207C00EE407E /* large-kesu.aiff */,
 				D73A4C8B244D208400EE407E /* medium-kesu.aiff */,
 				D73A4C8A244D208000EE407E /* small-bell.aiff */,
@@ -138,12 +151,14 @@
 		D7773C7A2439844B008D4408 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				D763247924553F97001F1825 /* hanInfoVC.swift */,
+				D7773C7324383E3F008D4408 /* HanVC.swift */,
+				D7CDB071241CA7C100FAFE97 /* InstructionsVC.swift */,
 				D7B197AA2316ED0300AAE2B0 /* Settings VC.swift */,
 				D73A7E04244540C200923F02 /* TimerViewController .swift */,
-				D7773C7324383E3F008D4408 /* HanVC.swift */,
-				D73A7E06244543C900923F02 /* ViewContollerViewController.swift */,
-				D7CDB071241CA7C100FAFE97 /* InstructionsVC.swift */,
-				D763247924553F97001F1825 /* hanInfoVC.swift */,
+				D73C54BD2459F7660071DC22 /* DoanStation.swift */,
+				D73C54BF2459F7F40071DC22 /* DoanStationInfoVC.swift */,
+				D73C54C12459F8250071DC22 /* InkinPopUpVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -256,6 +271,7 @@
 			files = (
 				D76324752454AAA5001F1825 /* AmaticSC-Regular.ttf in Resources */,
 				D73A4C8D244D208500EE407E /* small-bell.aiff in Resources */,
+				D7937FB7245A379400460C8E /* inkin-bell.aiff in Resources */,
 				D76324762454AAA8001F1825 /* AmaticSC-Bold.ttf in Resources */,
 				D73A4C8C244D208500EE407E /* large-kesu.aiff in Resources */,
 				D799911C231494660041AAD1 /* LaunchScreen.storyboard in Resources */,
@@ -263,8 +279,10 @@
 				D7999117231494650041AAD1 /* Main.storyboard in Resources */,
 				D7BA55EC23205A07004E0E19 /* Assets.xcassets in Resources */,
 				D7CDB079241F279B00FAFE97 /* zen_regular.ttf in Resources */,
+				D7937FB4245A317500460C8E /* stop.aiff in Resources */,
 				D76324722453ED23001F1825 /* han-intro.aiff in Resources */,
 				D73A4C8E244D208500EE407E /* medium-kesu.aiff in Resources */,
+				D7937FB3245A317500460C8E /* rolldown.aiff in Resources */,
 				D78D8FEA2452A2E200F410AF /* han.aiff in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -323,7 +341,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D73C54BE2459F7660071DC22 /* DoanStation.swift in Sources */,
 				D73A4CB2244E25A400EE407E /* Forms.swift in Sources */,
+				D73C54C22459F8250071DC22 /* InkinPopUpVC.swift in Sources */,
 				D7E6DC402446AC63005433C0 /* LocalNotificationManager.swift in Sources */,
 				D70B4435243018BF008A7D2E /* Bells.swift in Sources */,
 				D7773C7424383E3F008D4408 /* HanVC.swift in Sources */,
@@ -333,8 +353,8 @@
 				D7CDB072241CA7C100FAFE97 /* InstructionsVC.swift in Sources */,
 				D73A7DFD2443B18700923F02 /* Doan.swift in Sources */,
 				D73A4C90244D278200EE407E /* NotificationDelegate.swift in Sources */,
+				D73C54C02459F7F40071DC22 /* DoanStationInfoVC.swift in Sources */,
 				D763247A24553F97001F1825 /* hanInfoVC.swift in Sources */,
-				D73A7E07244543C900923F02 /* ViewContollerViewController.swift in Sources */,
 				D7773C772439837B008D4408 /* UITextField+InputView.swift in Sources */,
 				D7B197AB2316ED0300AAE2B0 /* Settings VC.swift in Sources */,
 				D7999112231494650041AAD1 /* AppDelegate.swift in Sources */,

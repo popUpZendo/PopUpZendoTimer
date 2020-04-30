@@ -63,6 +63,9 @@ class HanVC: UIViewController, UNUserNotificationCenterDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         doan = Doan.instance
+        if doan.han.isPlaying == true {
+            han.setImage(UIImage.init(named: "han-on"), for: UIControl.State.normal)
+        }
         continueHan()
         
         activityLabel.isHidden = true

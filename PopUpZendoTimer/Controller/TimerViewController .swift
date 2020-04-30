@@ -8,12 +8,11 @@
 
 import UIKit
 import AVFoundation
-import KDCircularProgress
 
 
 class TimerViewController: UIViewController {
     
-    var progress: KDCircularProgress!
+//    var progress: KDCircularProgress!
     var zenTimer: ZenTimer!
 
     var zazen: Double = 60
@@ -43,6 +42,7 @@ class TimerViewController: UIViewController {
     @IBOutlet weak var gearButton: UIButton!
     @IBOutlet weak var timerHostView: UIView!
     @IBOutlet weak var returnButton: UIButton!
+    @IBOutlet weak var hanButton: UIButton!
     
    
     var mute = false
@@ -66,37 +66,33 @@ class TimerViewController: UIViewController {
         
         doan = Doan.instance
         
-        if self.progress != nil { return }
+        if self.zenTimer != nil { return }
+        
         if defaults.bool(forKey: "mode") == true {
             darkMode()
         } else {
             lightMode()
         }
-        
+            
+        if doan.han.isPlaying == true {
+            hanButton.isHidden = false
+        } else {
+            hanButton.isHidden = true
+        }
         
         if let durationSlide = defaults.value(forKey: durationSlide) {
             slider.value = durationSlide as! Float
             durationSliderValueChanged(slider)
         }
         
+        zenTimer = ZenTimer(frame: self.timerHostView.bounds)
+        self.timerHostView.addSubview(zenTimer)
+        zenTimer.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+
+        
         returnButton.isHidden = true
         countDownLabel.isHidden = true
         UIApplication.shared.isIdleTimerDisabled = true
-        progress = KDCircularProgress(frame: self.timerHostView.bounds)
-        progress.startAngle = -90
-        progress.progressThickness = 0.3
-        progress.trackThickness = 0.3
-        progress.clockwise = true
-        progress.gradientRotateSpeed = 2
-        progress.roundedCorners = true
-        progress.glowMode = .constant
-        progress.glowAmount = 0.3
-        progress.trackColor = UIColor.darkGray
-        progress.set(colors: UIColor.black)
-        self.timerHostView.addSubview(progress)
-        progress.autoresizingMask = [.flexibleWidth, .flexibleHeight]
-        
-        
 
         self.view.bringSubviewToFront(self.timerButton)
     }
@@ -168,7 +164,7 @@ class TimerViewController: UIViewController {
     
     
     @IBAction func returnButtonTapped(_ sender: Any) {
-        if self.timerRunning || self.progress.isAnimating() {
+        if self.timerRunning || self.zenTimer.isAnimating {
             self.stopAnimatedTimer()
             self.endCountdown()
             returnButton.isHidden = true
@@ -182,7 +178,7 @@ class TimerViewController: UIViewController {
     }
     
     @IBAction func animateButtonTapped(_ sender: AnyObject){
-        if self.timerRunning || self.progress.isAnimating() {
+        if self.timerRunning || self.zenTimer.isAnimating {
             self.stopAnimatedTimer()
             self.endCountdown()
             return
@@ -199,22 +195,31 @@ class TimerViewController: UIViewController {
             doan.strikeBell(startZazen)
             meditate()
         }
-        self.progress.animate(fromAngle: 0, toAngle: 360, duration: self.zazen*60) { completed in
-            if completed {
-                let endZazen = (self.defaults.integer(forKey: "endNumber"))
-                if self.defaults.bool(forKey: "bell") == true {
-                    self.doan.strikeBell(endZazen)
-                    self.returnButton.isHidden = false
-                }
-            } else {
-                
+        
+        self.zenTimer.start(duration: self.zazen*60) {
+            let endZazen = (self.defaults.integer(forKey: "endNumber"))
+            if self.defaults.bool(forKey: "bell") == true {
+                self.doan.strikeBell(endZazen)
+                self.returnButton.isHidden = false
             }
         }
+//        self.progress.animate(fromAngle: 0, toAngle: 360, duration: self.zazen*60) { completed in
+//            if completed {
+//                let endZazen = (self.defaults.integer(forKey: "endNumber"))
+//                if self.defaults.bool(forKey: "bell") == true {
+//                    self.doan.strikeBell(endZazen)
+//                    self.returnButton.isHidden = false
+//                }
+//            } else {
+//
+//            }
+//        }
     }
     
     func stopAnimatedTimer() {
-        self.progress.stopAnimation()
-        self.progress.progress = 0
+   //     self.progress.stopAnimation()
+        
+        self.zenTimer.progress = 0
         doan.bell.stop()
         //self.repeatingBellTimer?.invalidate()
 

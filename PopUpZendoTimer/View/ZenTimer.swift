@@ -10,61 +10,103 @@ import UIKit
 
 class ZenTimer: UIView {
     var bgPath: UIBezierPath!
-        var shapeLayer: CAShapeLayer!
-        var progressLayer: CAShapeLayer!
-        
-        var progress: Float = 0 {
-            willSet(newValue)
-            {
-                progressLayer.strokeEnd = CGFloat(newValue)
+    var shapeLayer: CAShapeLayer!
+    var progressLayer: CAShapeLayer!
+    
+    weak var timer: Timer!
+    var completion: (() -> Void)?
+    var timerDuration: TimeInterval = 0
+    var startedAt: Date?
+    
+    var isAnimating: Bool { return self.timer != nil }
+    
+    var elapsedTime: TimeInterval {
+        guard let startedAt = self.startedAt else { return 0 }
+        return abs(startedAt.timeIntervalSinceNow)
+    }
+    
+    deinit {
+        self.timer?.invalidate()
+    }
+    
+    func start(duration: TimeInterval, completion: (() -> Void)?) {
+        self.completion = completion
+        self.timerDuration = duration
+        self.startedAt = Date()
+        self.timer = Timer.scheduledTimer(withTimeInterval: 0.01, repeats: true) { [weak self] _ in
+            guard let self = self else { return }
+            let elapsed = self.elapsedTime
+            
+            if elapsed > self.timerDuration || self.timerDuration == 0 {
+                self.timer?.invalidate()
+                self.completion?()
+                self.completion = nil
+            } else {
+                self.progress = elapsed / self.timerDuration
             }
         }
-        
-        override init(frame: CGRect) {
-            super.init(frame: frame)
-            bgPath = UIBezierPath()
-            self.simpleShape()
-        }
-        
-        required public init?(coder aDecoder: NSCoder) {
-            super.init(coder: aDecoder)
-            bgPath = UIBezierPath()
-            self.simpleShape()
-        }
-        
-        func simpleShape()
+    }
+    
+    var progress: Double = 0 {
+        willSet(newValue)
         {
-            //Track
-            createCirclePath()
-            shapeLayer = CAShapeLayer()
-            shapeLayer.path = bgPath.cgPath
-            shapeLayer.lineWidth = 20
-            shapeLayer.fillColor = nil
-            shapeLayer.strokeColor = UIColor.darkGray.cgColor
-            
-            //Stroke
-            progressLayer = CAShapeLayer()
-            progressLayer.path = bgPath.cgPath
-            progressLayer.lineCap = CAShapeLayerLineCap.round
-            progressLayer.lineWidth = 20
-            progressLayer.fillColor = nil
-            progressLayer.strokeColor = UIColor.black.cgColor
-            progressLayer.strokeEnd = 0.0
-            
-
-            
-            self.layer.addSublayer(shapeLayer)
-            self.layer.addSublayer(progressLayer)
-        }
-        
-        private func createCirclePath()
-        {
-            
-            let x = self.frame.width
-            let y = self.frame.height
-            let center = CGPoint(x: x, y: y)
-            print(x,y,center)
-            bgPath.addArc(withCenter: center, radius: x/CGFloat(2), startAngle: CGFloat(CGFloat(-0.5 * Double.pi)), endAngle: CGFloat(1.5 * Double.pi), clockwise: true)
-            bgPath.close()
+            progressLayer.strokeEnd = CGFloat(newValue)
         }
     }
+    
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        bgPath = UIBezierPath()
+        self.simpleShape()
+    }
+    
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        
+        self.shapeLayer?.removeFromSuperlayer()
+        self.progressLayer?.removeFromSuperlayer()
+        
+        simpleShape()
+    }
+    
+    required public init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        bgPath = UIBezierPath()
+        self.simpleShape()
+    }
+    
+    func simpleShape()
+    {
+        //Track
+        createCirclePath()
+        shapeLayer = CAShapeLayer()
+        shapeLayer.path = bgPath.cgPath
+        shapeLayer.lineWidth = 22
+        shapeLayer.fillColor = nil
+        shapeLayer.strokeColor = UIColor.darkGray.cgColor
+        
+        //Stroke
+        progressLayer = CAShapeLayer()
+        progressLayer.path = bgPath.cgPath
+        progressLayer.lineCap = CAShapeLayerLineCap.round
+        progressLayer.lineWidth = 22
+        progressLayer.fillColor = nil
+        progressLayer.strokeColor = UIColor.black.cgColor
+        progressLayer.strokeEnd = 0.0
+        
+        
+        
+        self.layer.addSublayer(shapeLayer)
+        self.layer.addSublayer(progressLayer)
+    }
+    
+    private func createCirclePath()
+    {
+        
+        let x = self.frame.width / 2
+        let y = self.frame.height / 2
+        let center = CGPoint(x: x, y: y)
+        bgPath.addArc(withCenter: center, radius: x, startAngle: CGFloat(CGFloat(-0.5 * Double.pi)), endAngle: CGFloat(1.5 * Double.pi), clockwise: true)
+        bgPath.close()
+    }
+}
