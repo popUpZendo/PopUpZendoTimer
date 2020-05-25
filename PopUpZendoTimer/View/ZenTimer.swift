@@ -13,10 +13,10 @@ class ZenTimer: UIView {
     var shapeLayer: CAShapeLayer!
     var progressLayer: CAShapeLayer!
     
-    weak var timer: Timer!
+    private weak var timer: Timer!
     var completion: (() -> Void)?
-    var timerDuration: TimeInterval = 0
-    var startedAt: Date?
+    private var timerDuration: TimeInterval = 0
+    private var startedAt: Date?
     
     var isAnimating: Bool { return self.timer != nil }
     
@@ -30,6 +30,10 @@ class ZenTimer: UIView {
     }
     
     func start(duration: TimeInterval, completion: (() -> Void)?) {
+        if self.isAnimating {
+            print("Tried to start an existing timer!")
+            return
+        }
         self.completion = completion
         self.timerDuration = duration
         self.startedAt = Date()
@@ -42,12 +46,19 @@ class ZenTimer: UIView {
                 self.completion?()
                 self.completion = nil
             } else {
-                self.progress = elapsed / self.timerDuration
+                self.progress = (elapsed / self.timerDuration) / 2
+                print(elapsed)
             }
         }
     }
     
-    var progress: Double = 0 {
+    func stop() {
+        self.timer?.invalidate()
+        self.completion = nil
+        self.progress = 0
+    }
+    
+    private var progress: Double = 0 {
         willSet(newValue)
         {
             progressLayer.strokeEnd = CGFloat(newValue)

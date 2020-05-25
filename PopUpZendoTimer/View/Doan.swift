@@ -64,19 +64,21 @@ class Doan {
                            }
             }
     
+    func cancelBells() {
+        self.bell.stop()
+        self.repeatingBellTimer?.invalidate()
+    }
     
-    func strikeBell(timesPlayed: Int = 0,  _ count: Int) {
-               self.bell.currentTime = 0
-               if (count - timesPlayed) > 1 {
-                   self.bell.play()
-                   repeatingBellTimer = Timer.scheduledTimer(withTimeInterval: 8, repeats: false) { _ in
-                    self.strikeBell(timesPlayed: timesPlayed + 1, count)
-                   }
-               } else {
-                   self.bell.play()
-                //repeatingBellTimer?.invalidate()
-               }
-           }
+    func strikeBell(_ count: Int) {
+        if count == 0 { return }
+        self.bell.currentTime = 0
+        self.bell.play()
+        
+        print("Playing bell, \(count - 1) left")
+        repeatingBellTimer = Timer.scheduledTimer(withTimeInterval: 8, repeats: false) { _ in
+            self.strikeBell(count - 1)
+        }
+    }
     
     
     func testBell(name: String) {

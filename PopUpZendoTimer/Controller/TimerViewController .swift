@@ -139,7 +139,6 @@ class TimerViewController: UIViewController {
         countdownTimer?.invalidate()
         countDownLabel.isHidden = true
         self.stopAnimatedTimer()
-        doan.bell.stop()
         label.isHidden = false
         slider.isHidden = false
         sliderValue.isHidden = false
@@ -203,24 +202,11 @@ class TimerViewController: UIViewController {
                 self.returnButton.isHidden = false
             }
         }
-//        self.progress.animate(fromAngle: 0, toAngle: 360, duration: self.zazen*60) { completed in
-//            if completed {
-//                let endZazen = (self.defaults.integer(forKey: "endNumber"))
-//                if self.defaults.bool(forKey: "bell") == true {
-//                    self.doan.strikeBell(endZazen)
-//                    self.returnButton.isHidden = false
-//                }
-//            } else {
-//
-//            }
-//        }
     }
     
     func stopAnimatedTimer() {
-   //     self.progress.stopAnimation()
-        
-        self.zenTimer.progress = 0
-        doan.bell.stop()
+        self.zenTimer.stop()
+        doan.cancelBells()
         //self.repeatingBellTimer?.invalidate()
 
     }

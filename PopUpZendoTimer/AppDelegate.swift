@@ -8,6 +8,11 @@
 
 import UIKit
 import UserNotifications
+import Firebase
+import FirebaseStorage
+
+
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterDelegate {
@@ -28,7 +33,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
                 print("local no=tification permissions denied")
             }
         }
-    
+        
+        FirebaseApp.configure()
+        let storage = Storage.storage()
+        
         
         
         UserDefaults.standard.register(defaults: [
@@ -36,7 +44,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
             "mode": true,
             "bell": true,
             //"sound": "mediumKesu",
-            "bellSound": "medium-kesu",
+            "bellSound": "small-bell",
             "ext": "aiff",
             "bellImage": "small-bell",
             "countdownNumber": 4,

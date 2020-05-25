@@ -3,11 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		D70B4435243018BF008A7D2E /* Bells.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70B4434243018BF008A7D2E /* Bells.swift */; };
+		D71A2628246CFFD60061B76B /* CountriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71A2627246CFFD60061B76B /* CountriesTableViewController.swift */; };
+		D73340B32467B0ED002367A3 /* GroupsListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73340B22467B0ED002367A3 /* GroupsListVC.swift */; };
+		D73340B52467B214002367A3 /* GroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73340B42467B214002367A3 /* GroupCell.swift */; };
 		D73A4C8C244D208500EE407E /* large-kesu.aiff in Resources */ = {isa = PBXBuildFile; fileRef = D73A4C89244D207C00EE407E /* large-kesu.aiff */; };
 		D73A4C8D244D208500EE407E /* small-bell.aiff in Resources */ = {isa = PBXBuildFile; fileRef = D73A4C8A244D208000EE407E /* small-bell.aiff */; };
 		D73A4C8E244D208500EE407E /* medium-kesu.aiff in Resources */ = {isa = PBXBuildFile; fileRef = D73A4C8B244D208400EE407E /* medium-kesu.aiff */; };
@@ -25,19 +28,39 @@
 		D76324762454AAA8001F1825 /* AmaticSC-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D76324742454A7C2001F1825 /* AmaticSC-Bold.ttf */; };
 		D76324782454C5DF001F1825 /* Stopwatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76324772454C5DF001F1825 /* Stopwatch.swift */; };
 		D763247A24553F97001F1825 /* hanInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D763247924553F97001F1825 /* hanInfoVC.swift */; };
+		D772594E246F5BA200478B50 /* DemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D772594D246F5BA200478B50 /* DemoCell.swift */; };
+		D7725950246F5BBD00478B50 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D772594F246F5BBD00478B50 /* TableViewController.swift */; };
 		D7773C7424383E3F008D4408 /* HanVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7773C7324383E3F008D4408 /* HanVC.swift */; };
 		D7773C772439837B008D4408 /* UITextField+InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7773C762439837B008D4408 /* UITextField+InputView.swift */; };
+		D77F76472474CCEE0002DE54 /* CircleMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77F76462474CCEE0002DE54 /* CircleMenu.swift */; };
+		D77F76492474D6900002DE54 /* CircleMenuLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77F76482474D6900002DE54 /* CircleMenuLoader.swift */; };
+		D77F764B2474D6B40002DE54 /* CircleMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77F764A2474D6B40002DE54 /* CircleMenuButton.swift */; };
+		D78586A3245B3A06003BF816 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D78586A2245B3A06003BF816 /* GoogleService-Info.plist */; };
+		D78586AB245CAE30003BF816 /* PopUpVid.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D78586AA245CAE30003BF816 /* PopUpVid.mp4 */; };
+		D78586AD245D1E7C003BF816 /* Bodhi.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78586AC245D1E7C003BF816 /* Bodhi.swift */; };
+		D78586AF245D1E8F003BF816 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78586AE245D1E8F003BF816 /* Group.swift */; };
+		D78586B2245D21D3003BF816 /* DataServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78586B1245D21D3003BF816 /* DataServices.swift */; };
+		D787F55D245FB22100EF1160 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D787F55C245FB22100EF1160 /* ProfileVC.swift */; };
+		D787F55F245FB24A00EF1160 /* GroupsVCTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D787F55E245FB24A00EF1160 /* GroupsVCTest.swift */; };
 		D78D8FEA2452A2E200F410AF /* han.aiff in Resources */ = {isa = PBXBuildFile; fileRef = D78D8FE92452A2E200F410AF /* han.aiff */; };
 		D7937FB3245A317500460C8E /* rolldown.aiff in Resources */ = {isa = PBXBuildFile; fileRef = D7937FB0245A316C00460C8E /* rolldown.aiff */; };
 		D7937FB4245A317500460C8E /* stop.aiff in Resources */ = {isa = PBXBuildFile; fileRef = D7937FB1245A317000460C8E /* stop.aiff */; };
 		D7937FB7245A379400460C8E /* inkin-bell.aiff in Resources */ = {isa = PBXBuildFile; fileRef = D7937FB6245A379400460C8E /* inkin-bell.aiff */; };
+		D7937FBB245A762F00460C8E /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7937FBA245A762F00460C8E /* LogInViewController.swift */; };
+		D7937FBD245A764A00460C8E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7937FBC245A764A00460C8E /* HomeViewController.swift */; };
+		D7937FBF245A8BDD00460C8E /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7937FBE245A8BDD00460C8E /* SignUpViewController.swift */; };
+		D7937FC3245A8ED300460C8E /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7937FC1245A8ECF00460C8E /* Utilities.swift */; };
+		D7937FC4245A8ED300460C8E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7937FC2245A8ED300460C8E /* Constants.swift */; };
 		D7999112231494650041AAD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7999111231494650041AAD1 /* AppDelegate.swift */; };
 		D7999117231494650041AAD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7999115231494650041AAD1 /* Main.storyboard */; };
 		D799911C231494660041AAD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D799911A231494660041AAD1 /* LaunchScreen.storyboard */; };
 		D7B197AB2316ED0300AAE2B0 /* Settings VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B197AA2316ED0300AAE2B0 /* Settings VC.swift */; };
 		D7BA55EC23205A07004E0E19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7BA55EB23205A07004E0E19 /* Assets.xcassets */; };
+		D7BF95872470F12200EF9DC2 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BF95862470F12200EF9DC2 /* ImagePicker.swift */; };
+		D7C8A66A245A953E00DAE2EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C8A669245A953E00DAE2EC /* ViewController.swift */; };
 		D7CDB072241CA7C100FAFE97 /* InstructionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CDB071241CA7C100FAFE97 /* InstructionsVC.swift */; };
 		D7CDB079241F279B00FAFE97 /* zen_regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7CDB078241F279B00FAFE97 /* zen_regular.ttf */; };
+		D7DE18D4246FB24C00E75F8D /* GroupsCreateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DE18D3246FB24C00E75F8D /* GroupsCreateVC.swift */; };
 		D7E6DC402446AC63005433C0 /* LocalNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E6DC3F2446AC63005433C0 /* LocalNotificationManager.swift */; };
 		DB49CFDEB0B236AF8D9F673A /* Pods_PopUpZendoTimer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B5F457A6AE8407CB0C87C48 /* Pods_PopUpZendoTimer.framework */; };
 /* End PBXBuildFile section */
@@ -47,6 +70,9 @@
 		82C5B80A061F0F3C3F0EA6A4 /* Pods-PopUpZendoTimer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopUpZendoTimer.release.xcconfig"; path = "Target Support Files/Pods-PopUpZendoTimer/Pods-PopUpZendoTimer.release.xcconfig"; sourceTree = "<group>"; };
 		9B5F457A6AE8407CB0C87C48 /* Pods_PopUpZendoTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PopUpZendoTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D70B4434243018BF008A7D2E /* Bells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bells.swift; sourceTree = "<group>"; };
+		D71A2627246CFFD60061B76B /* CountriesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesTableViewController.swift; sourceTree = "<group>"; };
+		D73340B22467B0ED002367A3 /* GroupsListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupsListVC.swift; sourceTree = "<group>"; };
+		D73340B42467B214002367A3 /* GroupCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupCell.swift; sourceTree = "<group>"; };
 		D73A4C89244D207C00EE407E /* large-kesu.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "large-kesu.aiff"; sourceTree = "<group>"; };
 		D73A4C8A244D208000EE407E /* small-bell.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "small-bell.aiff"; sourceTree = "<group>"; };
 		D73A4C8B244D208400EE407E /* medium-kesu.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "medium-kesu.aiff"; sourceTree = "<group>"; };
@@ -64,12 +90,29 @@
 		D76324742454A7C2001F1825 /* AmaticSC-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AmaticSC-Bold.ttf"; sourceTree = "<group>"; };
 		D76324772454C5DF001F1825 /* Stopwatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stopwatch.swift; sourceTree = "<group>"; };
 		D763247924553F97001F1825 /* hanInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hanInfoVC.swift; sourceTree = "<group>"; };
+		D772594D246F5BA200478B50 /* DemoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoCell.swift; sourceTree = "<group>"; };
+		D772594F246F5BBD00478B50 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		D7773C7324383E3F008D4408 /* HanVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HanVC.swift; sourceTree = "<group>"; };
 		D7773C762439837B008D4408 /* UITextField+InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+InputView.swift"; sourceTree = "<group>"; };
+		D77F76462474CCEE0002DE54 /* CircleMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleMenu.swift; sourceTree = "<group>"; };
+		D77F76482474D6900002DE54 /* CircleMenuLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleMenuLoader.swift; sourceTree = "<group>"; };
+		D77F764A2474D6B40002DE54 /* CircleMenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleMenuButton.swift; sourceTree = "<group>"; };
+		D78586A2245B3A06003BF816 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D78586AA245CAE30003BF816 /* PopUpVid.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = PopUpVid.mp4; sourceTree = "<group>"; };
+		D78586AC245D1E7C003BF816 /* Bodhi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bodhi.swift; sourceTree = "<group>"; };
+		D78586AE245D1E8F003BF816 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		D78586B1245D21D3003BF816 /* DataServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataServices.swift; sourceTree = "<group>"; };
+		D787F55C245FB22100EF1160 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		D787F55E245FB24A00EF1160 /* GroupsVCTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GroupsVCTest.swift; path = "../New Group/GroupsVCTest.swift"; sourceTree = "<group>"; };
 		D78D8FE92452A2E200F410AF /* han.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = han.aiff; sourceTree = "<group>"; };
 		D7937FB0245A316C00460C8E /* rolldown.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = rolldown.aiff; sourceTree = "<group>"; };
 		D7937FB1245A317000460C8E /* stop.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = stop.aiff; sourceTree = "<group>"; };
 		D7937FB6245A379400460C8E /* inkin-bell.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "inkin-bell.aiff"; sourceTree = "<group>"; };
+		D7937FBA245A762F00460C8E /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		D7937FBC245A764A00460C8E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D7937FBE245A8BDD00460C8E /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		D7937FC1245A8ECF00460C8E /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		D7937FC2245A8ED300460C8E /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		D799910E231494650041AAD1 /* PopUpZendoTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopUpZendoTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7999111231494650041AAD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7999116231494650041AAD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -77,8 +120,11 @@
 		D799911D231494660041AAD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7B197AA2316ED0300AAE2B0 /* Settings VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Settings VC.swift"; sourceTree = "<group>"; };
 		D7BA55EB23205A07004E0E19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7BF95862470F12200EF9DC2 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		D7C8A669245A953E00DAE2EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D7CDB071241CA7C100FAFE97 /* InstructionsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionsVC.swift; sourceTree = "<group>"; };
 		D7CDB078241F279B00FAFE97 /* zen_regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = zen_regular.ttf; sourceTree = "<group>"; };
+		D7DE18D3246FB24C00E75F8D /* GroupsCreateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsCreateVC.swift; sourceTree = "<group>"; };
 		D7E6DC3F2446AC63005433C0 /* LocalNotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -133,6 +179,8 @@
 				D7E6DC3F2446AC63005433C0 /* LocalNotificationManager.swift */,
 				D73A4C8F244D278200EE407E /* NotificationDelegate.swift */,
 				D73A4CB1244E25A400EE407E /* Forms.swift */,
+				D78586AC245D1E7C003BF816 /* Bodhi.swift */,
+				D78586AE245D1E8F003BF816 /* Group.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -144,6 +192,9 @@
 				D73A7DFC2443B18700923F02 /* Doan.swift */,
 				D73A7E0224453F7A00923F02 /* ZenTimer.swift */,
 				D76324772454C5DF001F1825 /* Stopwatch.swift */,
+				D73340B42467B214002367A3 /* GroupCell.swift */,
+				D772594D246F5BA200478B50 /* DemoCell.swift */,
+				D7BF95862470F12200EF9DC2 /* ImagePicker.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -151,6 +202,7 @@
 		D7773C7A2439844B008D4408 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				D7DE18D2246FB1CC00E75F8D /* Groups */,
 				D763247924553F97001F1825 /* hanInfoVC.swift */,
 				D7773C7324383E3F008D4408 /* HanVC.swift */,
 				D7CDB071241CA7C100FAFE97 /* InstructionsVC.swift */,
@@ -159,13 +211,55 @@
 				D73C54BD2459F7660071DC22 /* DoanStation.swift */,
 				D73C54BF2459F7F40071DC22 /* DoanStationInfoVC.swift */,
 				D73C54C12459F8250071DC22 /* InkinPopUpVC.swift */,
+				D7937FBA245A762F00460C8E /* LogInViewController.swift */,
+				D7937FBC245A764A00460C8E /* HomeViewController.swift */,
+				D7937FBE245A8BDD00460C8E /* SignUpViewController.swift */,
+				D7C8A669245A953E00DAE2EC /* ViewController.swift */,
+				D787F55C245FB22100EF1160 /* ProfileVC.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		D77F76452474CA1C0002DE54 /* CircleMenuLib */ = {
+			isa = PBXGroup;
+			children = (
+				D77F76462474CCEE0002DE54 /* CircleMenu.swift */,
+				D77F76482474D6900002DE54 /* CircleMenuLoader.swift */,
+				D77F764A2474D6B40002DE54 /* CircleMenuButton.swift */,
+			);
+			path = CircleMenuLib;
+			sourceTree = "<group>";
+		};
+		D78586A4245CAB04003BF816 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				D78586AA245CAE30003BF816 /* PopUpVid.mp4 */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		D78586B0245D21B0003BF816 /* Sevices */ = {
+			isa = PBXGroup;
+			children = (
+				D78586B1245D21D3003BF816 /* DataServices.swift */,
+			);
+			path = Sevices;
+			sourceTree = "<group>";
+		};
+		D7937FC0245A8E7300460C8E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D7937FC2245A8ED300460C8E /* Constants.swift */,
+				D7937FC1245A8ECF00460C8E /* Utilities.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		D7999105231494650041AAD1 = {
 			isa = PBXGroup;
 			children = (
+				D77F76452474CA1C0002DE54 /* CircleMenuLib */,
+				D78586B0245D21B0003BF816 /* Sevices */,
 				D7999110231494650041AAD1 /* PopUpZendoTimer */,
 				D799910F231494650041AAD1 /* Products */,
 				1B7CF1CB038D25415E650CC2 /* Pods */,
@@ -184,6 +278,8 @@
 		D7999110231494650041AAD1 /* PopUpZendoTimer */ = {
 			isa = PBXGroup;
 			children = (
+				D78586A4245CAB04003BF816 /* Media */,
+				D7937FC0245A8E7300460C8E /* Helpers */,
 				D7CDB073241F271100FAFE97 /* Resources */,
 				D70B4433243018A0008A7D2E /* Model */,
 				D7773C7524398364008D4408 /* View */,
@@ -192,6 +288,7 @@
 				D7999115231494650041AAD1 /* Main.storyboard */,
 				D799911A231494660041AAD1 /* LaunchScreen.storyboard */,
 				D799911D231494660041AAD1 /* Info.plist */,
+				D78586A2245B3A06003BF816 /* GoogleService-Info.plist */,
 			);
 			path = PopUpZendoTimer;
 			sourceTree = "<group>";
@@ -207,6 +304,18 @@
 				D75AA57224574CC700BDA7F3 /* Color.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		D7DE18D2246FB1CC00E75F8D /* Groups */ = {
+			isa = PBXGroup;
+			children = (
+				D787F55E245FB24A00EF1160 /* GroupsVCTest.swift */,
+				D73340B22467B0ED002367A3 /* GroupsListVC.swift */,
+				D71A2627246CFFD60061B76B /* CountriesTableViewController.swift */,
+				D772594F246F5BBD00478B50 /* TableViewController.swift */,
+				D7DE18D3246FB24C00E75F8D /* GroupsCreateVC.swift */,
+			);
+			path = Groups;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,6 +387,8 @@
 				D75AA57324574CC700BDA7F3 /* Color.xcassets in Resources */,
 				D7999117231494650041AAD1 /* Main.storyboard in Resources */,
 				D7BA55EC23205A07004E0E19 /* Assets.xcassets in Resources */,
+				D78586A3245B3A06003BF816 /* GoogleService-Info.plist in Resources */,
+				D78586AB245CAE30003BF816 /* PopUpVid.mp4 in Resources */,
 				D7CDB079241F279B00FAFE97 /* zen_regular.ttf in Resources */,
 				D7937FB4245A317500460C8E /* stop.aiff in Resources */,
 				D76324722453ED23001F1825 /* han-intro.aiff in Resources */,
@@ -296,16 +407,11 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PopUpZendoTimer/Pods-PopUpZendoTimer-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/KDCircularProgress/KDCircularProgress.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-PopUpZendoTimer/Pods-PopUpZendoTimer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KDCircularProgress.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-PopUpZendoTimer/Pods-PopUpZendoTimer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -341,22 +447,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D71A2628246CFFD60061B76B /* CountriesTableViewController.swift in Sources */,
 				D73C54BE2459F7660071DC22 /* DoanStation.swift in Sources */,
+				D78586B2245D21D3003BF816 /* DataServices.swift in Sources */,
+				D77F76472474CCEE0002DE54 /* CircleMenu.swift in Sources */,
+				D7DE18D4246FB24C00E75F8D /* GroupsCreateVC.swift in Sources */,
+				D73340B52467B214002367A3 /* GroupCell.swift in Sources */,
+				D7937FC4245A8ED300460C8E /* Constants.swift in Sources */,
 				D73A4CB2244E25A400EE407E /* Forms.swift in Sources */,
 				D73C54C22459F8250071DC22 /* InkinPopUpVC.swift in Sources */,
+				D78586AD245D1E7C003BF816 /* Bodhi.swift in Sources */,
 				D7E6DC402446AC63005433C0 /* LocalNotificationManager.swift in Sources */,
 				D70B4435243018BF008A7D2E /* Bells.swift in Sources */,
+				D77F764B2474D6B40002DE54 /* CircleMenuButton.swift in Sources */,
+				D787F55F245FB24A00EF1160 /* GroupsVCTest.swift in Sources */,
 				D7773C7424383E3F008D4408 /* HanVC.swift in Sources */,
+				D77F76492474D6900002DE54 /* CircleMenuLoader.swift in Sources */,
+				D7C8A66A245A953E00DAE2EC /* ViewController.swift in Sources */,
 				D73A7E0324453F7B00923F02 /* ZenTimer.swift in Sources */,
 				D76324782454C5DF001F1825 /* Stopwatch.swift in Sources */,
 				D73A7E05244540C200923F02 /* TimerViewController .swift in Sources */,
+				D7937FC3245A8ED300460C8E /* Utilities.swift in Sources */,
 				D7CDB072241CA7C100FAFE97 /* InstructionsVC.swift in Sources */,
+				D7725950246F5BBD00478B50 /* TableViewController.swift in Sources */,
+				D7BF95872470F12200EF9DC2 /* ImagePicker.swift in Sources */,
+				D787F55D245FB22100EF1160 /* ProfileVC.swift in Sources */,
 				D73A7DFD2443B18700923F02 /* Doan.swift in Sources */,
+				D78586AF245D1E8F003BF816 /* Group.swift in Sources */,
 				D73A4C90244D278200EE407E /* NotificationDelegate.swift in Sources */,
 				D73C54C02459F7F40071DC22 /* DoanStationInfoVC.swift in Sources */,
+				D73340B32467B0ED002367A3 /* GroupsListVC.swift in Sources */,
 				D763247A24553F97001F1825 /* hanInfoVC.swift in Sources */,
+				D7937FBF245A8BDD00460C8E /* SignUpViewController.swift in Sources */,
+				D7937FBD245A764A00460C8E /* HomeViewController.swift in Sources */,
 				D7773C772439837B008D4408 /* UITextField+InputView.swift in Sources */,
+				D772594E246F5BA200478B50 /* DemoCell.swift in Sources */,
 				D7B197AB2316ED0300AAE2B0 /* Settings VC.swift in Sources */,
+				D7937FBB245A762F00460C8E /* LogInViewController.swift in Sources */,
 				D7999112231494650041AAD1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -512,6 +639,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 3.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.popupzendo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -532,6 +660,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 3.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.popupzendo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
