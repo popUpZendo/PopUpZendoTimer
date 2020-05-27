@@ -1,8 +1,8 @@
 //
-//  GroupsCreateVC.swift
+//  GroupsEditVC.swift
 //  PopUpZendoTimer
 //
-//  Created by Joseph Hall on 5/15/20.
+//  Created by Joseph Hall on 5/26/20.
 //  Copyright © 2020 Joseph Hall. All rights reserved.
 //
 
@@ -12,26 +12,23 @@ import FirebaseStorage
 
 
 
-class GroupsCreateVC: UIViewController {
-    
-    @IBAction func groupNameField(_ sender: Any) {
-    }
-    
-    
-    
+class GroupsEditVC: UIViewController {
     @IBOutlet weak var groupNameField: UITextField!
     @IBOutlet weak var banner: UIImageView!
     @IBOutlet weak var logo: UIImageView!
     @IBOutlet weak var timeField: UITextField!
+    @IBOutlet weak var weekdayField: UITextField!
     @IBOutlet weak var formatField: UITextField!
     @IBOutlet weak var cityField: UITextField!
     @IBOutlet weak var detailsField: UITextField!
-    @IBOutlet weak var inoField: UITextField!
     @IBOutlet weak var roshiField: UITextField!
+    @IBOutlet weak var inoField: UITextField!
     @IBOutlet weak var templeField: UITextField!
     @IBOutlet weak var websiteField: UITextField!
     @IBOutlet weak var zoomField: UITextField!
     @IBOutlet weak var logoButton: UIButton!
+    
+    var selectedGroup = ""
     
     let storageRef = Storage.storage().reference()
     let uid = (Auth.auth().currentUser?.uid)!
@@ -53,9 +50,57 @@ class GroupsCreateVC: UIViewController {
         super.viewDidLoad()
                  self.imagePicker = ImagePicker(presentationController: self, delegate: self)
         
-               self.timeField.setInputViewDatePicker(target: self, selector: #selector(tapDone)) //1
+               //>>>>>>>>>self.timeField.setInputViewDatePicker(target: self, selector: #selector(tapDone)) //1
                // imagePicker.delegate = self
         getUserName()
+        getOneGroup()
+        print("SELECTED GROUP_________________ \(selectedGroup)")
+    }
+    
+    func getOneGroup () {
+        db.collection("groups").document("Practical Zen")
+        .addSnapshotListener { documentSnapshot, error in
+          guard let document = documentSnapshot else {
+            print("Error fetching document: \(error!)")
+            return
+          }
+          guard let data = document.data() else {
+            print("Document data was empty.")
+            return
+          }
+         // print("Current data: \(data)")
+            let groupName = document.get("groupName") as! String
+            print(groupName)
+            let city = document.get("city") as! String
+            let details = document.get("details") as! String
+            let weekday = document.get("weekday") as! String
+            let timeStamp = document.get("time") as! Timestamp
+            let time = timeStamp.dateValue()
+            let ino  = document.get("ino") as! String
+            let members = document.get("members") as! [String]
+            let roshi = document.get("roshi") as! String
+            let temple = document.get("temple") as! String
+            let website = document.get("website") as! String
+            let zoom = document.get("zoom") as! String
+            
+         let dateformatter = DateFormatter()
+         dateformatter.dateFormat = "EEEE's  at ' h:mm a"
+         //self.timeLabel.text = dateformatter.string(from: time)
+         self.groupNameField.text = groupName
+         self.cityField.text = city
+         self.detailsField.text = details
+            self.roshiField.text = roshi
+            self.inoField.text = ino
+            self.templeField.text = temple
+            self.websiteField.text = website
+            self.weekdayField.text = weekday
+            self.zoomField.text = zoom
+         //self.weekdayField.text = weekday
+         
+        
+         //self.membersLabel.text = members.joined(separator: " ")
+            //self.groupLable.text = String(describing: (groups))
+        }
     }
     
     
@@ -210,14 +255,14 @@ class GroupsCreateVC: UIViewController {
 
 }
 
-extension GroupsCreateVC: ImagePickerDelegate {
+extension GroupsEditVC: ImagePickerDelegate {
 
     func didSelect(image: UIImage?) {
         //self.banner.image = image
         
         if selectedButton == "logo" {
             self.logo.image = image
-            uploadImage(pic: logo, imageURL: logoImageURL) 
+            uploadImage(pic: logo, imageURL: logoImageURL)
            
             print("LogoURL \(logoImageURL)")
         } else {
@@ -227,27 +272,31 @@ extension GroupsCreateVC: ImagePickerDelegate {
 }
 }
 
-//extension UIImage {
-//    func resizeWithPercent(percentage: CGFloat) -> UIImage? {
-//        let imageView = UIImageView(frame: CGRect(origin: .zero, size: CGSize(width: size.width * percentage, height: size.height * percentage)))
-//        imageView.contentMode = .scaleAspectFit
-//        imageView.image = self
-//        UIGraphicsBeginImageContextWithOptions(imageView.bounds.size, false, scale)
-//        guard let context = UIGraphicsGetCurrentContext() else { return nil }
-//        imageView.layer.render(in: context)
-//        guard let result = UIGraphicsGetImageFromCurrentImageContext() else { return nil }
-//        UIGraphicsEndImageContext()
-//        return result
+extension GroupsEditVC:  UITableViewDelegate, UITableViewDataSource {
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        //groups.count
+        5
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "SortGroupsCell", for: indexPath)
+        let group = "Hello"///groups[indexPath.row]
+        cell.textLabel?.text = group
+
+        return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        //self.selectedGroup = groups[indexPath.row]
+        //performSegue(withIdentifier: "goToGroupsEditVC", sender: self)
+    }
+    
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        if let GroupsEditVC = segue.destination as? GroupsEditVC {
+//            GroupsEditVC.selectedGroup = self.selectedGroup
+//        }
 //    }
-//    func resizeWithWidth(width: CGFloat) -> UIImage? {
-//        let imageView = UIImageView(frame: CGRect(origin: .zero, size: CGSize(width: width, height: CGFloat(ceil(width/size.width * size.height)))))
-//        imageView.contentMode = .scaleAspectFit
-//        imageView.image = self
-//        UIGraphicsBeginImageContextWithOptions(imageView.bounds.size, false, scale)
-//        guard let context = UIGraphicsGetCurrentContext() else { return nil }
-//        imageView.layer.render(in: context)
-//        guard let result = UIGraphicsGetImageFromCurrentImageContext() else { return nil }
-//        UIGraphicsEndImageContext()
-//        return result
-//    }
-//}
+
+}
+

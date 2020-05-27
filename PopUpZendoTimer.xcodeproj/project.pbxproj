@@ -28,8 +28,12 @@
 		D76324762454AAA8001F1825 /* AmaticSC-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D76324742454A7C2001F1825 /* AmaticSC-Bold.ttf */; };
 		D76324782454C5DF001F1825 /* Stopwatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76324772454C5DF001F1825 /* Stopwatch.swift */; };
 		D763247A24553F97001F1825 /* hanInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D763247924553F97001F1825 /* hanInfoVC.swift */; };
+		D76DFB17247E202D004C47DD /* membersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76DFB16247E202D004C47DD /* membersCell.swift */; };
+		D76DFB1B247E21D7004C47DD /* GroupMembersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76DFB1A247E21D7004C47DD /* GroupMembersVC.swift */; };
 		D772594E246F5BA200478B50 /* DemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D772594D246F5BA200478B50 /* DemoCell.swift */; };
 		D7725950246F5BBD00478B50 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D772594F246F5BBD00478B50 /* TableViewController.swift */; };
+		D7758AE3247D72B90027266A /* GroupsSortVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7758AE2247D72B90027266A /* GroupsSortVC.swift */; };
+		D7758AE5247D72F70027266A /* SortGroupsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7758AE4247D72F70027266A /* SortGroupsCell.swift */; };
 		D7773C7424383E3F008D4408 /* HanVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7773C7324383E3F008D4408 /* HanVC.swift */; };
 		D7773C772439837B008D4408 /* UITextField+InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7773C762439837B008D4408 /* UITextField+InputView.swift */; };
 		D77F76472474CCEE0002DE54 /* CircleMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77F76462474CCEE0002DE54 /* CircleMenu.swift */; };
@@ -62,6 +66,7 @@
 		D7CDB079241F279B00FAFE97 /* zen_regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7CDB078241F279B00FAFE97 /* zen_regular.ttf */; };
 		D7DE18D4246FB24C00E75F8D /* GroupsCreateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DE18D3246FB24C00E75F8D /* GroupsCreateVC.swift */; };
 		D7E6DC402446AC63005433C0 /* LocalNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E6DC3F2446AC63005433C0 /* LocalNotificationManager.swift */; };
+		D7F76C4B247DE68100F4D927 /* GroupsEditVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F76C4A247DE68100F4D927 /* GroupsEditVC.swift */; };
 		DB49CFDEB0B236AF8D9F673A /* Pods_PopUpZendoTimer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B5F457A6AE8407CB0C87C48 /* Pods_PopUpZendoTimer.framework */; };
 /* End PBXBuildFile section */
 
@@ -90,8 +95,12 @@
 		D76324742454A7C2001F1825 /* AmaticSC-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AmaticSC-Bold.ttf"; sourceTree = "<group>"; };
 		D76324772454C5DF001F1825 /* Stopwatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stopwatch.swift; sourceTree = "<group>"; };
 		D763247924553F97001F1825 /* hanInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hanInfoVC.swift; sourceTree = "<group>"; };
+		D76DFB16247E202D004C47DD /* membersCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = membersCell.swift; sourceTree = "<group>"; };
+		D76DFB1A247E21D7004C47DD /* GroupMembersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupMembersVC.swift; sourceTree = "<group>"; };
 		D772594D246F5BA200478B50 /* DemoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoCell.swift; sourceTree = "<group>"; };
 		D772594F246F5BBD00478B50 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		D7758AE2247D72B90027266A /* GroupsSortVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsSortVC.swift; sourceTree = "<group>"; };
+		D7758AE4247D72F70027266A /* SortGroupsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortGroupsCell.swift; sourceTree = "<group>"; };
 		D7773C7324383E3F008D4408 /* HanVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HanVC.swift; sourceTree = "<group>"; };
 		D7773C762439837B008D4408 /* UITextField+InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+InputView.swift"; sourceTree = "<group>"; };
 		D77F76462474CCEE0002DE54 /* CircleMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleMenu.swift; sourceTree = "<group>"; };
@@ -126,6 +135,7 @@
 		D7CDB078241F279B00FAFE97 /* zen_regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = zen_regular.ttf; sourceTree = "<group>"; };
 		D7DE18D3246FB24C00E75F8D /* GroupsCreateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsCreateVC.swift; sourceTree = "<group>"; };
 		D7E6DC3F2446AC63005433C0 /* LocalNotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationManager.swift; sourceTree = "<group>"; };
+		D7F76C4A247DE68100F4D927 /* GroupsEditVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsEditVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,9 +202,11 @@
 				D73A7DFC2443B18700923F02 /* Doan.swift */,
 				D73A7E0224453F7A00923F02 /* ZenTimer.swift */,
 				D76324772454C5DF001F1825 /* Stopwatch.swift */,
-				D73340B42467B214002367A3 /* GroupCell.swift */,
 				D772594D246F5BA200478B50 /* DemoCell.swift */,
+				D73340B42467B214002367A3 /* GroupCell.swift */,
 				D7BF95862470F12200EF9DC2 /* ImagePicker.swift */,
+				D7758AE4247D72F70027266A /* SortGroupsCell.swift */,
+				D76DFB16247E202D004C47DD /* membersCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -314,6 +326,9 @@
 				D71A2627246CFFD60061B76B /* CountriesTableViewController.swift */,
 				D772594F246F5BBD00478B50 /* TableViewController.swift */,
 				D7DE18D3246FB24C00E75F8D /* GroupsCreateVC.swift */,
+				D7758AE2247D72B90027266A /* GroupsSortVC.swift */,
+				D7F76C4A247DE68100F4D927 /* GroupsEditVC.swift */,
+				D76DFB1A247E21D7004C47DD /* GroupMembersVC.swift */,
 			);
 			path = Groups;
 			sourceTree = "<group>";
@@ -447,6 +462,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7758AE3247D72B90027266A /* GroupsSortVC.swift in Sources */,
 				D71A2628246CFFD60061B76B /* CountriesTableViewController.swift in Sources */,
 				D73C54BE2459F7660071DC22 /* DoanStation.swift in Sources */,
 				D78586B2245D21D3003BF816 /* DataServices.swift in Sources */,
@@ -455,6 +471,7 @@
 				D73340B52467B214002367A3 /* GroupCell.swift in Sources */,
 				D7937FC4245A8ED300460C8E /* Constants.swift in Sources */,
 				D73A4CB2244E25A400EE407E /* Forms.swift in Sources */,
+				D76DFB1B247E21D7004C47DD /* GroupMembersVC.swift in Sources */,
 				D73C54C22459F8250071DC22 /* InkinPopUpVC.swift in Sources */,
 				D78586AD245D1E7C003BF816 /* Bodhi.swift in Sources */,
 				D7E6DC402446AC63005433C0 /* LocalNotificationManager.swift in Sources */,
@@ -471,6 +488,8 @@
 				D7CDB072241CA7C100FAFE97 /* InstructionsVC.swift in Sources */,
 				D7725950246F5BBD00478B50 /* TableViewController.swift in Sources */,
 				D7BF95872470F12200EF9DC2 /* ImagePicker.swift in Sources */,
+				D76DFB17247E202D004C47DD /* membersCell.swift in Sources */,
+				D7F76C4B247DE68100F4D927 /* GroupsEditVC.swift in Sources */,
 				D787F55D245FB22100EF1160 /* ProfileVC.swift in Sources */,
 				D73A7DFD2443B18700923F02 /* Doan.swift in Sources */,
 				D78586AF245D1E8F003BF816 /* Group.swift in Sources */,
@@ -485,6 +504,7 @@
 				D7B197AB2316ED0300AAE2B0 /* Settings VC.swift in Sources */,
 				D7937FBB245A762F00460C8E /* LogInViewController.swift in Sources */,
 				D7999112231494650041AAD1 /* AppDelegate.swift in Sources */,
+				D7758AE5247D72F70027266A /* SortGroupsCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

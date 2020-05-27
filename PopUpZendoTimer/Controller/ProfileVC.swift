@@ -12,16 +12,12 @@ import FirebaseStorage
 
 
 class ProfileVC: UIViewController {
-    
   
     @IBOutlet weak var nameField: UITextField!
     @IBOutlet weak var emailField: UITextField!
     @IBOutlet weak var cityField: UITextField!
-    @IBOutlet weak var middaySwitch: UISwitch!
-    @IBOutlet weak var practicalSwitch: UISwitch!
     @IBOutlet weak var profileImage: UIImageView!
     @IBOutlet weak var profileButton: UIButton!
-    
     
     let storageRef = Storage.storage().reference()
     var groupsArray = [""]
@@ -47,8 +43,6 @@ class ProfileVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        middaySwitch.isSelected = false
-        practicalSwitch.isSelected = false
         
         if defaults.bool(forKey: "mode") == true {
             darkMode()
@@ -83,17 +77,9 @@ class ProfileVC: UIViewController {
             let email = document.get("Email") as! String
             let city = document.get("City") as! String
             let profileImageURL = document.get("Pic") as! String
-            //var groups = document.get("groups") as? [String]
-            
-            //print(" Groups \(groups)")
-            
-            //let groups = document.get("people") as? [Any]
-            
-            //print("Groups: \(groups)")
             
             self.profileImage.layer.cornerRadius = self.profileImage.frame.size.width/2
             self.profileImage.clipsToBounds = true
-           
             self.profileImageURL = profileImageURL
             self.getProfileImage(imageURL: profileImageURL)
             self.nameField.text = name
@@ -128,7 +114,7 @@ class ProfileVC: UIViewController {
     
     
     func uploadImage(pic: UIImageView, imageURL: String) -> (String) {
-         
+        
         var imageURL = imageURL
         //var addURLto = imageURL
         
@@ -140,49 +126,30 @@ class ProfileVC: UIViewController {
                 //DO SOMETHING
             }
         }
-         let imageName = NSUUID().uuidString
-         
-         let storedImage = storageRef.child("profile_images").child(imageName)
-         
+        let imageName = NSUUID().uuidString
+        let storedImage = storageRef.child("profile_images").child(imageName)
+        
         if let uploadData = pic.image!.pngData()
-         {
-             storedImage.putData(uploadData, metadata: nil, completion: { (metadata, error) in
-                 if error != nil{
-                     print(error!)
-                     return
-                 }
-                 storedImage.downloadURL(completion: { (url, error) in
-                     if error != nil{
-                         print(error!)
-                         return
-                     }
-                     let urlText = url?.absoluteString
-                     imageURL = urlText!
+        {
+            storedImage.putData(uploadData, metadata: nil, completion: { (metadata, error) in
+                if error != nil{
+                    print(error!)
+                    return
+                }
+                storedImage.downloadURL(completion: { (url, error) in
+                    if error != nil{
+                        print(error!)
+                        return
+                    }
+                    let urlText = url?.absoluteString
+                    imageURL = urlText!
                     //print("Image URL \(imageURL)")
                     addURL()
-                 })
-             })
-            
-             //print("Temple Image: \(bannerImage)")
-            
-         }
-         return imageURL
+                })
+            })
+        }
+        return imageURL
     }
-    
-    
-    func toggleGroup() {
-        DataService.instance.selectGroup(withName: "Midday Meditation", withSenderID: uid, forUID: uid, withBodhiKey: nil, sendComplete: { (isComplete) in
-                                   if isComplete {
-                   //                self.sendBtn.isEnabled = true
-                   //                self.dismiss(animated: true, completion: nil)
-                                   } else {
-                   //                self.sendBtn.isEnabled = true
-                                   print("There was an error!")
-                                   }
-                                   })
-    }
-    
-    
     
     func uploadProfile () {
         if nameField.text != nil && emailField.text != nil && cityField.text != nil {
@@ -215,38 +182,6 @@ class ProfileVC: UIViewController {
           }
          // return profileImage!
       }
-    
-    
-    
-    
-    
-    @IBAction func middayToggle(_ sender: Any) {
-        isChecked = !isChecked
-        if isChecked {
-            DataService.instance.selectGroup(withName: "Midday Meditation", withSenderID: uid, forUID: uid, withBodhiKey: nil, sendComplete: { (isComplete) in
-                            if isComplete {
-            //                self.sendBtn.isEnabled = true
-            //                self.dismiss(animated: true, completion: nil)
-                            } else {
-            //                self.sendBtn.isEnabled = true
-                            print("There was an error!")
-                            }
-                            })
-        } else {
-            db.collection("bodhi").document(uid).updateData([
-                "Group": FieldValue.delete(),
-            ]) { err in
-                if let err = err {
-                    print("Error updating document: \(err)")
-                } else {
-                    print("Document successfully updated")
-                }
-            }
-        }
-    }
-    
-    
-    
     
     
     @IBAction func Save(_ sender: Any) {

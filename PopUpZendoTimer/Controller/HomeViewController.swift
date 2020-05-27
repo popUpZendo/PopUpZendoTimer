@@ -29,8 +29,14 @@ class HomeViewController: UIViewController, CircleMenuDelegate {
     
     var logoImage = UIImage(named: "zen-profile")
     var profileImageURL = ""
+    var groups = [""]
+    
+    //var user: User!
+   // let usersRef = db.collection("online")
     
     let defaults = UserDefaults.standard
+    
+    
     
     func darkMode() {
         self.view.backgroundColor = UIColor.black
@@ -59,12 +65,25 @@ class HomeViewController: UIViewController, CircleMenuDelegate {
         } else {
             lightMode()
         }
+        
+//        Auth.auth().addStateDidChangeListener { auth, user in
+//        guard let user = user else { return }
+//          //self.user = User(authData: user)
+//
+//          // 1
+//          let currentUserRef = self.usersRef.document(self.user.uid)
+//          // 2
+//          currentUserRef.setValue(uid, forKey: "online")
+//          // 3
+//          currentUserRef.onDisconnectRemoveValue()
+        
         readProfile()
         
         
+        
         //button.delegate = CircleMenuDelegate.self
-        var midY = self.view.frame.height / 2
-        var midX = self.view.frame.width / 2
+        let midY = self.view.frame.height / 2
+        let midX = self.view.frame.width / 2
         // add button
                 let button = CircleMenu(
                     frame: CGRect(x: midX-20, y: midY/0.7, width: 50, height: 50),
@@ -91,7 +110,6 @@ class HomeViewController: UIViewController, CircleMenuDelegate {
           if let error = error {
             print("Uh-oh, an error occurred!")
           } else {
-            print("Image is returned")
             profileImage = UIImage(data: data!)!
             self.profilePic.image = profileImage
           }
@@ -101,52 +119,41 @@ class HomeViewController: UIViewController, CircleMenuDelegate {
     }
     
     func readProfile () {
-         db.collection("bodhi").document(uid)
-         .addSnapshotListener { documentSnapshot, error in
-           guard let document = documentSnapshot else {
-             print("Error fetching document: \(error!)")
-             return
-           }
-           guard let data = document.data() else {
-             print("Document data was empty.")
-             return
-           }
-           //print("Current data: \(data)")
-             let name = document.get("Name") as! String
-             let email = document.get("Email") as! String
-             let city = document.get("City") as! String
-             let profileImageURL = document.get("Pic") as! String
-             //var groups = document.get("groups") as? [String]
-             
-             //print(" Groups \(groups)")
-             
-             //let groups = document.get("people") as? [Any]
-             
-             //print("Groups: \(groups)")
-            
-            self.profileImageURL = profileImageURL
-            self.getProfileImage(imageURL: profileImageURL)
-             
-             self.username.text = name
-             self.email.text = email
-             self.city.text = city
-             //self.groupLable.text = String(describing: (groups))
-            if self.profilePic.image == UIImage(named: "zen-profile") {
-                self.profilePic.layer.cornerRadius = 0
-            } else {
-            self.profilePic.layer.cornerRadius = self.profilePic.frame.size.width/2
-            self.profilePic.clipsToBounds = true
-               
+        db.collection("bodhi").document(uid)
+            .addSnapshotListener { documentSnapshot, error in
+                guard let document = documentSnapshot else {
+                    print("Error fetching document: \(error!)")
+                    return
+                }
+                guard let data = document.data() else {
+                    print("Document data was empty.")
+                    return
+                }
+                //print("Current data: \(data)")
+                let name = document.get("Name") as! String
+                let email = document.get("Email") as! String
+                let city = document.get("City") as! String
+                let profileImageURL = document.get("Pic") as! String
+                let groups = document.get("Groups") as! [String]
+                let filteredGroups = groups.filter({ $0 != ""})
                 
-               
+                self.profileImageURL = profileImageURL
+                self.getProfileImage(imageURL: profileImageURL)
+                self.username.text = name
+                self.email.text = email
+                self.city.text = city
+                self.groupslist.text = filteredGroups.map { "\($0)" }.joined(separator:"\n")
+                self.groups = groups
+                if self.profilePic.image == UIImage(named: "zen-profile") {
+                    self.profilePic.layer.cornerRadius = 0
+                } else {
+                    self.profilePic.layer.cornerRadius = self.profilePic.frame.size.width/2
+                    self.profilePic.clipsToBounds = true
+                }
                 
-                
-                
-            }
-            
-         }
-     }
-        
+        }
+    }
+    
                 
         // MARK: <CircleMenuDelegate>
 
@@ -176,12 +183,18 @@ class HomeViewController: UIViewController, CircleMenuDelegate {
             } else if atIndex == 3 {
                 performSegue(withIdentifier: "goToBell", sender: nil)
             } else if atIndex == 4 {
-                performSegue(withIdentifier: "goToCreateGroup", sender: nil)
+                performSegue(withIdentifier: "goToSortGroups", sender: nil)
             } else if atIndex == 5 {
                 performSegue(withIdentifier: "goToSettings", sender: nil)
             }
             
     }
 
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let GroupsSortVC = segue.destination as? GroupsSortVC {
+            GroupsSortVC.groups = groups.filter({ $0 != ""})
         }
+    }
+    
+}
 

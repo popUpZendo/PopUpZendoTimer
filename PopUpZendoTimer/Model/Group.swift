@@ -23,7 +23,7 @@ class Group {
     private var _pic: String
     private var _logo: String
     private var _senderId: String
-    //private var _members: [String]
+    private var _members: [String]
     //private var _key: String
 
     
@@ -84,9 +84,9 @@ class Group {
         return _senderId
     }
     
-//    var members: [String] {
-//        return _members
-//    }
+    var members: [String] {
+        return _members
+    }
    
 //    var key: String {
 //        return _key
@@ -94,7 +94,7 @@ class Group {
     
 
     
-    init(groupName: String, weekday: String, time: Date, format: String, city: String, details: String, ino: String, roshi: String, website: String, zoom: String, temple: String, pic: String, logo: String, senderId: String   /*String, members: String, key: String*/) {
+    init(groupName: String, weekday: String, time: Date, format: String, city: String, details: String, ino: String, roshi: String, website: String, zoom: String, temple: String, pic: String, logo: String, senderId: String, members: [String] /*, key: String*/) {
         self._groupName = groupName
         self._weekday = weekday
         self._time = time
@@ -109,7 +109,7 @@ class Group {
         self._pic = pic
         self._logo = logo
         self._senderId = senderId
-        //self._members = [members]
+        self._members = members
         //self._key = key
     }
 }

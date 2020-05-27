@@ -69,7 +69,7 @@ class DataService {
                      "Name": name,
                      "Email": email,
                      "City": city,
-                     //"Groups": groups,
+                     "Groups": [""],
                      "senderId": uid
                 ]) { err in
                     if let err = err {
@@ -94,9 +94,8 @@ class DataService {
                    }
                }
         
-        
         db.collection("bodhi").document(uid).updateData([
-            "Group": name,
+            "Groups": FieldValue.arrayUnion([name]),
             "senderId": uid
         ]) { err in
             if let err = err {
@@ -106,9 +105,35 @@ class DataService {
             }
         }
         
-       
         
     }
+    
+    
+    func leaveGroup(withName name: String, withSenderID senderID: String, forUID uid: String, withBodhiKey bodhiKey: String?, sendComplete: @escaping (_ status: Bool) -> ()) {
+           
+           db.collection("groups").document(name).updateData([
+                      "members": FieldValue.arrayRemove([uid])
+                  ]) { err in
+                      if let err = err {
+                          print("Error writing document: \(err)")
+                      } else {
+                          print("group successfully added!")
+                      }
+                  }
+           
+           db.collection("bodhi").document(uid).updateData([
+               "Groups": FieldValue.arrayRemove([name]),
+               "senderId": uid
+           ]) { err in
+               if let err = err {
+                   print("Error writing document: \(err)")
+               } else {
+                   print("group successfully added!")
+               }
+           }
+           
+           
+       }
     
              
     func createGroup(withGroupName groupName: String, withWeekday weekday: String, withTime time: Date, withFormat format: String, withDetails details: String, withCity city: String, withIno ino: String, withRoshi roshi: String, withWebsite website: String, withZoom zoom: String, withTemple temple: String, withPic pic: String, withLogo logo: String, withMembers members: [String], withSenderID senderID: String, forUID uid: String, withBodhiKey bodhiKey: String?, sendComplete: @escaping (_ status: Bool) -> ()) {
@@ -192,9 +217,10 @@ class DataService {
                 let temple = document.get("temple") as! String
                 let pic = document.get("pic") as! String
                 let logo = document.get("logo") as! String
-                //let memberArray = documents.document.map { $0["Members"]! as? [String]}
+                let memberArray = document.get("members") as! [String]
+                //let members = documents.document.map { $0["Members"]! as? [String]}
                 let senderId = document.get("senderId") as! String
-                    let sangha = Group(groupName: groupName, weekday: weekday, time: time, format: format, city: city, details: details, ino: ino, roshi: roshi, website: website, zoom: zoom, temple: temple, pic: pic, logo: logo, senderId: senderId)
+                    let sangha = Group(groupName: groupName, weekday: weekday, time: time, format: format, city: city, details: details, ino: ino, roshi: roshi, website: website, zoom: zoom, temple: temple, pic: pic, logo: logo, senderId: senderId, members: memberArray)
                 sanghaArray.append(sangha)
         
                 }

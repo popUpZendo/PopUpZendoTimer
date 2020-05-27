@@ -6,20 +6,32 @@ import FoldingCell
 import UIKit
 import Firebase
 
-class TableViewController: UITableViewController {
+class TableViewController: UITableViewController, UISearchBarDelegate {
     
     var sanghaArray = [Group]()
+    var myGroupsArray = [Group]()
+    var searchArray = [Group]()
+    var filteredSanghaArray = [Group]()
     var groupFriendsArray = [String]()
     var oneSignalArray = [String]()
 
+    @IBOutlet weak var showMyButton: UIButton!
+    @IBOutlet weak var searchBar: UISearchBar!
     
     override func viewDidAppear(_ animated: Bool) {
                   super.viewDidAppear(animated)
+        
+        searchBar.delegate = self
                   //DataService.instance.REF_GROUPS.observe(.value) { (snapshot) in
                   DataService.instance.getAllGroups { (returnedSanghaArray) in
                       self.sanghaArray = returnedSanghaArray
+                    self.filteredSanghaArray = self.sanghaArray
+                    self.myGroupsArray = self.sanghaArray.filter{ $0.members.contains(uid) }
+                    self.myGroupsArray.forEach { print($0) }
                       self.tableView.reloadData()
-                      print("returnedSangaArray \(self.sanghaArray)")
+                      print("+++++++++++++++returnedSangaArray \(self.sanghaArray)+++++++++++++++++++")
+                    print(self.sanghaArray.count)
+                    print(self.myGroupsArray.count)
                       }
                   }
     
@@ -36,7 +48,18 @@ class TableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setup()
+        filteredSanghaArray = sanghaArray
+        print("===============================\(type(of: sanghaArray))=========================")
+        
     }
+    
+    func applyFilter(_ filter: (String) -> Bool) {
+        
+        
+        //filteredSanghaArray = sanghaArray.filter { $0.contains("lo") }
+    }
+
+    
 
     // MARK: Helpers
     private func setup() {
@@ -60,6 +83,42 @@ class TableViewController: UITableViewController {
             self?.tableView.reloadData()
         })
     }
+    
+    @IBAction func myGroupsButton(_ sender: Any) {
+        if showMyButton.titleLabel!.text == "Show My Groups" {
+        self.filteredSanghaArray = self.myGroupsArray
+            self.showMyButton.setTitle("Show All Groups", for: .normal)
+        self.tableView.reloadData()
+            
+    } else {
+        self.filteredSanghaArray = self.sanghaArray
+            self.showMyButton.setTitle("Show My Groups", for: .normal)
+            self.tableView.reloadData()
+    }
+    }
+    
+    
+    
+    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
+        self.searchArray = self.sanghaArray
+
+        if searchText.isEmpty == false {
+            
+            //self.sanghaArray.filter{ $0.members.contains(uid) }
+
+            searchArray = self.sanghaArray.filter{ $0.self.groupName.contains(searchText)
+                || $0.self.city.contains(searchText)
+                || $0.self.roshi.contains(searchText)
+            }
+            self.filteredSanghaArray = searchArray
+        }
+
+        tableView.reloadData()
+        print("Search Bar _________________________________")
+        print(filteredSanghaArray)
+    }
+    
+    
 }
 
 // MARK: - TableView
@@ -67,7 +126,7 @@ class TableViewController: UITableViewController {
 extension TableViewController {
 
     override func tableView(_: UITableView, numberOfRowsInSection _: Int) -> Int {
-        return sanghaArray.count
+        return filteredSanghaArray.count
     }
 
     override func tableView(_: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
@@ -88,13 +147,13 @@ extension TableViewController {
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "DemoCell", for: indexPath) as! DemoCell
-        let group = sanghaArray[indexPath.row]
+        let group = filteredSanghaArray[indexPath.row]
         
         
         let durations: [TimeInterval] = [0.26, 0.2, 0.2]
         cell.durationsForExpandedState = durations
         cell.durationsForCollapsedState = durations
-        cell.configureCell(title: group.groupName, temple: group.temple, city: group.city, ino: group.ino, roshi: group.roshi, website: group.website, details: group.details, weekday: group.weekday, logo: group.logo, banner: group.pic, zoom: group.zoom )
+        cell.configureCell(title: group.groupName, temple: group.temple, city: group.city, ino: group.ino, roshi: group.roshi, website: group.website, details: group.details, weekday: group.weekday, logo: group.logo, banner: group.pic, members: group.members, zoom: group.zoom )
         
         return cell
     }

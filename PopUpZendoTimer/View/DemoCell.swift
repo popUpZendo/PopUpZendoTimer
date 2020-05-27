@@ -15,6 +15,7 @@ import Firebase
 var zoomLink = ""
 
 
+
 class DemoCell: FoldingCell {
 
     @IBOutlet var closeNumberLabel: UILabel!
@@ -38,9 +39,9 @@ class DemoCell: FoldingCell {
     @IBOutlet weak var banner: UIImageView!
     
    var websiteURL = "google.com"
-  
+   var memberArray = [""]
     
-    func configureCell(title: String, temple: String, city: String, ino: String, roshi: String, website: String, details: String, weekday: String, logo: String, banner: String, zoom: String) {
+    func configureCell(title: String, temple: String, city: String, ino: String, roshi: String, website: String, details: String, weekday: String, logo: String, banner: String, members: [String], zoom: String) {
         groupName.text = title
         self.temple.text = temple
         self.temple2.text = temple
@@ -59,6 +60,12 @@ class DemoCell: FoldingCell {
         getBannerImage(imageURL: banner)
         let zoomLink = "https://zoom.us/j/\(zoom))"
         self.websiteURL = website
+        self.memberArray = members
+        if memberArray.contains(uid) {
+            self.join.setTitle("Member", for: .normal)
+            self.join.setBackgroundColor(color: UIColor.white, forState: .normal)
+        }
+        printMemberArray()
 //        let bannerImage: UIImage = getBannerImage(imageURL: banner)
 //        self.banner.image = bannerImage
     }
@@ -69,6 +76,10 @@ class DemoCell: FoldingCell {
 //            openNumberLabel.text = String(number)
 //        }
 //    }
+    func printMemberArray () {
+        print("MemberArray========= \(memberArray)")
+    }
+    
     
     func getBannerImage (imageURL: String) -> UIImage{
        let httpsReference = storage.reference(forURL: imageURL)
@@ -108,16 +119,27 @@ class DemoCell: FoldingCell {
     
     func joinGroup(groupName: String) {
         DataService.instance.selectGroup(withName: groupName, withSenderID: uid, forUID: uid, withBodhiKey: nil, sendComplete: { (isComplete) in
-                        if isComplete {
-        //                self.sendBtn.isEnabled = true
-        //                self.dismiss(animated: true, completion: nil)
-                        } else {
-        //                self.sendBtn.isEnabled = true
-                        print("There was an error!")
-                        }
-                        })
-}
+            if isComplete {
+                //                self.sendBtn.isEnabled = true
+                //                self.dismiss(animated: true, completion: nil)
+            } else {
+                //                self.sendBtn.isEnabled = true
+                print("There was an error!")
+            }
+        })
+    }
 
+    func leaveGroup(groupName: String) {
+       DataService.instance.leaveGroup(withName: groupName, withSenderID: uid, forUID: uid, withBodhiKey: nil, sendComplete: { (isComplete) in
+            if isComplete {
+                //                self.sendBtn.isEnabled = true
+                //                self.dismiss(animated: true, completion: nil)
+            } else {
+                //                self.sendBtn.isEnabled = true
+                print("There was an error!")
+            }
+        })
+    }
     
     
 
@@ -153,7 +175,15 @@ class DemoCell: FoldingCell {
 extension DemoCell {
 
     @IBAction func buttonHandler(_: AnyObject) {
+        if self.join.titleLabel?.text == "Join" {
         joinGroup(groupName: groupName.text ?? "error")
+        self.join.setBackgroundColor(color: UIColor.white, forState: .normal)
+        self.join.setTitle("Member", for: .normal)
+        } else {
+            leaveGroup(groupName: groupName.text ?? "error")
+            self.join.setBackgroundColor(color: UIColor(red:0.37, green:0.37, blue:0.35, alpha:1.00), forState: .normal)
+            self.join.setTitle("Join", for: .normal)
+        }
         
     }
     
@@ -164,6 +194,16 @@ extension DemoCell {
     }
     }
 }
+
+extension UIButton {
+    func setBackgroundColor(color: UIColor, forState: UIControl.State) {
+    UIGraphicsBeginImageContext(CGSize(width: 1, height: 1))
+    UIGraphicsGetCurrentContext()!.setFillColor(color.cgColor)
+    UIGraphicsGetCurrentContext()!.fill(CGRect(x: 0, y: 0, width: 1, height: 1))
+    let colorImage = UIGraphicsGetImageFromCurrentImageContext()
+    UIGraphicsEndImageContext()
+        self.setBackgroundImage(colorImage, for: forState)
+}}
 
 
 
