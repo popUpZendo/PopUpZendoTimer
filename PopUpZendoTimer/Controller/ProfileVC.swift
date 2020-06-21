@@ -21,8 +21,10 @@ class ProfileVC: UIViewController {
     
     let storageRef = Storage.storage().reference()
     var groupsArray = [""]
+    
     // current user can be nil if user haven't logged in
-    let uid : String? = Auth.auth().currentUser?.uid
+    // use "String!" to store possible nil value, the "!" will auto force unwrap it when you use "uid"
+    let uid : String! = Auth.auth().currentUser?.uid
     var isChecked = true
     var profileImageURL = "Profile String" 
     var imagePicker: ImagePicker!

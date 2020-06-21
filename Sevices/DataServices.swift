@@ -14,7 +14,7 @@ import FirebaseStorage
 let db = Firestore.firestore()
 // uid can be nil if user haven't log in yet, force unwrapping it here will cause crash
 // use String! to store possible nil value, the "!" means it will auto unwrap optional when you use it
-let uid : String! = Auth.auth().currentUser?.uid
+var uid : String! = Auth.auth().currentUser?.uid
 let storage = Storage.storage()
 
 

@@ -36,8 +36,6 @@ class HomeViewController: UIViewController, CircleMenuDelegate {
     
     let defaults = UserDefaults.standard
     
-    
-    
     func darkMode() {
         self.view.backgroundColor = UIColor.black
         ////self.infoField.backgroundColor = UIColor.black
@@ -119,6 +117,7 @@ class HomeViewController: UIViewController, CircleMenuDelegate {
     }
     
     func readProfile () {
+        guard let uid = uid else { return }
         db.collection("bodhi").document(uid)
             .addSnapshotListener { documentSnapshot, error in
                 guard let document = documentSnapshot else {
