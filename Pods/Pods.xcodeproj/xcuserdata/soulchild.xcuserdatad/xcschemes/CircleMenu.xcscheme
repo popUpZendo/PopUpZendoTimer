@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CD7CC1435F24CFA5E3849556B94252D7"
-               BuildableName = "CircleMenu"
+               BuildableName = "CircleMenu.framework"
                BlueprintName = "CircleMenu"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

@@ -1,5 +1,6 @@
 ${PODS_ROOT}/Target Support Files/Pods-PopUpZendoTimer/Pods-PopUpZendoTimer-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework
+${BUILT_PRODUCTS_DIR}/CircleMenu/CircleMenu.framework
 ${BUILT_PRODUCTS_DIR}/FoldingCell/FoldingCell.framework
 ${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework
 ${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework
