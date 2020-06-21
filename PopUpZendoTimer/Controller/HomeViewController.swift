@@ -90,7 +90,7 @@ class HomeViewController: UIViewController, CircleMenuDelegate {
                     normalIcon:"icon_menu",
                     selectedIcon:"icon_close",
                     buttonsCount: 6,
-                    duration: 1.5,
+                    duration: 0.85,
                     distance: 120)
         button.backgroundColor = UIColor.lightGray
                 button.delegate = self
@@ -130,11 +130,11 @@ class HomeViewController: UIViewController, CircleMenuDelegate {
                     return
                 }
                 //print("Current data: \(data)")
-                let name = document.get("Name") as! String
-                let email = document.get("Email") as! String
-                let city = document.get("City") as! String
-                let profileImageURL = document.get("Pic") as! String
-                let groups = document.get("Groups") as! [String]
+                let name = document.get("name") as! String
+                let email = document.get("email") as! String
+                let city = document.get("city") as! String
+                let profileImageURL = document.get("pic") as! String
+                let groups = document.get("groups") as! [String]
                 let filteredGroups = groups.filter({ $0 != ""})
                 
                 self.profileImageURL = profileImageURL
@@ -189,7 +189,12 @@ class HomeViewController: UIViewController, CircleMenuDelegate {
             }
             
     }
-
+    
+    @IBAction func logout(_ sender: Any) {
+        try! Auth.auth().signOut()
+        performSegue(withIdentifier: "backToZazen", sender: nil)
+    }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let GroupsSortVC = segue.destination as? GroupsSortVC {
             GroupsSortVC.groups = groups.filter({ $0 != ""})

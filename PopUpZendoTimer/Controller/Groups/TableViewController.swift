@@ -4,7 +4,7 @@
 
 import FoldingCell
 import UIKit
-import Firebase
+//import Firebase
 
 class TableViewController: UITableViewController, UISearchBarDelegate {
     
@@ -19,21 +19,18 @@ class TableViewController: UITableViewController, UISearchBarDelegate {
     @IBOutlet weak var searchBar: UISearchBar!
     
     override func viewDidAppear(_ animated: Bool) {
-                  super.viewDidAppear(animated)
+        super.viewDidAppear(animated)
         
         searchBar.delegate = self
-                  //DataService.instance.REF_GROUPS.observe(.value) { (snapshot) in
-                  DataService.instance.getAllGroups { (returnedSanghaArray) in
-                      self.sanghaArray = returnedSanghaArray
-                    self.filteredSanghaArray = self.sanghaArray
-                    self.myGroupsArray = self.sanghaArray.filter{ $0.members.contains(uid) }
-                    self.myGroupsArray.forEach { print($0) }
-                      self.tableView.reloadData()
-                      print("+++++++++++++++returnedSangaArray \(self.sanghaArray)+++++++++++++++++++")
-                    print(self.sanghaArray.count)
-                    print(self.myGroupsArray.count)
-                      }
-                  }
+        self.sanghaArray = FirebaseInterface.instance.groups ?? []
+        self.filteredSanghaArray = self.sanghaArray
+        self.myGroupsArray = self.sanghaArray.filter{ $0.members.contains(uid) }
+        ///self.myGroupsArray.forEach { print("myGroupsArray====== \($0)") }
+        self.tableView.reloadData()
+        print(self.sanghaArray.count)
+        print(self.myGroupsArray.count)
+        print("sanghaArray ======= \(sanghaArray)")
+    }
     
     enum Const {
           static let closeCellHeight: CGFloat = 179
@@ -47,10 +44,17 @@ class TableViewController: UITableViewController, UISearchBarDelegate {
     // MARK: Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
+        sanghaArray = FirebaseInterface.instance.groups ?? []
+        
         setup()
         filteredSanghaArray = sanghaArray
-        print("===============================\(type(of: sanghaArray))=========================")
         
+        NotificationCenter.default.addObserver(self, selector: #selector(groupsChanged), name: FirebaseInterface.Notifications.groupsChanged, object: nil)
+    }
+    
+    @objc func groupsChanged() {
+        sanghaArray = FirebaseInterface.instance.groups ?? []
+        self.tableView.reloadData()
     }
     
     func applyFilter(_ filter: (String) -> Bool) {

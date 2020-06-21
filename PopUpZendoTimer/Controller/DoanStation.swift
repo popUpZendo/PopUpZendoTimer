@@ -13,6 +13,7 @@ import UIKit
 
 class DoanStation: UIViewController {
     @IBOutlet weak var standButton: UIButton!
+    @IBOutlet weak var broadcastButton: UIButton!
     @IBOutlet weak var bigBellButton: UIButton!
     @IBOutlet weak var smallBellButton: UIButton!
     @IBOutlet weak var mediumBellButton: UIButton!
@@ -30,12 +31,15 @@ class DoanStation: UIViewController {
            self.view.backgroundColor = UIColor.white
        }
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         allBells(on: false)
         doan = Doan.instance
-
+        broadcastButton.setImage(UIImage(named: "broadcast-off"), for: .normal)
+        broadcastButton.setImage(UIImage(named: "broadcast-on"), for: .selected)
+        
           if defaults.bool(forKey: "mode") == true {
                       darkMode()
                   } else {
@@ -112,6 +116,13 @@ class DoanStation: UIViewController {
     }
     @IBAction func bellSwitch(_ sender: Any) {
         switchBells()
+    }
+    @IBAction func broadcastButton(_ sender: UIButton) {
+        if broadcastButton.isSelected == true {
+            broadcastButton.isSelected = false
+        } else {
+            broadcastButton.isSelected = true
+        }
     }
     
 

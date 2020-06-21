@@ -13,9 +13,14 @@ class membersCell: UITableViewCell {
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var doanButton: UIButton!
     
-    func configureCell(name: String, doan: String) {
-        self.nameLabel.text = name
-        self.doanButton.setTitle(doan, for: .normal)
+    func configureCell(bodhi: Bodhi) {
+        self.nameLabel.text = bodhi.name
+        if bodhi.doan {
+            self.doanButton.isHidden = false
+            self.doanButton.setTitle("doan", for: .normal)
+        }else{
+            self.doanButton.isHidden = true
+        }
     }
     
     override func awakeFromNib() {
@@ -28,5 +33,7 @@ class membersCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
+    
+
 
 }

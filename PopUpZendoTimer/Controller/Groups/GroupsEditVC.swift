@@ -35,6 +35,7 @@ class GroupsEditVC: UIViewController {
     let tempDate = Date()
     var groupDay = Date()
     var groupTime = Date()
+    var groupHour = ""
     var weekday = ""
     var userName = ""
     //let imagePicker = UIImagePickerController()
@@ -52,7 +53,7 @@ class GroupsEditVC: UIViewController {
         
                //>>>>>>>>>self.timeField.setInputViewDatePicker(target: self, selector: #selector(tapDone)) //1
                // imagePicker.delegate = self
-        getUserName()
+        //getUserName()
         getOneGroup()
         print("SELECTED GROUP_________________ \(selectedGroup)")
     }
@@ -74,8 +75,8 @@ class GroupsEditVC: UIViewController {
             let city = document.get("city") as! String
             let details = document.get("details") as! String
             let weekday = document.get("weekday") as! String
-            let timeStamp = document.get("time") as! Timestamp
-            let time = timeStamp.dateValue()
+            //let timeStamp = document.get("time") as! Timestamp
+            let time = document.get("time") as! String
             let ino  = document.get("ino") as! String
             let members = document.get("members") as! [String]
             let roshi = document.get("roshi") as! String
@@ -95,33 +96,9 @@ class GroupsEditVC: UIViewController {
             self.websiteField.text = website
             self.weekdayField.text = weekday
             self.zoomField.text = zoom
-         //self.weekdayField.text = weekday
-         
-        
-         //self.membersLabel.text = members.joined(separator: " ")
-            //self.groupLable.text = String(describing: (groups))
         }
     }
-    
-    
-    
-//      func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
-//
-//          var selectedImageFromPicker: UIImage?
-//
-//          if let editedImage = info["UIImagePickerControllerEditedImage"] as? UIImage{
-//              selectedImageFromPicker = editedImage.resizeWithWidth(width: 200)!
-//          }else if let originalImage = info["UIImagePickerControllerOriginalImage"] as? UIImage{
-//              selectedImageFromPicker = originalImage.resizeWithWidth(width: 200)!
-//          }
-//          if let selectedImage = selectedImageFromPicker{
-//              banner.image = selectedImage
-//          }
-//          dismiss(animated: true, completion: nil)
-//      }
-//      func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
-//          dismiss(animated: true, completion: nil)
-//      }
+ 
     
     func uploadImage(pic: UIImageView, imageURL: String) -> (String) {
          
@@ -191,7 +168,7 @@ class GroupsEditVC: UIViewController {
     func uploadGroup () {
               let uid = (Auth.auth().currentUser?.uid)!
           if groupNameField.text != nil && cityField.text != nil {
-            DataService.instance.createGroup(withGroupName: groupNameField.text!, withWeekday: weekday, withTime: groupTime, withFormat: formatField.text!, withDetails: detailsField.text!, withCity: cityField.text!, withIno: userName, withRoshi: roshiField.text!, withWebsite: websiteField.text!, withZoom: zoomField.text!, withTemple: templeField.text!, withPic: bannerImageURL, withLogo: logoImageURL, withMembers: [userName], withSenderID: uid, forUID: uid, withBodhiKey: nil, sendComplete: { (isComplete) in
+            DataService.instance.createGroup(withGroupName: groupNameField.text!, withWeekday: weekday, withTime: groupHour, withFormat: formatField.text!, withDetails: detailsField.text!, withCity: cityField.text!, withIno: userName, withRoshi: roshiField.text!, withWebsite: websiteField.text!, withZoom: zoomField.text!, withTemple: templeField.text!, withPic: bannerImageURL, withLogo: logoImageURL, withMembers: [userName], withSenderID: uid, forUID: uid, withBodhiKey: nil, sendComplete: { (isComplete) in
                           if isComplete {
           //                self.sendBtn.isEnabled = true
           //                self.dismiss(animated: true, completion: nil)
@@ -207,22 +184,22 @@ class GroupsEditVC: UIViewController {
          self.imagePicker.present(from: sender)
     }
     
-    
-    func getUserName () {
-       let docRef = db.collection("bodhi").document(uid)
-
-       docRef.getDocument { (document, error) in
-           if let document = document, document.exists {
-               let dataDescription = document.data().map(String.init(describing:)) ?? "nil"
-               //print("Document data: \(dataDescription)")
-           } else {
-               print("Document does not exist")
-           }
-    
-           self.userName = document?.get("Name") as! String
-       }
-           
-       }
+//
+//    func getUserName () {
+//       let docRef = db.collection("bodhi").document(uid)
+//
+//       docRef.getDocument { (document, error) in
+//           if let document = document, document.exists {
+//               let dataDescription = document.data().map(String.init(describing:)) ?? "nil"
+//               //print("Document data: \(dataDescription)")
+//           } else {
+//               print("Document does not exist")
+//           }
+//
+//           self.userName = document?.get("Name") as! String
+//       }
+//
+//       }
     
     @IBAction func profileWasTapped2(_ sender: Any)
        {

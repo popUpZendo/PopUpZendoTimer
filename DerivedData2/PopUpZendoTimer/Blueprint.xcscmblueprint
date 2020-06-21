@@ -1,0 +1,23 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A8F9A806AE7E0C64ABD2EDEC1E228BCF5C886B92",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A8F9A806AE7E0C64ABD2EDEC1E228BCF5C886B92" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E163B5D9-97BB-4FEB-8162-6FF8AF5D2D7D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A8F9A806AE7E0C64ABD2EDEC1E228BCF5C886B92" : "PopUpZendoTimer\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "PopUpZendoTimer",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "PopUpZendoTimer.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/popUpZendo\/PopUpZendoTimer.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A8F9A806AE7E0C64ABD2EDEC1E228BCF5C886B92"
+    }
+  ]
+}

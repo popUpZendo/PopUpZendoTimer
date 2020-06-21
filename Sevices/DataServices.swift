@@ -136,7 +136,7 @@ class DataService {
        }
     
              
-    func createGroup(withGroupName groupName: String, withWeekday weekday: String, withTime time: Date, withFormat format: String, withDetails details: String, withCity city: String, withIno ino: String, withRoshi roshi: String, withWebsite website: String, withZoom zoom: String, withTemple temple: String, withPic pic: String, withLogo logo: String, withMembers members: [String], withSenderID senderID: String, forUID uid: String, withBodhiKey bodhiKey: String?, sendComplete: @escaping (_ status: Bool) -> ()) {
+    func createGroup(withGroupName groupName: String, withWeekday weekday: String, withTime time: String, withFormat format: String, withDetails details: String, withCity city: String, withIno ino: String, withRoshi roshi: String, withWebsite website: String, withZoom zoom: String, withTemple temple: String, withPic pic: String, withLogo logo: String, withMembers members: [String], withSenderID senderID: String, forUID uid: String, withBodhiKey bodhiKey: String?, sendComplete: @escaping (_ status: Bool) -> ()) {
             db.collection("groups").document(groupName).setData([
                  "groupName": groupName,
                  "weekday": weekday,
@@ -205,8 +205,8 @@ class DataService {
                 for document in documents {
                 let groupName = document.get("groupName") as! String
                 let weekday = document.get("weekday") as! String
-                let timeStamp = document.get("time") as! Timestamp
-                let time = timeStamp.dateValue()
+                //let timeStamp = document.get("time") as! String
+                let time = document.get("time") as! String
                 let format = document.get("format") as! String
                 let city = document.get("city") as! String
                 let details = document.get("details") as! String

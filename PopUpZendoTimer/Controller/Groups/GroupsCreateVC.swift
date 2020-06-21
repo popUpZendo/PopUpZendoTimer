@@ -39,6 +39,7 @@ class GroupsCreateVC: UIViewController {
     var groupDay = Date()
     var groupTime = Date()
     var weekday = ""
+    var groupHour = ""
     var userName = ""
     //let imagePicker = UIImagePickerController()
     var bannerImageURL = "Image String"
@@ -120,6 +121,12 @@ class GroupsCreateVC: UIViewController {
          return imageURL
     }
     
+    
+//    func stringFromDate(_ date: Date) -> String {
+//        let formatter = DateFormatter()
+//        formatter.dateFormat = "dd MMM yyyy HH:mm" //yyyy
+//        return formatter.string(from: date)
+//    }
 
   @objc func tapDone() {
         if let datePicker = self.timeField.inputView as? UIDatePicker {
@@ -129,7 +136,10 @@ class GroupsCreateVC: UIViewController {
             self.timeField.text = dateformatter.string(from: datePicker.date) //2-4
             let weekdayFormatter = DateFormatter()
             weekdayFormatter.dateFormat = "EEEE"
+            let groupHourFormatter = DateFormatter()
+            groupHourFormatter.dateFormat = "h:mm a"
             self.weekday = weekdayFormatter.string(from: datePicker.date)
+            self.groupHour = groupHourFormatter.string(from: datePicker.date)
             
             
             //scheduleNotification()
@@ -146,7 +156,7 @@ class GroupsCreateVC: UIViewController {
     func uploadGroup () {
               let uid = (Auth.auth().currentUser?.uid)!
           if groupNameField.text != nil && cityField.text != nil {
-            DataService.instance.createGroup(withGroupName: groupNameField.text!, withWeekday: weekday, withTime: groupTime, withFormat: formatField.text!, withDetails: detailsField.text!, withCity: cityField.text!, withIno: userName, withRoshi: roshiField.text!, withWebsite: websiteField.text!, withZoom: zoomField.text!, withTemple: templeField.text!, withPic: bannerImageURL, withLogo: logoImageURL, withMembers: [userName], withSenderID: uid, forUID: uid, withBodhiKey: nil, sendComplete: { (isComplete) in
+            DataService.instance.createGroup(withGroupName: groupNameField.text!, withWeekday: weekday, withTime: groupHour, withFormat: formatField.text!, withDetails: detailsField.text!, withCity: cityField.text!, withIno: userName, withRoshi: roshiField.text!, withWebsite: websiteField.text!, withZoom: zoomField.text!, withTemple: templeField.text!, withPic: bannerImageURL, withLogo: logoImageURL, withMembers: [userName], withSenderID: uid, forUID: uid, withBodhiKey: nil, sendComplete: { (isComplete) in
                           if isComplete {
           //                self.sendBtn.isEnabled = true
           //                self.dismiss(animated: true, completion: nil)

@@ -65,6 +65,8 @@
 		D7CDB072241CA7C100FAFE97 /* InstructionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CDB071241CA7C100FAFE97 /* InstructionsVC.swift */; };
 		D7CDB079241F279B00FAFE97 /* zen_regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7CDB078241F279B00FAFE97 /* zen_regular.ttf */; };
 		D7DE18D4246FB24C00E75F8D /* GroupsCreateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DE18D3246FB24C00E75F8D /* GroupsCreateVC.swift */; };
+		D7E6835D248048A700E1FD08 /* Codable+Toys.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E6835C248048A700E1FD08 /* Codable+Toys.swift */; };
+		D7E6835F24804A0100E1FD08 /* FirebaseInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E6835E24804A0100E1FD08 /* FirebaseInterface.swift */; };
 		D7E6DC402446AC63005433C0 /* LocalNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E6DC3F2446AC63005433C0 /* LocalNotificationManager.swift */; };
 		D7F76C4B247DE68100F4D927 /* GroupsEditVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F76C4A247DE68100F4D927 /* GroupsEditVC.swift */; };
 		DB49CFDEB0B236AF8D9F673A /* Pods_PopUpZendoTimer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B5F457A6AE8407CB0C87C48 /* Pods_PopUpZendoTimer.framework */; };
@@ -134,6 +136,8 @@
 		D7CDB071241CA7C100FAFE97 /* InstructionsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionsVC.swift; sourceTree = "<group>"; };
 		D7CDB078241F279B00FAFE97 /* zen_regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = zen_regular.ttf; sourceTree = "<group>"; };
 		D7DE18D3246FB24C00E75F8D /* GroupsCreateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsCreateVC.swift; sourceTree = "<group>"; };
+		D7E6835C248048A700E1FD08 /* Codable+Toys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Codable+Toys.swift"; sourceTree = "<group>"; };
+		D7E6835E24804A0100E1FD08 /* FirebaseInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseInterface.swift; sourceTree = "<group>"; };
 		D7E6DC3F2446AC63005433C0 /* LocalNotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationManager.swift; sourceTree = "<group>"; };
 		D7F76C4A247DE68100F4D927 /* GroupsEditVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsEditVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -191,6 +195,8 @@
 				D73A4CB1244E25A400EE407E /* Forms.swift */,
 				D78586AC245D1E7C003BF816 /* Bodhi.swift */,
 				D78586AE245D1E8F003BF816 /* Group.swift */,
+				D7E6835E24804A0100E1FD08 /* FirebaseInterface.swift */,
+				D7E6835C248048A700E1FD08 /* Codable+Toys.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -465,6 +471,7 @@
 				D7758AE3247D72B90027266A /* GroupsSortVC.swift in Sources */,
 				D71A2628246CFFD60061B76B /* CountriesTableViewController.swift in Sources */,
 				D73C54BE2459F7660071DC22 /* DoanStation.swift in Sources */,
+				D7E6835F24804A0100E1FD08 /* FirebaseInterface.swift in Sources */,
 				D78586B2245D21D3003BF816 /* DataServices.swift in Sources */,
 				D77F76472474CCEE0002DE54 /* CircleMenu.swift in Sources */,
 				D7DE18D4246FB24C00E75F8D /* GroupsCreateVC.swift in Sources */,
@@ -499,6 +506,7 @@
 				D763247A24553F97001F1825 /* hanInfoVC.swift in Sources */,
 				D7937FBF245A8BDD00460C8E /* SignUpViewController.swift in Sources */,
 				D7937FBD245A764A00460C8E /* HomeViewController.swift in Sources */,
+				D7E6835D248048A700E1FD08 /* Codable+Toys.swift in Sources */,
 				D7773C772439837B008D4408 /* UITextField+InputView.swift in Sources */,
 				D772594E246F5BA200478B50 /* DemoCell.swift in Sources */,
 				D7B197AB2316ED0300AAE2B0 /* Settings VC.swift in Sources */,

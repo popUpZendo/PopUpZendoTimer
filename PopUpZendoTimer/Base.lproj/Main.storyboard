@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="1f0-L0-mJg">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="3TJ-01-Vmk">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -29,7 +29,7 @@
         <!--Timer-->
         <scene sceneID="qTC-i0-dcR">
             <objects>
-                <viewController title="Timer" modalTransitionStyle="crossDissolve" id="3TJ-01-Vmk" customClass="TimerViewController" customModule="PopUpZendoTimer" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="TimerViewController" title="Timer" modalTransitionStyle="crossDissolve" id="3TJ-01-Vmk" customClass="TimerViewController" customModule="PopUpZendoTimer" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="T2I-eL-yvy"/>
                         <viewControllerLayoutGuide type="bottom" id="phT-Of-HfD"/>
@@ -174,11 +174,11 @@
                         <viewControllerLayoutGuide type="bottom" id="UT6-Fk-1dL"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="U2s-jz-Y4n">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="j8p-dV-kcg">
-                                <rect key="frame" x="40" y="530.66666666666663" width="295" height="207.33333333333337"/>
+                                <rect key="frame" x="40" y="476.66666666666669" width="295" height="207.33333333333331"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6tX-0c-LSh">
                                         <rect key="frame" x="0.0" y="0.0" width="295" height="37.333333333333336"/>
@@ -188,7 +188,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nZM-DH-jO5">
-                                        <rect key="frame" x="0.0" y="57.333333333333371" width="295" height="50"/>
+                                        <rect key="frame" x="0.0" y="57.333333333333314" width="295" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="YZW-n4-iHm"/>
                                         </constraints>
@@ -198,7 +198,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IIW-Fd-gpj">
-                                        <rect key="frame" x="0.0" y="127.33333333333337" width="295" height="30"/>
+                                        <rect key="frame" x="0.0" y="127.33333333333331" width="295" height="30"/>
                                         <state key="normal" title="Reset Password">
                                             <color key="titleColor" red="0.4665576816" green="0.46694278719999999" blue="0.44705641270000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </state>
@@ -207,7 +207,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K81-Oz-y3p">
-                                        <rect key="frame" x="0.0" y="177.33333333333337" width="295" height="30"/>
+                                        <rect key="frame" x="0.0" y="177.33333333333331" width="295" height="30"/>
                                         <state key="normal" title="Back">
                                             <color key="titleColor" red="0.4665576816" green="0.46694278719999999" blue="0.44705641270000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </state>
@@ -221,18 +221,18 @@
                                 </constraints>
                             </stackView>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xVN-Qr-yH3">
-                                <rect key="frame" x="40" y="327.66666666666669" width="295" height="34"/>
+                                <rect key="frame" x="40" y="249" width="295" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Let's make this simple.  Enter your email in the text box, tap the button and we'll send you an email to update your password." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="odj-c7-fmn">
-                                <rect key="frame" x="50" y="191" width="275" height="116.66666666666669"/>
+                                <rect key="frame" x="50" y="153.33333333333334" width="275" height="75.666666666666657"/>
                                 <fontDescription key="fontDescription" name="AmaticSC-Bold" family="Amatic SC" pointSize="20"/>
                                 <color key="textColor" red="0.4665576816" green="0.46694278719999999" blue="0.44705641270000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lgG-ue-9zL">
-                                <rect key="frame" x="50" y="74" width="275" height="77"/>
+                                <rect key="frame" x="100.00000000000001" y="29.999999999999993" width="175.33333333333337" height="83.333333333333314"/>
                                 <string key="text">Error messages
 cannot completely convey.
 We now know shared loss.</string>
@@ -241,7 +241,7 @@ We now know shared loss.</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jCn-4l-BxV">
-                                <rect key="frame" x="151.66666666666666" y="386.66666666666669" width="72" height="72"/>
+                                <rect key="frame" x="151.66666666666666" y="308" width="72" height="72"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="72" id="iyK-L5-3SG"/>
                                     <constraint firstAttribute="width" constant="72" id="uvb-lP-8Ij"/>
@@ -258,12 +258,12 @@ We now know shared loss.</string>
                             <constraint firstItem="jCn-4l-BxV" firstAttribute="top" secondItem="xVN-Qr-yH3" secondAttribute="bottom" constant="25" id="AaO-o6-wMP"/>
                             <constraint firstItem="xVN-Qr-yH3" firstAttribute="top" secondItem="odj-c7-fmn" secondAttribute="bottom" constant="20" id="Kb3-Y0-UOe"/>
                             <constraint firstItem="odj-c7-fmn" firstAttribute="centerX" secondItem="U2s-jz-Y4n" secondAttribute="centerX" id="Suw-aZ-Z3P"/>
-                            <constraint firstItem="lgG-ue-9zL" firstAttribute="leading" secondItem="U2s-jz-Y4n" secondAttribute="leading" constant="50" id="YHt-hk-Q3G"/>
+                            <constraint firstItem="lgG-ue-9zL" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="U2s-jz-Y4n" secondAttribute="leading" constant="50" id="YHt-hk-Q3G"/>
                             <constraint firstItem="j8p-dV-kcg" firstAttribute="leading" secondItem="U2s-jz-Y4n" secondAttribute="leading" constant="40" id="Yb7-Jn-lb5"/>
                             <constraint firstItem="odj-c7-fmn" firstAttribute="leading" secondItem="U2s-jz-Y4n" secondAttribute="leading" constant="50" id="aO7-83-Khz"/>
                             <constraint firstItem="odj-c7-fmn" firstAttribute="top" secondItem="lgG-ue-9zL" secondAttribute="bottom" constant="40" id="b4C-DI-sLF"/>
                             <constraint firstItem="xVN-Qr-yH3" firstAttribute="centerX" secondItem="U2s-jz-Y4n" secondAttribute="centerX" id="bSf-ah-WlD"/>
-                            <constraint firstAttribute="trailing" secondItem="lgG-ue-9zL" secondAttribute="trailing" constant="50" id="bjS-V2-0Iz"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="lgG-ue-9zL" secondAttribute="trailing" constant="50" id="bjS-V2-0Iz"/>
                             <constraint firstAttribute="trailing" secondItem="j8p-dV-kcg" secondAttribute="trailing" constant="40" id="nay-HV-E0w"/>
                             <constraint firstItem="lgG-ue-9zL" firstAttribute="top" secondItem="z9x-2N-TkX" secondAttribute="bottom" constant="30" id="p4h-xe-8AE"/>
                             <constraint firstItem="UT6-Fk-1dL" firstAttribute="top" secondItem="j8p-dV-kcg" secondAttribute="bottom" constant="40" id="p86-HT-xXp"/>
@@ -296,11 +296,11 @@ We now know shared loss.</string>
                         <viewControllerLayoutGuide type="bottom" id="cM8-26-2V2"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="n2X-Bu-O9l">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="J5A-Xb-Ckw">
-                                <rect key="frame" x="40" y="94" width="295" height="390"/>
+                                <rect key="frame" x="40" y="50" width="295" height="390"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="First Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YEn-p6-0ci">
                                         <rect key="frame" x="0.0" y="0.0" width="295" height="50"/>
@@ -361,7 +361,7 @@ We now know shared loss.</string>
                                 </constraints>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VbO-P6-ENu">
-                                <rect key="frame" x="46" y="64" width="34" height="30"/>
+                                <rect key="frame" x="46" y="20" width="34" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="34" id="mKe-2p-QOd"/>
                                 </constraints>
@@ -403,11 +403,11 @@ We now know shared loss.</string>
                         <viewControllerLayoutGuide type="bottom" id="7BY-H2-al6"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Vzk-We-XmB">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="pjW-I9-qGA">
-                                <rect key="frame" x="40" y="84" width="295" height="250"/>
+                                <rect key="frame" x="40" y="40" width="295" height="250"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="I8L-zX-DG7">
                                         <rect key="frame" x="0.0" y="0.0" width="295" height="50"/>
@@ -447,7 +447,7 @@ We now know shared loss.</string>
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VQe-bR-reo">
-                                <rect key="frame" x="40" y="64" width="40" height="0.0"/>
+                                <rect key="frame" x="40" y="20" width="40" height="0.0"/>
                                 <state key="normal" title="Back">
                                     <color key="titleColor" name="Pink Swan"/>
                                 </state>
@@ -528,6 +528,16 @@ We now know shared loss.</string>
                                 <color key="textColor" name="Pink Swan"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="My8-Kh-4cA">
+                                <rect key="frame" x="38" y="680" width="62" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Logout">
+                                    <color key="titleColor" red="0.43554106349999999" green="0.44264292719999998" blue="0.47451430560000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="logout:" destination="1f0-L0-mJg" eventType="touchUpInside" id="B9W-mm-Skf"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -539,9 +549,11 @@ We now know shared loss.</string>
                             <constraint firstItem="hl1-AN-ARr" firstAttribute="centerX" secondItem="7PV-1e-2Q1" secondAttribute="centerX" id="Mvn-wQ-3Dl"/>
                             <constraint firstItem="eWS-mm-d8s" firstAttribute="centerX" secondItem="7PV-1e-2Q1" secondAttribute="centerX" id="QKF-hk-ajK"/>
                             <constraint firstItem="hl1-AN-ARr" firstAttribute="top" secondItem="Exf-1f-9fA" secondAttribute="bottom" constant="24" id="S4g-in-ZQ8"/>
+                            <constraint firstItem="My8-Kh-4cA" firstAttribute="leading" secondItem="7PV-1e-2Q1" secondAttribute="leadingMargin" constant="22" id="Uro-KC-gUA"/>
                             <constraint firstItem="eWS-mm-d8s" firstAttribute="top" secondItem="rup-iM-3ar" secondAttribute="bottom" constant="30" id="WWF-eM-tFq"/>
                             <constraint firstItem="Fz7-hL-Dwb" firstAttribute="centerX" secondItem="7PV-1e-2Q1" secondAttribute="centerX" id="bx5-se-vkF"/>
                             <constraint firstItem="Fz7-hL-Dwb" firstAttribute="top" secondItem="eWS-mm-d8s" secondAttribute="bottom" constant="12" id="ckO-Ri-PRk"/>
+                            <constraint firstItem="ouB-1x-D2f" firstAttribute="top" secondItem="My8-Kh-4cA" secondAttribute="bottom" constant="8" id="uGW-jf-rfn"/>
                             <constraint firstItem="v3g-m5-NWj" firstAttribute="centerX" secondItem="7PV-1e-2Q1" secondAttribute="centerX" id="wHL-lx-dPs"/>
                         </constraints>
                     </view>
@@ -836,43 +848,43 @@ We now know shared loss.</string>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Info/tips" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ipn-h3-C5t">
-                                <rect key="frame" x="283.66666666666669" y="433.66666666666669" width="95" height="30.333333333333314"/>
+                                <rect key="frame" x="283.66666666666669" y="431" width="71" height="33"/>
                                 <fontDescription key="fontDescription" name="AmaticSC-Bold" family="Amatic SC" pointSize="26"/>
                                 <color key="textColor" red="0.43554106349999999" green="0.44264292719999998" blue="0.47451430560000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Groups" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RkL-BQ-JXp">
-                                <rect key="frame" x="164.66666666666666" y="433.66666666666669" width="86" height="30.333333333333314"/>
+                                <rect key="frame" x="164.66666666666666" y="431" width="50" height="33"/>
                                 <fontDescription key="fontDescription" name="AmaticSC-Bold" family="Amatic SC" pointSize="26"/>
                                 <color key="textColor" red="0.43554106349999999" green="0.44264292719999998" blue="0.47451430560000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Support Link" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X1S-2k-s1X">
-                                <rect key="frame" x="-24" y="433.66666666666669" width="149.66666666666666" height="30.333333333333314"/>
+                                <rect key="frame" x="31.000000000000007" y="431" width="94.666666666666686" height="33"/>
                                 <fontDescription key="fontDescription" name="AmaticSC-Bold" family="Amatic SC" pointSize="26"/>
                                 <color key="textColor" red="0.43554106349999999" green="0.44264292719999998" blue="0.47451430560000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Start #" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="moN-AJ-czB">
-                                <rect key="frame" x="8" y="69.666666666666671" width="74.666666666666671" height="29.333333333333329"/>
+                                <rect key="frame" x="31.999999999999996" y="67.333333333333329" width="50.666666666666657" height="31.666666666666671"/>
                                 <fontDescription key="fontDescription" name="AmaticSC-Bold" family="Amatic SC" pointSize="25"/>
                                 <color key="textColor" red="0.43554106349999999" green="0.44264292719999998" blue="0.47451430560000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bell Type" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tit-wD-dhp">
-                                <rect key="frame" x="124" y="62.000000000000007" width="101" height="29.333333333333336"/>
+                                <rect key="frame" x="164" y="58.999999999999993" width="61" height="31.666666666666664"/>
                                 <fontDescription key="fontDescription" name="AmaticSC-Bold" family="Amatic SC" pointSize="25"/>
                                 <color key="textColor" red="0.43554106349999999" green="0.44264292719999998" blue="0.47451430560000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mute" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gXN-41-rXM">
-                                <rect key="frame" x="15.333333333333332" y="283" width="59.333333333333343" height="30.333333333333314"/>
+                                <rect key="frame" x="39.333333333333329" y="283" width="35.333333333333329" height="33"/>
                                 <fontDescription key="fontDescription" name="AmaticSC-Bold" family="Amatic SC" pointSize="26"/>
                                 <color key="textColor" red="0.43554106349999999" green="0.44264292719999998" blue="0.47451430560000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Timer Delay" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="23G-vp-PsC">
-                                <rect key="frame" x="138" y="283" width="138" height="30.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Timer Delay" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="23G-vp-PsC">
+                                <rect key="frame" x="156" y="283" width="86.666666666666686" height="33"/>
                                 <fontDescription key="fontDescription" name="AmaticSC-Bold" family="Amatic SC" pointSize="26"/>
                                 <color key="textColor" red="0.43554106349999999" green="0.44264292719999998" blue="0.47451430560000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
@@ -891,7 +903,7 @@ We now know shared loss.</string>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Han" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lQZ-ud-sgg">
-                                <rect key="frame" x="236.66666666666666" y="373" width="47.333333333333343" height="30.333333333333314"/>
+                                <rect key="frame" x="236.66666666666666" y="371.66666666666669" width="28.999999999999972" height="33"/>
                                 <fontDescription key="fontDescription" name="AmaticSC-Bold" family="Amatic SC" pointSize="26"/>
                                 <color key="textColor" red="0.43554106349999999" green="0.44264292719999998" blue="0.47451430560000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
@@ -907,13 +919,13 @@ We now know shared loss.</string>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad" keyboardAppearance="alert"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="End #" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o6w-Lx-xyB">
-                                <rect key="frame" x="295.66666666666669" y="69.666666666666671" width="65" height="29.333333333333329"/>
+                                <rect key="frame" x="295.66666666666669" y="67.333333333333329" width="43" height="31.666666666666671"/>
                                 <fontDescription key="fontDescription" name="AmaticSC-Bold" family="Amatic SC" pointSize="25"/>
                                 <color key="textColor" red="0.43554106349999999" green="0.44264292719999998" blue="0.47451430560000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KQH-iV-MYt">
-                                <rect key="frame" x="20" y="649" width="362" height="173"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KQH-iV-MYt">
+                                <rect key="frame" x="20" y="586.66666666666663" width="335" height="151.33333333333337"/>
                                 <string key="text">Tmer Instructions
 1. Set the timer with the slider
 2. Tap the center of the timer to start it.  An adjustble delay will allow you to settle in.
@@ -922,8 +934,8 @@ We now know shared loss.</string>
                                 <color key="textColor" red="0.43554106349999999" green="0.44264292719999998" blue="0.47451430560000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Dark Mode" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2C3-wb-f7B">
-                                <rect key="frame" x="284" y="291" width="129" height="30.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dark Mode" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2C3-wb-f7B">
+                                <rect key="frame" x="285.66666666666669" y="285" width="77" height="33"/>
                                 <fontDescription key="fontDescription" name="AmaticSC-Bold" family="Amatic SC" pointSize="26"/>
                                 <color key="textColor" red="0.43554106349999999" green="0.44264292719999998" blue="0.47451430560000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
@@ -955,6 +967,7 @@ We now know shared loss.</string>
                             <constraint firstItem="4da-28-Oho" firstAttribute="centerX" secondItem="gVm-5d-fAH" secondAttribute="centerX" id="V3g-iG-hEI"/>
                             <constraint firstItem="HcB-bT-r1B" firstAttribute="top" secondItem="Lfb-ku-Gnk" secondAttribute="bottom" constant="69" id="b9Y-tg-WzP"/>
                             <constraint firstAttribute="trailing" secondItem="0JM-JI-oqH" secondAttribute="trailing" constant="40" id="bHi-QY-TzY"/>
+                            <constraint firstItem="2C3-wb-f7B" firstAttribute="leading" secondItem="23G-vp-PsC" secondAttribute="trailing" constant="43" id="bee-5y-GVf"/>
                             <constraint firstItem="Zka-VZ-dDR" firstAttribute="centerY" secondItem="4da-28-Oho" secondAttribute="centerY" id="c5H-bs-LJ4"/>
                             <constraint firstItem="4da-28-Oho" firstAttribute="centerX" secondItem="enl-Kn-DBZ" secondAttribute="centerX" id="e6S-UW-FKW"/>
                             <constraint firstItem="lq3-aE-rxx" firstAttribute="top" secondItem="0JM-JI-oqH" secondAttribute="bottom" constant="20" id="esF-cF-CNE"/>
@@ -1057,7 +1070,7 @@ We now know shared loss.</string>
                                                 <rect key="frame" x="0.0" y="0.0" width="195" height="510"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aPU-A1-EJc">
-                                                        <rect key="frame" x="0.0" y="0.0" width="195" height="709.33333333333337"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="195" height="548"/>
                                                         <subviews>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Kanji Do" translatesAutoresizingMaskIntoConstraints="NO" id="vxK-4T-WVS">
                                                                 <rect key="frame" x="12" y="30" width="171" height="130"/>
@@ -1066,7 +1079,7 @@ We now know shared loss.</string>
                                                                 </constraints>
                                                             </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LvJ-xA-Z3D">
-                                                                <rect key="frame" x="12" y="195.99999999999997" width="171" height="489.33333333333326"/>
+                                                                <rect key="frame" x="12" y="196" width="171" height="328"/>
                                                                 <string key="text">This dewdrop world—
 It may be a dewdrop,
 And yet—and yet—   The Han is a is wooden block struck with a mallet to call monks to the zendo.  It is used to wake us up - so it might get loud.  If you are curious, you can learn more about the han on our website.</string>
@@ -1225,7 +1238,7 @@ And yet—and yet—   The Han is a is wooden block struck with a mallet t
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap to switch han on &amp; off" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hfF-Af-lgS">
-                                <rect key="frame" x="48.333333333333343" y="375" width="278.66666666666663" height="28"/>
+                                <rect key="frame" x="96.333333333333329" y="375" width="182.33333333333337" height="30.333333333333314"/>
                                 <fontDescription key="fontDescription" name="AmaticSC-Bold" family="Amatic SC" pointSize="24"/>
                                 <color key="textColor" red="0.43554106349999999" green="0.44264292719999998" blue="0.47451430560000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
@@ -1304,7 +1317,7 @@ And yet—and yet—   The Han is a is wooden block struck with a mallet t
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="bottom" spacing="29" translatesAutoresizingMaskIntoConstraints="NO" id="co4-sg-OwO" userLabel="Bell Stack">
                                         <rect key="frame" x="0.0" y="0.0" width="325" height="147"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tbt-ae-trb">
+                                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tbt-ae-trb">
                                                 <rect key="frame" x="0.0" y="0.0" width="198" height="147"/>
                                                 <gestureRecognizers/>
                                                 <state key="normal" image="doan-stand-large-kesu"/>
@@ -1313,7 +1326,7 @@ And yet—and yet—   The Han is a is wooden block struck with a mallet t
                                                     <outletCollection property="gestureRecognizers" destination="3s2-55-CLS" appends="YES" id="9Hv-1D-qZO"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3J3-Au-Ef7">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3J3-Au-Ef7">
                                                 <rect key="frame" x="227" y="80" width="98" height="67"/>
                                                 <gestureRecognizers/>
                                                 <state key="normal" image="doan-stand-small-bell"/>
@@ -1364,11 +1377,22 @@ And yet—and yet—   The Han is a is wooden block struck with a mallet t
                                     <segue destination="62S-RH-Fyi" kind="presentation" id="sr7-BE-G7r"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rXw-yy-68A">
-                                <rect key="frame" x="40" y="688" width="30" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E8q-yo-z2c">
+                                <rect key="frame" x="36" y="648" width="70" height="70"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="30" id="5b3-ko-IRh"/>
-                                    <constraint firstAttribute="height" constant="30" id="ghH-VY-JRi"/>
+                                    <constraint firstAttribute="height" constant="70" id="bGM-1x-nSH"/>
+                                    <constraint firstAttribute="width" constant="70" id="dlf-Uv-Puh"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="broadcast-off"/>
+                                <connections>
+                                    <action selector="broadcastButton:" destination="mmu-IP-TTc" eventType="touchUpInside" id="EgJ-pO-zE0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rXw-yy-68A">
+                                <rect key="frame" x="170" y="685.66666666666663" width="35" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="35" id="5b3-ko-IRh"/>
+                                    <constraint firstAttribute="height" constant="35" id="ghH-VY-JRi"/>
                                 </constraints>
                                 <state key="normal" image="information-button"/>
                                 <connections>
@@ -1379,17 +1403,20 @@ And yet—and yet—   The Han is a is wooden block struck with a mallet t
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="rXw-yy-68A" firstAttribute="leading" secondItem="1Vw-aT-S5F" secondAttribute="leading" constant="40" id="5Va-a9-XQR"/>
                             <constraint firstItem="viI-pP-L9C" firstAttribute="centerX" secondItem="1Vw-aT-S5F" secondAttribute="centerX" id="8Au-4a-LhK"/>
                             <constraint firstItem="IJZ-bq-fec" firstAttribute="top" secondItem="viI-pP-L9C" secondAttribute="bottom" constant="120" id="A2c-5H-93n"/>
                             <constraint firstItem="rXw-yy-68A" firstAttribute="centerY" secondItem="y2r-MX-33a" secondAttribute="centerY" id="Adw-Hc-J6q"/>
+                            <constraint firstAttribute="bottom" secondItem="E8q-yo-z2c" secondAttribute="bottom" constant="40" id="cSy-gI-gpE"/>
                             <constraint firstAttribute="trailing" secondItem="y2r-MX-33a" secondAttribute="trailing" constant="40" id="jK4-nK-Ow4"/>
+                            <constraint firstItem="rXw-yy-68A" firstAttribute="centerX" secondItem="1Vw-aT-S5F" secondAttribute="centerX" id="kl9-fh-Zyh"/>
                             <constraint firstAttribute="bottom" secondItem="y2r-MX-33a" secondAttribute="bottom" constant="40" id="moO-At-Hk5"/>
+                            <constraint firstItem="E8q-yo-z2c" firstAttribute="leading" secondItem="1Vw-aT-S5F" secondAttribute="leadingMargin" constant="20" id="wxF-M7-LZV"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="T1B-tS-lY8"/>
                     <connections>
                         <outlet property="bigBellButton" destination="tbt-ae-trb" id="SBt-52-8om"/>
+                        <outlet property="broadcastButton" destination="E8q-yo-z2c" id="s7Z-EL-R8w"/>
                         <outlet property="inkinBellButton" destination="51o-8U-FJD" id="pa4-Cv-OFc"/>
                         <outlet property="mediumBellButton" destination="dy2-4P-pX9" id="Rag-vS-vca"/>
                         <outlet property="smallBellButton" destination="3J3-Au-Ef7" id="nc3-bl-6H7"/>
@@ -1408,7 +1435,7 @@ And yet—and yet—   The Han is a is wooden block struck with a mallet t
                     </connections>
                 </pongPressGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="3996" y="911.69415292353835"/>
+            <point key="canvasLocation" x="3996" y="911.08374384236458"/>
         </scene>
         <!--InstructionsVC-->
         <scene sceneID="Wuk-n5-ZLf">
@@ -1419,11 +1446,11 @@ And yet—and yet—   The Han is a is wooden block struck with a mallet t
                         <viewControllerLayoutGuide type="bottom" id="UX0-LU-hFe"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="819-88-Ud3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EW6-gR-Vr8">
-                                <rect key="frame" x="60" y="68" width="255" height="680"/>
+                                <rect key="frame" x="60" y="24" width="255" height="670"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.050000000000000003" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asian-vector-wave-2" translatesAutoresizingMaskIntoConstraints="NO" id="mih-H6-w8Q">
                                         <rect key="frame" x="0.0" y="0.0" width="267" height="764"/>
@@ -1431,7 +1458,7 @@ And yet—and yet—   The Han is a is wooden block struck with a mallet t
                                         <color key="tintColor" red="0.1922630712" green="0.1922630712" blue="0.1922630712" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </imageView>
                                     <stackView opaque="NO" contentMode="scaleAspectFit" distribution="fillEqually" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="SvW-Je-mfE">
-                                        <rect key="frame" x="33" y="610" width="192" height="40"/>
+                                        <rect key="frame" x="33" y="600" width="192" height="40"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tCR-gX-5UM">
                                                 <rect key="frame" x="0.0" y="0.0" width="84" height="40"/>
@@ -1461,13 +1488,13 @@ And yet—and yet—   The Han is a is wooden block struck with a mallet t
                                         </constraints>
                                     </stackView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tGa-m0-l3y" userLabel="Canvas View">
-                                        <rect key="frame" x="30" y="50" width="195" height="510"/>
+                                        <rect key="frame" x="30" y="50" width="195" height="500"/>
                                         <subviews>
                                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pvg-jV-8fS">
-                                                <rect key="frame" x="0.0" y="0.0" width="195" height="510"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="195" height="500"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6No-8w-dlF" userLabel="Content View">
-                                                        <rect key="frame" x="0.0" y="0.0" width="195" height="989"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="195" height="749.66666666666663"/>
                                                         <subviews>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="KanjiLife2019" translatesAutoresizingMaskIntoConstraints="NO" id="IKl-LF-4MP">
                                                                 <rect key="frame" x="12" y="30" width="171" height="130"/>
@@ -1476,7 +1503,7 @@ And yet—and yet—   The Han is a is wooden block struck with a mallet t
                                                                 </constraints>
                                                             </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2J1-0D-Mbb">
-                                                                <rect key="frame" x="12" y="196" width="171" height="769"/>
+                                                                <rect key="frame" x="12" y="196" width="171" height="529.66666666666663"/>
                                                                 <string key="text">I write, erase, rewrite,  Erase again, and then A poppy blooms.  
 In these days we find ourselves in, we are working to provide tools and resources for groups on the journey of discovering new connections.  Ahead, you will find some nascent features, a han that can call your community to meditation wherever they are, a set of doan bells that can ring in many places, and connections to reach out to people.  Also, you will find the issues that arise as new idea come into being.  </string>
                                                                 <fontDescription key="fontDescription" name="AmaticSC-Bold" family="Amatic SC" pointSize="20"/>
@@ -1603,7 +1630,7 @@ In these days we find ourselves in, we are working to provide tools and resource
                                                 <rect key="frame" x="0.0" y="0.0" width="195" height="510"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qyo-s9-gpc">
-                                                        <rect key="frame" x="0.0" y="0.0" width="195" height="896"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="195" height="674"/>
                                                         <subviews>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Kanji Do" translatesAutoresizingMaskIntoConstraints="NO" id="7uV-Z9-cAe">
                                                                 <rect key="frame" x="12" y="30" width="171" height="130"/>
@@ -1612,7 +1639,7 @@ In these days we find ourselves in, we are working to provide tools and resource
                                                                 </constraints>
                                                             </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ekb-8s-zh9">
-                                                                <rect key="frame" x="12" y="196" width="171" height="676"/>
+                                                                <rect key="frame" x="12" y="196" width="171" height="454"/>
                                                                 <string key="text">The temple bell stops
 But the sound keeps coming
 out of the flowers   Some of these features are intuitive and we are free to explore the bells to express the sound of our lives. For a deeper exploration of the forms these bells have arisen from, follow the path below.  It may avail you to know for now that the touching the stand will reveal additional bells and that you may do a stop or a rolldown by long-pressing the respective bell.</string>
@@ -1764,6 +1791,7 @@ out of the flowers   Some of these features are intuitive and we are free 
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="zXm-ks-QPQ"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="0qd-Ft-NT4">
+                        <rect key="frame" x="0.0" y="-54" width="0.0" height="0.0"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -2689,7 +2717,7 @@ out of the flowers   Some of these features are intuitive and we are free 
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="l2f-eL-kKP">
                                 <rect key="frame" x="36" y="40" width="303" height="192"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZiQ-cN-oc3">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Group Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZiQ-cN-oc3">
                                         <rect key="frame" x="0.0" y="0.0" width="303" height="23"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
                                         <nil key="textColor"/>
@@ -2762,6 +2790,7 @@ out of the flowers   Some of these features are intuitive and we are free 
                                             <constraints>
                                                 <constraint firstItem="tN2-5W-d8y" firstAttribute="centerY" secondItem="usC-Dj-m00" secondAttribute="centerY" id="SU4-5K-8gS"/>
                                                 <constraint firstAttribute="trailing" secondItem="9GY-oc-U7a" secondAttribute="trailing" constant="20" id="jv6-qg-HR4"/>
+                                                <constraint firstItem="9GY-oc-U7a" firstAttribute="leading" relation="lessThanOrEqual" secondItem="tN2-5W-d8y" secondAttribute="trailing" constant="239" id="kEa-pL-oji"/>
                                                 <constraint firstItem="tN2-5W-d8y" firstAttribute="leading" secondItem="usC-Dj-m00" secondAttribute="leadingMargin" constant="20" id="ojo-j2-nzE"/>
                                                 <constraint firstItem="9GY-oc-U7a" firstAttribute="centerY" secondItem="usC-Dj-m00" secondAttribute="centerY" id="zDn-ed-DAa"/>
                                             </constraints>
@@ -3089,7 +3118,7 @@ out of the flowers   Some of these features are intuitive and we are free 
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Location" textAlignment="natural" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0G7-xh-5dI">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Location" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0G7-xh-5dI">
                                         <rect key="frame" x="0.0" y="111" width="300" height="32"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="32" id="Wli-ZF-wwT"/>
@@ -3468,11 +3497,11 @@ out of the flowers   Some of these features are intuitive and we are free 
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="iEY-iu-YFK"/>
-        <segue reference="YbX-cg-fBd"/>
-        <segue reference="6LW-Oo-kBs"/>
-        <segue reference="6pb-2T-IQf"/>
-        <segue reference="gg1-gA-VDE"/>
-        <segue reference="QcQ-JH-doN"/>
+        <segue reference="GpP-xx-uPn"/>
+        <segue reference="sr7-BE-G7r"/>
+        <segue reference="AnV-1a-twb"/>
+        <segue reference="eh4-Wc-0fk"/>
+        <segue reference="hlM-9H-2ah"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Kanji Do" width="363" height="363"/>
@@ -3480,6 +3509,7 @@ out of the flowers   Some of these features are intuitive and we are free 
         <image name="airplane" width="512" height="512"/>
         <image name="arrow" width="16" height="25"/>
         <image name="asian-vector-wave-2" width="500" height="1000"/>
+        <image name="broadcast-off" width="180" height="180"/>
         <image name="delay-button-bg" width="71" height="70"/>
         <image name="doan-inkin" width="73" height="159"/>
         <image name="doan-inkin-large-2" width="286" height="623"/>
