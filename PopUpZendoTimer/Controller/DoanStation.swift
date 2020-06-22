@@ -22,6 +22,8 @@ class DoanStation: UIViewController {
     //@IBOutlet weak var stopButton: UIButton!
     
      var doan: Doan!
+    var broadcast = false
+    var selectedGroup = ""
     
     func darkMode() {
            self.view.backgroundColor = UIColor.black
@@ -45,6 +47,12 @@ class DoanStation: UIViewController {
                   } else {
                       lightMode()
                   }
+        
+        if broadcast == true {
+            broadcastButton.isSelected = true
+        } else {
+            broadcastButton.isSelected = false
+        }
     }
     
     func switchBells() {
@@ -122,6 +130,7 @@ class DoanStation: UIViewController {
             broadcastButton.isSelected = false
         } else {
             broadcastButton.isSelected = true
+            performSegue(withIdentifier: "goToSetDoanVC", sender: self)
         }
     }
     

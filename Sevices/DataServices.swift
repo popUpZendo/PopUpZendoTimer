@@ -95,7 +95,7 @@ class DataService {
                }
         
         db.collection("bodhi").document(uid).updateData([
-            "Groups": FieldValue.arrayUnion([name]),
+            "groups": FieldValue.arrayUnion([name]),
             "senderId": uid
         ]) { err in
             if let err = err {
@@ -122,7 +122,7 @@ class DataService {
                   }
            
            db.collection("bodhi").document(uid).updateData([
-               "Groups": FieldValue.arrayRemove([name]),
+               "groups": FieldValue.arrayRemove([name]),
                "senderId": uid
            ]) { err in
                if let err = err {

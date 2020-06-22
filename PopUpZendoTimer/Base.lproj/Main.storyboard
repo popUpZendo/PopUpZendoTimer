@@ -1421,6 +1421,7 @@ And yet—and yet—   The Han is a is wooden block struck with a mallet t
                         <outlet property="mediumBellButton" destination="dy2-4P-pX9" id="Rag-vS-vca"/>
                         <outlet property="smallBellButton" destination="3J3-Au-Ef7" id="nc3-bl-6H7"/>
                         <outlet property="standButton" destination="DV5-9V-E1v" id="IkE-wK-SVD"/>
+                        <segue destination="qHu-Mm-yml" kind="show" identifier="goToSetDoanVC" id="iq5-WJ-IzJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3yG-FW-Dcu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -2006,6 +2007,107 @@ out of the flowers   Some of these features are intuitive and we are free 
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3qT-RW-FgB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3138" y="1892"/>
+        </scene>
+        <!--Set DoanVC-->
+        <scene sceneID="zMB-I9-Wa2">
+            <objects>
+                <viewController id="qHu-Mm-yml" customClass="setDoanVC" customModule="PopUpZendoTimer" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Dgt-BF-bew"/>
+                        <viewControllerLayoutGuide type="bottom" id="8jh-i2-LiP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="oMh-wE-Epz">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Doan Broadcast" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tG2-SD-cBd">
+                                <rect key="frame" x="36" y="40" width="303" height="26.333333333333329"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" red="0.43554106349999999" green="0.44264292719999998" blue="0.47451430560000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Hl-Um-Z52">
+                                <rect key="frame" x="30" y="74.333333333333314" width="315" height="101.66666666666669"/>
+                                <string key="text">Use this feature intentionally. Selecting a  group below will play bells for all online users of the group. Tapping the broadcast tower on the next screen will return you to private mode.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.43554106349999999" green="0.44264292719999998" blue="0.47451430560000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Which group is meeting now?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fa7-dg-6ay">
+                                <rect key="frame" x="46" y="216" width="283" height="20.333333333333343"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.43554106349999999" green="0.44264292719999998" blue="0.47451430560000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="W4G-bi-SjT">
+                                <rect key="frame" x="16" y="244.33333333333334" width="343" height="379.66666666666663"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="SortGroupsCell" textLabel="m6P-4N-3WH" style="IBUITableViewCellStyleDefault" id="ZPy-eQ-rTh" customClass="SortGroupsCell" customModule="PopUpZendoTimer" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="343" height="43.666667938232422"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ZPy-eQ-rTh" id="3Lu-DF-WxX">
+                                            <rect key="frame" x="0.0" y="0.0" width="343" height="43.666667938232422"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="m6P-4N-3WH">
+                                                    <rect key="frame" x="15" y="0.0" width="313" height="43.666667938232422"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HQx-lZ-7TU">
+                                <rect key="frame" x="112.66666666666669" y="676" width="150" height="40"/>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="GQb-q8-jBx"/>
+                                    <constraint firstAttribute="height" constant="40" id="onj-Va-fYK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="mmu-IP-TTc" kind="show" id="OzA-0w-KO7"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="W4G-bi-SjT" firstAttribute="top" secondItem="fa7-dg-6ay" secondAttribute="bottom" constant="20" id="4bO-4D-AuQ"/>
+                            <constraint firstItem="W4G-bi-SjT" firstAttribute="top" secondItem="fa7-dg-6ay" secondAttribute="bottom" constant="8" symbolic="YES" id="77U-TO-tgh"/>
+                            <constraint firstItem="W4G-bi-SjT" firstAttribute="leading" secondItem="oMh-wE-Epz" secondAttribute="leadingMargin" id="7h0-JT-UJU"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="fa7-dg-6ay" secondAttribute="trailing" constant="30" id="MdX-ZP-iIY"/>
+                            <constraint firstItem="tG2-SD-cBd" firstAttribute="leading" secondItem="oMh-wE-Epz" secondAttribute="leadingMargin" constant="20" id="Q8u-4s-6NQ"/>
+                            <constraint firstItem="0Hl-Um-Z52" firstAttribute="leading" secondItem="oMh-wE-Epz" secondAttribute="leading" constant="30" id="bgg-ry-wlD"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="tG2-SD-cBd" secondAttribute="trailing" constant="20" id="cTq-gq-VR9"/>
+                            <constraint firstItem="HQx-lZ-7TU" firstAttribute="centerX" secondItem="oMh-wE-Epz" secondAttribute="centerX" id="cxq-qP-0E8"/>
+                            <constraint firstItem="W4G-bi-SjT" firstAttribute="trailing" secondItem="oMh-wE-Epz" secondAttribute="trailingMargin" id="eNo-6Q-Ztm"/>
+                            <constraint firstItem="fa7-dg-6ay" firstAttribute="leading" secondItem="oMh-wE-Epz" secondAttribute="leadingMargin" constant="30" id="hPl-aZ-SVn"/>
+                            <constraint firstItem="fa7-dg-6ay" firstAttribute="top" secondItem="0Hl-Um-Z52" secondAttribute="bottom" constant="40" id="i9V-hP-9xW"/>
+                            <constraint firstItem="tG2-SD-cBd" firstAttribute="top" secondItem="Dgt-BF-bew" secondAttribute="bottom" constant="40" id="mm8-7Y-EgQ"/>
+                            <constraint firstItem="0Hl-Um-Z52" firstAttribute="top" secondItem="tG2-SD-cBd" secondAttribute="bottom" constant="8" id="nc0-Gp-jAq"/>
+                            <constraint firstAttribute="trailing" secondItem="0Hl-Um-Z52" secondAttribute="trailing" constant="30" id="qyu-mK-TIa"/>
+                            <constraint firstItem="8jh-i2-LiP" firstAttribute="top" secondItem="HQx-lZ-7TU" secondAttribute="bottom" constant="8" id="uBs-tc-Xao"/>
+                            <constraint firstItem="8jh-i2-LiP" firstAttribute="top" secondItem="W4G-bi-SjT" secondAttribute="bottom" constant="100" id="vbZ-kM-7JM"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="5sH-oX-j79"/>
+                    <connections>
+                        <outlet property="tableView" destination="W4G-bi-SjT" id="VrA-Z4-5YB"/>
+                        <segue destination="mmu-IP-TTc" kind="show" identifier="goToDoanStationVC" id="gvJ-f2-rE8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="C4y-cR-rEq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3996" y="1836"/>
         </scene>
         <!--Groups-->
         <scene sceneID="Pjc-Zw-S4e">
@@ -3496,12 +3598,14 @@ out of the flowers   Some of these features are intuitive and we are free 
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="iEY-iu-YFK"/>
+        <segue reference="iq5-WJ-IzJ"/>
+        <segue reference="iK3-sH-0PZ"/>
+        <segue reference="gvJ-f2-rE8"/>
         <segue reference="GpP-xx-uPn"/>
         <segue reference="sr7-BE-G7r"/>
         <segue reference="AnV-1a-twb"/>
         <segue reference="eh4-Wc-0fk"/>
-        <segue reference="hlM-9H-2ah"/>
+        <segue reference="QcQ-JH-doN"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Kanji Do" width="363" height="363"/>

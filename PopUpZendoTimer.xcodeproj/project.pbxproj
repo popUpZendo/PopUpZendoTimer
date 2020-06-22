@@ -58,6 +58,7 @@
 		D7999112231494650041AAD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7999111231494650041AAD1 /* AppDelegate.swift */; };
 		D7999117231494650041AAD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7999115231494650041AAD1 /* Main.storyboard */; };
 		D799911C231494660041AAD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D799911A231494660041AAD1 /* LaunchScreen.storyboard */; };
+		D7A40FC324A05457006C3FEE /* setDoanVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A40FC224A05457006C3FEE /* setDoanVC.swift */; };
 		D7B197AB2316ED0300AAE2B0 /* Settings VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B197AA2316ED0300AAE2B0 /* Settings VC.swift */; };
 		D7BA55EC23205A07004E0E19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7BA55EB23205A07004E0E19 /* Assets.xcassets */; };
 		D7BF95872470F12200EF9DC2 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BF95862470F12200EF9DC2 /* ImagePicker.swift */; };
@@ -129,6 +130,7 @@
 		D7999116231494650041AAD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D799911B231494660041AAD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D799911D231494660041AAD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7A40FC224A05457006C3FEE /* setDoanVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setDoanVC.swift; sourceTree = "<group>"; };
 		D7B197AA2316ED0300AAE2B0 /* Settings VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Settings VC.swift"; sourceTree = "<group>"; };
 		D7BA55EB23205A07004E0E19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7BF95862470F12200EF9DC2 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
@@ -234,6 +236,7 @@
 				D7937FBE245A8BDD00460C8E /* SignUpViewController.swift */,
 				D7C8A669245A953E00DAE2EC /* ViewController.swift */,
 				D787F55C245FB22100EF1160 /* ProfileVC.swift */,
+				D7A40FC224A05457006C3FEE /* setDoanVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -483,6 +486,7 @@
 				D78586AD245D1E7C003BF816 /* Bodhi.swift in Sources */,
 				D7E6DC402446AC63005433C0 /* LocalNotificationManager.swift in Sources */,
 				D70B4435243018BF008A7D2E /* Bells.swift in Sources */,
+				D7A40FC324A05457006C3FEE /* setDoanVC.swift in Sources */,
 				D77F764B2474D6B40002DE54 /* CircleMenuButton.swift in Sources */,
 				D787F55F245FB24A00EF1160 /* GroupsVCTest.swift in Sources */,
 				D7773C7424383E3F008D4408 /* HanVC.swift in Sources */,
