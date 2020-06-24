@@ -21,7 +21,10 @@ class ProfileVC: UIViewController {
     
     let storageRef = Storage.storage().reference()
     var groupsArray = [""]
-    let uid = (Auth.auth().currentUser?.uid)!
+    
+    // current user can be nil if user haven't logged in
+    // use "String!" to store possible nil value, the "!" will auto force unwrap it when you use "uid"
+    let uid : String! = Auth.auth().currentUser?.uid
     var isChecked = true
     var profileImageURL = "Profile String" 
     var imagePicker: ImagePicker!
@@ -62,6 +65,9 @@ class ProfileVC: UIViewController {
 
     
     func readProfile () {
+        // ensure uid is not nil before proceeding to read profile
+        guard let uid = uid else { return }
+        
         db.collection("bodhi").document(uid)
         .addSnapshotListener { documentSnapshot, error in
           guard let document = documentSnapshot else {
