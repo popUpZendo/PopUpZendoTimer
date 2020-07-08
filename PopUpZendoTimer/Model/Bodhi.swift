@@ -7,15 +7,17 @@
 //
 
 import Foundation
+import Firebase
 
 class Bodhi: Codable, Equatable {
     public var id: String { return name }
-    public private(set) var name: String
-    public private(set) var email: String
-    public private(set) var city: String
-    public private(set) var pic: String
-    public private(set) var groups: [String]
-    public private(set) var senderId: String
+    public var name: String
+    public var email: String
+    public var city: String
+    public var pic: String
+    public var groups: [String]
+    public var playerId: String
+    public var senderId: String
     public var doan: Bool
     //public private(set) var key: String
     
@@ -24,16 +26,22 @@ class Bodhi: Codable, Equatable {
         lhs.id == rhs.id
     }
     
+    func save() {
+           guard let json = self.toJSON else { return }
+           Firestore.firestore().collection("bodhi").document(self.id).updateData(json)
+       }
     
     
     
-    init(name: String, email: String, city: String, pic: String, groups: [String], senderId: String, doan: Bool = false/*, key: String)*/) {
+    
+    init(name: String, email: String, city: String, pic: String, groups: [String], playerId: String, senderId: String, doan: Bool = false/*, key: String)*/) {
         self.name = name
         self.email = email
         self.city = city
         self.groups = groups
         self.pic = pic
-        self.senderId = senderId
+        self.playerId = senderId
+        self.senderId = playerId
         self.doan = doan
         //self.key = key
     }

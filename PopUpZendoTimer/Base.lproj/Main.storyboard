@@ -1400,13 +1400,29 @@ And yet—and yet—   The Han is a is wooden block struck with a mallet t
                                     <action selector="infoButtonTapped:" destination="mmu-IP-TTc" eventType="touchUpInside" id="741-rz-dwk"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Practical Zen" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y8g-9B-6z2">
+                                <rect key="frame" x="137.33333333333334" y="252.66666666666666" width="100.33333333333334" height="20.333333333333343"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.43554106349999999" green="0.44264292719999998" blue="0.47451430560000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Group" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j6l-ZU-3lm">
+                                <rect key="frame" x="47.333333333333329" y="716" width="47.333333333333329" height="20.333333333333371"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.43554106349999999" green="0.44264292719999998" blue="0.47451430560000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="y8g-9B-6z2" firstAttribute="centerX" secondItem="1Vw-aT-S5F" secondAttribute="centerX" id="7Ow-JH-V70"/>
                             <constraint firstItem="viI-pP-L9C" firstAttribute="centerX" secondItem="1Vw-aT-S5F" secondAttribute="centerX" id="8Au-4a-LhK"/>
                             <constraint firstItem="IJZ-bq-fec" firstAttribute="top" secondItem="viI-pP-L9C" secondAttribute="bottom" constant="120" id="A2c-5H-93n"/>
                             <constraint firstItem="rXw-yy-68A" firstAttribute="centerY" secondItem="y2r-MX-33a" secondAttribute="centerY" id="Adw-Hc-J6q"/>
+                            <constraint firstItem="j6l-ZU-3lm" firstAttribute="centerX" secondItem="E8q-yo-z2c" secondAttribute="centerX" id="KYh-Uc-VTs"/>
+                            <constraint firstItem="viI-pP-L9C" firstAttribute="top" secondItem="y8g-9B-6z2" secondAttribute="bottom" constant="150" id="Nlm-Uy-2a4"/>
                             <constraint firstAttribute="bottom" secondItem="E8q-yo-z2c" secondAttribute="bottom" constant="40" id="cSy-gI-gpE"/>
+                            <constraint firstItem="j6l-ZU-3lm" firstAttribute="top" secondItem="E8q-yo-z2c" secondAttribute="bottom" constant="-2" id="hcf-En-CLu"/>
                             <constraint firstAttribute="trailing" secondItem="y2r-MX-33a" secondAttribute="trailing" constant="40" id="jK4-nK-Ow4"/>
                             <constraint firstItem="rXw-yy-68A" firstAttribute="centerX" secondItem="1Vw-aT-S5F" secondAttribute="centerX" id="kl9-fh-Zyh"/>
                             <constraint firstAttribute="bottom" secondItem="y2r-MX-33a" secondAttribute="bottom" constant="40" id="moO-At-Hk5"/>
@@ -1415,8 +1431,10 @@ And yet—and yet—   The Han is a is wooden block struck with a mallet t
                     </view>
                     <navigationItem key="navigationItem" id="T1B-tS-lY8"/>
                     <connections>
+                        <outlet property="bellNoteLabel" destination="y8g-9B-6z2" id="Ykh-VM-Agk"/>
                         <outlet property="bigBellButton" destination="tbt-ae-trb" id="SBt-52-8om"/>
                         <outlet property="broadcastButton" destination="E8q-yo-z2c" id="s7Z-EL-R8w"/>
+                        <outlet property="groupNameLabel" destination="j6l-ZU-3lm" id="hxj-Qr-ibJ"/>
                         <outlet property="inkinBellButton" destination="51o-8U-FJD" id="pa4-Cv-OFc"/>
                         <outlet property="mediumBellButton" destination="dy2-4P-pX9" id="Rag-vS-vca"/>
                         <outlet property="smallBellButton" destination="3J3-Au-Ef7" id="nc3-bl-6H7"/>
@@ -1505,8 +1523,8 @@ And yet—and yet—   The Han is a is wooden block struck with a mallet t
                                                             </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2J1-0D-Mbb">
                                                                 <rect key="frame" x="12" y="196" width="171" height="529.66666666666663"/>
-                                                                <string key="text">I write, erase, rewrite,  Erase again, and then A poppy blooms.  
-In these days we find ourselves in, we are working to provide tools and resources for groups on the journey of discovering new connections.  Ahead, you will find some nascent features, a han that can call your community to meditation wherever they are, a set of doan bells that can ring in many places, and connections to reach out to people.  Also, you will find the issues that arise as new idea come into being.  </string>
+                                                                <mutableString key="text">I write, erase, rewrite,  Erase again, and then A poppy blooms.  
+In these days we find ourselves in, we are working to provide tools and resources for groups on the journey of discovering new connections.  Ahead, you will find some nascent features, a han that can call your community to meditation wherever they are, a set of doan bells that can ring in many places, and connections to reach out to people.  Also, you will find the issues that arise as new ideas come into being.  </mutableString>
                                                                 <fontDescription key="fontDescription" name="AmaticSC-Bold" family="Amatic SC" pointSize="20"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
@@ -1752,17 +1770,27 @@ out of the flowers   Some of these features are intuitive and we are free 
                                             <action selector="close:" destination="MEq-N9-K0K" eventType="touchUpInside" id="TgH-y6-7G0"/>
                                         </connections>
                                     </button>
+                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="10" minValue="0.0" maxValue="60" translatesAutoresizingMaskIntoConstraints="NO" id="oqd-PM-eX1">
+                                        <rect key="frame" x="8" y="568" width="239" height="31"/>
+                                        <color key="tintColor" red="0.43554106349999999" green="0.44264292719999998" blue="0.47451430560000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <connections>
+                                            <action selector="kinhinSliderValueChanged:" destination="MEq-N9-K0K" eventType="valueChanged" id="3v8-UZ-BjL"/>
+                                        </connections>
+                                    </slider>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8jx-Fe-TsQ">
-                                        <rect key="frame" x="104" y="57" width="47" height="57.5"/>
-                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="42"/>
+                                        <rect key="frame" x="94" y="26" width="67" height="58"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="50"/>
                                         <color key="textColor" red="0.4665576816" green="0.46694278719999999" blue="0.44705641270000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="8jx-Fe-TsQ" firstAttribute="top" secondItem="vFq-71-I6E" secondAttribute="top" constant="72" id="2Us-l8-GQ1"/>
+                                    <constraint firstItem="8jx-Fe-TsQ" firstAttribute="top" secondItem="vFq-71-I6E" secondAttribute="top" constant="60" id="2Us-l8-GQ1"/>
                                     <constraint firstItem="lpD-88-7Ks" firstAttribute="centerX" secondItem="vFq-71-I6E" secondAttribute="centerX" id="BLP-lN-8m6"/>
+                                    <constraint firstItem="oqd-PM-eX1" firstAttribute="leading" secondItem="vFq-71-I6E" secondAttribute="leading" constant="10" id="DLy-Ru-VGs"/>
+                                    <constraint firstItem="oEY-ya-mnD" firstAttribute="top" secondItem="oqd-PM-eX1" secondAttribute="bottom" constant="32" id="SgP-h5-e38"/>
                                     <constraint firstAttribute="bottom" secondItem="oEY-ya-mnD" secondAttribute="bottom" constant="20" id="V2Q-pz-qte"/>
+                                    <constraint firstAttribute="trailing" secondItem="oqd-PM-eX1" secondAttribute="trailing" constant="10" id="XcX-Bm-BYx"/>
                                     <constraint firstItem="8jx-Fe-TsQ" firstAttribute="centerX" secondItem="vFq-71-I6E" secondAttribute="centerX" id="aAB-DB-xnz"/>
                                     <constraint firstAttribute="trailing" secondItem="oEY-ya-mnD" secondAttribute="trailing" id="mjf-g8-gMP"/>
                                     <constraint firstItem="lpD-88-7Ks" firstAttribute="centerY" secondItem="vFq-71-I6E" secondAttribute="centerY" id="znz-mf-jhs"/>
@@ -1778,12 +1806,13 @@ out of the flowers   Some of these features are intuitive and we are free 
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="slider" destination="oqd-PM-eX1" id="EYd-pR-0ro"/>
                         <outlet property="timerLabel" destination="8jx-Fe-TsQ" id="RBu-Fb-Wen"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="22n-FM-kCM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3308" y="1223.8380809595203"/>
+            <point key="canvasLocation" x="2933.5999999999999" y="910.34482758620697"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="F9S-cd-hnN">
@@ -3598,12 +3627,11 @@ out of the flowers   Some of these features are intuitive and we are free 
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="iq5-WJ-IzJ"/>
-        <segue reference="iK3-sH-0PZ"/>
-        <segue reference="gvJ-f2-rE8"/>
+        <segue reference="iEY-iu-YFK"/>
+        <segue reference="OzA-0w-KO7"/>
         <segue reference="GpP-xx-uPn"/>
         <segue reference="sr7-BE-G7r"/>
-        <segue reference="AnV-1a-twb"/>
+        <segue reference="6pb-2T-IQf"/>
         <segue reference="eh4-Wc-0fk"/>
         <segue reference="QcQ-JH-doN"/>
     </inferredMetricsTieBreakers>

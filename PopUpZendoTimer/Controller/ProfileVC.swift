@@ -79,10 +79,10 @@ class ProfileVC: UIViewController {
             return
           }
           //print("Current data: \(data)")
-            let name = document.get("Name") as! String
-            let email = document.get("Email") as! String
-            let city = document.get("City") as! String
-            let profileImageURL = document.get("Pic") as! String
+            let name = document.get("name") as! String
+            let email = document.get("email") as! String
+            let city = document.get("city") as! String
+            let profileImageURL = document.get("pic") as! String
             
             self.profileImage.layer.cornerRadius = self.profileImage.frame.size.width/2
             self.profileImage.clipsToBounds = true

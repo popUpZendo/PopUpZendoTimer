@@ -24,6 +24,8 @@ class FirebaseInterface {
         
     }
     
+    
+    
     func fetchBodhiByID(ids: [String], completion: @escaping ([Bodhi]) -> Void) {
         var cached: [Bodhi] = []
         var remainingIDs: [String] = []

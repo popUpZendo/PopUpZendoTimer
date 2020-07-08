@@ -12,32 +12,37 @@ import UIKit
 class InkinPopUpVC: UIViewController {//@IBOutlet weak var containerView: UIView!
     @IBOutlet weak var timerLabel: UILabel!
     @IBOutlet weak var inkinBell: UIButton!
-        
+    @IBOutlet weak var slider: UISlider!
+    
+    
     var doan: Doan!
-    var seconds = 60 //This variable will hold a starting value of seconds. It could be any amount above 0.
+    var seconds = 75 //This variable will hold a starting value of seconds. It could be any amount above 0.
     var timer = Timer()
     var isTimerRunning = false //This will be used to make sure only one timer is created at a time.
-           
+    var broadcast = false
+    var selectedGroup = ""
+    var playerIDs: [String]?
+    var countdownDisplay = 75
+    var kinhin: Double = 60
+    let kinhinSlide = "kinhinSlide"
+    
            //let cornerRadius : CGFloat = 25.0
            
            override func viewDidLoad() {
                super.viewDidLoad()
-
-    //           containerView.layer.cornerRadius = cornerRadius
-    //           containerView.layer.shadowColor = UIColor.darkGray.cgColor
-    //           containerView.layer.shadowOffset = CGSize(width: 5.0, height: 5.0)
-    //           containerView.layer.shadowRadius = 25.0
-    //           containerView.layer.shadowOpacity = 0.9
-               
-               //gotItButton.layer.cornerRadius = 10
-               //moreHanButton.layer.cornerRadius = 10
                 
                 doan = Doan.instance
             
             timer.invalidate()
-            runTimer()
-            seconds = 60    //Here we manually enter the restarting point for the seconds, but it would be wiser to make this a variable or constant.
-            timerLabel.text = "\(seconds)"
+            
+            //seconds = 65    //Here we manually enter the restarting point for the seconds, but it would be wiser to make this a variable or constant.
+            
+            timerLabel.text = "\(countdownDisplay)"
+            
+            if let kinhinSlide = defaults.value(forKey: kinhinSlide) {
+                slider.value = kinhinSlide as! Float
+                kinhinSliderValueChanged(slider)
+            }
             
                self.showAnimate()
                
@@ -64,8 +69,17 @@ class InkinPopUpVC: UIViewController {//@IBOutlet weak var containerView: UIView
 
     
     @objc func updateTimer() {
+        var time = Int(timerLabel.text!)
+        seconds = (time!) * 60
+        print("Seconds: \(seconds)")
                 seconds -= 1     //This will decrement(count down)the seconds.
-                timerLabel.text = "\(seconds)" //This will update the label.
+        if seconds > 60 {
+            countdownDisplay = seconds/60
+            print(countdownDisplay)
+        } else if seconds < 60 {
+            countdownDisplay = seconds
+        }
+                timerLabel.text = "\(countdownDisplay)" //This will update the label.
             }
            
            func showAnimate()
@@ -90,10 +104,44 @@ class InkinPopUpVC: UIViewController {//@IBOutlet weak var containerView: UIView
                        }
                });
            }
+    
+    func ringInkinBell() {
+        if selectedGroup != "", let list = self.playerIDs {
+            OneSignalService.instance.broadcastBell(Group: "Practical Zen", audience: list, Bell: "inkin-bell.aiff")
+        }
+    }
            
         @IBAction func inkinBellPressed(_ sender: Any) {
-            doan.testBell(name: "inkin-bell")
+            if isTimerRunning == false {
+                self.isTimerRunning = true
+                print(isTimerRunning)
+                runTimer()
+                slider.isHidden = true
+                doan.testBell(name: "inkin-bell")
+                ringInkinBell()
+                print("SelectedInkin Group \(selectedGroup)")
+                print("Inkin Broadcast: \(broadcast)")
+                print("Inkin playerIds: \(String(describing: playerIDs))")
+                 } else {
+                    timer.invalidate()
+                
+                    self.isTimerRunning = false
+                    print(isTimerRunning)
+                    slider.isHidden = false
+                    doan.testBell(name: "inkin-bell")
+                ringInkinBell()
+                
+                }
         }
+    
+    @IBAction func kinhinSliderValueChanged(_ sender: UISlider) {
+        kinhin = Double(Int(sender.value))
+            let currentValue = Int(sender.value)
+            timerLabel.text = "\(currentValue)"
+        
+        defaults.set(sender.value, forKey: kinhinSlide)
+    }
+    
         
            @IBAction func closeButtonPressed(_ sender: Any) {
                self.removeAnimate()

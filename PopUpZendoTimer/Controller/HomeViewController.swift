@@ -197,8 +197,13 @@ class HomeViewController: UIViewController, CircleMenuDelegate {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let GroupsSortVC = segue.destination as? GroupsSortVC {
             GroupsSortVC.groups = groups.filter({ $0 != ""})
+        } else {
+        if let DoanStation = segue.destination as? DoanStation {
+            DoanStation.groups = groups.filter({ $0 != ""})
+        }
         }
     }
+    
     
 }
 
