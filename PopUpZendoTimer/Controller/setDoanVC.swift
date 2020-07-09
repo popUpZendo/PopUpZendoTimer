@@ -22,6 +22,7 @@ class setDoanVC: UIViewController {
         self.tableView.delegate = self
         self.tableView.dataSource = self
         self.sanghaArray = FirebaseInterface.instance.groups
+        print("Groups: \(groups)")
     }
     
 }
@@ -48,7 +49,14 @@ extension setDoanVC:  UITableViewDelegate, UITableViewDataSource {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let DoanStation = segue.destination as? DoanStation {
             DoanStation.selectedGroup = self.selectedGroup
+            if selectedGroup != "" {
             DoanStation.broadcast = true
+            DoanStation.groups = groups
+            } else {
+                DoanStation.broadcast = false
+                DoanStation.groups = groups
+            }
+            
         }
     }
 

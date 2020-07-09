@@ -1,5 +1,5 @@
 //
-//  DataServices.swift
+//  DataService.swift
 //  PopUpZendoTimer
 //
 //  Created by Joseph Hall on 5/1/20.
@@ -66,13 +66,15 @@ class DataService {
     
 
     
-            func createBodhi(withName name: String, withEmail email: String, withCity city: String, withSenderID senderID: String, forUID uid: String, withBodhiKey bodhiKey: String?, sendComplete: @escaping (_ status: Bool) -> ()) {
+    func createBodhi(withName name: String, withEmail email: String, withCity city: String, withSenderID senderID: String, forPlayerId playerId: String, withDoan doan: Bool, forUID uid: String, withBodhiKey bodhiKey: String?, sendComplete: @escaping (_ status: Bool) -> ()) {
                 db.collection("bodhi").document(uid).setData([
-                     "Name": name,
-                     "Email": email,
-                     "City": city,
-                     "Groups": [""],
+                     "name": name,
+                     "email": email,
+                     "city": city,
+                     "groups": [""],
+                     "playerId": playerId,
                      "senderId": uid
+                    
                 ]) { err in
                     if let err = err {
                         print("Error writing document: \(err)")
@@ -180,10 +182,10 @@ class DataService {
             
     func updateBodhi(withName name: String, withEmail email: String, withCity city: String, withPic pic: String, withSenderID senderID: String, forUID uid: String, withBodhiKey bodhiKey: String?, sendComplete: @escaping (_ status: Bool) -> ()) {
             db.collection("bodhi").document(uid).updateData([
-                 "Name": name,
-                 "Email": email,
-                 "City": city,
-                 "Pic": pic,
+                 "name": name,
+                 "email": email,
+                 "city": city,
+                 "pic": pic,
                  //"Groups": groups,
                  "senderId": uid
             ]) { err in
@@ -220,9 +222,10 @@ class DataService {
                 let pic = document.get("pic") as! String
                 let logo = document.get("logo") as! String
                 let memberArray = document.get("members") as! [String]
-                //let members = documents.document.map { $0["Members"]! as? [String]}
+                let doanArray = document.get("doans") as! [String]
+             
                 let senderId = document.get("senderId") as! String
-                    let sangha = Group(groupName: groupName, weekday: weekday, time: time, format: format, city: city, details: details, ino: ino, roshi: roshi, website: website, zoom: zoom, temple: temple, pic: pic, logo: logo, senderId: senderId, members: memberArray)
+                    let sangha = Group(groupName: groupName, weekday: weekday, time: time, format: format, city: city, details: details, ino: ino, roshi: roshi, website: website, zoom: zoom, temple: temple, pic: pic, logo: logo, senderId: senderId, members: memberArray, doans: doanArray)
                 sanghaArray.append(sangha)
         
                 }

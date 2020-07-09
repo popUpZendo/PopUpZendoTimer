@@ -120,7 +120,25 @@ class SignUpViewController: UIViewController {
                             }
                         }
                         
+                        db.collection("bodhi").document(result!.user.uid).setData([
+                            "name":firstName + " " + lastName,
+                            "city":"",
+                            "doan":"",
+                            "email":email,
+                            "groups":[""],
+                            "pic":"",
+                            "playerId":"",
+                            "senderId": result!.user.uid
+                        ]) { (error) in
+                            
+                            if error != nil {
+                                // Show error message
+                                self.showError("Error saving user data")
+                            }
+                        }
+                                
                         // Transition to the home screen
+                        
                         self.transitionToHome()
                     }
                     

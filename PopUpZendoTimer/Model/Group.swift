@@ -7,24 +7,26 @@
 //
 
 import Foundation
+import Firebase
 
 class Group: Codable, Equatable {
     public var id: String { return groupName }
-    public private(set) var groupName: String
-    public private(set) var weekday: String
-    public private(set) var time: String
-    public private(set) var format: String
-    public private(set) var city: String
-    public private(set) var details: String
-    public private(set) var ino: String
-    public private(set) var roshi: String
-    public private(set) var website: String
-    public private(set) var zoom: String
-    public private(set) var temple: String
-    public private(set) var pic: String
-    public private(set) var logo: String
-    public private(set) var senderId: String
-    public private(set) var members: [String]
+    public var groupName: String
+    public var weekday: String
+    public var time: String
+    public var format: String
+    public var city: String
+    public var details: String
+    public var ino: String
+    public var roshi: String
+    public var website: String
+    public var zoom: String
+    public var temple: String
+    public var pic: String
+    public var logo: String
+    public var senderId: String
+    public var members: [String]
+    public var doans: [String]
     
     
     public static func ==(lhs: Group, rhs: Group) -> Bool {
@@ -36,9 +38,13 @@ class Group: Codable, Equatable {
 //        return _key
 //    }
     
+    func save() {
+        guard let json = self.toJSON else { return }
+        Firestore.firestore().collection("groups").document(self.id).updateData(json)
+    }
 
     
-    init(groupName: String, weekday: String, time: String, format: String, city: String, details: String, ino: String, roshi: String, website: String, zoom: String, temple: String, pic: String, logo: String, senderId: String, members: [String] /*, key: String*/) {
+    init(groupName: String, weekday: String, time: String, format: String, city: String, details: String, ino: String, roshi: String, website: String, zoom: String, temple: String, pic: String, logo: String, senderId: String, members: [String], doans: [String] /*, key: String*/) {
         self.groupName = groupName
         self.weekday = weekday
         self.time = time
@@ -54,6 +60,7 @@ class Group: Codable, Equatable {
         self.logo = logo
         self.senderId = senderId
         self.members = members
+        self.doans = doans
         //self._key = key
     }
 }

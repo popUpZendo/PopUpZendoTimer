@@ -27,7 +27,7 @@ class HomeViewController: UIViewController, CircleMenuDelegate {
     @IBOutlet weak var city: UILabel!
     @IBOutlet weak var groupslist: UILabel!
     
-    var logoImage = UIImage(named: "zen-profile")
+    var logoImage = UIImage(named: "profile-zen")
     var profileImageURL = ""
     var groups = [""]
     
@@ -75,7 +75,7 @@ class HomeViewController: UIViewController, CircleMenuDelegate {
 //          // 3
 //          currentUserRef.onDisconnectRemoveValue()
         
-        readProfile()
+       readProfile()
         
         
         
@@ -102,6 +102,9 @@ class HomeViewController: UIViewController, CircleMenuDelegate {
     }
     
     func getProfileImage (imageURL: String) {
+        if profileImageURL == "" {
+            self.profilePic.image = UIImage(named: "profile-zen")
+        } else {
        let httpsReference = storage.reference(forURL: imageURL)
         var profileImage = UIImage(named: "profile-zen")
         httpsReference.getData(maxSize: 10 * 1024 * 1024) { data, error in
@@ -111,9 +114,10 @@ class HomeViewController: UIViewController, CircleMenuDelegate {
             profileImage = UIImage(data: data!)!
             self.profilePic.image = profileImage
           }
-          
+
         }
        // return profileImage!
+        }
     }
     
     func readProfile () {
@@ -137,13 +141,14 @@ class HomeViewController: UIViewController, CircleMenuDelegate {
                 let filteredGroups = groups.filter({ $0 != ""})
                 
                 self.profileImageURL = profileImageURL
+                
                 self.getProfileImage(imageURL: profileImageURL)
                 self.username.text = name
                 self.email.text = email
                 self.city.text = city
                 self.groupslist.text = filteredGroups.map { "\($0)" }.joined(separator:"\n")
                 self.groups = groups
-                if self.profilePic.image == UIImage(named: "zen-profile") {
+                if self.profilePic.image == UIImage(named: "profile-zen") {
                     self.profilePic.layer.cornerRadius = 0
                 } else {
                     self.profilePic.layer.cornerRadius = self.profilePic.frame.size.width/2
@@ -197,8 +202,13 @@ class HomeViewController: UIViewController, CircleMenuDelegate {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let GroupsSortVC = segue.destination as? GroupsSortVC {
             GroupsSortVC.groups = groups.filter({ $0 != ""})
+        } else {
+        if let DoanStation = segue.destination as? DoanStation {
+            DoanStation.groups = groups.filter({ $0 != ""})
+        }
         }
     }
+    
     
 }
 

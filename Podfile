@@ -14,5 +14,12 @@ pod 'Firebase/Database'
 pod 'Firebase/Storage' 
 pod 'FoldingCell'
 pod 'CircleMenu'
+pod 'OneSignal', '>= 2.11.2', '< 3.0'
 
+end
+
+target 'OneSignalNotificationServiceExtension' do
+  #only copy below line
+  use_frameworks!
+  pod 'OneSignal', '>= 2.11.2', '< 3.0'
 end

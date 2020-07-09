@@ -15,10 +15,9 @@ class membersCell: UITableViewCell {
     
     func configureCell(bodhi: Bodhi) {
         self.nameLabel.text = bodhi.name
-        if bodhi.doan {
+        if bodhi.doan == true {
             self.doanButton.isHidden = false
-            self.doanButton.setTitle("doan", for: .normal)
-        }else{
+        }else {
             self.doanButton.isHidden = true
         }
     }

@@ -10,9 +10,14 @@ import Foundation
 
 extension Decodable {
     static func load(from json: [String: Any]) -> Self? {
-        guard let data = try? JSONSerialization.data(withJSONObject: json, options: []) else { return nil }
+        do {
+            let data = try JSONSerialization.data(withJSONObject: json, options: [])
         
-        return try? JSONDecoder().decode(self, from: data)
+            return try JSONDecoder().decode(self, from: data)
+        } catch {
+            print("Error when loading \(self): \(error)")
+        }
+        return nil
     }
 }
 

@@ -291,6 +291,7 @@ PODS:
     - nanopb/encode (= 0.3.9011)
   - nanopb/decode (0.3.9011)
   - nanopb/encode (0.3.9011)
+  - OneSignal (2.14.3)
   - PromisesObjC (1.2.8)
 
 DEPENDENCIES:
@@ -302,6 +303,7 @@ DEPENDENCIES:
   - Firebase/Firestore
   - Firebase/Storage
   - FoldingCell
+  - OneSignal (< 3.0, >= 2.11.2)
 
 SPEC REPOS:
   trunk:
@@ -329,6 +331,7 @@ SPEC REPOS:
     - GTMSessionFetcher
     - leveldb-library
     - nanopb
+    - OneSignal
     - PromisesObjC
 
 SPEC CHECKSUMS:
@@ -356,8 +359,9 @@ SPEC CHECKSUMS:
   GTMSessionFetcher: cea130bbfe5a7edc8d06d3f0d17288c32ffe9925
   leveldb-library: 55d93ee664b4007aac644a782d11da33fba316f7
   nanopb: 18003b5e52dab79db540fe93fe9579f399bd1ccd
+  OneSignal: 7dfe466265c05f02b95a274b9c997a0619ad2117
   PromisesObjC: c119f3cd559f50b7ae681fa59dc1acd19173b7e6
 
-PODFILE CHECKSUM: 80ea0a9993234869c74328b2928dd07d2764d741
+PODFILE CHECKSUM: 03f3e4c82ac1084874bde39e0e98c91ef28efacc
 
 COCOAPODS: 1.9.1

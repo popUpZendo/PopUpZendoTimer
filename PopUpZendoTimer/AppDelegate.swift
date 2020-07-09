@@ -10,6 +10,7 @@ import UIKit
 import UserNotifications
 import Firebase
 import FirebaseStorage
+import OneSignal
 
 
 
@@ -30,7 +31,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
             if granted {
                 print("local notification permissions granted")
             } else {
-                print("local no=tification permissions denied")
+                print("local notification permissions denied")
             }
         }
         
@@ -51,13 +52,60 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
             "startNumber": 3,
             "endNumber": 1,
             "hanTime": Date(),
-            "hanMute": true
+            "hanMute": true,
+            "kinhinSlide": 10
             
             
             ])
         
+        //Remove this method to stop OneSignal Debugging
+        OneSignal.setLogLevel(.LL_VERBOSE, visualLevel: .LL_NONE)
+
+        //START OneSignal initialization code
+        let onesignalInitSettings = [kOSSettingsKeyAutoPrompt: false, kOSSettingsKeyInAppLaunchURL: false]
+        
+        // Replace 'YOUR_ONESIGNAL_APP_ID' with your OneSignal App ID.
+        OneSignal.initWithLaunchOptions(launchOptions,
+          appId: "75931b8a-9a75-4591-b18b-d64273e1f0f9",
+          handleNotificationAction: nil,
+          settings: onesignalInitSettings)
+
+        OneSignal.inFocusDisplayType = OSNotificationDisplayType.notification;
+
+        // The promptForPushNotifications function code will show the iOS push notification prompt. We recommend removing the following code and instead using an In-App Message to prompt for notification permission (See step 6)
+        OneSignal.promptForPushNotifications(userResponse: { accepted in
+          print("User accepted notifications: \(accepted)")
+        })
+        //END OneSignal initializataion code
+        
+        let status: OSPermissionSubscriptionState = OneSignal.getPermissionSubscriptionState()
+         
+             let userID = status.subscriptionStatus.userId
+             print("userID = \(String(describing: userID))")
+             let pushToken = status.subscriptionStatus.pushToken
+             print("pushToken = \(String(describing: pushToken))")
+         
+         
+         //OneSignal.setEmail("example@domain.com");
+         
+            if pushToken != nil {
+                 if let playerId = userID {
+
+                    OneSignalService.instance.uploadPlayerId(withPlayerId: playerId, forUserId: Auth.auth().currentUser!.uid, forUID: (Auth.auth().currentUser?.uid)!, withKey: nil, sendComplete: { (isComplete) in
+                         if isComplete {
+                             print("Completed playerID Upload")
+                         } else {
+                             print("There was an error!")
+                         }
+                     })
+                 }
+             }
+         center.requestAuthorization(options: [.alert, .sound]) { granted, error in
+         }
+        
         return true
     }
+    
     
     
 

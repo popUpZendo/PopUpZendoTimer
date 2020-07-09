@@ -7,17 +7,17 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "FBA2C5A0-EA37-4382-AAAB-C78824EF13A5"
+            uuid = "97059169-03EA-49CC-846A-14999C1F3A91"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "PopUpZendoTimer/View/ZenTimer.swift"
+            filePath = "PopUpZendoTimer/Controller/HomeViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
-            landmarkName = "elapsedTime"
-            landmarkType = "24">
+            startingLineNumber = "123"
+            endingLineNumber = "123"
+            landmarkName = "readProfile()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

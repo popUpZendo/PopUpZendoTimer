@@ -24,6 +24,7 @@ class GroupMembersVC: UIViewController {
     var selectedGroup = ""
     var selectedGroupArray = [Group]()
     var members: [Bodhi] = []
+    var doans: [Bodhi] = []
     var memberNames = [""]
     let storageRef = Storage.storage().reference()
     let uid = (Auth.auth().currentUser?.uid)!
@@ -39,6 +40,7 @@ class GroupMembersVC: UIViewController {
     var selectedButton = "banner"
     var ImageURL = "ImageURL"
     var sangha: Group?
+    var doanryo = [""]
     
     
     override func viewDidLoad() {
@@ -47,16 +49,8 @@ class GroupMembersVC: UIViewController {
         tableView.delegate = self
         self.sanghaArray = FirebaseInterface.instance.groups
         self.tableView.reloadData()
-      //  print("sanghaArray ======= \(sanghaArray)")
-       // print("bodhiArray \(bodhiArray)")
         print(bodhiArray.count)
-//        if bodhiArray.contains("Joe Hall") {
-//
-//        }
-
         print("selected Group ======= \(selectedGroupArray)")
-        
-        //getOneGroup()
         setUpGroup()
         
         NotificationCenter.default.addObserver(self, selector: #selector(groupsChanged), name: FirebaseInterface.Notifications.groupsChanged, object: nil)
@@ -67,6 +61,7 @@ class GroupMembersVC: UIViewController {
     @objc func groupsChanged() {
          sanghaArray = FirebaseInterface.instance.groups
          self.setUpGroup()
+        
      }
     
     @objc func bodhiChanged() {
@@ -76,74 +71,26 @@ class GroupMembersVC: UIViewController {
     
     
     func setUpGroup () {
-//      let name = "Joe Hall"
-//      if bodhiArray.contains(where: { bodhi in bodhi.name == name }) {
-//          print("Found it!!!") } else {
-//          print("Not Yet")
-//      print("bodhiArray +++++++++++++++++ \(bodhiArray)")
-//      }
         self.sangha = self.sanghaArray?.first { $0.groupName.contains(selectedGroup) }
         guard let sangha = self.sangha else { return }
         FirebaseInterface.instance.fetchBodhiByID(ids: sangha.members) { bodhi in
             self.members = bodhi
+            self.doanryo = sangha.doans
             self.tableView.reloadData()
             
         }
+        
+        
         groupNameLabel.text = sangha.groupName
         timeLabel.text = "\(sangha.weekday)'s at \(sangha.time)"
         templeLabel.text = sangha.temple
         inoLabel.text = sangha.ino
-    }
-    
-//    func getOneGroup () {
-//        db.collection("groups").document(selectedGroup)
-//        .addSnapshotListener { documentSnapshot, error in
-//          guard let document = documentSnapshot else {
-//            print("Error fetching document: \(error!)")
-//            return
-//          }
-//          guard let data = document.data() else {
-//            print("Document data was empty.")
-//            return
-//          }
-//            let groupName = document.get("groupName") as! String
-//            //print(groupName)
-//            let newTime = document.get("newTime") as! String
-//            let ino = document.get("ino") as! String
-//            let members = document.get("members") as! [String]
-//            print(members)
-//            let temple = document.get("temple") as! String
-//            let dateformatter = DateFormatter()
-//            dateformatter.dateFormat = "EEEE's  at ' h:mm a"
-//            //self.timeLabel.text = dateformatter.string(from: time)
-//            self.timeLabel.text = newTime
-//            self.groupNameLabel.text = groupName
-//            self.members = members
-//            self.inoLabel.text = ino
-//            self.templeLabel.text = temple
-//            self.getDetails(memberArray: members)
-//
-//        }
-//    }
-    
-    func getDetails(memberArray: [String]) {
-       //for member in memberArray {
-            DataService.instance.getProfileInfo(forUID: "KlsbGPexTOSlZGcpySKF0R7P09l2")
-            memberNames.append(userName)
     }
    
 }
 
 
 extension GroupMembersVC:  UITableViewDelegate, UITableViewDataSource {
-    
-    //    func toggleDoan() {
-               //        if doanButton.isHidden == true {
-               //            doanButton.isHidden = false
-               //        } else {
-               //            doanButton.isHidden = true
-               //        }
-               //    }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         members.count
@@ -152,6 +99,13 @@ extension GroupMembersVC:  UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "membersCell", for: indexPath) as! membersCell
         let member = members[indexPath.row]
+        
+        
+        if doanryo.contains(member.senderId) {
+            member.doan = true
+        } else {
+            member.doan = false
+        }
         //cell.textLabel?.text = member
         cell.configureCell(bodhi: member)
         return cell
@@ -164,14 +118,44 @@ extension GroupMembersVC:  UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, editActionsForRowAt indexPath: IndexPath) -> [UITableViewRowAction]?
     {
+        let cell = tableView.cellForRow(at: indexPath) as! membersCell
+        let member = members[indexPath.row]
+        
+        func toggleDoan() {
+              if member.doan == true {
+                member.doan = false
+                self.doanryo = doanryo.filter { $0 != member.senderId}
+                cell.doanButton.isHidden = true
+                print("Doan Removed: doanryo is now \(doanryo)")
+                
+              } else {
+                member.doan = true
+                self.doanryo.append(member.senderId)
+                cell.doanButton.isHidden = false
+                print("Doan added: doanryo is now \(doanryo)")
+            }
+            sangha?.doans = doanryo
+            sangha?.save()
+          }
+        
         // 1
         let doanAction = UITableViewRowAction(style: .normal, title: "Doan" , handler: { (action:UITableViewRowAction, indexPath: IndexPath) -> Void in
            
             
         // 2
-        let dialogue = UIAlertController(title: nil, message: "Do you want this person to ring bells for the entire group?", preferredStyle: .actionSheet)
+        var dialogueMessage = "Do you want this person to ring bells for the entire group?"
+            if self.doanryo.contains(member.senderId) {
+                dialogueMessage = "Would you like to remove this person from the doanryo?  They will no longer be able to ring bells for the entire group"
+            }
+            
+        let dialogue = UIAlertController(title: nil, message: dialogueMessage, preferredStyle: .actionSheet)
                 
-        let confirmAction = UIAlertAction(title: "Yes", style: .default, handler: nil)
+            let confirmAction = UIAlertAction(title: "Yes", style: .default, handler: { action in
+                print("yes tapped")
+                toggleDoan()
+                cell.nameLabel.textColor = .darkGray
+                tableView.reloadData()
+            })
         let cancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
                 
         dialogue.addAction(confirmAction)
@@ -184,12 +168,7 @@ extension GroupMembersVC:  UITableViewDelegate, UITableViewDataSource {
         // 5
         return [doanAction]
     }
-    
-    
-//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//        if let GroupMembersVC = segue.destination as? GroupMembersVC {
-//            GroupMembersVC.selectedGroup = self.selectedGroup
-//        }
-//    }
+
+ 
 
 }
