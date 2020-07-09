@@ -66,13 +66,15 @@ class DataService {
     
 
     
-            func createBodhi(withName name: String, withEmail email: String, withCity city: String, withSenderID senderID: String, forUID uid: String, withBodhiKey bodhiKey: String?, sendComplete: @escaping (_ status: Bool) -> ()) {
+    func createBodhi(withName name: String, withEmail email: String, withCity city: String, withSenderID senderID: String, forPlayerId playerId: String, withDoan doan: Bool, forUID uid: String, withBodhiKey bodhiKey: String?, sendComplete: @escaping (_ status: Bool) -> ()) {
                 db.collection("bodhi").document(uid).setData([
-                     "Name": name,
-                     "Email": email,
-                     "City": city,
-                     "Groups": [""],
+                     "name": name,
+                     "email": email,
+                     "city": city,
+                     "groups": [""],
+                     "playerId": playerId,
                      "senderId": uid
+                    
                 ]) { err in
                     if let err = err {
                         print("Error writing document: \(err)")

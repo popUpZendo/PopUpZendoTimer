@@ -161,10 +161,9 @@ class ProfileVC: UIViewController {
         if nameField.text != nil && emailField.text != nil && cityField.text != nil {
             DataService.instance.updateBodhi(withName: nameField.text!, withEmail: emailField.text!, withCity: cityField.text!, withPic: profileImageURL, withSenderID: uid, forUID: uid, withBodhiKey: nil, sendComplete: { (isComplete) in
                 if isComplete {
-//                self.sendBtn.isEnabled = true
-//                self.dismiss(animated: true, completion: nil)
+//
                 } else {
-//                self.sendBtn.isEnabled = true
+//                
                 print("There was an error!")
                 }
                 })
@@ -174,20 +173,23 @@ class ProfileVC: UIViewController {
         }
     
     func getProfileImage (imageURL: String) {
-         let httpsReference = storage.reference(forURL: imageURL)
-          var profileImage = UIImage(named: "profile-zen")
-          httpsReference.getData(maxSize: 10 * 1024 * 1024) { data, error in
-            if let error = error {
-              print("Uh-oh, an error occurred!")
-            } else {
-              print("Image is returned")
-              profileImage = UIImage(data: data!)!
-              self.profileImage.image = profileImage
-            }
-            
+        if profileImageURL == "" {
+            self.profileImage.image = UIImage(named: "profile-zen")
+        } else {
+       let httpsReference = storage.reference(forURL: imageURL)
+        var profileImage = UIImage(named: "profile-zen")
+        httpsReference.getData(maxSize: 10 * 1024 * 1024) { data, error in
+          if let error = error {
+            print("Uh-oh, an error occurred!")
+          } else {
+            profileImage = UIImage(data: data!)!
+            self.profileImage.image = profileImage
           }
-         // return profileImage!
-      }
+
+        }
+       // return profileImage!
+        }
+    }
     
     
     @IBAction func Save(_ sender: Any) {

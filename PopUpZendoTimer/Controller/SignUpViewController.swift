@@ -127,6 +127,7 @@ class SignUpViewController: UIViewController {
                             "email":email,
                             "groups":[""],
                             "pic":"",
+                            "playerId":"",
                             "senderId": result!.user.uid
                         ]) { (error) in
                             
@@ -135,21 +136,9 @@ class SignUpViewController: UIViewController {
                                 self.showError("Error saving user data")
                             }
                         }
-//
-//                        DataService.instance.createBodhi(withName: (firstName + lastName), withEmail: self.emailTextField.text ?? "", withCity: "", withSenderID: uid, forUID: uid, withBodhiKey: "", sendComplete: { (isComplete) in
-//                                        if isComplete {
-//                        //                self.sendBtn.isEnabled = true
-//                        //                self.dismiss(animated: true, completion: nil)
-//                                        } else {
-//                        //                self.sendBtn.isEnabled = true
-//                                        print("There was an error!")
-//                                        }
-//                                        })
-                                   
-                                    
-                                
                                 
                         // Transition to the home screen
+                        
                         self.transitionToHome()
                     }
                     

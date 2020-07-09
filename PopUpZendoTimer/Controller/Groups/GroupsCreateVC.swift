@@ -184,7 +184,7 @@ class GroupsCreateVC: UIViewController {
                print("Document does not exist")
            }
     
-           self.userName = document?.get("Name") as! String
+           self.userName = document?.get("name") as! String 
        }
            
        }
