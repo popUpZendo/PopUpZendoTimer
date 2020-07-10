@@ -174,7 +174,7 @@ class GroupsCreateVC: UIViewController {
     
     
     func getUserName () {
-       let docRef = db.collection("bodhi").document(uid)
+        let docRef = DataService.instance.bodhi_collection.document(uid)
 
        docRef.getDocument { (document, error) in
            if let document = document, document.exists {
