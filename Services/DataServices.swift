@@ -10,45 +10,44 @@ import Foundation
 import Firebase
 import FirebaseStorage
 
-
-let db = Firestore.firestore()
-// uid can be nil if user haven't log in yet, force unwrapping it here will cause crash
-// use String! to store possible nil value, the "!" means it will auto unwrap optional when you use it
-var uid : String! = Auth.auth().currentUser?.uid
-let storage = Storage.storage()
-
-
 class DataService {
+    let db = Firestore.firestore()
+    // uid can be nil if user haven't log in yet, force unwrapping it here will cause crash
+    // use String! to store possible nil value, the "!" means it will auto unwrap optional when you use it
+    var uid : String? = Auth.auth().currentUser?.uid
+    let storage = Storage.storage()
+    
     static let instance = DataService()
     
-    private var _REF_BASE = db
-    private var _REF_USERS = db.collection("users")
-    private var _REF_GROUPS = db.collection("groups")
-    private var _REF_BODHI = db.collection("bodhi")
-    
+    init() {
+    }
     
     var REF_BASE: Firestore {
-        return _REF_BASE
+        return db
     }
     
-    var REF_USERS: CollectionReference {
-        return _REF_USERS
+    var users_collection: CollectionReference {
+        return db.collection("users")
     }
     
-    var REF_GROUPS: CollectionReference {
-        return _REF_GROUPS
+    var groups_collection: CollectionReference {
+        return db.collection("groups")
     }
     
-    var REF_BODHI: CollectionReference {
-        return _REF_BODHI
+    var cities_collection : CollectionReference {
+        return db.collection("cities")
+    }
+    
+    var bodhi_collection: CollectionReference {
+        return db.collection("bodhi")
     }
     
     func createDBUser(uid: String, userData: Dictionary<String, Any>) {
-        REF_USERS.addDocument(data: userData)
+        users_collection.addDocument(data: userData)
     }
     
     func createProfile(uid: String, userData: Dictionary<String, Any>) {
-        REF_BODHI.addDocument(data: userData)
+        bodhi_collection.addDocument(data: userData)
     }
     
     
@@ -67,7 +66,7 @@ class DataService {
 
     
     func createBodhi(withName name: String, withEmail email: String, withCity city: String, withSenderID senderID: String, forPlayerId playerId: String, withDoan doan: Bool, forUID uid: String, withBodhiKey bodhiKey: String?, sendComplete: @escaping (_ status: Bool) -> ()) {
-                db.collection("bodhi").document(uid).setData([
+                bodhi_collection.document(uid).setData([
                      "name": name,
                      "email": email,
                      "city": city,
@@ -88,7 +87,7 @@ class DataService {
     
     func selectGroup(withName name: String, withSenderID senderID: String, forUID uid: String, withBodhiKey bodhiKey: String?, sendComplete: @escaping (_ status: Bool) -> ()) {
         
-        db.collection("groups").document(name).updateData([
+        groups_collection.document(name).updateData([
                    "members": FieldValue.arrayUnion([uid])
                ]) { err in
                    if let err = err {
@@ -98,7 +97,7 @@ class DataService {
                    }
                }
         
-        db.collection("bodhi").document(uid).updateData([
+        bodhi_collection.document(uid).updateData([
             "groups": FieldValue.arrayUnion([name]),
             "senderId": uid
         ]) { err in
@@ -115,7 +114,7 @@ class DataService {
     
     func leaveGroup(withName name: String, withSenderID senderID: String, forUID uid: String, withBodhiKey bodhiKey: String?, sendComplete: @escaping (_ status: Bool) -> ()) {
            
-           db.collection("groups").document(name).updateData([
+           groups_collection.document(name).updateData([
                       "members": FieldValue.arrayRemove([uid])
                   ]) { err in
                       if let err = err {
@@ -125,7 +124,7 @@ class DataService {
                       }
                   }
            
-           db.collection("bodhi").document(uid).updateData([
+           bodhi_collection.document(uid).updateData([
                "groups": FieldValue.arrayRemove([name]),
                "senderId": uid
            ]) { err in
@@ -141,7 +140,7 @@ class DataService {
     
              
     func createGroup(withGroupName groupName: String, withWeekday weekday: String, withTime time: String, withFormat format: String, withDetails details: String, withCity city: String, withIno ino: String, withRoshi roshi: String, withWebsite website: String, withZoom zoom: String, withTemple temple: String, withPic pic: String, withLogo logo: String, withMembers members: [String], withSenderID senderID: String, forUID uid: String, withBodhiKey bodhiKey: String?, sendComplete: @escaping (_ status: Bool) -> ()) {
-            db.collection("groups").document(groupName).setData([
+            groups_collection.document(groupName).setData([
                  "groupName": groupName,
                  "weekday": weekday,
                  "time": time,
@@ -167,7 +166,7 @@ class DataService {
     }
       
     func getProfileInfo(forUID uid: String) {
-                let docRef = db.collection("bodhi").document(uid)
+                let docRef = bodhi_collection.document(uid)
 
                 docRef.getDocument { (document, error) in
                     if let document = document, document.exists {
@@ -181,7 +180,7 @@ class DataService {
 
             
     func updateBodhi(withName name: String, withEmail email: String, withCity city: String, withPic pic: String, withSenderID senderID: String, forUID uid: String, withBodhiKey bodhiKey: String?, sendComplete: @escaping (_ status: Bool) -> ()) {
-            db.collection("bodhi").document(uid).updateData([
+            bodhi_collection.document(uid).updateData([
                  "name": name,
                  "email": email,
                  "city": city,
@@ -199,7 +198,7 @@ class DataService {
     
     func getAllGroups(handler: @escaping (_ sanghaArray: [Group]) -> ()) {
         var sanghaArray = [Group]()
-        db.collection("groups")
+        groups_collection
             .addSnapshotListener { querySnapshot, error in
                 guard let documents = querySnapshot?.documents else {
                     print("Error fetching documents: \(error!)")
@@ -232,7 +231,7 @@ class DataService {
         handler(sanghaArray)
         }
     }
-    
+/*
 //    func getAllGroups(handler: @escaping (_ sanghaArray: [Sangha]) -> ()) {
 //        var sanghaArray = [Sangha]()
 //        db.collection("groups")
@@ -626,9 +625,10 @@ class DataService {
 //            handler(groupsArray)
 //        }
 //
+*/
     
     func testData() {
-        let citiesRef = db.collection("cities")
+        let citiesRef = cities_collection
 
         citiesRef.document("SF").setData([
             "name": "San Francisco",
@@ -669,8 +669,7 @@ class DataService {
             ])
 
     }
-
-
+}
 
     
 

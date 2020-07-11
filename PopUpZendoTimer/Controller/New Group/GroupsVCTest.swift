@@ -66,7 +66,7 @@ class GroupsVCTest: UIViewController {
 //           }
     
     func getGroups() {
-        db.collection("groups")
+        DataService.instance.groups_collection
                    .addSnapshotListener { querySnapshot, error in
                        guard let documents = querySnapshot?.documents else {
                            print("Error fetching documents: \(error!)")
@@ -87,7 +87,7 @@ class GroupsVCTest: UIViewController {
     }
     
     func getOneGroup () {
-       db.collection("groups").document("Practical Zen")
+       DataService.instance.groups_collection.document("Practical Zen")
        .addSnapshotListener { documentSnapshot, error in
          guard let document = documentSnapshot else {
            print("Error fetching document: \(error!)")
@@ -144,7 +144,7 @@ class GroupsVCTest: UIViewController {
       }
     
   func getUserName () {
-    let docRef = db.collection("bodhi").document(uid)
+    let docRef = DataService.instance.bodhi_collection.document(uid)
 
     docRef.getDocument { (document, error) in
         if let document = document, document.exists {

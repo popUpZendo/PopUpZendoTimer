@@ -105,7 +105,7 @@ class HomeViewController: UIViewController, CircleMenuDelegate {
         if profileImageURL == "" {
             self.profilePic.image = UIImage(named: "profile-zen")
         } else {
-       let httpsReference = storage.reference(forURL: imageURL)
+        let httpsReference = DataService.instance.storage.reference(forURL: imageURL)
         var profileImage = UIImage(named: "profile-zen")
         httpsReference.getData(maxSize: 10 * 1024 * 1024) { data, error in
           if let error = error {
@@ -121,8 +121,8 @@ class HomeViewController: UIViewController, CircleMenuDelegate {
     }
     
     func readProfile () {
-        guard let uid = uid else { return }
-        db.collection("bodhi").document(uid)
+        guard let uid = DataService.instance.uid else { return }
+        DataService.instance.bodhi_collection.document(uid)
             .addSnapshotListener { documentSnapshot, error in
                 guard let document = documentSnapshot else {
                     print("Error fetching document: \(error!)")
