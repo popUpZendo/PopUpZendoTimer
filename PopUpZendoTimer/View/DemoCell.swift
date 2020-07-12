@@ -87,7 +87,7 @@ class DemoCell: FoldingCell {
         // Download in memory with a maximum allowed size of 1MB (1 * 1024 * 1024 bytes)
         httpsReference.getData(maxSize: 3 * 1024 * 1024) { data, error in
           if let error = error {
-            print("Uh-oh, an error occurred!")
+            print("Uh-oh, an error occurred! \(error)")
           } else {
             print("Image is returned")
             // Data for "images/island.jpg" is returned
@@ -105,7 +105,7 @@ class DemoCell: FoldingCell {
         // Download in memory with a maximum allowed size of 1MB (1 * 1024 * 1024 bytes)
         httpsReference.getData(maxSize: 3 * 1024 * 1024) { data, error in
           if let error = error {
-            print("Uh-oh, an error occurred!")
+            print("Uh-oh, an error occurred!  \(error)")
           } else {
             print("Image is returned")
             // Data for "images/island.jpg" is returned

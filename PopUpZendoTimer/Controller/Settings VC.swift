@@ -161,17 +161,17 @@ class Settings_VC: UIViewController {
     func saveNumbers (){
         if startField.text != "" {
             defaults.set(startField.text, forKey: "startNumber")
-            print("Start Number Defaults to \(defaults.value(forKey: "startNumber"))")
+            print("Start Number Defaults to \(String(describing: defaults.value(forKey: "startNumber")))")
         } else {
             startField.text = defaults.value(forKey: "startNumber") as? String}
         if endField.text != "" {
             defaults.set(endField.text, forKey: "endNumber")
-            print("End Number Defaults to \(defaults.value(forKey: "endNumber"))")
+            print("End Number Defaults to \(String(describing: defaults.value(forKey: "endNumber")))")
         } else {
         endField.text = defaults.value(forKey: "endNumber") as? String}
         if countdownField.text != "" {
             defaults.set(countdownField.text, forKey: "countdownNumber")
-            print("Countdown Number Defaults to \(defaults.value(forKey: "countdownNumber"))")
+            print("Countdown Number Defaults to \(String(describing: defaults.value(forKey: "countdownNumber")))")
         } else {
         countdownField.text = defaults.value(forKey: "countdownNumber") as? String}
     }

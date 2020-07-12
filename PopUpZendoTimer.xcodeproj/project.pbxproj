@@ -50,7 +50,6 @@
 		D78586AF245D1E8F003BF816 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78586AE245D1E8F003BF816 /* Group.swift */; };
 		D78586B2245D21D3003BF816 /* DataServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78586B1245D21D3003BF816 /* DataServices.swift */; };
 		D787F55D245FB22100EF1160 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D787F55C245FB22100EF1160 /* ProfileVC.swift */; };
-		D787F55F245FB24A00EF1160 /* GroupsVCTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D787F55E245FB24A00EF1160 /* GroupsVCTest.swift */; };
 		D78D8FEA2452A2E200F410AF /* han.aiff in Resources */ = {isa = PBXBuildFile; fileRef = D78D8FE92452A2E200F410AF /* han.aiff */; };
 		D7937FB3245A317500460C8E /* rolldown.aiff in Resources */ = {isa = PBXBuildFile; fileRef = D7937FB0245A316C00460C8E /* rolldown.aiff */; };
 		D7937FB4245A317500460C8E /* stop.aiff in Resources */ = {isa = PBXBuildFile; fileRef = D7937FB1245A317000460C8E /* stop.aiff */; };
@@ -154,7 +153,6 @@
 		D78586AE245D1E8F003BF816 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
 		D78586B1245D21D3003BF816 /* DataServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataServices.swift; sourceTree = "<group>"; };
 		D787F55C245FB22100EF1160 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
-		D787F55E245FB24A00EF1160 /* GroupsVCTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GroupsVCTest.swift; path = "../New Group/GroupsVCTest.swift"; sourceTree = "<group>"; };
 		D78D8FE92452A2E200F410AF /* han.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = han.aiff; sourceTree = "<group>"; };
 		D7937FB0245A316C00460C8E /* rolldown.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = rolldown.aiff; sourceTree = "<group>"; };
 		D7937FB1245A317000460C8E /* stop.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = stop.aiff; sourceTree = "<group>"; };
@@ -395,7 +393,6 @@
 		D7DE18D2246FB1CC00E75F8D /* Groups */ = {
 			isa = PBXGroup;
 			children = (
-				D787F55E245FB24A00EF1160 /* GroupsVCTest.swift */,
 				D73340B22467B0ED002367A3 /* GroupsListVC.swift */,
 				D71A2627246CFFD60061B76B /* CountriesTableViewController.swift */,
 				D772594F246F5BBD00478B50 /* TableViewController.swift */,
@@ -616,7 +613,6 @@
 				D70B4435243018BF008A7D2E /* Bells.swift in Sources */,
 				D7A40FC324A05457006C3FEE /* setDoanVC.swift in Sources */,
 				D77F764B2474D6B40002DE54 /* CircleMenuButton.swift in Sources */,
-				D787F55F245FB24A00EF1160 /* GroupsVCTest.swift in Sources */,
 				D7773C7424383E3F008D4408 /* HanVC.swift in Sources */,
 				D70ED5C524AFB90900B9BC8F /* OneSignalService.swift in Sources */,
 				D77F76492474D6900002DE54 /* CircleMenuLoader.swift in Sources */,
@@ -685,6 +681,7 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = OneSignalNotificationServiceExtension/OneSignalNotificationServiceExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 93HG3CWZZK;
 				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -693,6 +690,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
+				MARKETING_VERSION = 3.1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.popupzendo.onesignal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -707,6 +705,7 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = OneSignalNotificationServiceExtension/OneSignalNotificationServiceExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 93HG3CWZZK;
 				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -715,6 +714,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
+				MARKETING_VERSION = 3.1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.popupzendo.onesignal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -847,6 +847,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = PopUpZendoTimer/PopUpZendoTimer.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 93HG3CWZZK;
 				INFOPLIST_FILE = PopUpZendoTimer/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -854,7 +855,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 3.0;
+				MARKETING_VERSION = 3.1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.popupzendo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -870,6 +871,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = PopUpZendoTimer/PopUpZendoTimer.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 93HG3CWZZK;
 				INFOPLIST_FILE = PopUpZendoTimer/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -877,7 +879,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 3.0;
+				MARKETING_VERSION = 3.1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.popupzendo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

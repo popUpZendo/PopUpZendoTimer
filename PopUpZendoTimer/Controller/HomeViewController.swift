@@ -109,7 +109,7 @@ class HomeViewController: UIViewController, CircleMenuDelegate {
         var profileImage = UIImage(named: "profile-zen")
         httpsReference.getData(maxSize: 10 * 1024 * 1024) { data, error in
           if let error = error {
-            print("Uh-oh, an error occurred!")
+            print("Uh-oh, an error occurred!  \(error)")
           } else {
             profileImage = UIImage(data: data!)!
             self.profilePic.image = profileImage
