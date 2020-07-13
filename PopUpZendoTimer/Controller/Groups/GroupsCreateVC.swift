@@ -179,7 +179,7 @@ class GroupsCreateVC: UIViewController {
        docRef.getDocument { (document, error) in
            if let document = document, document.exists {
                let dataDescription = document.data().map(String.init(describing:)) ?? "nil"
-               //print("Document data: \(dataDescription)")
+                print("Document data: \(dataDescription)")
            } else {
                print("Document does not exist")
            }
@@ -236,28 +236,3 @@ extension GroupsCreateVC: ImagePickerDelegate {
     }
 }
 }
-
-//extension UIImage {
-//    func resizeWithPercent(percentage: CGFloat) -> UIImage? {
-//        let imageView = UIImageView(frame: CGRect(origin: .zero, size: CGSize(width: size.width * percentage, height: size.height * percentage)))
-//        imageView.contentMode = .scaleAspectFit
-//        imageView.image = self
-//        UIGraphicsBeginImageContextWithOptions(imageView.bounds.size, false, scale)
-//        guard let context = UIGraphicsGetCurrentContext() else { return nil }
-//        imageView.layer.render(in: context)
-//        guard let result = UIGraphicsGetImageFromCurrentImageContext() else { return nil }
-//        UIGraphicsEndImageContext()
-//        return result
-//    }
-//    func resizeWithWidth(width: CGFloat) -> UIImage? {
-//        let imageView = UIImageView(frame: CGRect(origin: .zero, size: CGSize(width: width, height: CGFloat(ceil(width/size.width * size.height)))))
-//        imageView.contentMode = .scaleAspectFit
-//        imageView.image = self
-//        UIGraphicsBeginImageContextWithOptions(imageView.bounds.size, false, scale)
-//        guard let context = UIGraphicsGetCurrentContext() else { return nil }
-//        imageView.layer.render(in: context)
-//        guard let result = UIGraphicsGetImageFromCurrentImageContext() else { return nil }
-//        UIGraphicsEndImageContext()
-//        return result
-//    }
-//}

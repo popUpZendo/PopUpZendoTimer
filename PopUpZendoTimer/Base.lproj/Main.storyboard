@@ -44,19 +44,8 @@
                                     <action selector="returnButtonTapped:" destination="3TJ-01-Vmk" eventType="touchUpInside" id="qxx-Uh-R0h"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IS9-Ia-dXD">
-                                <rect key="frame" x="305" y="684" width="30" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="kRk-0q-a71"/>
-                                    <constraint firstAttribute="width" constant="30" id="sRI-kT-wjH"/>
-                                </constraints>
-                                <state key="normal" image="settings"/>
-                                <connections>
-                                    <segue destination="62S-RH-Fyi" kind="presentation" id="yVW-A4-8hw"/>
-                                </connections>
-                            </button>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="25" minValue="0.0" maxValue="60" translatesAutoresizingMaskIntoConstraints="NO" id="M63-70-aVx">
-                                <rect key="frame" x="14" y="624" width="347" height="31"/>
+                                <rect key="frame" x="14" y="630" width="347" height="31"/>
                                 <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="QqR-g3-8Fm"/>
@@ -67,7 +56,7 @@
                                 </connections>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="25" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JJ5-D9-5mO">
-                                <rect key="frame" x="165" y="571" width="45" height="43"/>
+                                <rect key="frame" x="165" y="577" width="45" height="43"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="43" id="49O-8P-c9P"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="45" id="kDa-iz-4j9"/>
@@ -96,11 +85,22 @@
                                 <rect key="frame" x="60" y="171.66666666666663" width="255" height="255"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uBk-MK-VE2">
-                                <rect key="frame" x="32" y="673.66666666666663" width="50" height="51"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IS9-Ia-dXD">
+                                <rect key="frame" x="299" y="684" width="40" height="40"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="50" id="Ibc-IW-n4q"/>
-                                    <constraint firstAttribute="height" constant="51" id="Uc9-Dk-OvA"/>
+                                    <constraint firstAttribute="height" constant="40" id="1hc-0w-dY3"/>
+                                    <constraint firstAttribute="width" constant="40" id="r6o-Uq-ewd"/>
+                                </constraints>
+                                <state key="normal" image="settings"/>
+                                <connections>
+                                    <segue destination="62S-RH-Fyi" kind="presentation" id="yVW-A4-8hw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uBk-MK-VE2">
+                                <rect key="frame" x="16" y="673" width="51" height="51"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="51" id="3dW-YM-zr6"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="51" id="afA-6X-J3c"/>
                                 </constraints>
                                 <color key="tintColor" name="Pink Swan"/>
                                 <state key="normal" title="Button" image="han-on"/>
@@ -112,34 +112,33 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <gestureRecognizers/>
                         <constraints>
+                            <constraint firstItem="IS9-Ia-dXD" firstAttribute="trailing" secondItem="4Vz-nL-8dA" secondAttribute="trailingMargin" constant="-20" id="05H-rb-wJ4"/>
                             <constraint firstItem="JJ5-D9-5mO" firstAttribute="centerX" secondItem="4Vz-nL-8dA" secondAttribute="centerX" id="2M0-ks-9vs"/>
                             <constraint firstItem="9EP-Wr-5ZP" firstAttribute="leading" secondItem="MB1-bI-St7" secondAttribute="leading" id="3Mi-bo-QdH"/>
                             <constraint firstItem="MB1-bI-St7" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="4Vz-nL-8dA" secondAttribute="leading" constant="20" id="6ak-3E-BBL"/>
                             <constraint firstItem="6nD-Dn-r9O" firstAttribute="centerY" secondItem="4Vz-nL-8dA" secondAttribute="centerY" constant="-80" id="Ack-QL-lE8"/>
                             <constraint firstItem="JJ5-D9-5mO" firstAttribute="top" relation="greaterThanOrEqual" secondItem="MB1-bI-St7" secondAttribute="bottom" constant="60" id="DTn-Zp-cTj"/>
-                            <constraint firstItem="uBk-MK-VE2" firstAttribute="centerY" secondItem="IS9-Ia-dXD" secondAttribute="centerY" id="HlK-BJ-TGU"/>
+                            <constraint firstItem="uBk-MK-VE2" firstAttribute="leading" secondItem="4Vz-nL-8dA" secondAttribute="leadingMargin" id="HvO-sz-HHb"/>
                             <constraint firstItem="0ud-NK-3fb" firstAttribute="trailing" secondItem="4Vz-nL-8dA" secondAttribute="trailing" id="Kgc-g5-olY"/>
                             <constraint firstItem="MB1-bI-St7" firstAttribute="top" relation="greaterThanOrEqual" secondItem="T2I-eL-yvy" secondAttribute="bottom" constant="100" id="MS5-rM-y0f"/>
                             <constraint firstItem="M63-70-aVx" firstAttribute="trailing" secondItem="4Vz-nL-8dA" secondAttribute="trailingMargin" id="ODS-PI-4sW"/>
                             <constraint firstItem="0ud-NK-3fb" firstAttribute="leading" secondItem="4Vz-nL-8dA" secondAttribute="leading" id="Ogd-cO-EZe"/>
-                            <constraint firstAttribute="trailing" secondItem="IS9-Ia-dXD" secondAttribute="trailing" constant="40" id="OnM-9V-RU3"/>
                             <constraint firstItem="MB1-bI-St7" firstAttribute="centerX" secondItem="4Vz-nL-8dA" secondAttribute="centerX" id="Rca-Ha-DDQ"/>
-                            <constraint firstItem="phT-Of-HfD" firstAttribute="top" secondItem="M63-70-aVx" secondAttribute="bottom" constant="70" id="VRJ-cO-HbU"/>
                             <constraint firstItem="M63-70-aVx" firstAttribute="centerX" secondItem="4Vz-nL-8dA" secondAttribute="centerX" id="bbQ-my-8NG"/>
-                            <constraint firstItem="uBk-MK-VE2" firstAttribute="leading" secondItem="4Vz-nL-8dA" secondAttribute="leading" constant="32" id="bgd-HC-eIV"/>
                             <constraint firstItem="M63-70-aVx" firstAttribute="top" secondItem="JJ5-D9-5mO" secondAttribute="bottom" constant="10" id="c4N-6C-uD5"/>
                             <constraint firstItem="0ud-NK-3fb" firstAttribute="top" secondItem="4Vz-nL-8dA" secondAttribute="top" id="c7G-jj-8mh"/>
                             <constraint firstItem="6nD-Dn-r9O" firstAttribute="centerX" secondItem="4Vz-nL-8dA" secondAttribute="centerX" id="d7z-te-DDX"/>
+                            <constraint firstItem="phT-Of-HfD" firstAttribute="top" secondItem="uBk-MK-VE2" secondAttribute="bottom" id="gIw-2e-Evj"/>
                             <constraint firstItem="9EP-Wr-5ZP" firstAttribute="bottom" secondItem="MB1-bI-St7" secondAttribute="bottom" id="hCm-Lb-6kk"/>
+                            <constraint firstItem="IS9-Ia-dXD" firstAttribute="top" secondItem="M63-70-aVx" secondAttribute="bottom" constant="24" id="hZU-Tk-dLj"/>
                             <constraint firstItem="9EP-Wr-5ZP" firstAttribute="trailing" secondItem="MB1-bI-St7" secondAttribute="trailing" id="jHm-Mk-Uvi"/>
                             <constraint firstItem="M63-70-aVx" firstAttribute="leading" secondItem="4Vz-nL-8dA" secondAttribute="leadingMargin" id="kb5-XC-j8e"/>
                             <constraint firstItem="MB1-bI-St7" firstAttribute="width" secondItem="4Vz-nL-8dA" secondAttribute="width" priority="990" constant="-120" id="lRY-vf-Xyj"/>
                             <constraint firstItem="9EP-Wr-5ZP" firstAttribute="top" secondItem="MB1-bI-St7" secondAttribute="top" id="lt3-ks-GOW"/>
+                            <constraint firstItem="phT-Of-HfD" firstAttribute="top" secondItem="IS9-Ia-dXD" secondAttribute="bottom" id="mc6-zh-YRE"/>
                             <constraint firstItem="MB1-bI-St7" firstAttribute="centerY" secondItem="4Vz-nL-8dA" secondAttribute="centerY" priority="900" constant="-80" id="qNR-t8-Scs"/>
-                            <constraint firstItem="phT-Of-HfD" firstAttribute="top" secondItem="IS9-Ia-dXD" secondAttribute="bottom" constant="10" id="rs5-Gf-vvG"/>
                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="MB1-bI-St7" secondAttribute="trailing" constant="60" id="uq0-DP-lTy"/>
                             <constraint firstAttribute="bottom" secondItem="0ud-NK-3fb" secondAttribute="bottom" id="xGf-QC-Akd"/>
-                            <constraint firstItem="IS9-Ia-dXD" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="uBk-MK-VE2" secondAttribute="trailing" constant="20" id="zy9-JF-IHy"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="QOz-eI-mNl"/>
@@ -761,15 +760,14 @@ We now know shared loss.</string>
                                 </constraints>
                             </stackView>
                             <stackView opaque="NO" tag="20" contentMode="scaleToFill" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="HcB-bT-r1B">
-                                <rect key="frame" x="61.666666666666657" y="472" width="251.99999999999997" height="64"/>
+                                <rect key="frame" x="61" y="472" width="253" height="64"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r7o-kb-vy2">
-                                        <rect key="frame" x="0.0" y="0.0" width="64" height="64"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="65" height="64"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="64" id="AFa-Qi-t7U"/>
-                                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="64" id="NfV-rA-0Hz"/>
+                                            <constraint firstAttribute="width" secondItem="r7o-kb-vy2" secondAttribute="height" multiplier="1:1" constant="1" id="pXa-NF-WD7"/>
                                         </constraints>
-                                        <state key="normal" title="Questions?" image="questions-button">
+                                        <state key="normal" image="questions-button">
                                             <color key="titleColor" red="0.43529412150000002" green="0.4431372583" blue="0.47450980539999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
@@ -777,10 +775,9 @@ We now know shared loss.</string>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X7h-ME-fa8">
-                                        <rect key="frame" x="94" y="0.0" width="64" height="64"/>
+                                        <rect key="frame" x="95" y="0.0" width="64" height="64"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="64" id="NPH-rs-bqD"/>
-                                            <constraint firstAttribute="width" constant="64" id="oqK-hH-Z9B"/>
+                                            <constraint firstAttribute="width" secondItem="X7h-ME-fa8" secondAttribute="height" id="hGa-T9-4Nc"/>
                                         </constraints>
                                         <state key="normal" image="groups-button"/>
                                         <connections>
@@ -788,12 +785,11 @@ We now know shared loss.</string>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8OF-lR-Fv9">
-                                        <rect key="frame" x="188" y="0.0" width="64" height="64"/>
+                                        <rect key="frame" x="189" y="0.0" width="64" height="64"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="64" id="LLl-yM-qu4"/>
-                                            <constraint firstAttribute="height" constant="64" id="VDT-qH-rh0"/>
+                                            <constraint firstAttribute="width" secondItem="8OF-lR-Fv9" secondAttribute="height" multiplier="1:1" id="aOU-a0-4dY"/>
                                         </constraints>
-                                        <state key="normal" title="Instructions" image="information-button">
+                                        <state key="normal" image="information-button">
                                             <color key="titleColor" red="0.43554106349999999" green="0.44264292719999998" blue="0.47451430560000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </state>
                                         <connections>
@@ -801,6 +797,9 @@ We now know shared loss.</string>
                                         </connections>
                                     </button>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="bWD-jv-wv7"/>
+                                </constraints>
                             </stackView>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="05u-at-thP">
                                 <rect key="frame" x="249.66666666666663" y="219" width="64" height="64"/>
@@ -842,43 +841,43 @@ We now know shared loss.</string>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Info/tips" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ipn-h3-C5t">
-                                <rect key="frame" x="283.66666666666669" y="403.33333333333331" width="52.666666666666686" height="60.666666666666686"/>
+                                <rect key="frame" x="284" y="398.33333333333331" width="44.666666666666686" height="65.666666666666686"/>
                                 <fontDescription key="fontDescription" name="AmaticSC-Bold" family="Amatic SC" pointSize="26"/>
                                 <color key="textColor" red="0.43554106349999999" green="0.44264292719999998" blue="0.47451430560000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Groups" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RkL-BQ-JXp">
-                                <rect key="frame" x="164.66666666666666" y="433.66666666666669" width="86" height="30.333333333333314"/>
+                                <rect key="frame" x="163" y="431" width="50" height="33"/>
                                 <fontDescription key="fontDescription" name="AmaticSC-Bold" family="Amatic SC" pointSize="26"/>
                                 <color key="textColor" red="0.43554106349999999" green="0.44264292719999998" blue="0.47451430560000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Support Link" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X1S-2k-s1X">
-                                <rect key="frame" x="31.000000000000007" y="433.66666666666669" width="94.666666666666686" height="30.333333333333314"/>
+                                <rect key="frame" x="31.333333333333336" y="431" width="94.666666666666657" height="33"/>
                                 <fontDescription key="fontDescription" name="AmaticSC-Bold" family="Amatic SC" pointSize="26"/>
                                 <color key="textColor" red="0.43554106349999999" green="0.44264292719999998" blue="0.47451430560000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Start #" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="moN-AJ-czB">
-                                <rect key="frame" x="31.999999999999996" y="69.666666666666671" width="50.666666666666657" height="29.333333333333329"/>
+                                <rect key="frame" x="31.999999999999996" y="67.333333333333329" width="50.666666666666657" height="31.666666666666671"/>
                                 <fontDescription key="fontDescription" name="AmaticSC-Bold" family="Amatic SC" pointSize="25"/>
                                 <color key="textColor" red="0.43554106349999999" green="0.44264292719999998" blue="0.47451430560000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bell Type" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tit-wD-dhp">
-                                <rect key="frame" x="153" y="62.000000000000007" width="72" height="29.333333333333336"/>
+                                <rect key="frame" x="153" y="58.999999999999993" width="72" height="31.666666666666664"/>
                                 <fontDescription key="fontDescription" name="AmaticSC-Bold" family="Amatic SC" pointSize="25"/>
                                 <color key="textColor" red="0.43554106349999999" green="0.44264292719999998" blue="0.47451430560000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mute" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gXN-41-rXM">
-                                <rect key="frame" x="40.333333333333329" y="283" width="34.333333333333329" height="30.333333333333314"/>
+                                <rect key="frame" x="40.333333333333329" y="283" width="34.333333333333329" height="33"/>
                                 <fontDescription key="fontDescription" name="AmaticSC-Bold" family="Amatic SC" pointSize="26"/>
                                 <color key="textColor" red="0.43554106349999999" green="0.44264292719999998" blue="0.47451430560000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Timer Delay" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="23G-vp-PsC">
-                                <rect key="frame" x="156" y="283" width="119.66666666666669" height="30.333333333333314"/>
+                                <rect key="frame" x="156" y="283" width="86.666666666666686" height="33"/>
                                 <fontDescription key="fontDescription" name="AmaticSC-Bold" family="Amatic SC" pointSize="26"/>
                                 <color key="textColor" red="0.43554106349999999" green="0.44264292719999998" blue="0.47451430560000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
@@ -897,7 +896,7 @@ We now know shared loss.</string>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Han" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lQZ-ud-sgg">
-                                <rect key="frame" x="236.66666666666666" y="373" width="47.333333333333343" height="30.333333333333314"/>
+                                <rect key="frame" x="236.66666666666666" y="371.66666666666669" width="28.999999999999972" height="33"/>
                                 <fontDescription key="fontDescription" name="AmaticSC-Bold" family="Amatic SC" pointSize="26"/>
                                 <color key="textColor" red="0.43554106349999999" green="0.44264292719999998" blue="0.47451430560000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
@@ -913,14 +912,14 @@ We now know shared loss.</string>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad" keyboardAppearance="alert"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="End #" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o6w-Lx-xyB">
-                                <rect key="frame" x="295.66666666666669" y="69.666666666666671" width="65" height="29.333333333333329"/>
+                                <rect key="frame" x="295.66666666666669" y="67.333333333333329" width="53.333333333333314" height="31.666666666666671"/>
                                 <fontDescription key="fontDescription" name="AmaticSC-Bold" family="Amatic SC" pointSize="25"/>
                                 <color key="textColor" red="0.43554106349999999" green="0.44264292719999998" blue="0.47451430560000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KQH-iV-MYt">
-                                <rect key="frame" x="20" y="574.66666666666663" width="335" height="163.33333333333337"/>
-                                <string key="text">Tmer Instructions
+                                <rect key="frame" x="20" y="586.66666666666663" width="335" height="151.33333333333337"/>
+                                <string key="text">Timer Instructions
 1. Set the timer with the slider
 2. Tap the center of the timer to start it.  An adjustble delay will allow you to settle in.
 3. A bell will ring to begin and end the period, unless muted</string>
@@ -929,7 +928,7 @@ We now know shared loss.</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dark Mode" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2C3-wb-f7B">
-                                <rect key="frame" x="285.66666666666669" y="285" width="89.333333333333314" height="30.333333333333314"/>
+                                <rect key="frame" x="285.66666666666669" y="285" width="77" height="33"/>
                                 <fontDescription key="fontDescription" name="AmaticSC-Bold" family="Amatic SC" pointSize="26"/>
                                 <color key="textColor" red="0.43554106349999999" green="0.44264292719999998" blue="0.47451430560000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
@@ -963,7 +962,6 @@ We now know shared loss.</string>
                             <constraint firstItem="05u-at-thP" firstAttribute="centerY" secondItem="4da-28-Oho" secondAttribute="centerY" id="OFO-H1-HMs"/>
                             <constraint firstItem="lQZ-ud-sgg" firstAttribute="centerY" secondItem="Lfb-ku-Gnk" secondAttribute="centerY" constant="30" id="OqL-uo-ZKs"/>
                             <constraint firstItem="4da-28-Oho" firstAttribute="top" secondItem="vCZ-EP-pOo" secondAttribute="bottom" constant="48" id="Pzj-O9-VwH"/>
-                            <constraint firstItem="Ipn-h3-C5t" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="RkL-BQ-JXp" secondAttribute="trailing" constant="10" id="Q8R-tK-l9z"/>
                             <constraint firstItem="enl-Kn-DBZ" firstAttribute="top" secondItem="o6w-Lx-xyB" secondAttribute="bottom" constant="1.4210854715202004e-14" id="QTW-cI-EPt"/>
                             <constraint firstItem="o6w-Lx-xyB" firstAttribute="leading" secondItem="Tit-wD-dhp" secondAttribute="trailing" constant="70.666666666666686" id="RdA-Kq-Hi3"/>
                             <constraint firstItem="Tit-wD-dhp" firstAttribute="trailing" secondItem="vCZ-EP-pOo" secondAttribute="trailing" id="Sna-vj-L23"/>
@@ -981,10 +979,10 @@ We now know shared loss.</string>
                             <constraint firstItem="gXN-41-rXM" firstAttribute="top" secondItem="4P7-4c-d1D" secondAttribute="bottom" id="lLh-Xc-8MM"/>
                             <constraint firstItem="X1S-2k-s1X" firstAttribute="trailing" secondItem="r7o-kb-vy2" secondAttribute="trailing" id="llE-1P-tSp"/>
                             <constraint firstItem="2C3-wb-f7B" firstAttribute="leading" secondItem="05u-at-thP" secondAttribute="trailing" constant="-28" id="m1y-7l-MgD"/>
-                            <constraint firstItem="RkL-BQ-JXp" firstAttribute="leading" secondItem="X7h-ME-fa8" secondAttribute="trailing" constant="-55" id="mrP-qS-tOS"/>
                             <constraint firstItem="23G-vp-PsC" firstAttribute="leading" secondItem="Zka-VZ-dDR" secondAttribute="trailing" constant="-51.5" id="uZd-uO-5Ai"/>
                             <constraint firstItem="r7o-kb-vy2" firstAttribute="top" secondItem="X1S-2k-s1X" secondAttribute="bottom" constant="8" id="uoI-dD-dD5"/>
                             <constraint firstItem="4da-28-Oho" firstAttribute="leading" secondItem="4P7-4c-d1D" secondAttribute="trailing" constant="30" id="x2F-Oj-CwR"/>
+                            <constraint firstItem="RkL-BQ-JXp" firstAttribute="centerX" secondItem="X7h-ME-fa8" secondAttribute="centerX" id="xNU-0E-4H5"/>
                             <constraint firstItem="23G-vp-PsC" firstAttribute="top" secondItem="4da-28-Oho" secondAttribute="bottom" id="zIh-ys-dx8"/>
                             <constraint firstItem="Lfb-ku-Gnk" firstAttribute="centerX" secondItem="enl-Kn-DBZ" secondAttribute="centerX" id="zu3-hf-0nU"/>
                             <constraint firstItem="lQZ-ud-sgg" firstAttribute="leading" secondItem="Lfb-ku-Gnk" secondAttribute="trailing" constant="4" id="zuS-Pf-mey"/>
@@ -1394,7 +1392,7 @@ And yet—and yet—   The Han is a is wooden block struck with a mallet t
                                 <rect key="frame" x="36" y="648" width="70" height="70"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="70" id="bGM-1x-nSH"/>
-                                    <constraint firstAttribute="width" constant="70" id="dlf-Uv-Puh"/>
+                                    <constraint firstAttribute="width" secondItem="E8q-yo-z2c" secondAttribute="height" multiplier="1:1" id="rVT-mF-9hz"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="broadcast-off"/>
                                 <connections>
@@ -1965,14 +1963,15 @@ out of the flowers   Some of these features are intuitive and we are free 
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hIy-LU-u7o">
-                                    <rect key="frame" x="20" y="-6" width="168" height="100"/>
+                                    <rect key="frame" x="19.999999999999996" y="6.6666666666666643" width="37.666666666666657" height="75"/>
                                     <constraints>
-                                        <constraint firstAttribute="height" constant="100" id="Ips-eG-38k"/>
-                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="cQ2-Qb-iJ7"/>
+                                        <constraint firstAttribute="height" constant="75" id="Ips-eG-38k"/>
+                                        <constraint firstAttribute="width" relation="lessThanOrEqual" priority="250" constant="50" id="cQ2-Qb-iJ7"/>
+                                        <constraint firstAttribute="width" secondItem="hIy-LU-u7o" secondAttribute="height" multiplier="1:2" id="gUq-3v-dhD"/>
                                     </constraints>
                                     <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                     <color key="tintColor" red="0.6730286593" green="0.2251682851" blue="0.17626945220000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                    <state key="normal" title="  Back" image="profile-zen">
+                                    <state key="normal" title="  Back" image="back">
                                         <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <color key="titleShadowColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                     </state>
@@ -1981,21 +1980,24 @@ out of the flowers   Some of these features are intuitive and we are free 
                                     </connections>
                                 </button>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Groups" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F8e-rD-z4t">
-                                    <rect key="frame" x="254.66666666666663" y="8" width="91" height="36"/>
+                                    <rect key="frame" x="124.33333333333334" y="8" width="351.66666666666663" height="35.666666666666664"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="29"/>
                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                     <nil key="highlightedColor"/>
                                     <color key="shadowColor" systemColor="tertiaryLabelColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
                                 </label>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aqE-sV-vik">
-                                    <rect key="frame" x="471" y="11" width="117" height="30"/>
+                                    <rect key="frame" x="430" y="11" width="158" height="30"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="158" id="kFA-0A-4CC"/>
+                                    </constraints>
                                     <state key="normal" title="Show My Groups"/>
                                     <connections>
                                         <action selector="myGroupsButton:" destination="PHr-ZT-Vu6" eventType="touchUpInside" id="nrI-5U-bhF"/>
                                     </connections>
                                 </button>
                                 <searchBar contentMode="redraw" searchBarStyle="minimal" translatesAutoresizingMaskIntoConstraints="NO" id="JpS-tv-EeQ">
-                                    <rect key="frame" x="188" y="30" width="392" height="56"/>
+                                    <rect key="frame" x="57.666666666666686" y="30" width="522.33333333333326" height="56"/>
                                     <textInputTraits key="textInputTraits"/>
                                 </searchBar>
                             </subviews>
@@ -2003,15 +2005,14 @@ out of the flowers   Some of these features are intuitive and we are free 
                             <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
                                 <constraint firstItem="F8e-rD-z4t" firstAttribute="centerX" secondItem="zeO-zV-yA4" secondAttribute="centerX" id="4Wo-S7-UB6"/>
-                                <constraint firstItem="aqE-sV-vik" firstAttribute="top" secondItem="zeO-zV-yA4" secondAttribute="top" constant="11" id="JC5-uB-xkx"/>
-                                <constraint firstItem="aqE-sV-vik" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="F8e-rD-z4t" secondAttribute="trailing" constant="20" id="Q25-4t-8TX"/>
                                 <constraint firstItem="JpS-tv-EeQ" firstAttribute="leading" secondItem="hIy-LU-u7o" secondAttribute="trailing" id="QVV-Ym-3MU"/>
                                 <constraint firstAttribute="trailing" secondItem="JpS-tv-EeQ" secondAttribute="trailing" constant="20" id="RCN-PC-JqK"/>
-                                <constraint firstAttribute="trailing" secondItem="aqE-sV-vik" secondAttribute="trailing" constant="12" id="aHb-1j-F0p"/>
                                 <constraint firstItem="hIy-LU-u7o" firstAttribute="centerY" secondItem="zeO-zV-yA4" secondAttribute="centerY" id="cVM-1D-7Y9"/>
+                                <constraint firstItem="aqE-sV-vik" firstAttribute="centerY" secondItem="F8e-rD-z4t" secondAttribute="centerY" id="e6S-Cq-wQ8"/>
                                 <constraint firstAttribute="bottom" secondItem="JpS-tv-EeQ" secondAttribute="bottom" constant="2" id="iTS-ll-mha"/>
+                                <constraint firstAttribute="trailing" secondItem="aqE-sV-vik" secondAttribute="trailing" constant="12" id="jvY-Kj-i4Q"/>
                                 <constraint firstItem="F8e-rD-z4t" firstAttribute="top" secondItem="zeO-zV-yA4" secondAttribute="top" constant="8" id="nUp-Ue-7Op"/>
-                                <constraint firstItem="aqE-sV-vik" firstAttribute="centerY" secondItem="F8e-rD-z4t" secondAttribute="centerY" id="sar-uG-5Jz"/>
+                                <constraint firstItem="aqE-sV-vik" firstAttribute="leading" relation="lessThanOrEqual" secondItem="hIy-LU-u7o" secondAttribute="trailing" constant="1000" id="qoA-NM-sSB"/>
                                 <constraint firstItem="hIy-LU-u7o" firstAttribute="leading" secondItem="zeO-zV-yA4" secondAttribute="leading" constant="20" id="ups-Mr-EjD"/>
                                 <constraint firstItem="F8e-rD-z4t" firstAttribute="leading" secondItem="hIy-LU-u7o" secondAttribute="trailing" constant="66.666666666666629" id="y7h-Kg-t9O"/>
                             </constraints>
@@ -2210,6 +2211,7 @@ out of the flowers   Some of these features are intuitive and we are free 
                                                             <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <constraints>
                                                                 <constraint firstItem="yBJ-MH-Ryy" firstAttribute="leading" secondItem="kGy-oF-VoL" secondAttribute="leading" id="ZSW-Rs-42I"/>
+                                                                <constraint firstAttribute="trailing" relation="lessThanOrEqual" secondItem="yBJ-MH-Ryy" secondAttribute="trailing" constant="214.33000000000001" id="gZA-PL-w8Z"/>
                                                                 <constraint firstItem="kGy-oF-VoL" firstAttribute="top" secondItem="QLb-ro-rYT" secondAttribute="top" constant="20" id="iq6-G7-73T"/>
                                                                 <constraint firstItem="kGy-oF-VoL" firstAttribute="leading" secondItem="QLb-ro-rYT" secondAttribute="leading" id="miS-s6-QiW"/>
                                                                 <constraint firstItem="yBJ-MH-Ryy" firstAttribute="top" secondItem="kGy-oF-VoL" secondAttribute="bottom" constant="2.1316282072803006e-14" id="orU-5A-0G7"/>
@@ -2560,7 +2562,7 @@ out of the flowers   Some of these features are intuitive and we are free 
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="V2n-T9-6qz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="365" y="2769"/>
+            <point key="canvasLocation" x="364.80000000000001" y="2768.7192118226603"/>
         </scene>
         <!--Groups SortVC-->
         <scene sceneID="V9Y-6o-bQZ">
@@ -3262,6 +3264,7 @@ out of the flowers   Some of these features are intuitive and we are free 
         <image name="airplane" width="512" height="512"/>
         <image name="arrow" width="16" height="25"/>
         <image name="asian-vector-wave-2" width="500" height="1000"/>
+        <image name="back" width="70" height="131"/>
         <image name="broadcast-off" width="180" height="180"/>
         <image name="delay-button-bg" width="71" height="70"/>
         <image name="doan-inkin" width="73" height="159"/>
@@ -3279,7 +3282,6 @@ out of the flowers   Some of these features are intuitive and we are free 
         <image name="information-button" width="76" height="76"/>
         <image name="mute-button-off" width="43" height="78"/>
         <image name="practicalZenBanner" width="1282" height="641"/>
-        <image name="profile-zen" width="113" height="106"/>
         <image name="profileZen 2 (Traced)" width="226" height="212"/>
         <image name="questions-button" width="76" height="76"/>
         <image name="settings" width="72" height="72"/>

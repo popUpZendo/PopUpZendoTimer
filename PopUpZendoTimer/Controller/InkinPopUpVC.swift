@@ -69,7 +69,7 @@ class InkinPopUpVC: UIViewController {//@IBOutlet weak var containerView: UIView
 
     
     @objc func updateTimer() {
-        var time = Int(timerLabel.text!)
+        let time = Int(timerLabel.text!)
         seconds = (time!) * 60
         print("Seconds: \(seconds)")
                 seconds -= 1     //This will decrement(count down)the seconds.

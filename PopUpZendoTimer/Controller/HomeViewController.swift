@@ -128,7 +128,7 @@ class HomeViewController: UIViewController, CircleMenuDelegate {
                     print("Error fetching document: \(error!)")
                     return
                 }
-                guard let data = document.data() else {
+                guard document.data() != nil else {
                     print("Document data was empty.")
                     return
                 }
