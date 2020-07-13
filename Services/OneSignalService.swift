@@ -23,8 +23,18 @@ class OneSignalService {
     var players = [""]
     
     
-    
-    func uploadPlayerId(withPlayerId playerId: String, forUserId id: String, forUID uid: String, withKey Key: String?, sendComplete: @escaping (_ status: Bool) -> ()) {
+    func uploadPlayerId(forUID uid: String, withKey Key: String?, sendComplete: @escaping (_ status: Bool) -> ()) {
+        
+        let status: OSPermissionSubscriptionState = OneSignal.getPermissionSubscriptionState()
+        
+        // ensure playerID and pushToken is not nil before continuing
+        // if one of them are nil, stop executing code below it
+        guard let playerId = status.subscriptionStatus.userId,
+            let _ = status.subscriptionStatus.pushToken else {
+            print("player ID or push token is nil")
+            return
+        }
+        
         if Key != nil {
             bodhi?.save()
             //sendComplete(true)

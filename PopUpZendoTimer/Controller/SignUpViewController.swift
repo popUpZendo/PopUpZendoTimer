@@ -136,7 +136,18 @@ class SignUpViewController: UIViewController {
                                 self.showError("Error saving user data")
                             }
                         }
-                                
+                        
+                        // after successful sign up, upload the player ID
+                        if let currentUser = result?.user {
+                            OneSignalService.instance.uploadPlayerId(forUID: currentUser.uid, withKey: nil, sendComplete: { (isComplete) in
+                                if isComplete {
+                                    print("Completed playerID Upload")
+                                } else {
+                                    print("There was an error!")
+                                }
+                            })
+                        }
+                        
                         // Transition to the home screen
                         
                         self.transitionToHome()
