@@ -36,7 +36,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
         }
         
         FirebaseApp.configure()
-        ///let storage = Storage.storage()
+        let storage = Storage.storage()
         
         
         
