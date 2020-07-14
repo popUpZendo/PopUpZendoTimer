@@ -77,32 +77,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
           print("User accepted notifications: \(accepted)")
         })
         //END OneSignal initializataion code
-        
-        let status: OSPermissionSubscriptionState = OneSignal.getPermissionSubscriptionState()
-         
-             let userID = status.subscriptionStatus.userId
-             print("userID = \(String(describing: userID))")
-             let pushToken = status.subscriptionStatus.pushToken
-             print("pushToken = \(String(describing: pushToken))")
-         
-         
-         //OneSignal.setEmail("example@domain.com");
-         
-            if pushToken != nil {
-                 if let playerId = userID {
 
-                    OneSignalService.instance.uploadPlayerId(withPlayerId: playerId, forUserId: Auth.auth().currentUser!.uid, forUID: (Auth.auth().currentUser?.uid)!, withKey: nil, sendComplete: { (isComplete) in
-                         if isComplete {
-                             print("Completed playerID Upload")
-                         } else {
-                             print("There was an error!")
-                         }
-                     })
-                 }
-             }
-         center.requestAuthorization(options: [.alert, .sound]) { granted, error in
-         }
-        
         return true
     }
     
@@ -159,9 +134,6 @@ extension AppDelegate {
 
         completionHandler([.sound, .alert])
     }
-    
-    
-    
 
 }
 
