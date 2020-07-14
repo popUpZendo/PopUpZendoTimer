@@ -61,7 +61,8 @@ class DemoCell: FoldingCell {
         let zoomLink = "https://zoom.us/j/\(zoom))"
         self.websiteURL = website
         self.memberArray = members
-        if memberArray.contains(uid) {
+        if let uid = DataService.instance.uid,
+            memberArray.contains(uid) {
             self.join.setTitle("Member", for: .normal)
             self.join.setBackgroundColor(color: UIColor.white, forState: .normal)
         }
@@ -82,7 +83,7 @@ class DemoCell: FoldingCell {
     
     
     func getBannerImage (imageURL: String) -> UIImage{
-       let httpsReference = storage.reference(forURL: imageURL)
+        let httpsReference = DataService.instance.storage.reference(forURL: imageURL)
         var bannerImage = UIImage(named: "small-bell")
         // Download in memory with a maximum allowed size of 1MB (1 * 1024 * 1024 bytes)
         httpsReference.getData(maxSize: 3 * 1024 * 1024) { data, error in
@@ -100,7 +101,7 @@ class DemoCell: FoldingCell {
     }
     
     func getLogoImage (imageURL: String) -> UIImage{
-       let httpsReference = storage.reference(forURL: imageURL)
+        let httpsReference = DataService.instance.storage.reference(forURL: imageURL)
         var logoImage = UIImage(named: "small-bell")
         // Download in memory with a maximum allowed size of 1MB (1 * 1024 * 1024 bytes)
         httpsReference.getData(maxSize: 3 * 1024 * 1024) { data, error in
@@ -118,6 +119,12 @@ class DemoCell: FoldingCell {
     }
     
     func joinGroup(groupName: String) {
+        // handling nil uid
+        guard let uid = DataService.instance.uid else {
+            print("uid is nil")
+            return
+        }
+        
         DataService.instance.selectGroup(withName: groupName, withSenderID: uid, forUID: uid, withBodhiKey: nil, sendComplete: { (isComplete) in
             if isComplete {
                 //                self.sendBtn.isEnabled = true
@@ -130,6 +137,12 @@ class DemoCell: FoldingCell {
     }
 
     func leaveGroup(groupName: String) {
+        // handling nil uid
+        guard let uid = DataService.instance.uid else {
+            print("uid is nil")
+            return
+        }
+        
        DataService.instance.leaveGroup(withName: groupName, withSenderID: uid, forUID: uid, withBodhiKey: nil, sendComplete: { (isComplete) in
             if isComplete {
                 //                self.sendBtn.isEnabled = true

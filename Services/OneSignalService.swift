@@ -29,7 +29,7 @@ class OneSignalService {
             bodhi?.save()
             //sendComplete(true)
         } else {
-            db.collection("bodhi").document(uid).updateData([
+            DataService.instance.bodhi_collection.document(uid).updateData([
                 "playerId": playerId,
                 "senderId": uid
             ]) { err in
@@ -44,6 +44,11 @@ class OneSignalService {
     var playerIdList = [""]
     
     func prepareToBroadcast(selectedGroup: String, completion: @escaping ([String]) -> Void) /*-> [String] */ {
+        // return the function early (ie. stop execution) if the uid is nil
+        guard let uid = DataService.instance.uid else {
+            return
+        }
+        
         //        Access the data
         FirebaseInterface.instance.fetchGroups { sanghaArray in
             guard let sangha = sanghaArray.first(where: { $0.groupName.contains(selectedGroup) }) else { return }

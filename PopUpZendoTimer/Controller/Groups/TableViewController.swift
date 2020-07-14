@@ -24,7 +24,12 @@ class TableViewController: UITableViewController, UISearchBarDelegate {
         searchBar.delegate = self
         self.sanghaArray = FirebaseInterface.instance.groups ?? []
         self.filteredSanghaArray = self.sanghaArray
-        self.myGroupsArray = self.sanghaArray.filter{ $0.members.contains(uid) }
+
+        // only update myGroupsArray if the uid is not nil
+        if let uid = DataService.instance.uid {
+            self.myGroupsArray = self.sanghaArray.filter{ $0.members.contains(uid) }
+        }
+        
         ///self.myGroupsArray.forEach { print("myGroupsArray====== \($0)") }
         self.tableView.reloadData()
         print(self.sanghaArray.count)

@@ -59,7 +59,7 @@ class GroupsEditVC: UIViewController {
     }
     
     func getOneGroup () {
-        db.collection("groups").document("Practical Zen")
+        DataService.instance.groups_collection.document("Practical Zen")
         .addSnapshotListener { documentSnapshot, error in
           guard let document = documentSnapshot else {
             print("Error fetching document: \(error!)")

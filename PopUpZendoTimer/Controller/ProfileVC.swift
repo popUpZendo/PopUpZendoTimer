@@ -68,7 +68,7 @@ class ProfileVC: UIViewController {
         // ensure uid is not nil before proceeding to read profile
         guard let uid = uid else { return }
         
-        db.collection("bodhi").document(uid)
+        DataService.instance.bodhi_collection.document(uid)
         .addSnapshotListener { documentSnapshot, error in
           guard let document = documentSnapshot else {
             print("Error fetching document: \(error!)")
@@ -97,7 +97,7 @@ class ProfileVC: UIViewController {
 
     
     func setupView() {
-        let docRef = db.collection("bodhi").document(uid)
+        let docRef = DataService.instance.bodhi_collection.document(uid)
         var profile = ""
         docRef.getDocument { (document, error) in
             if let document = document, document.exists {
@@ -176,7 +176,7 @@ class ProfileVC: UIViewController {
         if profileImageURL == "" {
             self.profileImage.image = UIImage(named: "profile-zen")
         } else {
-       let httpsReference = storage.reference(forURL: imageURL)
+        let httpsReference = DataService.instance.storage.reference(forURL: imageURL)
         var profileImage = UIImage(named: "profile-zen")
         httpsReference.getData(maxSize: 10 * 1024 * 1024) { data, error in
           if let error = error {
