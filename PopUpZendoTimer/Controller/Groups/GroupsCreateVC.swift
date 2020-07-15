@@ -79,7 +79,7 @@ class GroupsCreateVC: UIViewController {
 //          dismiss(animated: true, completion: nil)
 //      }
     
-    func uploadImage(pic: UIImageView, imageURL: String) -> (String) {
+    func uploadImage(pic: UIImageView, imageURL: String) /*-> (String)*/ {
          
         var imageURL = imageURL
         //var addURLto = imageURL
@@ -118,7 +118,7 @@ class GroupsCreateVC: UIViewController {
              //print("Temple Image: \(bannerImage)")
             
          }
-         return imageURL
+         //return imageURL
     }
     
     

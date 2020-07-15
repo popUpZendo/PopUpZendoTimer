@@ -74,10 +74,11 @@ class ProfileVC: UIViewController {
             print("Error fetching document: \(error!)")
             return
           }
-          guard let data = document.data() else {
-            print("Document data was empty.")
-            return
-          }
+            //COMMENTED OUT TO SILENCE WARNING
+//          guard let data = document.data() else {
+//            print("Document data was empty.")
+//            return
+//          }
           //print("Current data: \(data)")
             let name = document.get("name") as! String
             let email = document.get("email") as! String
@@ -112,14 +113,15 @@ class ProfileVC: UIViewController {
                 print("Document does not exist")
             }
         }
+        print(profile)
     }
     
     
     
     
     
-    
-    func uploadImage(pic: UIImageView, imageURL: String) -> (String) {
+    //@discardableResult
+    func uploadImage(pic: UIImageView, imageURL: String) /*-> (String) */{
         
         var imageURL = imageURL
         //var addURLto = imageURL
@@ -154,7 +156,7 @@ class ProfileVC: UIViewController {
                 })
             })
         }
-        return imageURL
+        //return imageURL
     }
     
     func uploadProfile () {

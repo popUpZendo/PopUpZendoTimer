@@ -76,6 +76,7 @@ class InstructionsVC: UIViewController {
     @IBAction func closeInstructionButton(_ sender: Any) {
         self.removeAnimate()
         //self.view.removeFromSuperview()
+        //self.dismiss(animated: true, completion: nil)
     }
 
 }
