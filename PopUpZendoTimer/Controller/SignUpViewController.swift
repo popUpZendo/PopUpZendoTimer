@@ -167,19 +167,12 @@ class SignUpViewController: UIViewController {
         }
         
         func transitionToHome() {
-
-            if #available(iOS 13.0, *) {
-                let homeViewController = storyboard?.instantiateViewController(identifier: Constants.Storyboard.homeViewController) as? HomeViewController
-                view.window?.rootViewController = homeViewController
-                view.window?.makeKeyAndVisible()
-            } else {
-                let storyboard = UIStoryboard(name: "Main", bundle: nil)
-                let homeViewController = storyboard.instantiateViewController(withIdentifier: "HomeVC")
-                view.window?.rootViewController = homeViewController
-                view.window?.makeKeyAndVisible()
-            }
-
-
+            
+            if let appDelegate = UIApplication.shared.delegate as? AppDelegate,
+               let window = appDelegate.window,
+               let homeVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: Constants.Storyboard.homeViewController) as? HomeViewController {
+               
+               window.rootViewController = homeVC
+           }
         }
-        
     }
