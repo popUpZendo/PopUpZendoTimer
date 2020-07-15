@@ -91,6 +91,7 @@ class OneSignalService {
         let status: OSPermissionSubscriptionState = OneSignal.getPermissionSubscriptionState()
         let pushToken = status.subscriptionStatus.pushToken
         let userId = status.subscriptionStatus.userId
+        print(String(userId ?? "No PlayerId Found"))
         
         if pushToken != nil {
             let message = "Tap here to mute further bells"

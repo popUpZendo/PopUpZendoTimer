@@ -124,13 +124,13 @@ class HanVC: UIViewController, UNUserNotificationCenterDelegate {
     
     
     
-    func getDateComponents (Date: Date) -> DateComponents {
+    func getDateComponents (Date: Date) /*-> DateComponents*/ {
         let date = Date
         let calendar = Calendar.current
         //calendar.timeZone = TimeZone(identifier: "UTC")!
         components = calendar.dateComponents([.year, .month, .day, .hour, .minute], from: date)
 
-        return components
+        //return components
     }
     
     
@@ -209,7 +209,8 @@ class HanVC: UIViewController, UNUserNotificationCenterDelegate {
         print(minutes)
     }
     
-    func continueHan() -> Int {
+    // return hancount was commented out to silence warning since hancount was changed within function
+    func continueHan() /*-> Int*/ {
        let date = Date()
        let hanTime = UserDefaults.standard.object(forKey: "hanTime") as! Date
        let hanCount = Calendar.current.dateComponents([.second], from: date, to: hanTime).second!
@@ -219,7 +220,7 @@ class HanVC: UIViewController, UNUserNotificationCenterDelegate {
             playLabel.isHidden = true
         }
         self.hanCount = hanCount
-        return self.hanCount
+        //return self.hanCount
     }
     
     

@@ -36,7 +36,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
         }
         
         FirebaseApp.configure()
-        let storage = Storage.storage()
+        //COMMENTED OUT TO SILENCE WARNING
+        //let storage = Storage.storage()
         
         
         

@@ -65,10 +65,11 @@ class GroupsEditVC: UIViewController {
             print("Error fetching document: \(error!)")
             return
           }
-          guard let data = document.data() else {
-            print("Document data was empty.")
-            return
-          }
+            // COMMENTED OUT TO SILENCE WARNINGS
+//          guard let data = document.data() else {
+//            print("Document data was empty.")
+//            return
+//          }
          // print("Current data: \(data)")
             let groupName = document.get("groupName") as! String
             print(groupName)
@@ -76,9 +77,9 @@ class GroupsEditVC: UIViewController {
             let details = document.get("details") as! String
             let weekday = document.get("weekday") as! String
             //let timeStamp = document.get("time") as! Timestamp
-            let time = document.get("time") as! String
+            //let time = document.get("time") as! String
             let ino  = document.get("ino") as! String
-            let members = document.get("members") as! [String]
+            //let members = document.get("members") as! [String]
             let roshi = document.get("roshi") as! String
             let temple = document.get("temple") as! String
             let website = document.get("website") as! String
@@ -100,7 +101,9 @@ class GroupsEditVC: UIViewController {
     }
  
     
-    func uploadImage(pic: UIImageView, imageURL: String) -> (String) {
+    
+    
+    func uploadImage(pic: UIImageView, imageURL: String)/*-> (String) */{
          
         var imageURL = imageURL
         //var addURLto = imageURL
@@ -139,7 +142,7 @@ class GroupsEditVC: UIViewController {
              //print("Temple Image: \(bannerImage)")
             
          }
-         return imageURL
+         //return imageURL
     }
     
 

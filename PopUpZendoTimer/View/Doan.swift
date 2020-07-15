@@ -82,7 +82,7 @@ class Doan {
     
     
     func testBell(name: String) {
-     var tryBell = name
+     let tryBell = name
      //let ext = (defaults.string(forKey: "ext"))!
      let tryPath = Bundle.main.path(forResource: tryBell, ofType: "aiff")
      let trySoundURL = URL(fileURLWithPath: tryPath!)
@@ -123,10 +123,12 @@ class Doan {
                       self.han.play()
                       let remainingTime = ((han.duration - han.currentTime) / 60)
                       //updateUI(true)
+                    print("Remaining Time \(remainingTime)")
                 }
+        
              }
     
-    func continueHan() -> Int {
+    func continueHan() /*-> Int*/ {
           let date = Date()
           let hanTime = UserDefaults.standard.object(forKey: "hanTime") as! Date
            let hanCount = Calendar.current.dateComponents([.second], from: date, to: hanTime).second!
@@ -136,7 +138,7 @@ class Doan {
 //               //playLabel.isHidden = true
 //           }
            self.hanCount = hanCount
-           return self.hanCount
+           //return self.hanCount
        }
             
     

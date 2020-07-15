@@ -210,5 +210,14 @@ class TimerViewController: UIViewController {
         //self.repeatingBellTimer?.invalidate()
 
     }
+    
+    @IBAction func settingsTapped(_ sender: Any) {
+//        // self.presentingViewController is the previous view controller which segues to the current view controller
+//        // if there is a previous view controller
+//        if(self.presentingViewController != nil) {
+//           // dismiss current view controller (ie. settings view controller), which remove it from memory, and go back to previous view controller (ie. timer view controller)
+//            self.dismiss(animated: true, completion: nil)
+//        }
+    }
 
 }

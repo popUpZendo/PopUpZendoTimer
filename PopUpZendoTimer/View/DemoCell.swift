@@ -56,9 +56,10 @@ class DemoCell: FoldingCell {
         let abr = String(weekday.prefix(3))
         self.weekdayAbr.text = abr
         self.groupName2.text = title
-        getLogoImage(imageURL: logo)
-        getBannerImage(imageURL: banner)
-        let zoomLink = "https://zoom.us/j/\(zoom))"
+        //THE THREE LINES BELOW WERE COMMENTED OUT TO SILENCE WARNINGS
+        //getLogoImage(imageURL: logo)
+        //getBannerImage(imageURL: banner)
+        //let zoomLink = "https://zoom.us/j/\(zoom))"
         self.websiteURL = website
         self.memberArray = members
         if let uid = DataService.instance.uid,

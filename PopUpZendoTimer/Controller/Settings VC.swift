@@ -287,6 +287,10 @@ class Settings_VC: UIViewController {
         }
     }
     
+    @IBAction func closeButton(_ sender: Any) {
+        self.navigationController?.popViewController(animated: true)
+    }
+    
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
 //       if let text = self.startField.text, let value = Int(text) {
 //           defaults.setValue(value, forKeyPath: startNumber)
