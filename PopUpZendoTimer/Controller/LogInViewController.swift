@@ -80,10 +80,13 @@ class LogInViewController: UIViewController {
                     })
                 }
                 
-                let homeViewController = self.storyboard?.instantiateViewController(withIdentifier: "HomeVC")
-                
-                self.view.window?.rootViewController = homeViewController
-                self.view.window?.makeKeyAndVisible()
+                // set the root view controller to Home VC
+                if let appDelegate = UIApplication.shared.delegate as? AppDelegate,
+                    let window = appDelegate.window,
+                    let homeVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: Constants.Storyboard.homeViewController) as? HomeViewController {
+                    
+                    window.rootViewController = homeVC
+                }
             }
         }
     }
